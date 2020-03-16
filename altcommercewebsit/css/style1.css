@@ -185,9 +185,12 @@
   color:rgb(5, 64, 109);
 }*/
 
+
+
 .form{
   border-radius: 3px;
   border:1px solid #ced4da;
+  width:280px;
 }
 
 .form_btn{
@@ -281,4 +284,5 @@ background-color:#555555 ;
   color:#FE9603;
   text-decoration: none;
 }
+
 
