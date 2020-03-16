@@ -290,6 +290,30 @@ background-color:#555555 ;
   text-decoration: none;
 }
 
+
+/******************services page css*******************/
+.services_mainheading{
+  font-size: 70px;
+  font-weight: 900;
+  font-family: 'Poppins';
+  color:#1C1C1C;
+}
+
+.services_mainpara{
+  font-size:22px; 
+color:#1C1C1C;
+}
+
+.services_subheading{
+  font-weight: 900;
+  font-size:50px;
+  color:#1C1C1C;
+}
+
+/******************services page css end***************/
+
+
+
 @media screen and (max-width: 768px) and (min-width: 768px){
   .box1{
     width:45%;
