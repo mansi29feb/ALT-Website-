@@ -105,15 +105,12 @@ font-family:'Poppins';
 }
 
 /*blog section  */
-.blog-title{
-font-size: 17px;
-margin-top: -21px;
-}
 .nav-icon a:hover{
   color: #f6922d !important;
 }
-.cont{
-  padding-left: 7px;
+.nav-icon{
+  line-height: 31px;
+  color: #b4b4b4;
 }
 
 /*price */
