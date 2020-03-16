@@ -3,7 +3,7 @@
 .footer{
     //border:2px solid red;
     margin:0px;
-    background: url(../images/footer.svg) no-repeat top center; 
+    background-image: url(../images/footer.svg) repeat center top; 
     background-size:cover; 
     height:155px;
     width:100%;
@@ -285,4 +285,14 @@ background-color:#555555 ;
   text-decoration: none;
 }
 
+@media screen and (max-width: 768px) and (min-width: 768px){
+  .box1{
+    width:45%;
+    background-color: white; 
+    
+  }
+  .box2{
+    width:45%;
+  }
+}
 
