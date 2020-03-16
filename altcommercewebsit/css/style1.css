@@ -301,3 +301,18 @@ background-color:#555555 ;
   }
 }
 
+@media screen and (max-width: 1199px){
+.footer{
+  background-color: #FE9603; 
+  opacity: 0.9;
+  background-image: none;
+}
+}
+
+@media screen and (min-width: 1200px){
+  .footer{
+    background-image: url(../images/footer.svg);
+     
+  }
+  }
+
