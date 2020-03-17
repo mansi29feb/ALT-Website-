@@ -112,7 +112,7 @@ font-family:'Poppins';
 
 .price-tag:hover {
   background-color:#000;
-  color:#fff !important;
+  
 }
 .price{
 background: #f6f6f6;
@@ -120,7 +120,7 @@ background: #f6f6f6;
 }
 .price:hover{
   background :#000;
-  color:#fff !important; 
+  
 }
 .stat-box{
   color:#fff;
