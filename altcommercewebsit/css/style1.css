@@ -310,6 +310,16 @@ color:#1C1C1C;
   color:#1C1C1C;
 }
 
+.services_article_heading{
+font-size: 22px;
+color:#FE9603;
+}
+
+.services_article_para{
+  font-size: 16px;
+  color:#1C1C1C;
+  }
+
 /******************services page css end***************/
 
 
@@ -357,5 +367,21 @@ color:#1C1C1C;
   .services_mainpara{
     font-size:22px; 
   }
+  }
+
+  @media (min-width: 1200px){
+    .clear-padd{
+     padding: 0px;
+    }
+    .brand-logo{
+      width:132px;
+    }
+    .nav-slider {
+      margin: 79px 0px;
+      margin-left: 20px;
+    }
+    .hero-section{
+      min-height: 500px;
+    }
   }
 
