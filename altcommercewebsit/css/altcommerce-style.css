@@ -119,8 +119,15 @@ font-family:'Poppins';
   background :#000;
   color:#fff;
 }
+
+.price-tag{
+  border-top: 0px solid #BFBFBF;
+  box-shadow: 1px 1px 5px #aaaaaa;
+}
 .price{
 background: #f6f6f6;
+border-top: 0px solid #BFBFBF;
+box-shadow: 1px 1px 5px #aaaaaa;
 }
 .price:hover{
   background :#000;
@@ -128,6 +135,9 @@ background: #f6f6f6;
 }
 .stat-box{
   color:#fff;
+}
+.icon-tag{
+margin-top: 28px;
 }
 /*  career css*/
 .mobile_img{ 
