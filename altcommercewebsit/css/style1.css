@@ -290,6 +290,30 @@ background-color:#555555 ;
   text-decoration: none;
 }
 
+
+/******************services page css*******************/
+.services_mainheading{
+  font-size: 70px;
+  font-weight: 900;
+  font-family: 'Poppins';
+  color:#1C1C1C;
+}
+
+.services_mainpara{
+  font-size:22px; 
+color:#1C1C1C;
+}
+
+.services_subheading{
+  font-weight: 900;
+  font-size:50px;
+  color:#1C1C1C;
+}
+
+/******************services page css end***************/
+
+
+
 @media screen and (max-width: 768px) and (min-width: 768px){
   .box1{
     width:45%;
@@ -300,4 +324,38 @@ background-color:#555555 ;
     width:45%;
   }
 }
+
+@media screen and (max-width: 1199px){
+.footer{
+  background-color: #FE9603; 
+  opacity: 0.9;
+  background-image: none;
+}
+.services_mainheading{
+  font-size:50px;
+}
+
+.services_subheading{
+  font-size:35px;
+}
+
+.services_mainpara{
+  font-size:18px; 
+}
+}
+
+@media screen and (min-width: 1200px){
+  .footer{
+    background-image: url(../images/footer.svg);
+     
+  }
+  .services_mainheading{
+    font-size:70px;
+     
+  }
+
+  .services_mainpara{
+    font-size:22px; 
+  }
+  }
 

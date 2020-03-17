@@ -13,10 +13,14 @@ body  {
     margin: 4px 14px !important;
   }
 
-
-  .nav-menu li  a:hover{
+  .nav-menu li a:link,li a:visited{
+    color:black;
+    
+  }
+  .nav-menu li a:hover, li a:active {
     color: #f6922d;
   }
+
   .img{
   width: 162px;
 }
@@ -56,14 +60,6 @@ margin-right: 49px;
   /*header end*/
 
   /* footer*/
-  .footer{
-    
-    margin:0px;
-    background: url(../images/footer.svg) no-repeat top center; 
-    background-size:cover; 
-    height:155px;
-    width:100%;
-}
 
 .footerbox{
     margin-top:70px;
@@ -205,8 +201,6 @@ margin-top: 28px;
 
 
 
-
-  
 
 /* media query */
 @media screen and (max-width:359px) and (min-width:300px){
