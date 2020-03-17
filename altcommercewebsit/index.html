@@ -47,7 +47,7 @@
     <!--topbar ends-->
     <!-- navigation -->
     <div class="uk-container">
-        <div class="uk-child-width-expand@s nav-header" uk-grid>
+        <div class="uk-child-width-1-2@s nav-header " uk-grid>
             <div class="clear-padd">
                 <div class="uk-navbar">
                     <div class="menu-toggle">
@@ -66,13 +66,13 @@
             </div>
 
 
-            <div class="uk-navbar mobile-nav">
-                <div class="uk-navbar-right">
+            <div class="uk-navbar mobile-nav uk-child-width-1-2@s">
+                
                     <ul class="uk-navbar-nav uk-text-bold nav-menu">
                         <li class="uk-active">
                             <a href="index.html">Home</a>
                         </li>
-                        <li class="">
+                        <li class="uk-text-nowrap">
                             <a href="#">About Us</a>
                         </li>
                         <li class="">
@@ -84,11 +84,11 @@
                         <li class="">
                             <a href="career.html">Careers</a>
                         </li>
-                        <li class="">
+                        <li class="uk-text-nowrap">
                             <a href="#">Contact Us</a>
                         </li>
                     </ul>
-                </div>
+                
 
             </div>
 
@@ -322,8 +322,8 @@
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light works_image" tabindex="0">
                     <img class="" data-src="images/work1.jpg" alt="" width="370" height="246" uk-img>
-                    <div class="uk-position-center">
-                        <button class="uk-transition-fade more uk-padding-small uk-border-circle"  uk-icon="icon: more; ratio: 1"></button>
+                    <div id="button3" class="uk-position-center">
+                        <button  class="uk-transition-fade more uk-padding-small uk-border-circle"  uk-icon="icon: more; ratio: 1"></button>
                     </div>
                 </div>
             </div>
@@ -414,7 +414,7 @@
 <!-------------Completed Works Section Ends-------->
 
  <!----------Counts Section---->
-<div class="uk-container-fluid uk-margin-medium-bottom uk-margin-medium-top uk-card-default">
+<div class="uk-container-fluid uk-margin-medium-top uk-card-default">
                 
                 <div class="uk-child-width-1-4@m uk-grid-small uk-grid-collapse price-count" uk-grid>
                    
@@ -754,6 +754,12 @@
     </div>
 </div>
     <!--footer-->
+
+    <script>
+        $("#button3").hover(function() {
+        $(this).parent().css("opacity","0.5");
+        });
+    </script>
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
