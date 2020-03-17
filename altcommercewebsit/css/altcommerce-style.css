@@ -112,7 +112,7 @@ font-family:'Poppins';
 /*Count Section */
 
 .price-tag:hover {
-  background :#000;
+  background-color:#000;
   color:#fff !important;
 }
 .price{
@@ -130,6 +130,21 @@ background: #f6f6f6;
   margin-top:49px;
   padding-bottom: 16px;
 }
+
+.icon-tag:hover > h1{
+  color:#fff;
+}
+
+.icon-tag:hover > h2{
+  color:#fff;
+}
+
+.icon-tag:hover > h5{
+  color:#fff;
+}
+
+
+
 
 
 /*  career css*/
