@@ -10,7 +10,7 @@ body  {
     background-color: #fff !important;
    /* padding: 5px 37px !important; */
    box-shadow: 0 5px 15px rgba(0,0,0,.09);
-    margin: 4px 14px !important;
+    //margin: 4px 14px !important;
   }
 
   .nav-menu li a:link,li a:visited{
