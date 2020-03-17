@@ -10,7 +10,7 @@ body  {
     background-color: #fff !important;
    /* padding: 5px 37px !important; */
    box-shadow: 0 5px 15px rgba(0,0,0,.09);
-    //margin: 4px 14px !important;
+    margin: 4px 14px !important;
   }
 
   .nav-menu li a:link,li a:visited{
@@ -109,32 +109,29 @@ font-family:'Poppins';
   color: #b4b4b4;
 }
 
-/*price */
+/*Count Section */
 
-.price-tag:hover{
+.price-tag:hover {
   background :#000;
-  color:#fff;
-}
-
-.price-tag{
-  border-top: 0px solid #BFBFBF;
-  box-shadow: 1px 1px 5px #aaaaaa;
+  color:#fff !important;
 }
 .price{
 background: #f6f6f6;
-border-top: 0px solid #BFBFBF;
-box-shadow: 1px 1px 5px #aaaaaa;
+
 }
 .price:hover{
   background :#000;
-  color:#fff; 
+  color:#fff !important; 
 }
 .stat-box{
   color:#fff;
 }
 .icon-tag{
-margin-top: 28px;
+  margin-top:49px;
+  padding-bottom: 16px;
 }
+
+
 /*  career css*/
 .mobile_img{ 
   height:500px;
