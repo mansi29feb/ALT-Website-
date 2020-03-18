@@ -19,10 +19,8 @@ body  {
   .nav-menu li a:hover, li a:active {
     color: #f6922d;
   }
-  .nav-menu{
-   width: 614px;
-  margin-left: -13%;
-}
+  
+
   .img{
   width: 137px;
 }
@@ -447,6 +445,7 @@ color: #000 !important;
     width: 100% !important;
   }
 }
+
 @media screen and (max-width:359px) and (min-width:300px){
   body{
     width:100%;

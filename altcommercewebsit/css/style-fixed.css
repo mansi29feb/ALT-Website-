@@ -20,12 +20,16 @@
   position: fixed !important;
     top: -4px !important;
     width: 100% !important;
+    left: 0px;
   }
   .nav-header {
     background-color: #fff !important;
     box-shadow: 0 5px 15px rgba(0,0,0,.09);
     margin: 4px 0px !important;
 }
+/*.mobile-nav{
+  padding-left: 404px;
+}*/
 }
 /*@media (min-width: 1199px){
   
