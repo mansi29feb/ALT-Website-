@@ -332,7 +332,8 @@ body{
       display:none;
    }
    .img {
-    width: 130px;
+    width: 135px;
+    margin-left: 1px;
   }
   .nav-slider {
     margin: 61px 0px;
@@ -380,10 +381,16 @@ body{
     }
     .img {
       width: 135px;
+    margin-left: 0px;
     }
     .nav-slider {
     margin: 32px 0px;
   }
+  }
+  @media screen and (min-width:977px){
+
+    width: 135px;
+    margin-left: 283px;
   }
 @media screen and (max-width:1049px)and (min-width:900px){
  body{
@@ -427,7 +434,7 @@ body{
 }
 .img {
   width: 135px;
-  margin-left: 309px;
+  margin-left: 300px;
 }
 .nav-slider {
 margin: 35px 0px;
