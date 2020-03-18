@@ -4,9 +4,10 @@
   }
   body{
     background: url('../images/background-bg-top.jpg') no-repeat -300px -160px;
+    
   }
   .brand-logo{
-    width:132px;
+    width: 27%;
   }
   .nav-slider {
     margin: 79px 0px;
@@ -15,4 +16,7 @@
   .hero-section{
     min-height: 500px;
   }
+  
 }
+
+
