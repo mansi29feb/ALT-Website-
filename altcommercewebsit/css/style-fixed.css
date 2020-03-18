@@ -16,7 +16,34 @@
   .hero-section{
     min-height: 500px;
   }
-  
+  .uk-sticky-fixed{
+  position: fixed !important;
+    top: -4px !important;
+    width: 100% !important;
+  }
+  .nav-header {
+    background-color: #fff !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,.09);
+    margin: 4px 0px !important;
 }
-
-
+}
+/*@media (min-width: 1199px){
+  
+  .nav-slider {
+    margin: 79px 0px;
+    margin-left: 20px;
+  }
+  .hero-section{
+    min-height: 500px;
+  }
+  .uk-sticky-fixed{
+    position: fixed !important;
+      top: -4px !important;
+      width: 100% !important;
+    }
+    
+  .img {
+    width: 161px !important;
+    margin-left:-44px !important;
+}
+}*/
