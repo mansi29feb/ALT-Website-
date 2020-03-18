@@ -392,6 +392,28 @@ body{
     width: 135px;
     margin-left: 283px;
   }
+
+  @media screen and (min-width:1050px){
+    .img {
+      width: 160px;
+      margin-left: -44px;
+  }  
+  .logo-img{
+    width: 274px;
+   }
+   .uk-sticky-fixed{
+    left: 0px !important;
+    position: fixed !important;
+    top: -5px !important;
+    width: 100% !important;
+   }
+   /*.uk-sticky-fixed .nav-menu{
+   margin-left: 158px;
+  }
+.mobile-nav{
+  margin-left: 86px;
+}*/
+}
 @media screen and (max-width:1049px)and (min-width:900px){
  body{
    width:100%;
