@@ -253,10 +253,7 @@ color:#555555;
   font-size: 15px;
   color:#777777;
 }
-.transition{
- transition: all 0.25s ease 0s;
- transform: translate3d(-760px, 0px, 0px);
-}
+
 
 .more{
   color:black;
@@ -267,8 +264,11 @@ color:#555555;
   color:#FE9603;
 
 }
+
+
 .works_image img{
 background-color:#555555 ;
+opacity:1;
 }
 .works_image img:hover{
   opacity:0.5;

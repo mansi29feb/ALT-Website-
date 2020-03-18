@@ -61,7 +61,24 @@ margin-right: 49px;
 }
   /*header end*/
 
-  
+  /* footer*/
+
+.footerbox{
+    margin-top:70px;
+    font-size: 15px;
+    color:#5f615f;
+
+}
+.footermenu{
+    margin-top:70px;
+    font-size: 15px;
+    color:#323333;
+    text-decoration: none;
+}
+.footermenu a:hover{
+    color:#5f615f;
+    text-decoration: none;
+}
 
 
 .menu_list a{
