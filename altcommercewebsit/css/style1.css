@@ -1,4 +1,10 @@
 
+body{
+  overflow-x: hidden;
+}
+body a:focus{
+ background-color: #fff;
+}
 
 .footer{
     //border:2px solid red;
