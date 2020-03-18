@@ -232,6 +232,9 @@ input[type="text"],input[type="email"]{
   border:1px solid #ced4da;
 }
 
+.career_homepage{
+  ;
+}
 .careersection_heading{
 font-size:26px;
 font-family: 'Poppins';
@@ -352,6 +355,10 @@ color:#FE9603;
 .services_mainpara{
   font-size:18px; 
 }
+
+.career_homepage{
+  background-image: none;
+}
 }
 
 @media screen and (min-width: 1200px){
@@ -366,6 +373,9 @@ color:#FE9603;
 
   .services_mainpara{
     font-size:22px; 
+  }
+  .career_homepage{
+    background-image: url(../images/bg2.jpg);
   }
   }
 
@@ -383,5 +393,7 @@ color:#FE9603;
     .hero-section{
       min-height: 500px;
     }
+
+    
   }
 
