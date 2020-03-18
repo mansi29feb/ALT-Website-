@@ -19,10 +19,8 @@ body  {
   .nav-menu li a:hover, li a:active {
     color: #f6922d;
   }
-  .nav-menu{
-   width: 614px;
-  margin-left: -13%;
-}
+  
+
   .img{
   width: 137px;
 }
@@ -261,42 +259,6 @@ color:#1C1C1C;
 
 /* media query */
 
-@media screen and (max-width:399px) and (min-width:360px){
- body{
-   width:100%;
- }
- 
-  .top-bar{
-    display:none;
- }
- .mobile-navbutton{
-  background: no-repeat;
-    border: black;
-    margin: 28px 14px;
-  }
- .nav-social{
-   margin: auto;
- }
- 
- /*.logo-img{
-   margin: -4px 23px;
- }*/
- .img {
-   width: 120px;
-}
-.nav-slider {
-  margin: 10px 0px !important;
-}
-.slider-title{
-  font-size: 27px !important;
-  color: #000 !important;
-  line-height: 1.3;
-    font-weight: 700;
-    margin-bottom: 26px;
-    font-family: poppins !important;
-}
-
-}
 
 @media screen and (max-width: 899px) and (min-width:400px){
 body{
@@ -465,6 +427,7 @@ body{
 }
 .img {
   width: 135px;
+  margin-left: 309px;
 }
 .nav-slider {
 margin: 35px 0px;
@@ -477,7 +440,13 @@ color: #000 !important;
     margin-bottom: 26px;
     font-family: poppins !important;
 }
+.uk-sticky-fixed{
+  position: fixed !important;
+    top: -4px !important;
+    width: 100% !important;
+  }
 }
+
 @media screen and (max-width:359px) and (min-width:300px){
   body{
     width:100%;
@@ -506,12 +475,58 @@ color: #000 !important;
     .slider-title{
     color: #000 !important;
     line-height: 1.3;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 26px;
     font-family: poppins !important;
-    font-size: 20px !important;
+    font-size: 26px !important;
     
     }
+    .menu-toggle{
+      height: 10px;
+      width: 3px;
+      }
     
     }
+    @media screen and (max-width:399px) and (min-width:360px){
+      body{
+        width:100%;
+      }
+      
+       .top-bar{
+         display:none;
+      }
+      .mobile-navbutton{
+       background: no-repeat;
+         border: black;
+         margin: 28px 14px;
+       }
+      .nav-social{
+        margin: auto;
+      }
+      
+      /*.logo-img{
+        margin: -4px 23px;
+      }*/
+      .img {
+        width: 120px;
+     }
+     .nav-slider {
+       margin: 10px 0px !important;
+     }
+     .slider-title{
+       font-size: 27px !important;
+       color: #000 !important;
+       line-height: 1.3;
+         font-weight: 700;
+         margin-bottom: 26px;
+         font-family: poppins !important;
+     }
+     .menu-toggle{
+      height: 10px;
+      width: 58px;
+      }
+     
+     }
+     
+     
 
