@@ -1,4 +1,10 @@
 
+body{
+  overflow-x: hidden;
+}
+body a:focus{
+ background-color: #fff;
+}
 
 .footer{
     //border:2px solid red;
@@ -336,6 +342,15 @@ color:#FE9603;
   .box2{
     width:45%;
   }
+  .bx1{
+    text-align: left;
+  }
+  .visible-icon{
+    visibility:visible;
+  }
+  .hide-icon{
+    visibility:visible;
+  }
 }
 
 @media screen and (max-width: 1199px){
@@ -359,6 +374,12 @@ color:#FE9603;
 .career_homepage{
   background-image: none;
 }
+
+.hide-icon{
+  visibility:visible;
+}
+
+
 }
 
 @media screen and (min-width: 1200px){
