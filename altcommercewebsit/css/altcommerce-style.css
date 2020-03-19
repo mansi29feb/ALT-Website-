@@ -57,6 +57,7 @@ body  {
 .nav-social{
 margin-right: 49px;
 }
+
   /*header end*/
 
   /* footer*/
@@ -319,10 +320,10 @@ body{
     .mobile-nav{
       display:none;
     }
-    .logo-img{
-      margin: auto;
-      padding-right: 75px;
-    }
+    .logo-img {
+    margin: auto;
+    padding-right: 261px;
+}
     .mobile-navbutton{
     background: no-repeat;
       border: black;
@@ -347,6 +348,12 @@ body{
     font-family: poppins !important;
     }
   }
+  @media screen and (max-width:959px){
+    .img {
+      width: 135px;
+      margin-left: -9px;
+  }
+  } 
   @media screen and (max-width:990px){
 body{
   width:100%;;
@@ -386,7 +393,14 @@ body{
     .nav-slider {
     margin: 32px 0px;
   }
+  .uk-sticky-fixed{
+    left: -13px !important;
+    position: fixed !important;
+    top: -13px !important;
+    width: 100% !important;
+   }
   }
+  
   @media screen and (min-width:977px){
 
     width: 135px;
@@ -409,11 +423,13 @@ body{
    }
    /*.uk-sticky-fixed .nav-menu{
    margin-left: 158px;
-  }
+  }*/
 .mobile-nav{
-  margin-left: 86px;
-}*/
+  margin-left: -8px;
+
 }
+}
+
 @media screen and (max-width:1049px)and (min-width:900px){
  body{
    width:100%;
@@ -456,7 +472,7 @@ body{
 }
 .img {
   width: 135px;
-  margin-left: 300px;
+  margin-left: 317px;
 }
 .nav-slider {
 margin: 35px 0px;
@@ -470,10 +486,16 @@ color: #000 !important;
     font-family: poppins !important;
 }
 .uk-sticky-fixed{
+  left: 0px !important;
   position: fixed !important;
-    top: -4px !important;
-    width: 100% !important;
-  }
+  top: -5px !important;
+  width: 100% !important;
+ }
+
+ .uk-sticky-fixed .img{
+  width: 140px;
+  margin-left: 331px;
+ }
 }
 
 @media screen and (max-width:359px) and (min-width:300px){
@@ -513,9 +535,21 @@ color: #000 !important;
     .menu-toggle{
       height: 10px;
       width: 3px;
-      }
+      
     
+      }
+      .uk-sticky-fixed .menu-toggle{
+        margin-left: 10px;
+      }
+
+      .uk-sticky-fixed{
+        left: -15px !important;
+        position: fixed !important;
+        top: -15px !important;
+        width: 100% !important;
+       }
     }
+    
     @media screen and (max-width:399px) and (min-width:360px){
       body{
         width:100%;
@@ -554,8 +588,22 @@ color: #000 !important;
       height: 10px;
       width: 58px;
       }
-     
+
+      .uk-sticky-fixed .img {
+        width: 120px;
+        margin-left: -21px;
+    }
+
+    .uk-sticky-fixed .menu-toggle {
+       margin-left: -34px;
+  }
+      .uk-sticky-fixed{
+        left: 0px !important;
+        position: fixed !important;
+        top: -16px !important;
+        width: 100% !important;
+       }
      }
      
-     
+    
 
