@@ -300,6 +300,12 @@ body{
 .nav-slider {
  margin: 0px 0px;
 }
+.uk-sticky-fixed{
+  left: -13px !important;
+  position: fixed !important;
+  top: -13px !important;
+  width: 100% !important;
+ }
 }
 @media screen and (max-width: 900px){
  body{
@@ -410,7 +416,7 @@ body{
   @media screen and (min-width:1050px){
     .img {
       width: 160px;
-      margin-left: -44px;
+      margin-left: -55px;
   }  
   .logo-img{
     width: 274px;
@@ -488,7 +494,7 @@ color: #000 !important;
 .uk-sticky-fixed{
   left: 0px !important;
   position: fixed !important;
-  top: -5px !important;
+  top: -11px !important;
   width: 100% !important;
  }
 
