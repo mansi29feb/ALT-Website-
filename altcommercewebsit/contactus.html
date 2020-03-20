@@ -109,7 +109,7 @@
             <div class="uk-h3 uk-text-left career_heading uk-margin-small-top uk-text-bold">Send us a Message</div>
             <div class="career_para uk-text-left">At Alt Commerce, our goal is to deliver solutions that 
                 exactly meet the business objectives of our clients. We look forward to learning how we can help you.</div><br>
-            <form class="uk-form-stacked ">
+            <form class="uk-form-stacked" action="?" method="POST">
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-stacked-text">NAME*</label>
                     <div class="uk-form-controls">
@@ -132,6 +132,7 @@
                     <label class="uk-form-label" for="form-stacked-text">MESSAGE*</label>
                     <textarea class="uk-textarea" rows="5" placeholder=""></textarea>
                 </div>
+                <div class="g-recaptcha" data-sitekey="your_site_key"></div><br>
                 <button class="uk-button uk-button-default sub-button">SEND MESSAGE</button>
             </form>  
         </div> 
@@ -220,7 +221,7 @@
 
 
 
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script src="js/jquery.js"></script>
 <script src="js/uikit.min.js"></script>
 <script src="js/uikit-icons.min.js"></script>    
