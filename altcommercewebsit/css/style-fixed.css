@@ -2,7 +2,7 @@
   .clear-padd{
    padding: 0px;
   }
-  body{
+  .bg-img{
     background: url('../images/background-bg-top.jpg') no-repeat -300px -160px;
     
   }
@@ -23,13 +23,18 @@
     width: 100% !important;
     left: 4px;
   }
+
+  .uk-sticky-fixed .brand-logo{
+    width: 132px;
+    margin-left: 62px;
+  }
   .nav-header {
     background-color: #fff !important;
     box-shadow: 0 5px 15px rgba(0,0,0,.09);
     margin: 4px 0px !important;
 }
 .mobile-nav{
-  margin-left: 192px;
+  margin-left: 132px;
 }
 
 }

@@ -57,7 +57,12 @@ body  {
 .nav-social{
 margin-right: 49px;
 }
-
+.mobile-nav{
+  margin-left: 192px;
+}
+.about-para{
+margin-top: -65px;
+}
   /*header end*/
 .sub-button{
   color: #fff;
@@ -139,8 +144,8 @@ background: #f6f6f6;
   color:#fff;
 }
 .icon-tag{
-  margin-top:49px;
-  padding-bottom: 16px;
+  margin-top:40px;
+ /* padding-bottom: 16px;*/
   
 }
 .icon-tag h5{
@@ -442,7 +447,7 @@ body{
    margin-left: 158px;
   }*/
 .mobile-nav{
-  margin-left: -8px;
+  margin-left: -66px;
 
 }
 }
