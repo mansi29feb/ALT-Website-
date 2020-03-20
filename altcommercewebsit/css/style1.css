@@ -1,10 +1,12 @@
 
 body{
   overflow-x: hidden;
+  
 }
 body a:focus{
  background-color: #fff;
 }
+
 
 .footer{
     //border:2px solid red;
@@ -271,9 +273,30 @@ color:#555555;
 }
 .more:hover{
   color:#FE9603;
+  cursor: pointer;
 
 }
 
+.works_btn1{
+  width:15%;
+  background-color:#FE9603;
+  font-family: 'Poppins';
+  color:white;
+  border-style: none;
+  
+  }
+.works_btn1:link, .works_btn1:visited{
+  
+  color:white;
+  
+}
+
+.works_btn1:hover, .works_btn1:active {
+  background-color:rgba(254, 124, 3, 0.808);
+  text-decoration: none;
+  font-weight: bold;;
+  
+}
 
 .works_image img{
 background-color:#555555 ;
