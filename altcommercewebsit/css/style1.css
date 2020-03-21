@@ -326,10 +326,15 @@ opacity:1;
   color:#FE9603;
 }
 
+
+li .uk-active{
+  opacity:1;
+}
+
 /******************services page css*******************/
 .services_mainheading{
   font-size: 70px;
-  font-weight: 900;
+  font-weight: 700;
   font-family: 'Poppins';
   color:#1C1C1C;
 }
@@ -340,7 +345,7 @@ color:#1C1C1C;
 }
 
 .services_subheading{
-  font-weight: 900;
+  font-weight: 600;
   font-size:50px;
   color:#1C1C1C;
 }
@@ -355,6 +360,22 @@ color:#FE9603;
   color:#1C1C1C;
   }
 
+  .case_page{
+    background-color: rgba(254, 149, 3, 0.425);
+    border-radius: 2%;
+  }
+
+  .cases_btnlink{
+    color:#333333;
+    font-size: 16px;
+  }
+  .cases_btnlink:hover{
+    color:#FE9603;
+    
+  }
+  .uk-button-text{
+    text-decoration: none;
+  }
 /******************services page css end***************/
 
 
