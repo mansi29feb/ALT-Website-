@@ -373,8 +373,56 @@ color:#FE9603;
     color:#FE9603;
     
   }
-  .uk-button-text{
-    text-decoration: none;
+
+  .case_subheading{
+    font-weight: 600;
+    font-size:35px;
+    color:#1C1C1C;
+  }
+
+  .case_points{
+    font-size: 25px;
+    color:#333333;
+    font-weight: 800;
+  }
+  
+ 
+
+  #case1{
+    display: none;
+  }
+  #case2{
+    display: none;
+  }
+  #case3{
+    display: none;
+  }
+  #case4{
+    display: none;
+  }
+  #case5{
+    display: none;
+  }
+  #case6{
+    display: none;
+  }
+  #case7{
+    display: none;
+  }
+  #case8{
+    display: none;
+  }
+  #case9{
+    display: none;
+  }
+
+
+
+  
+
+  
+  #main{
+    display: block;
   }
 /******************services page css end***************/
 
