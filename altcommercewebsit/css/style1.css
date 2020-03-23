@@ -108,7 +108,7 @@ body a:focus{
 
 .heading{
   color:#1D1D1D;
-  font-size:20px;
+  font-weight: 600;
   font-family:'Poppins';
 }
 
@@ -133,12 +133,12 @@ body a:focus{
   width:170px;
 }
 
-.career_btn_link a:link,a:visited{
+.career_btn_link:link,.career_btn_link:visited{
   background-color:#FE9603;
  
 }
 
-.career_btn_link a:hover,a:active{
+.career_btn_link:hover,.career_btn_link:active{
   background-color:rgba(254, 124, 3, 0.808);
   color:white;
 }
@@ -361,7 +361,7 @@ color:#FE9603;
   }
 
   .case_page{
-    background-color: rgba(254, 149, 3, 0.425);
+   
     border-radius: 2%;
   }
 
