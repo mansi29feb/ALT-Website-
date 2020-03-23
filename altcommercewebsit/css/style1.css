@@ -386,6 +386,11 @@ color:#FE9603;
     font-weight: 800;
   }
   
+  .case_btn{
+      font-size: medium;
+      font-weight: 700;
+      width:160px;
+  }
  
 
   #case1{
@@ -415,7 +420,6 @@ color:#FE9603;
   #case9{
     display: none;
   }
-
 
 
   
