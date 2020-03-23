@@ -144,6 +144,8 @@ background: #f6f6f6;
 .stat-box{
   color:#fff;
 }
+
+/* font icons*/
 .icon-tag{
   margin-top:40px;
  /* padding-bottom: 16px;*/
@@ -152,7 +154,7 @@ background: #f6f6f6;
 .icon-tag h5{
 font-family:'Poppins' !important;
 }
-.icon-tag:hover > h1{
+.icon-tag:hover > h4{
   color:#f6922d;
 }
 
@@ -163,6 +165,22 @@ font-family:'Poppins' !important;
 .icon-tag:hover > h5{
   color:#fff;
   
+}
+.stroke-transparent {
+  -webkit-text-stroke: 1px #000;
+  -webkit-text-fill-color: transparent;
+ }
+ .fa-gamepad {
+  color: white;
+  font-size: 1.5em;
+}
+.fa-cog{
+  color: white;
+  font-size: 1.5em; 
+}
+.fa-paper-plane-o{
+  color: white;
+  font-size: 1.5em; 
 }
 /******************resources page css*******************/
 .resources_mainhead{
