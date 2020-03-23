@@ -28,9 +28,6 @@
                             <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin"></a>
                         </li>
                         <li>
-                            <a href="tel:1234567890" uk-icon="receiver"></a>
-                        </li>
-                        <li>
                             <a href="mailto:email@yourdomain.com" uk-icon="mail"></a>
                         </li>
                     </ul>
@@ -67,28 +64,37 @@
                 <div class="uk-navbar mobile-nav uk-width-expand@m">
                     
                         <ul class="uk-navbar-nav uk-text-bold nav-menu">
-                            <li class="uk-active">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li class="uk-text-nowrap">
-                                <a href="aboutus.html">About Us</a>
-                            </li>
-                            <li class="">
-                                <a href="services.html">Services</a>
-                            </li>
-                            <li class="">
-                                <a href="resources.html">Resources</a>
-                            </li>
-                            <li class="">
-                                <a href="csr.html">CSR</a>
-                            </li>
-                            <li class="">
-                                <a href="career.html">Careers</a>
-                            </li>
-                            <li class="uk-text-nowrap">
-                                <a href="contactus.html">Contact Us</a>
-                            </li>
-                        </ul>
+                                <li class="uk-active">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                        <button class="uk-button sub-menu">Click</button>
+                                        <div uk-dropdown="mode: click">
+                                          
+                                          <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="aboutus.html">WHAT WE DO</a></li>
+                                            <li class="uk-active"><a href="csr.html">CSR</a></li>
+                                            <li class="uk-active"><a href="contactus.html">CONTACT US</a></li>
+                                            
+                                         </ul>
+                                      
+                                    </div>
+                                    
+                                </li>
+                                
+                                <li class="">
+                                    <a href="services.html">Services</a>
+                                </li>
+                                <li class="">
+                                    <a href="resources.html">Resources</a>
+                                </li>
+                                
+                                <li class="">
+                                    <a href="career.html">Careers</a>
+                                </li>
+                               
+                            </ul>
+                        
                     
     
                 </div>

@@ -58,11 +58,25 @@ body  {
 .nav-social{
 margin-right: 49px;
 }
-.mobile-nav{
-  margin-left: 192px;
+
+.mobile-nav {
+  margin-left: 380px;
 }
 .about-para{
 margin-top: -65px;
+}
+.sub-menu{
+  margin-top: 21px;
+    color: #222;
+    background-color: #fff;
+}
+
+.sub-menu:hover{
+  color: #f6922d;
+}
+
+.uk-sticky-fixed .mobile-nav {
+  margin-left: 411px;
 }
   /*header end*/
 .sub-button{
