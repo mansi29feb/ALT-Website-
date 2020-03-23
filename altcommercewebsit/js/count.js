@@ -1,6 +1,3 @@
-
-
-
 $('.Count').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
@@ -12,4 +9,7 @@ $('.Count').each(function () {
         }
     });
 });
+
+
+
     

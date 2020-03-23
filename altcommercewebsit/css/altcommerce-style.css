@@ -38,6 +38,7 @@ body  {
   line-height: 30px;
     text-align: center;
    background-color: #f6922d;
+   
 }
 .nav-slider {
   margin: 56px 0px;
@@ -57,11 +58,25 @@ body  {
 .nav-social{
 margin-right: 49px;
 }
-.mobile-nav{
-  margin-left: 192px;
+
+.mobile-nav {
+  margin-left: 380px;
 }
 .about-para{
 margin-top: -65px;
+}
+.sub-menu{
+  margin-top: 21px;
+    color: #222;
+    background-color: #fff;
+}
+
+.sub-menu:hover{
+  color: #f6922d;
+}
+
+.uk-sticky-fixed .mobile-nav {
+  margin-left: 411px;
 }
   /*header end*/
 .sub-button{
@@ -143,6 +158,8 @@ background: #f6f6f6;
 .stat-box{
   color:#fff;
 }
+
+/* font icons*/
 .icon-tag{
   margin-top:40px;
  /* padding-bottom: 16px;*/
@@ -151,7 +168,7 @@ background: #f6f6f6;
 .icon-tag h5{
 font-family:'Poppins' !important;
 }
-.icon-tag:hover > h1{
+.icon-tag:hover > h4{
   color:#f6922d;
 }
 
@@ -162,6 +179,22 @@ font-family:'Poppins' !important;
 .icon-tag:hover > h5{
   color:#fff;
   
+}
+.stroke-transparent {
+  -webkit-text-stroke: 1px #000;
+  -webkit-text-fill-color: transparent;
+ }
+ .fa-gamepad {
+  color: white;
+  font-size: 1.5em;
+}
+.fa-cog{
+  color: white;
+  font-size: 1.5em; 
+}
+.fa-paper-plane-o{
+  color: white;
+  font-size: 1.5em; 
 }
 /******************resources page css*******************/
 
