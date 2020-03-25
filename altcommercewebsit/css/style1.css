@@ -428,6 +428,40 @@ color:#FE9603;
   #main{
     display: block;
   }
+
+
+  .skills_btn{
+    border:2px solid #1C1C1C;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+  }
+  .skills_btn:hover{
+    border:2px solid #1C1C1C;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    background-color: #FE9603;
+    color:#fff;
+  }
+  
+  
+ .subnav.uk-active{
+  border:2px solid #1C1C1C;
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  background-color: #FE9603;
+  color:#fff;
+ }
+
+  #btn1_detail{
+    display:none;
+  }
+  
+  .label{
+    background-color: ;
+  }
 /******************services page css end***************/
 
 
