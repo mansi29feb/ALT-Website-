@@ -34,7 +34,11 @@
     margin: 4px 0px !important;
 }
 .mobile-nav{
-  margin-left: 307px;
+  margin-left:auto;
+}
+.nav-menu{
+  margin-left:auto;
+  margin-right: 25px;
 }
 
 }

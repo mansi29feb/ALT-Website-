@@ -59,9 +59,6 @@ body  {
 margin-right: 49px;
 }
 
-.mobile-nav {
-  margin-left: 380px;
-}
 .about-para{
 margin-top: -65px;
 }
@@ -75,9 +72,7 @@ margin-top: -65px;
   color: #f6922d;
 }
 
-.uk-sticky-fixed .mobile-nav {
-  margin-left: 411px;
-}
+
   /*header end*/
 .sub-button{
   color: #fff;
