@@ -65,6 +65,10 @@ body a:focus{
   height:500px;
   width:260px;
 }
+
+.sec2{
+  z-index: 10;
+}
 .section2_heading{
   font-family:'Poppins';
   font-size:26px;
@@ -431,7 +435,7 @@ color:#FE9603;
 
 
   .skills_btn{
-    border:2px solid #1C1C1C;
+    border:2px solid #999999;
     border-radius: 30px;
     font-family: 'Poppins';
     font-weight: 500;
@@ -461,6 +465,28 @@ color:#FE9603;
   
   .label{
     background-color: ;
+  }
+
+  .skills_card{
+    background-color: #fff;
+    border-radius: 3px;
+  }
+
+  .badge{
+    color:#555555;
+    background-color: #fff;
+    border:1px solid #fff;
+
+  }
+
+  .skills_heading{
+    font-size: 40px;
+    color:#fff;
+
+  }
+
+  .bottom{
+    background-color: #fff;
   }
 /******************services page css end***************/
 
