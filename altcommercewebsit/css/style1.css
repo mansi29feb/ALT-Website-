@@ -224,9 +224,7 @@ input[type="text"],input[type="email"]{
   border:1px solid #ced4da;
 }
 
-.career_homepage{
-  ;
-}
+
 .careersection_heading{
 font-size:26px;
 font-family: 'Poppins';
@@ -242,12 +240,21 @@ color:#555555;
 .test_heading{
   font-size: 18px;
   color:#333333;
+  border: none;
 }
 
 .test_para{
   font-size: 15px;
   color:#777777;
 }
+
+.slider_item{
+  -webkit-transform: scale(1.1);
+  transform: scale(0.8);
+  opacity: 0.5;
+}
+
+
 
 
 .more{
@@ -260,7 +267,6 @@ color:#555555;
   cursor: pointer;
 
 }
-
 .works_btn1{
   width:15%;
   background-color:#FE9603;
@@ -269,6 +275,7 @@ color:#555555;
   border-style: none;
   
   }
+
 .works_btn1:link, .works_btn1:visited{
   
   color:white;
@@ -306,8 +313,12 @@ opacity:1;
   text-decoration: none;
 }
 
-.slid_nav{
-  color:#FE9603;
+.slid_nav >.uk-active>*{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.5);
+  opacity: 1;
+}
+}
 }
 
 
@@ -420,6 +431,7 @@ color:#FE9603;
     font-family: 'Poppins';
     font-weight: 500;
   }
+
   .skills_btn:hover{
     border:2px solid #1C1C1C;
     border-radius: 30px;
@@ -427,37 +439,30 @@ color:#FE9603;
     font-weight: 500;
     background-color: #FE9603;
     color:#fff;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+ 
+  .active{
+    border: 2px solid #1C1C1C;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    background-color: #FE9603;
+    color:#fff !important;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
   
-  
- .subnav.uk-active{
-  border:2px solid #1C1C1C;
-  border-radius: 30px;
-  font-family: 'Poppins';
-  font-weight: 500;
-  background-color: #FE9603;
-  color:#fff;
- }
 
-  #btn1_detail{
-    display:none;
-  }
   
-  .label{
-    background-color: ;
-  }
 
   .skills_card{
     background-color: #fff;
     border-radius: 3px;
   }
 
-  .badge{
-    color:#555555;
-    background-color: #fff;
-    border:1px solid #fff;
-
-  }
+  
 
   .skills_heading{
     font-size: 40px;
@@ -465,34 +470,19 @@ color:#FE9603;
 
   }
 
-  .bottom{
-    background-color: #fff;
-  }
+  
 /******************services page css end***************/
 
 
 
-@media screen and (max-width: 768px) and (min-width: 768px){
-  .box1{
-    width:45%;
-    background-color: white; 
-    
-  }
-  .box2{
-    width:45%;
-  }
-  .bx1{
-    text-align: left;
-  }
-  .visible-icon{
-    visibility:visible;
-  }
-  .hide-icon{
-    visibility:visible;
-  }
-}
 
 @media screen and (max-width: 1199px){
+ 
+
+  .hero-section{
+    max-height: 220px;
+  }
+  
 .footer{
   background-color: #FE9603; 
   opacity: 0.9;
@@ -518,8 +508,20 @@ color:#FE9603;
   visibility:visible;
 }
 
-
+.works_btn1{
+  width:40%;
 }
+.work_name_btn{
+  background-color: #fff;
+}
+.alt_desc{
+  margin-left:30px;
+}
+.contact_box{
+  margin-left:30px;
+}
+  
+  }
 
 @media screen and (min-width: 1200px){
   .footer{
@@ -537,7 +539,43 @@ color:#FE9603;
   .career_homepage{
     background-image: url(../images/bg2.jpg);
   }
+
+  
+  
   }
+
+
+@media screen and (max-width: 768px) and (min-width: 768px) {
+  .box1{
+    width:45%;
+    background-color: white; 
+    
+  }
+  .box2{
+    width:45%;
+  }
+  .bx1{
+    text-align: left;
+  }
+  .visible-icon{
+    visibility:visible;
+  }
+  .hide-icon{
+    visibility:visible;
+  }
+  .works_btn1{
+    width:20%;
+  }
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 1024px) {
+  
+  .works_btn1{
+    width:15%;
+  }
+
+}
 
  
 
