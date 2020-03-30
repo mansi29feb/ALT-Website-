@@ -166,7 +166,7 @@ background: #f6f6f6;
 /* font icons*/
 .icon-tag{
   margin-top:40px;
- /* padding-bottom: 16px;*/
+  margin-bottom: -40px !important;
   
 }
 .icon-tag h5{
