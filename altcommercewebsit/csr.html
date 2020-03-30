@@ -66,51 +66,40 @@
                 </div>
     
     
-                <div class="uk-navbar mobile-nav uk-width-expand@m">
-                    
-                        <ul class="uk-navbar-nav uk-text-bold nav-menu">
-                            <li class="uk-active">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>
-                                    <button class="uk-button sub-menu no-text-wrap">ABOUT US</button>
-                                    <div uk-dropdown="mode: click">
-                                      
-                                      <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active"><a href="aboutus.html">WHAT WE DO</a></li>
-                                        <li class="uk-active"><a href="csr.html">CSR</a></li>
-                                        <li class="uk-active"><a href="contactus.html">CONTACT US</a></li>
-                                        
-                                     </ul>
-                                  
-                                </div>
-                                
-                            </li>
-    
-                            
-                            <li class="">
-                                <a href="services.html">Services</a>
-                            </li>
+                <!--mobile nav-->
+    <div id="offcanvas-usage" uk-offcanvas>
+        <div class="uk-offcanvas-bar menu-list">
 
-                            <li class="">
-                                <a href="skills.html">Skills</a>
-                            </li>
-                            
-                            <li class="">
-                                <a href="resources.html">Resources</a>
-                            </li>
-                            
-                            <li class="">
-                                <a href="career.html">Careers</a>
-                            </li>
-                           
-                        </ul>
-                    
-    
+            <button class="uk-offcanvas-close menu-list" type="button" uk-close></button>
+
+            <h3>Menu</h3>
+
+            
+            <a href="index.html">Home</a>
+            <br>
+            
+                <button class="uk-button sub-togle">About Us</button>
+                    <div class="drop-nav" uk-dropdown="mode: click" >
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="about/aboutus.html">WHAT WE DO</a></li>
+                        <li class="uk-active"><a href="csr.html">CSR</a></li>
+                        <li class="uk-active"><a href="contactus/contactus.html">CONTACT US</a></li>
+                     </ul>
+                  
                 </div>
-    
-            </div>
+                
+            
+            <br>
+            <a href="service/services.html">Services</a>
+            <br>
+            <a href="resource/resources.html">Resource</a>
+            <br>
+            <a href="careers/career.html">Careers</a>
+            <br>
+
         </div>
+    </div>
+    <!--mobile nav end-->
 
     <!--footer start -->
 
@@ -140,32 +129,7 @@
 
 
     <!--footer-->
-    <!--mobile nav-->
-    <div id="offcanvas-usage" uk-offcanvas>
-        <div class="uk-offcanvas-bar menu-list">
-
-            <button class="uk-offcanvas-close menu-list" type="button" uk-close></button>
-
-            <h3>Menu</h3>
-
-
-            <a href="index.html">Home</a>
-            <br>
-            <a href="aboutus.html">About Us</a>
-            <br>
-            <a href="services.html">Services</a>
-            <br>
-            <a href="resources.html">Resource</a>
-            <br>
-            <a href="csr.html">CSR</a>
-            <br>
-            <a href="career.html">Careers</a>
-            <br>
-            <a href="contactus.html">Contact Us</a>
-            <br>
-
-        </div>
-    </div>
+    
 
     
     <script src="js/uikit.min.js"></script>

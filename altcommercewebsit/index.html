@@ -1324,24 +1324,32 @@
 
             <h3>Menu</h3>
 
-
+            
             <a href="index.html">Home</a>
             <br>
-            <a href="aboutus.html">About Us</a>
+            
+                <button class="uk-button sub-togle">About Us</button>
+                    <div class="drop-nav" uk-dropdown="mode: click" >
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="about/aboutus.html">WHAT WE DO</a></li>
+                        <li class="uk-active"><a href="csr.html">CSR</a></li>
+                        <li class="uk-active"><a href="contactus/contactus.html">CONTACT US</a></li>
+                     </ul>
+                  
+                </div>
+                
+            
             <br>
-            <a href="services.html">Services</a>
+            <a href="service/services.html">Services</a>
             <br>
-            <a href="resources.html">Resource</a>
+            <a href="resource/resources.html">Resource</a>
             <br>
-            <a href="csr.html">CSR</a>
-            <br>
-            <a href="career.html">Careers</a>
-            <br>
-            <a href="contactus.html">Contact Us</a>
+            <a href="careers/career.html">Careers</a>
             <br>
 
         </div>
     </div>
+    <!--mobile nav end-->
 
     
     <script src="js/uikit.min.js"></script>
@@ -1359,7 +1367,7 @@
             // for (var i = 0; i < items.length; ++i) {
             //     items[i].className = 'active_slide';
 
-}
+
     </script>
     
 </body>

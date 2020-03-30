@@ -22,7 +22,7 @@
     top: -4px !important;
     width: 100% !important;
     left: 4px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important;
   }
 
   .uk-sticky-fixed .brand-logo{
