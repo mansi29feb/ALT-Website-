@@ -248,12 +248,6 @@ color:#555555;
   color:#777777;
 }
 
-.slider_item{
-  -webkit-transform: scale(1.1);
-  transform: scale(0.8);
-  opacity: 0.5;
-}
-
 
 
 
@@ -314,17 +308,35 @@ opacity:1;
 }
 
 .slid_nav >.uk-active>*{
+  opacity: 1;
+  background-color: #FE9603;
+}
+
+.slid_nav>*>*{
+  border: none;
+  opacity: 0.6;
+  background-color: #FE9603;
+}
+.slid_nav >li>a:hover{ 
+  opacity: 1;
+  background-color: #FE9603;
+}
+
+
+.slider_item{
   -webkit-transform: scale(1.1);
-  transform: scale(1.5);
+  transform: scale(0.8);
+  opacity: 0.5;
+}
+.active_slide{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   opacity: 1;
 }
-}
-}
 
 
-li .uk-active{
-  opacity:1;
-}
+
+
 
 /******************services page css*******************/
 .services_mainheading{
@@ -427,6 +439,7 @@ color:#FE9603;
 
   .skills_btn{
     border:2px solid #999999;
+    background-color: #fff;
     border-radius: 30px;
     font-family: 'Poppins';
     font-weight: 500;
@@ -442,6 +455,7 @@ color:#FE9603;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
+  
  
   .active{
     border: 2px solid #1C1C1C;
