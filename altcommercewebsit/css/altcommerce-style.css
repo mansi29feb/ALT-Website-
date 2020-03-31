@@ -648,7 +648,7 @@ color: #000 !important;
        margin-left: -34px;
   }
       .uk-sticky-fixed{
-        left: 0px !important;
+        left: -13px !important;
         position: fixed !important;
         top: -16px !important;
         width: 100% !important;
