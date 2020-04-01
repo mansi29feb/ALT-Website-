@@ -18,7 +18,7 @@
     min-height: 500px;
   }
   .uk-sticky-fixed{
-  position: fixed !important;
+    position: fixed !important;
     top: -4px !important;
     width: 100% !important;
     left: 4px;
