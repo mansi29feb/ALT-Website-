@@ -372,8 +372,12 @@ color:#FE9603;
     border-radius: 2%;
   }
 
+  .case_bg{
+    background-color: #FE9603;
+    opacity: 0.5;
+  }
   .cases_btnlink{
-    color:#333333;
+    color:#fff;
     font-size: 16px;
   }
   .cases_btnlink:hover{
