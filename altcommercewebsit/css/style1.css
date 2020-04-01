@@ -173,7 +173,7 @@ body a:focus{
 
 .apply_link a:active a:hover{
   text-decoration: underline;
-  //color:rgb(5, 64, 109);
+//color:rgb(5, 64, 109);
   color:#333333;
 }
 
@@ -343,7 +343,7 @@ opacity:1;
   font-size: 70px;
   font-weight: 700;
   font-family: 'Poppins';
-  color:#1C1C1C;
+  color:#f6922d;
 }
 
 .services_mainpara{
