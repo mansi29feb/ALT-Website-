@@ -111,21 +111,21 @@
 </div>
 <!-- navigation ends -->
 <!---Resource page starts-->
-<div class="uk-container uk-margin uk-margin-large-top uk-margin-large-bottom">
-    <div class="uk-h1 uk-text-center services_mainheading">Our Case Studies</div>
+<div class="uk-container uk-margin uk-margin-large-bottom">
+    <div id="case_heading" class="uk-h1 uk-text-center services_mainheading">Our Case Studies</div>
     <div  class="uk-card uk-card-body case_page uk-margin-large-bottom" >
         <!-- case1 -->
-        <div id="case1" class="case_detail uk-card uk-card-default">
+        <div id="case1" class=" uk-card uk-card-body case_box uk-card-default ">
             
-            <div class="uk-card-body uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-                <div class="uk-flex uk-width-1-4@s ">
-                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Multi-site implementation
+            <div class=" uk-child-width-1-4@s uk-grid-collapse" uk-grid>
+                <div class="uk-flex uk-width-1-4@s">
+                    <div class="uk-text-center uk-text-bold uk-height-small uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Multi-site</br>implementation
                         <div class="uk-text-meta uk-text-secondary"></div>
                     </div>
                   
                 </div>
-                <div class="uk-width-3-4@s">
-                    <div class="uk-margin uk-padding"> 
+                <div class="uk-width-3-4@s uk-padding">
+                    <div class="uk-margin uk-padding-small"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex ">
                                 <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
@@ -164,7 +164,7 @@
                             </div>
                         </div>
 
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-margin uk-child-width-1-2@s  uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
                                 <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
                             </div>
@@ -177,18 +177,22 @@
                         </div>
                     
                     </div>
+
+                </div>
+                <div class="uk-align-center">
+                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback1()">Back</button>
                 </div>
                 
-                <button type="button" class="case_btn uk-button uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-text-bold" onclick="goback1()">Back</button>
+   
                     
             </div>
         </div>
 
         <!-- case2  -->
-        <div id="case2" class=" uk-card uk-card-body  uk-card-default">
-            <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+        <div id="case2" class=" uk-card uk-card-body uk-card-default case_box">
+            <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Data Center Migration
+                    <div class="uk-text-center uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Data Center Migration
                         <div class="uk-text-meta uk-text-secondary"></div>
                     </div>
                     
@@ -247,17 +251,19 @@
                     </div>
                 </div>
 
-                <button  class=" case_btn uk-button uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold" onclick="goback2()">Back</button>
-
+                <div class="uk-align-center">
+                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback2()">Back</button>
+                </div>
 
             </div>
         </div>
 
-        <div id="case3" class="uk-card uk-card-body  uk-card-default">
-            <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+        <!-- case3 -->
+        <div id="case3" class="uk-card uk-card-body case_box uk-card-default">
+            <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Site Redesign
-                    
+                    <div class="uk-text-center uk-padding-small uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">
+                        Site Redesign
                     </div>
                     
                 </div>
@@ -318,16 +324,17 @@
                     </div>
                 </div>
 
-                <button  class=" case_btn uk-button uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold" onclick="goback3()">Back</button>
-
+                <div class="uk-align-center">
+                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback3()">Back</button>
+                </div>
 
             </div>
         </div>
-
-        <div id="case4" class="uk-card uk-card-body  uk-card-default">
-            <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+    <!-- case 4 -->
+        <div id="case4" class="uk-card uk-card-body uk-card-default case_box">
+            <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Cross-Reference Tool
+                    <div class="uk-text-center uk-padding-small uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Cross-Reference Tool
                         
                     </div>
                     
@@ -393,14 +400,16 @@
                     </div>
                 </div>
 
-                <button  class="case_btn uk-button uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold" onclick="goback4()">Back</button>
-            </div>
+                <div class="uk-align-center">
+                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback4()">Back</button>
+                </div>           
+             </div>
         </div>
-
-        <div id="case5" class="uk-card uk-card-body  uk-card-default">
-            <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+        <!-- case 5 -->
+        <div id="case5" class="uk-card uk-card-body  uk-card-default case_box">
+            <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">Membership (Loyalty) Program
+                    <div class="uk-text-center uk-padding-small uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Membership (Loyalty) Program
                         
                     </div>
                     
@@ -463,21 +472,22 @@
                     
                     </div>
                 </div>
-                <button  class=" case_btn uk-button uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold" onclick="goback5()">Back</button>
-
+                <div class="uk-align-center">
+                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback5()">Back</button>
+                </div>
             </div>
         </div>
 
-        <div id="case6" class="uk-card uk-card-body  uk-card-default">
-            <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+        <div id="case6" class="uk-card uk-card-body  uk-card-default case_box" >
+            <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">Multi-site implementation
+                    <div class="uk-text-center uk-text-bold uk-height-medium uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Multi-site implementation
                       
                     </div>
                     
                 </div>
-                <div class="uk-width-3-4@s">
-                    <div class="uk-margin uk-padding"> 
+                <div class="uk-width-3-4@s uk-padding">
+                    <div class="uk-margin uk-padding-small uk-margin-small-left "> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex ">
                                 <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
@@ -530,16 +540,18 @@
                         </div>
                     
                     </div>
-                    <button  class=" case_btn uk-button uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold" onclick="goback6()">Back</button>
                 </div>
-
+                <div class="uk-align-center">
+                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback6()">Back</button>
+                </div>
             </div>
         </div>
 
-        <div id="case7" class="uk-card uk-card-body  uk-card-default">
-            <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+        <!-- case 7 -->
+        <div id="case7" class="uk-card uk-card-body uk-card-default case_box">
+            <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">SalesForce Integration
+                    <div class="uk-text-center uk-padding-small uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">SalesForce Integration
                         
                     </div>
                     
@@ -601,15 +613,16 @@
                     
                     </div>
                 </div>
-                <button  class=" case_btn uk-button uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold" onclick="goback7()">Back</button>
-
+                <div class="uk-align-center">
+                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback7()">Back</button>
+                </div>
             </div>
         </div>
 
-        <div id="case8" class="uk-card uk-card-body  uk-card-default">
-            <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+        <div id="case8" class="uk-card uk-card-body case_box uk-card-default ">
+            <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">Twillo Integration
+                    <div class="uk-text-center uk-padding-small box uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Twillo Integration
                         <div class="uk-text-meta uk-text-secondary"></div>
                     </div>
                     
@@ -670,15 +683,16 @@
                     
                     </div>
                 </div>
-                <button  class=" case_btn uk-button uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold" onclick="goback8()">Back</button>
-
+                <div class="uk-align-center">
+                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback8()">Back</button>
+                </div>
             </div>
         </div>
 
-        <div id="case9" class="uk-card uk-card-body  uk-card-default">
-            <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+        <div id="case9" class="uk-card uk-card-body  uk-card-default case_box">
+            <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">Multi-part search
+                    <div class="uk-text-center uk-padding-small uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Multi-part search
                         <div class="uk-text-meta uk-text-secondary"></div>
                     </div>
                     
@@ -738,7 +752,9 @@
                     
                     </div>
                 </div>
-                <button  class=" case_btn uk-button uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold" onclick="goback9()">Back</button>
+                <div class="uk-align-center">
+                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback9()">Back</button>
+                </div>            
             </div>
         </div>
         
@@ -916,92 +932,110 @@
                         {
                             document.getElementById("case1").style.display="block";
                             document.getElementById("main").style.display="none";
+                            document.getElementById("case_heading").style.display="none";
                         }
                         function case_study_open2()
                         {
                             document.getElementById("case2").style.display="block";
                             document.getElementById("main").style.display="none";
+                            document.getElementById("case_heading").style.display="none";
                         }
                         function case_study_open3()
                         {
                             document.getElementById("case3").style.display="block";
                             document.getElementById("main").style.display="none";
+                            document.getElementById("case_heading").style.display="none";
                         }
                         function case_study_open4()
                         {
                             document.getElementById("case4").style.display="block";
                             document.getElementById("main").style.display="none";
+                            document.getElementById("case_heading").style.display="none";
                         }
                         function case_study_open5()
                         {
                             document.getElementById("case5").style.display="block";
                             document.getElementById("main").style.display="none";
+                            document.getElementById("case_heading").style.display="none";
                         }
                         function case_study_open6()
                         {
                             document.getElementById("case6").style.display="block";
                             document.getElementById("main").style.display="none";
+                            document.getElementById("case_heading").style.display="none";
                         }
                         function case_study_open7()
                         {
                             document.getElementById("case7").style.display="block";
                             document.getElementById("main").style.display="none";
+                            document.getElementById("case_heading").style.display="none";
                         }
                         function case_study_open8()
                         {
                             document.getElementById("case8").style.display="block";
                             document.getElementById("main").style.display="none";
+                            document.getElementById("case_heading").style.display="none";
                         }
                         function case_study_open9()
                         {
                             document.getElementById("case9").style.display="block";
                             document.getElementById("main").style.display="none";
+                            document.getElementById("case_heading").style.display="none";
                         }
                        
                         function goback1()
                         {
                             document.getElementById("case1").style.display="none";
                             document.getElementById("main").style.display="block";
+                           document.getElementById("case_heading").style.display="block";
                         }
                         function goback2()
                         {
                             document.getElementById("case2").style.display="none";
                             document.getElementById("main").style.display="block";
+                            document.getElementById("case_heading").style.display="block";
                         }
                         function goback3()
                         {
                             document.getElementById("case3").style.display="none";
                             document.getElementById("main").style.display="block";
+                            document.getElementById("case_heading").style.display="block";
                         }
                         function goback4()
                         {
                             document.getElementById("case4").style.display="none";
                             document.getElementById("main").style.display="block";
+                            document.getElementById("case_heading").style.display="block";
                         }
                         function goback5()
                         {
                             document.getElementById("case5").style.display="none";
                             document.getElementById("main").style.display="block";
+                            document.getElementById("case_heading").style.display="block";
                         }
                         function goback6()
                         {
                             document.getElementById("case6").style.display="none";
                             document.getElementById("main").style.display="block";
+                            document.getElementById("case_heading").style.display="block";
                         }
                         function goback7()
                         {
                             document.getElementById("case7").style.display="none";
                             document.getElementById("main").style.display="block";
+                            document.getElementById("case_heading").style.display="block";
                         }
                         function goback8()
                         {
                             document.getElementById("case8").style.display="none";
                             document.getElementById("main").style.display="block";
+                            document.getElementById("case_heading").style.display="block";
                         }
                         function goback9()
                         {
                             document.getElementById("case9").style.display="none";
                             document.getElementById("main").style.display="block";
+                            document.getElementById("case_heading").style.display="block";
                         }
                                  
     

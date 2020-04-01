@@ -326,7 +326,7 @@ opacity:1;
 .slider_item{
   -webkit-transform: scale(1.1);
   transform: scale(0.8);
-  opacity: 0.5;
+  opacity: 1;
 }
 .active_slide{
   -webkit-transform: scale(1.1);
@@ -343,7 +343,7 @@ opacity:1;
   font-size: 70px;
   font-weight: 700;
   font-family: 'Poppins';
-  color:#f6922d;
+  color:#1C1C1C;
 }
 
 .services_mainpara{
@@ -367,6 +367,9 @@ color:#FE9603;
   color:#1C1C1C;
   }
 
+  #case_heading{
+    display:block;
+  }
   .case_page{
    
     border-radius: 2%;
@@ -390,7 +393,7 @@ color:#FE9603;
 
   .cases_btnlink{
     color:#fff;
-    font-size: 16px;
+    font-size: 20px;
   
   }
   .cases_btnlink:hover{
@@ -401,7 +404,7 @@ color:#FE9603;
   .case_subheading{
     font-weight: 600;
     font-size:35px;
-    color:#FE9603;
+    color:#1C1C1C;
   }
 
   .case_points{
@@ -411,11 +414,16 @@ color:#FE9603;
   }
   
   .case_btn{
-      font-size: medium;
-      font-weight: 700;
-      width:160px;
+     width: 10%;
   }
- 
+ .case_box{
+  background-image: linear-gradient(to left, rgba(254,150,3,0), rgba(254,150,3,0.3)); 
+
+ }
+
+ .case_border{
+   border-left: 4px solid #FE9603;
+ }
 
   #case1{
     display: none;
