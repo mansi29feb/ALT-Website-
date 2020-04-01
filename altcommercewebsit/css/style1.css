@@ -372,13 +372,26 @@ color:#FE9603;
     border-radius: 2%;
   }
 
-  .case_bg{
-    background-color: #FE9603;
-    opacity: 0.5;
+  .case_link{
+    width:100%;
   }
+  .case_card:hover{
+   
+    font-family: 'Poppins';
+    font-weight: 700;
+    color:#fff;
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+
+  .case_card:hover > .case_link{
+    width:100%;
+  }
+
   .cases_btnlink{
     color:#fff;
     font-size: 16px;
+  
   }
   .cases_btnlink:hover{
     color:#FE9603;
@@ -488,6 +501,8 @@ color:#FE9603;
 
   }
 
+
+  
   
 /******************services page css end***************/
 
