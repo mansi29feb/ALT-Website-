@@ -249,8 +249,26 @@ color:#555555;
 }
 
 
+.nav_button{
+  border:1px solid rgba(0,0,0,.2);
+  padding:8px;
+  display:none;
+  color:#666;
+  cursor: pointer;
 
-
+  
+}
+.nav_button:hover{
+  background-color: #FE9603;
+  
+  cursor: pointer;
+  color:white;
+  
+}
+.testi_box:hover .nav_button{
+display:block;
+;
+}
 .more{
   color:black;
   border:2px solid white;
