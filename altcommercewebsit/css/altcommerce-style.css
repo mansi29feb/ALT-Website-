@@ -86,6 +86,12 @@ margin-top: -65px;
   color:#fffada;
 }
 
+
+.plus-icon{
+    float:right;
+    margin: -50px 112px;
+    color: #000;
+}
   /*header end*/
 .sub-button{
     color: #fff;
