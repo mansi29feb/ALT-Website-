@@ -255,6 +255,7 @@ color:#555555;
   color:black;
   border:2px solid white;
   background-color: white;
+  padding:10px;
 }
 .more:hover{
   color:#FE9603;
@@ -262,34 +263,42 @@ color:#555555;
 
 }
 .works_btn1{
-  width:15%;
+  width:12%;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 5px 0px 5px 0px;
   background-color:#FE9603;
   font-family: 'Poppins';
   color:white;
-  border-style: none;
+  border-radius: 3px;
+  transition: 0.3s;
   
   }
 
 .works_btn1:link, .works_btn1:visited{
-  
-  color:white;
-  
+  color:white; 
 }
 
 .works_btn1:hover, .works_btn1:active {
-  background-color:rgba(254, 124, 3, 0.808);
+  background-color:#444444;
   text-decoration: none;
-  font-weight: bold;;
-  
+  transform: translate(0, -3px);
 }
 
-.works_image img{
-background-color:#555555 ;
-opacity:1;
+.works_overlay{
+  position: absolute;
+  height: 246px;
+  width:370px;
+  opacity: 0;
+  transition: .5s ease;
+  z-index: 2;
+  background-color: rgba(0,0,0,.5);
 }
-.works_image img:hover{
-  opacity:0.5;
+.works_image:hover .works_overlay{
+  opacity: 1;
+
 }
+
 .testi-img{
   float:none;
   margin:-55px auto 0;
