@@ -84,6 +84,12 @@ body  {
     margin: -50px 112px;
     color: #000;
 }
+.csr-head{
+    color: white;
+    text-align: center;
+    margin-top: 165px;
+}
+
   /*header end*/
 .sub-button{
     color: #fff;
