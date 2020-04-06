@@ -445,6 +445,9 @@ color:#FE9603;
   }
  .case_box{
   background-image: linear-gradient(to left, rgba(254,150,3,0), rgba(254,150,3,0.3)); 
+  /*background-image: url("images/case/case11.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);*/
 
  }
 
