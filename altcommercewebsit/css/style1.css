@@ -541,16 +541,16 @@ color:#FE9603;
 
   .csr_li{
     transition: transform .5s, filter 1.0s ease-in-out;
-    filter: grayscale(100%);
+   
   }
 
   .csr_li:hover{
-    filter: grayscale(0);
+    
     transform: scale(1.1);
   }
   
   .csr_text_box:hover > p >.csr_text{
-    color:#fff;
+    font-weight: 600;
   }
 /******************services page css end***************/
 
