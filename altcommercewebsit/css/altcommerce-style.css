@@ -84,10 +84,27 @@ body  {
     margin: -50px 112px;
     color: #000;
 }
+.plus-icon1{
+  float:right;
+    margin: -50px 121px;
+    color: #000;
+}
+
+.plus-icon2{
+  float:right;
+    margin: -50px 122px;
+    color: #000;
+}
+.plus-icon3{
+  float:right;
+    margin: -50px 130px;
+    color: #000;
+}
 .csr-head{
     color: white;
     text-align: center;
     margin-top: 165px;
+    font-size:50px;
 }
 
   /*header end*/
