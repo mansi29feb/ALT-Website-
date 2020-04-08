@@ -491,7 +491,9 @@ color:#FE9603;
     display: block;
   }
 
-
+.skills_card{
+  border-bottom: 3px solid #FE9603;
+}
   .skills_btn{
     border:2px solid #999999;
     background-color: #fff;
@@ -526,10 +528,7 @@ color:#FE9603;
 
   
 
-  .skills_card{
-    background-color: #fff;
-    border-radius: 3px;
-  }
+  
 
   
 
