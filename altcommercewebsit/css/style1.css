@@ -243,6 +243,9 @@ color:#555555;
   border: none;
 }
 
+.testi_img{
+  transform: translate(0,-25px);
+}
 .test_para{
   font-size: 15px;
   color:#777777;
@@ -604,6 +607,10 @@ color:#FE9603;
 .career_box{
   box-shadow: none;
 }
+
+.testi_box1{
+  padding:0px;
+}
   
   }
 
@@ -650,6 +657,9 @@ color:#FE9603;
   .works_btn1{
     width:20%;
   }
+  .testi_box1{
+    padding:70px;
+  }
 
 }
 
@@ -659,6 +669,9 @@ color:#FE9603;
     width:15%;
   }
 
+  .testi_box1{
+    padding:55px;
+  }
 }
 
  
