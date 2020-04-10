@@ -187,15 +187,31 @@ body a:focus{
 .form{
   border-radius: 3px;
   border:1px solid #ced4da;
-  width:280px;
+ 
 }
 
+
 .form_btn{
-width:100%;
-background-color:#FE9603;
-color:white;
-font-family: 'Poppins';
-font-weight: bold;
+  width:80%;
+  font-size: 13px;
+  font-weight: 600;
+ 
+  background-color:#FE9603;
+  font-family: 'Poppins';
+  color:white;
+  border-radius: 3px;
+  transition: 0.3s;
+  
+  }
+
+.form_btn:link, .form_btn:visited{
+  color:white; 
+}
+
+.form_btn:hover, .form_btn:active {
+  background-color:#444444;
+  text-decoration: none;
+  transform: translate(0, -3px);
 }
 
 .upload{
@@ -559,6 +575,10 @@ color:#FE9603;
 
 
 
+
+
+
+
 @media screen and (max-width: 1199px){
  
 
@@ -631,6 +651,9 @@ color:#FE9603;
     background-image: url(../images/bg2.jpg);
   }
 
+  .form{
+    width:280px;
+  }
   
   
   }
@@ -671,6 +694,12 @@ color:#FE9603;
 
   .testi_box1{
     padding:55px;
+  }
+  .career_homepage{
+    background-image: url(../images/bg2.jpg);
+  }
+  .form{
+    width:280px;
   }
 }
 
