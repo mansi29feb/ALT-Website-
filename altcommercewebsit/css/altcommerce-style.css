@@ -78,28 +78,6 @@ body  {
   color:#fffada;
 }
 
-
-.plus-icon{
-    float:right;
-    margin: -50px 112px;
-    color: #000;
-}
-.plus-icon1{
-  float:right;
-    margin: -50px 121px;
-    color: #000;
-}
-
-.plus-icon2{
-  float:right;
-    margin: -50px 122px;
-    color: #000;
-}
-.plus-icon3{
-  float:right;
-    margin: -50px 130px;
-    color: #000;
-}
 .csr-head{
     color: white;
     text-align: center;
@@ -172,15 +150,26 @@ font-family:'Poppins';
 
 /*Count Section */
 
-.price-tag:hover {
+.price-tag1:hover {
   background-color:#000;
   
 }
-.price{
+.price-tag2:hover{
+  background-color:#000;
+}
+.price1{
 background: #f6f6f6;
 
 }
-.price:hover{
+.price2{
+  background: #f6f6f6;
+  
+  }
+.price1:hover{
+  background :#000;
+  
+}
+.price2:hover{
   background :#000;
   
 }
@@ -375,6 +364,25 @@ body{
   top: -13px !important;
   width: 100% !important;
  }
+ /*.price-tag1{
+   width:50%;
+   background: #f6f6f6;
+ }
+ .price-tag2{
+  width:50% !important;
+ }
+ .price1{
+   width:50%;
+   background: #fff;
+ }
+ .price2{
+    width:50%;
+ }*/
+ 
+.icon-tag {
+  margin-top: 54px;
+  margin-bottom: 4px !important;
+}
 }
 @media screen and (max-width: 900px){
  body{
@@ -422,6 +430,14 @@ body{
     margin-bottom: 26px;
     font-family: poppins !important;
     }
+    .price {
+      background: #ffffff;
+      width: 50%;
+  }
+  .price-tag{
+    width: 50%;
+    background-color: #f6f6f6;
+  }
   }
   @media screen and (max-width:959px){
     .img {
@@ -475,13 +491,34 @@ body{
     width: 100% !important;
    }
   }
+  @media screen and (max-width:991px)and (min-width:768px){
+    .price-tag1{
+      width:50%;
+      background: #f6f6f6;
+    }
+    .price-tag2{
+     width:50% !important;
+    }
+    .price1{
+      width:50%;
+      background: #fff;
+    }
+    .price2{
+       width:50%;
+    }
+    .icon-tag {
+      margin-top: 40px;
+    margin-bottom: 40px !important;
+    }
+    
   
+  }
   @media screen and (min-width:977px){
-
+  .img{
     width: 135px;
     margin-left: 283px;
   }
-
+  }
   @media screen and (min-width:1050px){
     .img {
       width: 160px;
@@ -503,6 +540,7 @@ body{
   margin-left: -66px;
 
 }
+
 }
 
 @media screen and (max-width:1049px)and (min-width:900px){
@@ -561,7 +599,7 @@ color: #000 !important;
     font-family: poppins !important;
 }
 .uk-sticky-fixed{
-  left: 0px !important;
+  left: -14px !important;
   position: fixed !important;
   top: -11px !important;
   width: 100% !important;
@@ -569,8 +607,9 @@ color: #000 !important;
 
  .uk-sticky-fixed .img{
   width: 140px;
-  margin-left: 331px;
+  margin-left: 365px;
  }
+ 
 }
 
 @media screen and (max-width:359px) and (min-width:300px){
@@ -623,6 +662,11 @@ color: #000 !important;
         top: -15px !important;
         width: 100% !important;
        }
+       
+    .icon-tag h5 {
+      font-family: 'Poppins' !important;
+      margin-bottom: 64px;
+  }
     }
     
     @media screen and (max-width:399px) and (min-width:360px){
@@ -678,6 +722,10 @@ color: #000 !important;
         top: -16px !important;
         width: 100% !important;
        }
+       .icon-tag {
+        margin-top: 35px;
+        margin-bottom: 1px !important;
+    }
      }
      
     
