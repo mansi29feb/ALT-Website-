@@ -214,6 +214,23 @@ body a:focus{
   transform: translate(0, -3px);
 }
 
+.career1_box{
+	-webkit-transition: transform .2s linear;
+	-moz-transition: transform .2s linear;
+	-o-transition: transform .2s linear;
+  transition: transform .2s linear;
+  
+}
+
+.career1_box:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05) ;
+	-o-transform: scale(1.05) ;
+	transform: scale(1.05) ;
+  border-radius: 3px;
+  border:1px solid #ced4da;
+}
+
 .upload{
   border-radius: 3px;
   font-size: 13px;
@@ -569,6 +586,23 @@ color:#FE9603;
   
   .csr_text_box:hover > p >.csr_text{
     font-weight: 600;
+  }
+
+  .impact_box{
+    -webkit-transition: transform .2s linear;
+    -moz-transition: transform .2s linear;
+    -o-transition: transform .2s linear;
+    transition: transform .2s linear;
+    
+  }
+  
+  .impact_box:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1) ;
+    -o-transform: scale(1.1) ;
+    transform: scale(1.1) ;
+    border-radius: 3px;
+    border:1px solid #ced4da;
   }
 /******************services page css end***************/
 
