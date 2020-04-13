@@ -50,9 +50,14 @@ body  {
   .nav-social{
     margin-right:49px;
   }
-
+  .about_heading{
+    font-size: 29px;
+    color: #FE9603;
+  }
   .about-para{
     margin-top: -65px;
+    font-size: 16px;
+    color: #1C1C1C;
   }
   .sub-menu{
     margin-top: 21px;
@@ -510,15 +515,22 @@ body{
       margin-top: 40px;
     margin-bottom: 40px !important;
     }
-    
+    .uk-sticky-fixed .img {
+      width: 140px !important;
+      margin-left: 342px !important;
+  }
+  .img {
+    width: 135px !important;
+    margin-left: 287px !important;
+}
   
   }
-  @media screen and (min-width:977px){
+  /*@media screen and (min-width:977px){
   .img{
     width: 135px;
     margin-left: 283px;
   }
-  }
+  }*/
   @media screen and (min-width:1050px){
     .img {
       width: 160px;
@@ -577,15 +589,15 @@ body{
     display:none;
  }
 .logo-img{
-  margin: auto;
-  padding-right: 75px;
+  margin: auto !important;
+  padding-right: 75px !important;
 }
 .mobile-nav{
   display:none;
 }
 .img {
-  width: 135px;
-  margin-left: 317px;
+  width: 135px !important;
+  margin-left: 317px !important;
 }
 .nav-slider {
 margin: 35px 0px;
@@ -606,8 +618,8 @@ color: #000 !important;
  }
 
  .uk-sticky-fixed .img{
-  width: 140px;
-  margin-left: 365px;
+  width: 140px !important;
+  margin-left: 365px !important;
  }
  
 }
