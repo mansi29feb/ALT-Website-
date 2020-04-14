@@ -604,6 +604,36 @@ color:#FE9603;
     border-radius: 3px;
     border:1px solid #ced4da;
   }
+
+  .li1{
+   background-color: #161b21;
+  }
+  
+  .txt{
+    color:#fff;
+  }
+  .csr_nav >.uk-active>*{
+    opacity: 1;
+    transform: scale(1.2);
+    background-color: #FE9603;
+  }
+  
+  .csr_nav>*>*{
+    border: none;
+    opacity: 0.6;
+    background-color: #FE9603;
+  }
+  .csr_nav >li>a:hover{ 
+    opacity: 1;
+    background-color: #FE9603;
+  }
+
+  .purpose{
+    height: 20px;
+    transform: skew(20deg);
+    background: #FE9603;
+  }
+  
 /******************services page css end***************/
 
 
