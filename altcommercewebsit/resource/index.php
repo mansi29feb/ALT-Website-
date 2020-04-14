@@ -1,116 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Resources-Digital Commerce with Alt Commerce" content="">
-    <title>Digital Commerce with Alt Commerce</title>
-    <link rel="shortcut icon" href="images/alt.png">
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <link rel="stylesheet" href="css/altcommerce-style.css" />
-    <link rel="stylesheet" href="css/style1.css">
-    <link rel="stylesheet" href="css/style-fixed.css" />
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
- 
-<!-- navigation -->
-<!--topbar-->
-<div class="uk-container">
-    <div class="uk-grid " uk-grid>
-        <div class="uk-navbar-left nav-social">
-            <ul class="uk-navbar-nav ">
-                <li>
-                    <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook"></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/altcommerce" uk-icon="twitter"></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin"></a>
-                </li>
-                <li>
-                    <a href="mailto:info@altcommerce.com" uk-icon="mail" style="color: black"></a>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-</div>
-<!--topbar ends-->
-<!-- navigation -->
-<div class="uk-container">
-
-            
-            
-    <div class="uk-child-width-expand@s nav-header uk-sticky-fixed " uk-grid  uk-sticky>
-        
-        <div class="clear-padd uk-width-auto@m">
-            <div class="uk-navbar">
-                <div class="menu-toggle">
-                    <button class="uk-margin-small-right mobile-navbutton" uk-toggle="target: #offcanvas-usage">
-                        <img src="https://img.icons8.com/ios-filled/50/000000/menu.png"/>
-                    </button>
-                </div>
-                <div class="uk-navbar-left logo-img">
-                    <div class="uk-navbar-item img clear-padd brand-logo">
-                        <img src="images/alt.png" alt="">
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-
-        <div class="uk-navbar mobile-nav uk-width-expand@m">
-            
-                <ul class="uk-navbar-nav uk-text-bold nav-menu">
-                        <li class="uk-active">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                                <button class="uk-button sub-menu">ABOUT US</button>
-                                <div uk-dropdown="mode: click">
-                                  
-                                  <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-active"><a href="aboutus.html">WHAT WE DO</a></li>
-                                    <li class="uk-active"><a href="csr.html">COMMUNITY</a></li>
-                                    <li class="uk-active"><a href="contactus.html">CONTACT US</a></li>
-                                    
-                                 </ul>
-                              
-                            </div>
-                            
-                        </li>
-                        
-                        <li class="">
-                            <a href="services.html">Services</a>
-                        </li>
-                        <li class="">
-                            <a href="skills.html">Skills</a>
-                        </li>
-                        <li class="">
-                            <a href="resources.html">Resources</a>
-                        </li>
-                        
-                        <li class="">
-                            <a href="career.html">Careers</a>
-                        </li>
-                       
-                    </ul>
-                
-            
-
-        </div>
-
-    </div>
-</div>
-<!-- navigation ends -->
+<?php
+include_once "../header.php";
+?>
 <!---Resource page starts-->
 <div class="uk-container uk-margin uk-margin-large-bottom">
     <div id="case_heading" class="uk-h1 uk-text-center services_mainheading">Our Case Studies</div>
@@ -129,7 +19,7 @@
                     <div class="uk-margin uk-padding-small"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex ">
-                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -143,7 +33,7 @@
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -155,7 +45,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -167,7 +57,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s  uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -202,7 +92,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex ">
-                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -215,7 +105,7 @@
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -227,7 +117,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -240,7 +130,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -272,7 +162,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex ">
-                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -285,7 +175,7 @@
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -299,7 +189,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -312,7 +202,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -344,7 +234,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex ">
-                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -359,7 +249,7 @@
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -374,7 +264,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -388,7 +278,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -419,7 +309,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex ">
-                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -434,7 +324,7 @@
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -448,7 +338,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -461,7 +351,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -491,7 +381,7 @@
                     <div class="uk-margin uk-padding-small uk-margin-small-left "> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex ">
-                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -504,7 +394,7 @@
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -517,7 +407,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -530,7 +420,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -561,7 +451,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex ">
-                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -575,7 +465,7 @@
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -589,7 +479,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -602,7 +492,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -632,7 +522,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex ">
-                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -647,7 +537,7 @@
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -660,7 +550,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -672,7 +562,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -702,7 +592,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex ">
-                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -716,7 +606,7 @@
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -729,7 +619,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -741,7 +631,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -764,7 +654,7 @@
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up" src="images/case/case11.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case11.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open1()">Multi-site implementation</button>
                         </div>
         
@@ -774,7 +664,7 @@
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up" src="images/case/case2.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case2.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open2()">Data Center Migration</button>
                         </div>
         
@@ -784,7 +674,7 @@
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up" src="images/case/case3.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case3.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open3()">Site Redesign</button>
                         </div>
         
@@ -797,7 +687,7 @@
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up" src="images/case/case4.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case4.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open4()">Cross-Reference Tool</button>
                         </div>
         
@@ -807,7 +697,7 @@
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up" src="images/case/case5.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case5.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open5()">Membership (Loyalty) Program</button>
                         </div>
         
@@ -817,7 +707,7 @@
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up" src="images/case/case6.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case6.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open6()">Multi-site implementation (Canada)</button>
                         </div>
         
@@ -831,7 +721,7 @@
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up" src="images/case/case7.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case7.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open7()">SalesForce Integration</button>
                         </div>
         
@@ -841,7 +731,7 @@
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up" src="images/case/case8.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case8.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open8()">Twillo Integration</button>
                         </div>
         
@@ -851,7 +741,7 @@
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up" src="images/case/case10.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case10.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open9()">Multi-part search</button>
                         </div>
         
@@ -867,68 +757,10 @@
 
 
 <!---Resource page ends-->
-<!--mobile nav-->
-<div id="offcanvas-usage" uk-offcanvas>
-    <div class="uk-offcanvas-bar menu-list">
 
-        <button class="uk-offcanvas-close menu-list" type="button" uk-close></button>
-
-        <h3>Menu</h3>
-
-        
-        <a href="index.html">Home</a>
-        <br>
-        
-            <button class="uk-button sub-togle">About Us</button>
-                <div class="drop-nav" uk-dropdown="mode: click" >
-                  <ul class="uk-nav uk-navbar-dropdown-nav">
-                    <li class="uk-active"><a href="about/aboutus.html">WHAT WE DO</a></li>
-                    <li class="uk-active"><a href="csr.html">COMMUNITY</a></li>
-                    <li class="uk-active"><a href="contactus/contactus.html">CONTACT US</a></li>
-                 </ul>
-              
-            </div>
-            
-        
-        <br>
-        <a href="service/services.html">Services</a>
-        <br>
-        <a href="resource/resources.html">Resource</a>
-        <br>
-        <a href="careers/career.html">Careers</a>
-        <br>
-
-    </div>
-</div>
-<!--mobile nav end-->
-
-<!--footer-->
-<div class="uk-child-width-expand@s uk-text-center footer uk-margin-large-top" uk-grid>
-    <div >
-        <div class="footerbox">
-            <span class="uk-text-capitalize">Copyrights © 2020 All Rights 
-                Reserved by <span class="uk-text-bold">Alt Commerce Pvt Ltd.</span></span>
-    </div>
-    </div>
-    <div>
-        <div class=" uk-link-text uk-visible@s footermenu">
-            <a href="index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>/
-            <a href="aboutus.html">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a>/
-            <a href="services.html">&nbsp;&nbsp;Services&nbsp;&nbsp;</a>/
-            <a href="skills.html">&nbsp;&nbsp;Skills&nbsp;&nbsp;</a>/
-            <a href="resources.html">&nbsp;&nbsp;Resources&nbsp;&nbsp;</a>/
-            <a href="career.html">&nbsp;&nbsp;Careers&nbsp;&nbsp;</a>
-            
-
-        </div>
-
-    </div>
-    
-</div>
-
-<script src="js/uikit.min.js"></script>
-<script src="js/uikit-icons.min.js"></script>
-
+<?php
+include_once "../footer.php"
+?>
 <div>
     <script>
                         function case_study_open1()
@@ -1043,8 +875,3 @@
                                  
     
     </script>
-</div> 
-
-</body>
-
-</html>

@@ -1,90 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Community-Digital Commerce with Alt Commerce" content="We always have undertaken various initiatives with an aim to improve quality of life & ensure the holistic development of its surrounding communities."> 
-    <title>Digital Commerce with Alt Commerce</title>
-    <link rel="shortcut icon" href="images/alt.png">
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <link rel="stylesheet" href="css/style1.css">
-    <link rel="stylesheet" href="css/altcommerce-style.css" />
-    <link rel="stylesheet" href="css/style-fixed.css" />
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-    <body class="uk-background-norepeat">
-        <!--topbar-->
-        <div class="uk-container">
-            <div class="uk-grid" uk-grid>
-                <div class="uk-navbar-left nav-social">
-                    <ul class="uk-navbar-nav">
-                        <li>
-                            <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" uk-text-bold></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/altcommerce" uk-icon="twitter"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin"></a>
-                        </li>
-                        <li>
-                            <a href="mailto:info@altcommerce.com" uk-icon="mail" style="color: black"></a>
-                        </li>
-                    </ul>
-                </div>
-    
-            </div>
-        </div>
-        <!--topbar ends-->
-        <!-- navigation -->
-        <div class="uk-container">
-            <div class="uk-child-width-expand@s nav-header uk-sticky-fixed" uk-grid  uk-sticky>
-                <div class="clear-padd uk-width-auto@m">
-                    <div class="uk-navbar">
-                        <div class="menu-toggle">
-                            <button class="uk-margin-small-right mobile-navbutton" uk-toggle="target: #offcanvas-usage">
-                                <img src="https://img.icons8.com/ios-filled/50/000000/menu.png"/>
-                            </button>
-                        </div>
-                        <div class="uk-navbar-left logo-img">
-                            <div class="uk-navbar-item img clear-padd brand-logo">
-                                <img src="images/alt.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-navbar mobile-nav uk-width-expand@m">
-                    <ul class="uk-navbar-nav uk-text-bold nav-menu">
-                        <li class="uk-active">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <button class="uk-button sub-menu no-text-wrap">ABOUT US</button>
-                            <div uk-dropdown="mode: click">
-                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-active"><a href="aboutus.html">WHAT WE DO</a></li>
-                                    <li class="uk-active"><a href="csr.html">COMMUNITY</a></li>
-                                    <li class="uk-active"><a href="contactus.html">CONTACT US</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class=""><a href="services.html">Services</a></li>
-                        <li class=""><a href="skills.html">Skills</a></li>
-                        <li class=""><a href="resources.html">Resources</a></li>
-                        <li class=""><a href="career.html">Careers</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    <!--navigation ends-->
+<?php
+include_once "../header.php";
+?>
     
 <!-- csr starts -->
     <div class="uk-child-width-1-1" uk-grid>
-        <div class="uk-background-fixed uk-background-center-center uk-height-large uk-width-1-1" style="background-image: url(images/csr3.jpg);">
+        <div class="uk-background-fixed uk-background-center-center uk-height-large uk-width-1-1" style="background-image: url(<?php echo $filePath;?>images/csr3.jpg);">
             <p class="uk-h1 uk-text-bold csr-head" uk-parallax="y:200; easing:2;">"ENACT POSITIVE CHANGES"</p>  
         </div> 
     </div>
@@ -107,7 +27,7 @@
             </p>
         </div>
         <div class="uk-width-1-4@m  uk-width-1-2@s">
-            <img class="uk-margin-large-top" data-src="images/csr/earth/earth-protect.jpg" height="450" width="450" alt="" uk-img>
+            <img class="uk-margin-large-top" data-src="<?php echo $filePath;?>images/csr/earth/earth-protect.jpg" height="450" width="450" alt="" uk-img>
         </div>
 
         <div class="uk-width-1-4@m uk-width-1-2@s" style="background-color: #fafafa;">
@@ -118,12 +38,12 @@
             </p></div>
 
         <div class="uk-width-1-4@m uk-width-1-2@s" style="background-color: black;">
-            <img class="uk-margin-medium-top"  data-src="images/csr/earth/green_earth.jpg" height="450" width="450" alt="" uk-img>
+            <img class="uk-margin-medium-top"  data-src="<?php echo $filePath;?>images/csr/earth/green_earth.jpg" height="450" width="450" alt="" uk-img>
         </div>  
     </div>
 
     <div class="">
-        <div class="" style="background-image: url(images/csr/earth/blur-tree.jpg)"> 
+        <div class="" style="background-image: url(<?php echo $filePath;?>images/csr/earth/blur-tree.jpg)"> 
             <div class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#fff">वृक्ष लगाओ जीवन बचाओ</div>
             
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider=" autoplay:true; autoplay-interval:2000;">
@@ -131,24 +51,24 @@
                 <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m ">
                    
                     <div class=" csr_li ">
-                        <img  src="images/csr/csr5.jpg" alt="">
+                        <img  src="<?php echo $filePath;?>images/csr/csr5.jpg" alt="">
                         
                     </div>
                     <li class=" csr_li">
-                        <img src="images/csr/csr6.jpg" alt="">
+                        <img src="<?php echo $filePath;?>images/csr/csr6.jpg" alt="">
                         
                     </li >
                     
                     <li class=" csr_li">
-                        <img src="images/csr/csr8.jpg" alt="">
+                        <img src="<?php echo $filePath;?>images/csr/csr8.jpg" alt="">
                        
                     </li>
                     <li class=" csr_li">
-                        <img src="images/csr/csr9.jpg" alt="">
+                        <img src="<?php echo $filePath;?>images/csr/csr9.jpg" alt="">
                         
                     </li>
                     <li class=" csr_li">
-                        <img src="images/csr/csr11.jpg" alt="">
+                        <img src="<?php echo $filePath;?>images/csr/csr11.jpg" alt="">
                         
                     </li>
                     
@@ -181,7 +101,7 @@
 <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-grid-collapse uk-margin-large-bottom" uk-grid>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img  data-src="images/csr/earth/berry.jpg" height="300" width="300" alt="" uk-img>
+            <img  data-src="<?php echo $filePath;?>images/csr/earth/berry.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove">Planting fruit trees provides habitat for wildlife.</p>
             </div>
@@ -190,7 +110,7 @@
     </div>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s uk-">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="images/csr/earth/kids.jpg" height="300" width="300" alt="" uk-img>
+            <img data-src="<?php echo $filePath;?>images/csr/earth/kids.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove">Better livelihoods for people living near forests.</p>
             </div>
@@ -199,7 +119,7 @@
     </div>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="images/csr/earth/soil2.jpg" height="300" width="300" alt="" uk-img>
+            <img data-src="<?php echo $filePath;?>images/csr/earth/soil2.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove">Prevent soil erosion & mitigate climate change.</p>
             </div>
@@ -208,7 +128,7 @@
     </div>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="images/csr/earth/water.jpg" height="300" width="300" alt="" uk-img>
+            <img data-src="<?php echo $filePath;?>images/csr/earth/water.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove">Offer watershed protection.</p>
             </div>
@@ -222,7 +142,7 @@
 
 <!-- water activity -->
 <div class=" ">
-    <div class="" style="background-image: url(images/csr/water/blur-water3.jpg)">
+    <div class="" style="background-image: url(<?php echo $filePath;?>images/csr/water/blur-water3.jpg)">
         <div class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#fff">जल ही जीवन हे !</div>
         
         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider=" autoplay:true; autoplay-interval:2000;">
@@ -230,21 +150,21 @@
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m ">
                
                 <div class=" csr_li">
-                    <img  src="images/csr/water/agriculture-carabao-clouds-countryside-460229.jpg" alt="">
+                    <img  src="<?php echo $filePath;?>images/csr/water/agriculture-carabao-clouds-countryside-460229.jpg" alt="">
                     
                 </div>
                 
                 
                 <li class=" csr_li">
-                    <img src="images/csr/water/kids-water3.jpg" alt="">
+                    <img src="<?php echo $filePath;?>images/csr/water/kids-water3.jpg" alt="">
                    
                 </li>
                 <li class=" csr_li">
-                    <img src="images/csr/water/kids-water1.jpg" alt="">
+                    <img src="<?php echo $filePath;?>images/csr/water/kids-water1.jpg" alt="">
                     
                 </li>
                 <li class=" csr_li">
-                    <img src="images/csr/earth/agriculture.jpg" alt="">
+                    <img src="<?php echo $filePath;?>images/csr/earth/agriculture.jpg" alt="">
                     
                 </li>
             </ul>
@@ -296,7 +216,7 @@
 <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-grid-collapse uk-margin-large-bottom" uk-grid>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img  data-src="images/csr/earth/lake.jpg" height="300" width="300" alt="" uk-img>
+            <img  data-src="<?php echo $filePath;?>images/csr/earth/lake.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove">Planting fruit trees provides habitat for wildlife.</p>
             </div>
@@ -305,7 +225,7 @@
     </div>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="images/csr/earth/kids-green.jpg" height="300" width="300" alt="" uk-img>
+            <img data-src="<?php echo $filePath;?>images/csr/earth/kids-green.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove">Offer watershed protection.</p>
             </div>
@@ -314,7 +234,7 @@
     </div>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="images/csr/earth/climate-change1.jpg" height="300" width="300" alt="" uk-img>
+            <img data-src="<?php echo $filePath;?>images/csr/earth/climate-change1.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove">Better livelihoods for people living near forests.</p>
             </div>
@@ -324,7 +244,7 @@
     
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="images/csr/water/kids-water2.jpg" height="300" width="300" alt="" uk-img>
+            <img data-src="<?php echo $filePath;?>images/csr/water/kids-water2.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove">Prevent soil erosion & mitigate climate change.</p>
             </div>
@@ -335,12 +255,22 @@
 </div>
 </div>
 
-<div>
-    <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Tejobindu Hindustan Foundation</div>
-    <div class="uk-width-1-3 purpose">
+<div class="">
+    <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-top uk-margin-medium-bottom ">Tejobindu Hindustan Foundation</div>
+    <div class="uk-flex uk-child-width-1-1 uk-grid-collapse" uk-grid>
+        <div class="uk-width-1-1 ">
+        <div class="uk-width-1-2 purpose uk-flex-left"></div>
+        </div>
+     <div class="uk-width-1-1">   
+    <div class="services_subheading uk-text-center">Purpose Of Foundation </div>
+</div>
+    <div class="uk-width-1-1">
+        <div class="uk-width-1-2 purpose"></div>
+        </div>
+    
+</div>
 
-    </div>
-    <div class="uk-position-relative uk-visible-toggle uk-padding " tabindex="-1" uk-slider=" autoplay:true; sets:true; autoplay-interval:2000;">
+<div class="uk-position-relative uk-visible-toggle uk-padding " tabindex="-1" uk-slider=" autoplay:true; sets:true; autoplay-interval:2000;">
 
         <ul class="uk-slider-items uk-child-width-1-1@s uk-child-width-1-4@m uk-grid">
             <li class=" li1">
@@ -436,78 +366,18 @@
     
         <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin csr_nav"></ul>
     </div>
-   
-</div>
+
     
     
 
     <!-- csr ends -->
         
-        
+ <?php
+ include_once '../footer.php';
+ ?>       
     
     
-     <!--mobile nav-->
-    <div id="offcanvas-usage" uk-offcanvas>
-        <div class="uk-offcanvas-bar menu-list">
-            <button class="uk-offcanvas-close menu-list" type="button" uk-close></button>
-            <h3>Menu</h3>
-            <a href="index.html">Home</a>
-            <br>
-            <button class="uk-button sub-togle">About Us</button>
-            <div class="drop-nav" uk-dropdown="mode: click" >
-                <ul class="uk-nav uk-navbar-dropdown-nav">
-                    <li class="uk-active"><a href="about/aboutus.html">WHAT WE DO</a></li>
-                    <li class="uk-active"><a href="csr.html">COMMUNITY</a></li>
-                    <li class="uk-active"><a href="contactus/contactus.html">CONTACT US</a></li>
-                </ul>
-            </div>
-            <br>
-            <a href="service/services.html">Services</a>
-            <br>
-            <a href="resource/resources.html">Resource</a>
-            <br>
-            <a href="careers/career.html">Careers</a>
-            <br>
-
-        </div>
-    </div>
-</div>
-    
-    <!--mobile nav end-->
-
-    <!--footer start -->
-    <div class="uk-child-width-expand@s uk-text-center footer" uk-grid>
-        <div>
-            <div class=" footerbox">
-                <span class="uk-text-capitalize">Copyrights © 2020 All Rights Reserved by <span class="uk-text-bold">Alt Commerce Pvt Ltd.</span></span>
-            </div>
-        </div>
-        <div>
-            <div class=" uk-link-text uk-visible@s footermenu">
-                <a href="index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>/
-                <a href="aboutus.html">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a>/
-                <a href="services.html">&nbsp;&nbsp;Services&nbsp;&nbsp;</a>/
-                <a href="skills.html">&nbsp;&nbsp;Skills&nbsp;&nbsp;</a>/
-                <a href="resources.html">&nbsp;&nbsp;Resources&nbsp;&nbsp;</a>/
-                <a href="career.html">&nbsp;&nbsp;Careers&nbsp;&nbsp;</a>
-                
-    
-            </div>
-    
-        </div>
-    
-    
-    </div>
-
-
-
-    <!--footer-->
-    
-
-    
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+ 
    <script>
        function read_more1() {
             var dots = document.getElementById("dots1");
@@ -588,6 +458,3 @@
    </script>
     
     
-</body>
-
-</html>

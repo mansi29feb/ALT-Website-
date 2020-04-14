@@ -1,114 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="images/alt.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Services - Digital Commerce with Alt Commerce" content="Customer satisfaction is our motto and we strive to provide the best solution to our clients.">
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+      
+<?php
     
-    <link rel="stylesheet" href="css/style1.css">
-    <link rel="stylesheet" href="css/altcommerce-style.css" />
-    <link rel="stylesheet" href="css/style-fixed.css" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <title>Digital Commerce with Alt Commerce</title>
-</head>
-<body> 
-    <!--topbar-->
-    <div class="uk-container">
-        <div class="uk-grid " uk-grid>
-            <div class="uk-navbar-left nav-social">
-                <ul class="uk-navbar-nav ">
-                    <li>
-                        <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" uk-text-bold></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/altcommerce" uk-icon="twitter"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin"></a>
-                    </li>
-                    <li>
-                        <a href="mailto:info@altcommerce.com" uk-icon="mail" style="color: black"></a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-    <!--topbar ends-->
-    <!-- navigation -->
-    <div class="uk-container">
-
-                
-                
-        <div class="uk-child-width-expand@s nav-header uk-sticky-fixed " uk-grid  uk-sticky>
-            
-            <div class="clear-padd uk-width-auto@m">
-                <div class="uk-navbar">
-                    <div class="menu-toggle">
-                        <button class="uk-margin-small-right mobile-navbutton" uk-toggle="target: #offcanvas-usage">
-                            <img src="https://img.icons8.com/ios-filled/50/000000/menu.png"/>
-                        </button>
-                    </div>
-                    <div class="uk-navbar-left logo-img">
-                        <div class="uk-navbar-item img clear-padd brand-logo">
-                            <img src="images/alt.png" alt="">
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
+include_once '../header.php';
+?>
 
 
-            <div class="uk-navbar mobile-nav uk-width-expand@m">
-                
-                    <ul class="uk-navbar-nav uk-text-bold nav-menu">
-                        <li class="uk-active">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                                <button class="uk-button sub-menu">ABOUT US</button>
-                                <div uk-dropdown="mode: click">
-                                  
-                                  <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-active"><a href="aboutus.html">WHAT WE DO</a></li>
-                                    <li class="uk-active"><a href="csr.html">COMMUNITY</a></li>
-                                    <li class="uk-active"><a href="contactus.html">CONTACT US</a></li>
-                                    
-                                 </ul>
-                              
-                            </div>
-                            
-                        </li>
-                        
-                        <li class="">
-                            <a href="services.html">Services</a>
-                        </li>
-                        <li class="">
-                            <a href="skills.html">Skills</a>
-                        </li>
-                        <li class="">
-                            <a href="resources.html">Resources</a>
-                        </li>
-                        
-                        <li class="">
-                            <a href="career.html">Careers</a>
-                        </li>
-                       
-                    </ul>
-                
 
-            </div>
-
-        </div>
-    </div>
-    <!-- navigation ends -->        
-        
     <div class="uk-container uk-margin ">
         <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Our Services</div>
         <p class="uk-text-center services_mainpara"> Customer satisfaction is our motto and we strive to provide the best solution to our clients. 
@@ -116,13 +13,13 @@
             today with a strong trust of our clients on us.
         </p>
         <div class="uk-flex uk-flex-center uk-padding uk-margin-medium-top uk-margin-medium-bottom">
-            <img data-src="images/cloud.png" height="150" width="1000" uk-img>
+            <img data-src="<?php echo $filePath;?>images/cloud.png" height="150" width="1000" uk-img>
         </div>
         <div class=" uk-text-center services_subheading">
          Customer trusts us to deliver customized, end-to-end implementations.
         </div>
         <div class="uk-flex uk-flex-center uk-padding">
-            <img data-src="images/employee.png" height="100" width="500" uk-img>
+            <img data-src="<?php echo $filePath;?>images/employee.png" height="100" width="500" uk-img>
         </div>
 
         <p class="uk-text-center services_mainpara">
@@ -136,22 +33,22 @@
                 <div class="uk-child-width-1-2@s uk-grid-small " uk-grid>
                     <div class="uk-width-1-2@s">
                         <div class="uk-margin uk-padding-small uk-card uk-card-default uk-card-hover">
-                            <img class="uk-align-center" data-src="images/atg.png" width="200" height="200" uk-img>
+                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/atg.png" width="200" height="200" uk-img>
                         </div>
                         <div class="uk-margin uk-padding-small">
-                            <img class="uk-align-center" data-src="images/commercetools.png" width="200" height="200" uk-img>
+                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/commercetools.png" width="200" height="200" uk-img>
                         </div>
                         <div class="uk-margin uk-padding uk-card uk-card-default uk-card-hover">
-                            <img class="uk-align-center" data-src="images/azure.png" width="200" height="200" uk-img>
+                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/azure.png" width="200" height="200" uk-img>
                         </div>
                        
                     </div>
                     <div class="uk-width-1-2@s ">
                         <div class="uk-margin uk-padding">
-                            <img class="uk-align-center" data-src="images/oracle-endeca.jpg" width="200" height="200" uk-img>
+                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/oracle-endeca.jpg" width="200" height="200" uk-img>
                         </div>
                         <div class="uk-padding-small uk-margin-medium-top uk-card uk-card-default uk-card-hover">
-                            <img class="uk-align-center" data-src="images/aem.png" width="200" height="200" uk-img>
+                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/aem.png" width="200" height="200" uk-img>
                         </div>
                        
                     </div>
@@ -173,7 +70,7 @@
         
         </div>
         <div class="uk-margin uk-padding">
-            <div> <img class="uk-align-center" data-src="images/license.svg" width="150" height="150" uk-img></div>
+            <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/license.svg" width="150" height="150" uk-img></div>
             <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Digital Commerce</div>
             <p class="uk-text-center services_mainpara"> Digital commerce is in the midst of revolution and things are moving 
                 faster than ever.While all this excitement means new possibilities, it also comes with the challenge of figuring 
@@ -185,7 +82,7 @@
         
            <!-------Services Implementation---->
             <div class="uk-margin uk-padding uk-padding-remove-bottom">
-                <div> <img class="uk-align-center" data-src="images/setup.svg" width="150" height="150" uk-img></div>
+                <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/setup.svg" width="150" height="150" uk-img></div>
                 <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Planning & Strategy</div>
                 <p class="uk-text-center services_mainpara"> Customer satisfaction is our motto and we strive to provide the best solution to our clients. 
                     Very few Indian companies could reach the zenith that we have reached 
@@ -217,7 +114,7 @@
 
              <!---------Infrastructure Services----->
          <div class="uk-margin uk-padding">
-            <div> <img class="uk-align-center" data-src="images/coding.svg" width="150" height="150" uk-img></div>
+            <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/coding.svg" width="150" height="150" uk-img></div>
             <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">End To End Service</div>
             <p class="uk-text-center services_mainpara"> 
                 Compromising creative software design business analysis backed by prototyping and data visualization services. 
@@ -230,7 +127,7 @@
 
             <!----------High End Engineering Starts-------->
             <div class="uk-margin uk-padding">
-                <div> <img class="uk-align-center" data-src="images/globe.svg" width="150" height="150" uk-img></div>
+                <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/globe.svg" width="150" height="150" uk-img></div>
                 <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top">Web Design & Development</div>
                 <p class="uk-text-center services_mainpara"> Software Development at Alt Commerce has lots of benefits. Through our custom 
                     software development you reduce costs of outsourcing software development and  get the best software utility ever.
@@ -265,7 +162,7 @@
 
            <!---------Consulting & Research Starts----->
            <div class="uk-margin uk-padding">
-            <div> <img class="uk-align-center" data-src="images/consultant.svg" width="150" height="150" uk-img></div>
+            <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/consultant.svg" width="150" height="150" uk-img></div>
             <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Agile Methodology</div>
             <p class="uk-text-center services_mainpara"> Ensuring short time-to-market figures and iterative approach to software development, 
                 particularly fit to win the competition in the dynamic online landscape.
@@ -275,7 +172,7 @@
 
             <!---------User Journey & Experience Starts----->
             <div class="uk-margin uk-padding uk-margin-large-bottom">
-                <div> <img class="uk-align-center" data-src="images/team.svg" width="150" height="150" uk-img></div>
+                <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/team.svg" width="150" height="150" uk-img></div>
                 <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">User Journey & Experience</div>
                 <p class="uk-text-center services_mainpara"> Providing our customers with a consistent and seamless brand experience 
                     is a given when the competition is only a click away.At Alt commerce customers becoming advocates for the company, creating referral, retention and profitable growth.
@@ -320,69 +217,6 @@
       
       
     </div>
-<!--mobile nav-->
-    <div id="offcanvas-usage" uk-offcanvas>
-        <div class="uk-offcanvas-bar menu-list">
-
-            <button class="uk-offcanvas-close menu-list" type="button" uk-close></button>
-
-            <h3>Menu</h3>
-
-            
-            <a href="index.html">Home</a>
-            <br>
-            
-                <button class="uk-button sub-togle">About Us</button>
-                    <div class="drop-nav" uk-dropdown="mode: click" >
-                      <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="about/aboutus.html">WHAT WE DO</a></li>
-                        <li class="uk-active"><a href="csr.html">CSR</a></li>
-                        <li class="uk-active"><a href="contactus/contactus.html">CONTACT US</a></li>
-                     </ul>
-                  
-                </div>
-                
-            
-            <br>
-            <a href="service/services.html">Services</a>
-            <br>
-            <a href="resource/resources.html">Resource</a>
-            <br>
-            <a href="careers/career.html">Careers</a>
-            <br>
-
-        </div>
-    </div>
-    <!--mobile nav end-->
-
-    <div class="uk-child-width-expand@s uk-text-center footer" uk-grid>
-        <div >
-            <div class="footerbox">
-                <span class="uk-text-capitalize">Copyrights © 2020 All Rights 
-                    Reserved by <span class="uk-text-bold">Alt Commerce Pvt Ltd.</span></span>
-        </div>
-        </div>
-        <div>
-            <div class=" uk-link-text uk-visible@s footermenu">
-                <a href="index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>/
-                <a href="aboutus.html">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a>/
-                <a href="services.html">&nbsp;&nbsp;Services&nbsp;&nbsp;</a>/
-                <a href="skills.html">&nbsp;&nbsp;Skills&nbsp;&nbsp;</a>/
-                <a href="resources.html">&nbsp;&nbsp;Resources&nbsp;&nbsp;</a>/
-                <a href="career.html">&nbsp;&nbsp;Careers&nbsp;&nbsp;</a>
-                
-    
-            </div>
-
-        </div>
-        
-    </div>
-
-
-
-
-    <script src="js/jquery.js"></script>
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>    
-</body>
-</html>
+<?php
+include_once "../footer.php";
+?>

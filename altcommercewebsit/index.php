@@ -8,7 +8,7 @@
   
    
 <!--Slider start-->
-    <div class="uk-container hero-section">
+<div class="uk-container hero-section">
         <div class="uk-margin-large-bottom" uk-slider="autoplay: true">
 
             <div class="uk-position-relative uk-light nav-slider" tabindex="-1">
@@ -48,7 +48,7 @@
         </div>
     </div>
 <!-- Slider ends-->
-
+<!--what we do start-->
     <div class="uk-container uk-padding uk-margin">
         <div class="uk-child-width-1-1@s uk-margin-large-top uk-text-center uk-margin-medium-bottom" uk-grid >
             <div class="uk-width-1-1@s">
@@ -189,7 +189,7 @@
     <!-----------------------------------------Careers section starts------------------->
 
         <div class="uk-section uk-card uk-card-default uk-card-body uk-padding-remove">
-           <div class="uk-background-contain uk-background-center-right  career_homepage">
+           <div class="uk-background-contain uk-background-center-right career_homepage">
                <div class="uk-child-width-1-1@s uk-child-width-1-5@m uk-grid-small uk-flex uk-flex-center@s uk-flex-left@m career_box" uk-grid>
                    <div class="uk-width-2-5@m uk-width-1-1@s box1">
                     <div class="uk-margin-large-top uk-margin-remove-top@s">
@@ -208,7 +208,7 @@
 
 
 
-                    <div class="uk-card uk-card-body uk-width-1-5@m uk-width-1-1@s uk-display-inline-block uk-background-default box2">
+                    <div class="uk-card uk-card-body uk-width-1-5@m uk-width-1-1@s uk-display-inline-block box2">
                             <form class="uk-card uk-card-body uk-card-default uk-padding-small form" uk-scrollspy="cls: uk-animation-scale-up"> 
                                     <h3 class="uk-text-bold uk-text-secondary form_heading uk-margin-small-top">Apply Now</h3>
                                     <div class="">
@@ -226,8 +226,10 @@
                                         <button class="uk-button uk-button-default upload uk-text-bolder uk-text-capitalize" type="button" tabindex="-1">Upload &nbsp;<span uk-icon="cloud-upload"></span></button>
                                     </div>
                                 </br>
-                                    <button class="uk-margin-small-bottom uk-button uk-text-capitalize uk-align-center uk-padding-small uk-padding-remove-vertical form_btn">Apply Now</button>
-                                         
+                                    <button class="uk-button uk-margin-remove-bottom uk-text-bold uk-align-center uk-text-center form_btn uk-text-capitalize">Apply Now</button>
+                                    <div>
+       
+    </div>     
                             </form>
                     </div>
                 </div>
@@ -336,7 +338,7 @@
         </div>
     </div>
     <div>
-        <a class="uk-button uk-text-bold uk-align-center uk-text-center works_btn1 uk-text-capitalize" href="<?php echo $filePath;?>resource">Read More</a>
+        <a class="uk-button uk-text-bold uk-align-center uk-text-center works_btn1 uk-text-capitalize" href="<?php echo $filePath;?>">Read More</a>
     </div>
 
 
@@ -788,31 +790,31 @@
  <!--Counts Section-->
         <div class="uk-container-fluid uk-margin-medium-top uk-card-default">
             <div class="uk-child-width-1-4@m uk-grid-small uk-grid-collapse price-count" uk-grid>
-                <div class="uk-width-1-4@m uk-width-1-1@s price-tag">
+                <div class="uk-width-1-4@m uk-width-1-1@s price-tag1">
                     <div class="uk-text-center icon-tag">
                         <h4><i class="fa fa-smile-o fa-2x" aria-hidden="true"></i></h4>
-                        <h2 class="Count">100</h2><h2 class="plus-icon" uk-icon="icon: plus"></h2>
+                        <h2><span class="Count">100</span><span>+</span></h2>
                         <h5 class="uk-padding-large uk-padding-remove-top uk-padding-remove-left uk-padding-remove-right">MAN YEARS OF EXPERIENCE IN DIGITAL COMMERCE</h5>
                     </div>
                 </div> 
-                <div class="uk-width-1-4@m uk-width-1-1@s price">
+                <div class="uk-width-1-4@m uk-width-1-1@s price1">
                     <div class="uk-text-center icon-tag">
                         <h4><i class="fa fa-users fa-2x" aria-hidden="true"></i></h4>
-                        <h2 class="Count">20</h2><h2 class="plus-icon" uk-icon="icon: plus"></h2>
+                        <h2><span class="Count">20</span><span>+</span></h2>
                         <h5>NO OF EMPLOYEES</h5>
                     </div>
                 </div>
-                <div class="uk-width-1-4@m uk-width-1-1@s price-tag">
+                <div class="uk-width-1-4@m uk-width-1-1@s price-tag2">
                     <div class="uk-text-center icon-tag">
                         <h4><i class="fa fa-briefcase fa-2x" aria-hidden="true"></i></h4>
-                        <h2 class="Count">50</h2><h2 class="plus-icon" uk-icon="icon: plus"></h2>
+                        <h2><span class="Count">50</span><span>+</span></h2>
                         <h5>PROJECTS DONE</h5>
                     </div>   
                 </div>
-                <div class="uk-width-1-4@m uk-width-1-1@s price">
+                <div class="uk-width-1-4@m uk-width-1-1@s price2">
                     <div class="uk-text-center icon-tag">
                         <h4><i class="fa fa-globe fa-2x" aria-hidden="true" ratio: 2.5></i></h4>
-                        <h2 class="Count">5</h2><h2 class="plus-icon" uk-icon="icon: plus"></h2>
+                        <h2><span class="Count">5</span><span>+</span></h2>
                         <h5>COUNTRIES SERVED</h5>
                     </div>
                 </div>
@@ -855,21 +857,22 @@
                 </div>
             </div>
 
-            <div class=" uk-padding uk-margin" uk-scrollspy="cls: uk-animation-slide-bottom">
+            <div class=" uk-padding uk-margin testi_box1" uk-scrollspy="cls: uk-animation-slide-bottom">
                 <button class="uk-button uk-text-capitalize uk-align-center uk-margin-remove-bottom uk-padding-small uk-padding-remove-vertical btn" disabled>Testimonials</button>
                 <div class="uk-h3 section2_heading uk-text-center uk-text-bolder uk-margin-medium-top">What Clients Says</div>
-                <div class="uk-slider-container uk-padding uk-margin testi_box" uk-slider="sets:false; center: true; autoplay:true; autoplay-interval:3000; easing: cubic-bezier(.4,0,.2,1)">
+                <div class="uk-slider-container uk-padding uk-padding-remove-left uk-padding-remove-right uk-margin testi_box" uk-slider="sets:false; center: true; autoplay:true; autoplay-interval:3000; easing: cubic-bezier(.4,0,.2,1)">
 
                     <div class=" uk-position-relative uk-visible-toggle" tabindex="0">
                 
-                        <ul id="slid" class="uk-slider-items uk-child-width-1-3@s uk-grid-match uk-grid" >
+                        <ul id="slid" class="uk-slider-items uk-child-width-1-3@m uk-child-width-1-2@s uk-grid-match uk-grid" >
                             <li class="slider_item">
-                                <div class="uk-card uk-card-default uk-width-" >
+                                
+                                <div class="uk-card uk-card-default">
                                    
-                                    <div class="uk-card-media-top ">
-                                        <img class="uk-align-center uk-border-circle testi_img" data-src="images/avatar1.png" width="50" height="50" alt="" uk-img>
+                                    <div class="uk-card-media-top">
+                                        <img class="uk-align-center uk-border-circle testi_img"  data-src="images/avatar1.png" width="50" height="50" alt="" uk-img>
                                     </div>
-                                    <div class="uk-card-body">
+                                    <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">I never considered ALT Commerce as a consulting company, I always count them as an extension of my own team. </p>
                                     <div class="testi_text uk-text-center uk-text-bold">-Director, IT </div>
                                     <div class="uk-text-meta uk-text-center">An Aerospace Company</div>
@@ -882,7 +885,7 @@
                                     <div class="uk-card-media-top">
                                         <img class="uk-align-center uk-border-circle testi_img" data-src="images/avatar2.png" width="50" height="50" alt="" uk-img>
                                     </div>
-                                    <div class="uk-card-body">
+                                    <div class="uk-card-body uk-padding-remove-top">
                                         
                                         <p class="uk-text-center">I have never seen such a high-performance development team in 
                                             my 20 years of time in the IT industry. </p>
@@ -897,7 +900,7 @@
                                     <div class="uk-card-media-top">
                                         <img class="uk-align-center uk-border-circle testi_img" data-src="images/avatar3.png" width="50" height="50" alt="" uk-img>
                                     </div>
-                                    <div class="uk-card-body">
+                                    <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">I never considered ALT Commerce as a consulting company, 
                                             I always count them as an extension of my own team. </p>
                                             <div class="testi_text uk-text-center uk-text-bold">-Director, IT </div>
@@ -911,7 +914,7 @@
                                     <div  class="uk-card-media-top">
                                         <img class="uk-align-center uk-border-circle testi_img" data-src="images/avatar4.png" width="50" height="50" alt="" uk-img>
                                     </div>
-                                    <div class="uk-card-body">
+                                    <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">In our very first meeting, I got so many solutions to our 
                                             problems that we are going to implement all of them. </p>
                                             <div class="testi_text uk-text-center uk-text-bold">-Director, IT </div>
@@ -925,7 +928,7 @@
                                     <div class="uk-card-media-top">
                                         <img class="uk-align-center uk-border-circle testi_img" data-src="images/avatar5.jpeg" width="50" height="50" alt="" uk-img>
                                     </div>
-                                    <div class="uk-card-body">
+                                    <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">ALT Commerce team's innovative ideas and solutions are always best and we always look forward to them. </p>
                                         <div class="testi_text uk-text-center uk-text-bold">-Product Owner </div>
                                             <div class="uk-text-meta uk-text-center">Of Agile team of a B2B Portal</div>  
@@ -950,65 +953,7 @@
                     </ul>
                 
                 </div>
-                <!-- <div class=" uk-visible-toggle uk-position-relative" tab-index="-1" uk-slider=" autoplay: true; autoplay-interval: 6000; pause-on-hover: true"> 
-                    <ul class="uk-slider-items uk-child-width-1-1@s@s uk-child-width-1-3@m uk-grid-match">
-                        <li id="" uk-slider-item="0">
-                            
-                            <div class="uk-card uk-card-body uk-card-default ">
-                                <div class=""><img class="uk-align-center uk-border-circle testi_img" data-src="images/pet1.jpg" width="50" height="50" alt="" uk-img></div>
-                                
-                                    <p class="uk-text-center">I never considered ALT Commerce as a consulting company, I always count them as an extension of my own team. </p>
-                                    <div class="testi_text uk-text-center uk-text-bold">-Director, IT of an Aerospace Company</div>
-                                    
-                                
-                            </div>
-                        </li>
-                        
-                        <li id="" uk-slider-item="0">
-                            <div class="uk-card uk-card-body uk-card-default ">
-                                <div class=""><img class="uk-align-center uk-border-circle testi_img" data-src="images/pet2.jpg" width="50" height="50" alt="" uk-img></div>
-                                
-                                    <p class="uk-text-center">I have never seen such a high-performance development team in my 20 years of time in the IT industry. </p>
-                                    <div class="testi_text uk-text-center uk-text-bold">-Scrum Master of top 5 sanitaryware company</div>
-                                    
-                                
-                            </div>
-                        </li>
-                        <li id="" uk-slider-item="0">
-                            <div class="uk-card uk-card-body uk-card-default">
-                                <div class=""><img class="uk-align-center uk-border-circle testi_img" data-src="images/pet3.jpg" width="50" height="50" alt="" uk-img></div>
-                                
-                                    <p class="uk-text-center">In our very first meeting, I got so many solutions to our problems that we are going to implement all of them. </p>
-                                    <div class="testi_text uk-text-center uk-text-bold">-Director, IT of a Telecom Company</div>
-                                    
-                                
-                            </div>
-                        </li>
-                        <li id="" uk-slider-item="0">
-                            <div class="uk-card uk-card-body uk-card-default">
-                                <div class=""><img class="uk-align-center uk-border-circle testi_img" data-src="images/pet4.jpg" width="50" height="50" alt="" uk-img></div>
-                                
-                                    <p class="uk-text-center">ALT Commerce team's innovative ideas and solutions are always best and we always look forward to them. </p>
-                                    <div class="testi_text uk-text-center uk-text-bold">-Product Owner of Agile team of a B2B Portal</div>
-                                    
-                                
-                            </div>
-                        </li>
-                    </ul>
-                    <a class="uk-position-center-left-out uk-position-small " style="color:black;" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                    <a class="uk-position-center-right-out uk-position-small " style="color:black;" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
-                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin" style="color:black;">
-                        <li uk-slider-item="0"><a href="#">Item 1</a></li>
-                        <li uk-slider-item="1"><a href="#">Item 2</a></li>
-                        <li uk-slider-item="2"><a href="#">Item 3</a></li>
-                        <li uk-slider-item="3"><a href="#">Item 4</a></li>
-                    </ul>
-                </div>
                 
-                
-            </div>
-        </div>-->
     </div>
 
 
@@ -1119,29 +1064,27 @@
                     
                     <div class=" uk-list uk-width-1-1@s uk-width-1-2@m uk-margin-remove-right uk-padding-remove-right 
                      menu_list text  uk-flex uk-flex-center@s uk-flex-left@m">
-                         <div class="uk-display-inline-block" uk-scrollspy="cls: uk-animation-slide-left-medium;">
+                        <div class="uk-display-inline-block" uk-scrollspy="cls: uk-animation-slide-left-medium;">
                             <ul>
                                 <li> <span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Home</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>about">About Us</a></li>
-                                 <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>skill">Skills</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>service">Services</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>resource">Resources</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>csr.html">CSR</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>careers">Careers</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>contactus">Contact Us</a></li> 
-   
+                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">About Us</a></li>
+                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Services</a></li>
+                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Resources</a></li>
+                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">CSR</a></li>
+                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Careers</a></li>
+                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Contact Us</a></li> 
+    
                             </ul>
                         </div>
                         <div class="uk-display-inline-block uk-float-left" uk-scrollspy="cls: uk-animation-slide-left-medium;">
                             <ul>
-                               <li> <span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Home</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>about">About Us</a></li>
-                                 <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>skill">Skills</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>service">Services</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>resource">Resources</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>csr.html">CSR</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>careers">Careers</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>contactus">Contact Us</a></li> 
+                                <li> <span uk-icon="chevron-double-right"></span><a href="i<?php echo $filePath;?>">Home</a></li>
+                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">About Us</a></li>
+                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Services</a></li>
+                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Resources</a></li>
+                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">CSR</a></li>
+                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Careers</a></li>
+                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Contact Us</a></li>
     
                             </ul>
                         </div>
