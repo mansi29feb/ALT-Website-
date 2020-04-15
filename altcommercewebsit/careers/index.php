@@ -36,7 +36,7 @@
                 <div class="uk-child-width-1-2@m uk-child-width-1-1@s uk-grid-small uk-padding uk-padding-remove-top uk-grid-match" uk-grid>
                   <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-padding-remove-vertical uk-margin">
                       <div class="career1_box">
-                      <img src="images/career/future.jpg">
+                      <img src="<?php echo $filePath;?>images/career/future.jpg">
                       <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Embracing The Future</div>
                       <div class="uk-margin-small-left services_article_para uk-text-left">We generate possibilities and use the power of creativity to innovate in ways that matter to people. 
                           Careers are made from experiences. At Alt Commerce, those experiences can be diverse, unlimited and far-reaching.</div></br>
@@ -45,7 +45,7 @@
                   </div >
                   <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-margin uk-padding-remove-vertical uk-margin-remove-top"> 
                     <div class="career1_box"> 
-                    <img src="images/career/professional.jpg">
+                    <img src="<?php echo $filePath;?>images/career/professional.jpg">
                     <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Experienced Professional</div>
                     <div class="uk-margin-small-left services_article_para uk-text-left">We are always looking for passionate, creative team 
                         members who thrive on overcoming technical or business challenges to accomplish 
@@ -54,7 +54,7 @@
                   </div>
                   <div class=" uk-width-1-2@m uk-width-1-1@s uk-padding uk-padding-remove-vertical uk-margin"> 
                     <div class="career1_box">  
-                    <img src="images/career/team2.jpg">
+                    <img src="<?php echo $filePath;?>images/career/team2.jpg">
                     <div class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">We're a Team & not a bunch of Individuals</div>
                     <div class="uk-margin-small-left services_article_para uk-text-left">If you watch sports, you see how teams function. They work together, encourage each other, 
                         and communicate regularly. Teams work together on all work related projects and help where necessary. 
@@ -63,7 +63,7 @@
                   </div>
                   <div class="uk-width-1-2@m uk-width-1-1@s uk-padding-remove-vertical uk-padding uk-margin">
                     <div class="career1_box"> 
-                    <img src="images/career/big-brands.jpg">
+                    <img src="<?php echo $filePath;?>images/career/big-brands.jpg">
                     <div class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">A Chance to work with BIG BRANDS</div>
                     <div class="uk-margin-small-left services_article_para uk-text-left">Don’t be afraid of starting over. It’s a brand new opportunity to rebuild what 
                         you truly want. Joining Alt Commerce is about joining a culture of openness, collaboration, trust & expectation 

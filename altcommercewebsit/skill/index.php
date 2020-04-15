@@ -8,7 +8,7 @@
         <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Our Technical Expertise</div>
         <p class="uk-text-center services_mainpara"> The technology has made our lives better and so our best skills and services we are rendering.
         </p>
-        <div class=""> <img class=" uk-align-center" data-src="images/skill.jpg" width="800" height="800" uk-img></div>
+        <div class=""> <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/skill.jpg" width="800" height="800" uk-img></div>
        
     <div class="uk-text-center@s uk-text-bold services_subheading ">Our Skills</div>
     
@@ -60,7 +60,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-animation-toggle uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card  " data-src="images/atg.png" height="200" width="200" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/atg.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -75,7 +75,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card  " data-src="images/skills/paypal.png" height="150" width="150" uk-img >
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills/paypal.png" height="150" width="150" uk-img >
                                   
                                 </div>
                                     
@@ -91,7 +91,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/postman.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/postman.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -105,7 +105,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/analytics.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/analytics.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -117,7 +117,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/bitbucket.png" height="100" width="100" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/bitbucket.png" height="100" width="100" uk-img>
                                   
                                 </div>
                                     
@@ -133,7 +133,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/magento.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/magento.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -165,7 +165,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/java.png" height="100" width="100" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/java.png" height="100" width="100" uk-img>
                                   
                                 </div>
                                     
@@ -179,7 +179,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/github.png" height="100" width="100" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/github.png" height="100" width="100" uk-img>
                                   
                                 </div>
                                     
@@ -208,7 +208,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/azure.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/azure.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -222,7 +222,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/ms-sql.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/ms-sql.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -236,7 +236,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card  " data-src="images/skills/slack.png" height="200" width="200" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills/slack.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -249,7 +249,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/cucumber.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/cucumber.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -262,7 +262,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/maven.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/maven.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -277,7 +277,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/javaScript.png" height="100" width="100" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/javaScript.png" height="100" width="100" uk-img>
                                   
                                 </div>
                                     
@@ -306,7 +306,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/gradle.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/gradle.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -320,7 +320,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/jquery.png" height="180" width="180" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/jquery.png" height="180" width="180" uk-img>
                                   
                                 </div>
                                     
@@ -335,7 +335,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/endeca.png" height="180" width="180" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/endeca.png" height="180" width="180" uk-img>
                                   
                                 </div>
                                     
@@ -350,7 +350,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/xml.png" height="180" width="180" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/xml.png" height="180" width="180" uk-img>
                                   
                                 </div>
                                     
@@ -366,7 +366,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/mysql-db.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/mysql-db.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -383,7 +383,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/jenkins.png" height="180" width="180" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/jenkins.png" height="180" width="180" uk-img>
                                   
                                 </div>
                                     
@@ -398,7 +398,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/tomcat.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/tomcat.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -412,7 +412,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/websphere.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/websphere.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -425,7 +425,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/ibm-db2.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/ibm-db2.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -437,7 +437,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/jboss.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/jboss.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -450,7 +450,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/oracle-db.png" height="180" width="180" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/oracle-db.png" height="180" width="180" uk-img>
                                   
                                 </div>
                                     
@@ -463,7 +463,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card  " data-src="images/skills/skype.png" height="200" width="200" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills/skype.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
