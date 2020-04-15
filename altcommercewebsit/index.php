@@ -338,7 +338,7 @@
         </div>
     </div>
     <div>
-        <a class="uk-button uk-text-bold uk-align-center uk-text-center works_btn1 uk-text-capitalize" href="<?php echo $filePath;?>">Read More</a>
+        <a class="uk-button uk-text-bold uk-align-center uk-text-center works_btn1 uk-text-capitalize" href="<?php echo $filePath;?>resource">Read More</a>
     </div>
 
 

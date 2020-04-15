@@ -293,7 +293,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="images/skills/weblogic.jpg" height="250" width="250" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/weblogic.jpg" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
