@@ -1,119 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Skills-Digital Commerce with Alt Commerce" content="The technology has made our lives better and so our best skills and services we are rendering.">
- 
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="shortcut icon" href="images/alt.png">
-    <link rel="stylesheet" href="css/style1.css">
-    <link rel="stylesheet" href="css/altcommerce-style.css" />
-    <link rel="stylesheet" href="css/style-fixed.css" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <title>Digital Commerce with Alt Commerce</title>
-</head>
-<body> 
-    <!--topbar-->
-    <div class="uk-container">
-        <div class="uk-grid" uk-grid>
-            <div class="uk-navbar-left nav-social">
-                <ul class="uk-navbar-nav ">
-                    <li>
-                        <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" uk-text-bold></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/altcommerce" uk-icon="twitter"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin"></a>
-                    </li>
-                    <li>
-                        <a href="mailto:info@altcommerce.com" uk-icon="mail" style="color: black"></a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-    <!--topbar ends-->
-    <!-- navigation -->
-    <div class="uk-container">
-
-                
-                
-        <div class="uk-child-width-expand@s nav-header uk-sticky-fixed " uk-grid  uk-sticky>
-            
-            <div class="clear-padd uk-width-auto@m">
-                <div class="uk-navbar">
-                    <div class="menu-toggle">
-                        <button class="uk-margin-small-right mobile-navbutton" uk-toggle="target: #offcanvas-usage">
-                            <img src="https://img.icons8.com/ios-filled/50/000000/menu.png"/>
-                        </button>
-                    </div>
-                    <div class="uk-navbar-left logo-img">
-                        <div class="uk-navbar-item img clear-padd brand-logo">
-                            <img src="images/alt.png" alt="">
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
+<?php
+     include_once '../header.php';
+?>
 
 
-            <div class="uk-navbar mobile-nav uk-width-expand@m">
-                
-                    <ul class="uk-navbar-nav uk-text-bold nav-menu">
-                        <li class="uk-active">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                                <button class="uk-button sub-menu">ABOUT US</button>
-                                <div uk-dropdown="mode: click">
-                                  
-                                  <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-active"><a href="aboutus.html">WHAT WE DO</a></li>
-                                    <li class="uk-active"><a href="csr.html">COMMUNITY</a></li>
-                                    <li class="uk-active"><a href="contactus.html">CONTACT US</a></li>
-                                    
-                                 </ul>
-                              
-                            </div>
-                            
-                        </li>
 
-                        
-                        
-                        <li class="">
-                            <a href="services.html">Services</a>
-                        </li>
-
-                        <li class="">
-                            <a href="skills.html">Skills</a>
-                        </li>
-
-                        <li class="">
-                            <a href="resources.html">Resources</a>
-                        </li>
-                        
-                        <li class="">
-                            <a href="career.html">Careers</a>
-                        </li>
-                       
-                    </ul>
-                
-
-            </div>
-
-        </div>
-    </div>
-    <!-- navigation ends -->
-           
-        
     <div class="uk-container uk-margin">
         <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Our Technical Expertise</div>
         <p class="uk-text-center services_mainpara"> The technology has made our lives better and so our best skills and services we are rendering.
@@ -692,65 +582,11 @@
          </div>
         </div>
     </div>-->
-<!--mobile nav-->
-    <div id="offcanvas-usage" uk-offcanvas>
-        <div class="uk-offcanvas-bar menu-list">
 
-            <button class="uk-offcanvas-close menu-list" type="button" uk-close></button>
-
-            <h3>Menu</h3>
-            <a href="index.html">Home</a>
-            <br>
-            <button class="uk-button sub-togle">About Us</button>
-                    <div class="drop-nav" uk-dropdown="mode: click" >
-                      <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="about/aboutus.html">WHAT WE DO</a></li>
-                        <li class="uk-active"><a href="csr.html">COMMUNITY</a></li>
-                        <li class="uk-active"><a href="contactus/contactus.html">CONTACT US</a></li>
-                      </ul>
-                  </div>
-            <br>
-            <a href="service/services.html">Services</a>
-            <br>
-            <a href="resource/resources.html">Resource</a>
-            <br>
-            <a href="careers/career.html">Careers</a>
-            <br>
-
-        </div>
-    </div>
-    <!--mobile nav end-->
-
-
-     <div class="uk-child-width-expand@s uk-text-center footer" uk-grid>
-        <div >
-            <div class="footerbox">
-                <span class="uk-text-capitalize">Copyrights © 2020 All Rights 
-                    Reserved by <span class="uk-text-bold">Alt Commerce Pvt. Ltd.</span></span>
-        </div>
-        </div>
-        <div>
-            <div class=" uk-link-text uk-visible@s footermenu">
-                <a href="index.html">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>/
-                <a href="aboutus.html">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a>/
-                <a href="services.html">&nbsp;&nbsp;Services&nbsp;&nbsp;</a>/
-                <a href="skills.html">&nbsp;&nbsp;Skills&nbsp;&nbsp;</a>/
-                <a href="resources.html">&nbsp;&nbsp;Resources&nbsp;&nbsp;</a>/
-                <a href="career.html">&nbsp;&nbsp;Careers&nbsp;&nbsp;</a>
-                
     
-            </div>
-
-        </div>
-        
-    </div>
-
-
-
-
-    <script src="js/jquery.js"></script>
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>  
+    <?php
+	 include_once '../footer.php';
+    ?>
     
     <script>
         
@@ -771,5 +607,4 @@
 
     </script>
     
-</body>
-</html>
+>
