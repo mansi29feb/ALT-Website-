@@ -70,19 +70,24 @@ include_once "../header.php";
     </div>
 </div>
 <div class="uk-container-fluid">
+    <div class="uk-child-width-expand@s ">
+        <iframe  frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.6470254577785!2d77.580223149983!3d12.930393290838163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1551a8fe2871%3A0x55a7248ef808e68b!2sALT%20Commerce!5e0!3m2!1sen!2sin!4v1584605675234!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</div>
+<!--<div class="uk-container-fluid">
 <div class="uk-child-width-expand@s ">
         <!--
                 <iframe  frameborder="0" 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.6470254577785!2d77.580223149983!3d12.930393290838163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1551a8fe2871%3A0x55a7248ef808e68b!2sALT%20Commerce!5e0!3m2!1sen!2sin!4v1584605675234!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
                 </iframe>
-    -->
     
-    <!-- map container start -->
+    
+    <!-- map container start 
     <div class="map-container">
         <div id="map-canvas"></div>
     </div>
     
-    <!-- map container end -->
+    
     <style>
         #map-canvas{height:100%;}
         .map-container {
@@ -95,7 +100,7 @@ include_once "../header.php";
               
 </div>
 </div>
-<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDjQ1OrapthKCWtfDX9tlbkr84xRW8RMSk"></script>
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDjQ1OrapthKCWtfDX9tlbkr84xRW8RMSk"></script> 
 
 
 
