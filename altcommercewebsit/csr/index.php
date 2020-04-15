@@ -255,17 +255,17 @@ include_once "../header.php";
 </div>
 </div>
 
-<div class="">
-    <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-top uk-margin-medium-bottom ">Tejobindu Hindustan Foundation</div>
-    <div class="uk-flex uk-child-width-1-1 uk-grid-collapse" uk-grid>
+<div class="uk-margin">
+
+    <div class="uk-flex uk-child-width-1-1 uk-grid-collapse uk-margin-medium-top" uk-grid>
         <div class="uk-width-1-1 ">
         <div class="uk-width-1-2 purpose uk-flex-left"></div>
         </div>
      <div class="uk-width-1-1">   
-    <div class="services_subheading uk-text-center">Purpose Of Foundation </div>
+    <div class="services_subheading uk-text-center">Purpose Of Tejobindu Hindustan Foundation </div>
 </div>
     <div class="uk-width-1-1">
-        <div class="uk-width-1-2 purpose"></div>
+        <div class="uk-width-1-2 uk-align-right purpose"></div>
         </div>
     
 </div>
