@@ -84,7 +84,7 @@
                                 <div uk-dropdown="mode: click">
                                   <ul class="uk-nav uk-navbar-dropdown-nav">
                                     <li class="uk-active"><a href="<?php echo $filePath;?>about">WHAT WE DO</a></li>
-                                    <li class="uk-active"><a href="<?php echo $filePath;?>csr.html">COMMUNITY</a></li>
+                                    <li class="uk-active"><a href="<?php echo $filePath;?>csr">COMMUNITY</a></li>
                                     <li class="uk-active"><a href="<?php echo $filePath;?>contactus">CONTACT US</a></li>
                                  </ul>
                               
