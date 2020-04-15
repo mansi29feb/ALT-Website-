@@ -40,7 +40,7 @@
                         <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin"></a>
                     </li>
                     <li>
-                        <a href="mailto:email@yourdomain.com" uk-icon="mail"></a>
+                        <a href="mailto:email@yourdomain.com" uk-icon="mail" uk-text-bold></a>
                     </li>
                 </ul>
             </div>
