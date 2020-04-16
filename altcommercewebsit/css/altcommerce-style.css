@@ -513,16 +513,16 @@ body{
     }
     .icon-tag {
       margin-top: 40px;
-    margin-bottom: 40px !important;
+      margin-bottom: 40px !important;
     }
     .uk-sticky-fixed .img {
       width: 140px !important;
       margin-left: -19px !important;
-  }
-  .img {
-    width: 135px !important;
-    margin-left: -21px !important;
-}
+    }
+    .img {
+      width: 135px !important;
+      margin-left: -21px !important;
+    }
   
   }
   /*@media screen and (min-width:977px){
