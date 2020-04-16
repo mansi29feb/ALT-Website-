@@ -344,16 +344,16 @@
 
     <!-- Work 2 -->
     <div id="works2" class="uk-padding-large" uk-modal>
-    <div id="" class="uk-card uk-card-body uk-animation-toggle uk-card-default " >
+        <div id="" class="uk-card uk-card-body case_box uk-card-default " >
             
             <div class=" uk-child-width-1-4@s uk-grid-collapse" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-text-bold uk-height-small uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Multi-site</br>implementation
+                    <div class="uk-text-center uk-text-bold multi_box uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-margin-auto uk-margin-auto-vertical case_head">Multi-site implementation
                         <div class="uk-text-meta uk-text-secondary"></div>
                     </div>
                   
                 </div>
-                <div class="uk-width-3-4@s uk-padding">
+                <div class="uk-width-3-4@s case_box2">
                     <div class="uk-margin uk-padding-small"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
@@ -408,14 +408,14 @@
                     </div>
 
                 </div>
-                <button  class=" case_btn uk-button uk-modal-close uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold">Back</button>     
+                   
             </div>
+            <button class="uk-modal-close-default" type="button" uk-close></button>  
         </div>
-</div>
-
+    </div>
     <!-- work 1 -->
     <div id="works1" class="uk-padding-large" uk-modal>
-    <div  class=" uk-card uk-card-body uk-margin-small-top uk-card-default">
+        <div  class=" uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
         <div class="uk-child-width-1-4@s  uk-column-divider uk-grid match" uk-grid>
             <div class="uk-flex uk-width-1-4@s">
                 <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Data Center Migration
@@ -464,302 +464,294 @@
                     </div>
                 </div>
             </div>
-
-            <button  class=" case_btn uk-button uk-modal-close uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold">Back</button>
-
-
         </div>
-    </div>
-</div>
+        <button class="uk-modal-close-default" type="button" uk-close></button>  
 
-<!-- work 3 -->
-<div id="works3" class="uk-padding-large" uk-modal>
-    <div  class="uk-card uk-card-body uk-margin-small-top uk-card-default">
-        <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-            <div class="uk-flex uk-width-1-4@s">
-                <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Cross-Reference Tool
+    </div>
+    <!-- work 3 -->
+    <div id="works3" class="uk-padding-large" uk-modal>
+        <div  class="uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
+            <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+                <div class="uk-flex uk-width-1-4@s">
+                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Cross-Reference Tool
+                        
+                    </div>
                     
                 </div>
-                
-            </div>
-            <div class="uk-width-3-4@s">
-                <div class="uk-margin uk-padding"> 
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                <div class="uk-width-3-4@s">
+                    <div class="uk-margin uk-padding"> 
+                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                            </div>
+                            <div class="uk-width-expand@s">
+                                <div class="uk-h3 case_points uk-margin-remove-bottom">
+                                    Business Need: </div>
+                                <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                    Client wanted to develop a new cross-reference tool for their sales & marketing 
+                                    team to offer matches for various competitor products. It was required to be a cloud based 
+                                    solution outside of existing commerce systems. 
+                                </span>
+                            </div>
                         </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">
-                                Business Need: </div>
-                            <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                Client wanted to develop a new cross-reference tool for their sales & marketing 
-                                team to offer matches for various competitor products. It was required to be a cloud based 
-                                solution outside of existing commerce systems. 
-                            </span>
+                        
+                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                            </div>
+                            <div class="uk-width-expand@s">
+                                <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
+                                <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                    A headless architecture offering graphql based services developed on top of Micronaut framework. 
+                                    A containerised solution which was deployed on Azure Kubernetes Service with 
+                                    authentication/authorization integrated with Azure AD. 
+                                    A react based frontend was hooked up providing state-of-the-art UX. 
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                       
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
-                        </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
-                            <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                A headless architecture offering graphql based services developed on top of Micronaut framework. 
-                                A containerised solution which was deployed on Azure Kubernetes Service with 
-                                authentication/authorization integrated with Azure AD. 
-                                A react based frontend was hooked up providing state-of-the-art UX. 
-                            </span>
-                        </div>
-                    </div>
 
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                            </div>
+                            <div class="uk-width-expand@s">
+                                <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
+                                <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                    Easy access to various cross reference data for customer’s team in the field. With data 
+                                    updation requests and approval workflows, it always offered up-to-date information which 
+                                    is critical for sales & marketing team. 
+                                </span>  
+                            </div>
                         </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
-                            <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                Easy access to various cross reference data for customer’s team in the field. With data 
-                                updation requests and approval workflows, it always offered up-to-date information which 
-                                is critical for sales & marketing team. 
-                            </span>  
-                        </div>
-                    </div>
 
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                            </div>
+                            <div class="uk-width-expand@s">
+                                <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
+                                <span class="services_article_para uk-text-center@s uk-text-left@m ">
+                                    Micronaut, GraphQL, Azure, Kubernetes, React
+                                </span>
+                            </div>
                         </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
-                            <span class="services_article_para uk-text-center@s uk-text-left@m ">
-                                Micronaut, GraphQL, Azure, Kubernetes, React
-                            </span>
-                        </div>
+                    
                     </div>
-                
                 </div>
-            </div>
 
-            <button  class="case_btn uk-button uk-modal-close uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold" onclick="goback4()">Back</button>
+            </div>
+            <button class="uk-modal-close-default" type="button" uk-close></button>  
         </div>
+
+
     </div>
 
+     <!-- work 4 -->
+    <div id="works4" class="uk-padding-large" uk-modal>
+            <div class="uk-card uk-card-body case_box uk-margin-small-top uk-card-default">
+                <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+                    <div class="uk-flex uk-width-1-4@s">
+                        <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">Twillo Integration
+                            <div class="uk-text-meta uk-text-secondary"></div>
+                        </div>
+                        
+                    </div>
+                    <div class="uk-width-3-4@s">
+                        <div class="uk-margin uk-padding"> 
+                            <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                                <div class="uk-width-auto@s uk-padding-small">
+                                    <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                </div>
+                                <div class="uk-width-expand@s">
+                                    <div class="uk-h3 case_points uk-margin-remove-bottom">
+                                        Business Need: </div>
+                                    <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                        Integrate the Automatic voice and message communication API for the website. 
+                                        In case of any special orders placed on site automatic message and call needs 
+                                        to be triggered to sales representative.
+                                    </span>
+                                </div>
+                            </div>
+                            
+                            <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                                <div class="uk-width-auto@s uk-padding-small">
+                                    <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                </div>
+                                <div class="uk-width-expand@s">
+                                    <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
+                                    <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                        Suggested Twillo Communication and Message API. Integrated the API through REST. 
+                                        XML configurations are made for message and voice call generation. So business can change it easily. 
+                                    </span>
+                                </div>
+                            </div>
 
-</div>
+                            <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
+                                <div class="uk-width-auto@s uk-padding-small">
+                                    <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                </div>
+                                <div class="uk-width-expand@s">
+                                    <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
+                                    <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                        Cloud Based Configuration Management. Messages can be changed by Business any time. 
+                                    </span>  
+                                </div>
+                            </div>
 
-<!-- work 4 -->
-<div id="works4" class="uk-padding-large" uk-modal>
-    <div class="uk-card uk-card-body uk-margin-small-top uk-card-default">
-        <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-            <div class="uk-flex uk-width-1-4@s">
-                <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">Twillo Integration
-                    <div class="uk-text-meta uk-text-secondary"></div>
+                            <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                                <div class="uk-width-auto@s uk-padding-small">
+                                    <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                                </div>
+                                <div class="uk-width-expand@s">
+                                    <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
+                                    <span class="services_article_para uk-text-center@s uk-text-left@m ">
+                                        Rest, XML, Twilio, ATG, Cloud
+                                    </span>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+
                 </div>
-                
+                <button class="uk-modal-close-default" type="button" uk-close></button>  
             </div>
-            <div class="uk-width-3-4@s">
-                <div class="uk-margin uk-padding"> 
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
-                        </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">
-                                Business Need: </div>
-                            <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                Integrate the Automatic voice and message communication API for the website. 
-                                In case of any special orders placed on site automatic message and call needs 
-                                to be triggered to sales representative.
-                            </span>
-                        </div>
-                    </div>
-                       
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
-                        </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
-                            <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                Suggested Twillo Communication and Message API. Integrated the API through REST. 
-                                XML configurations are made for message and voice call generation. So business can change it easily. 
-                            </span>
-                        </div>
-                    </div>
 
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
-                        </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
-                            <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                Cloud Based Configuration Management. Messages can be changed by Business any time. 
-                            </span>  
-                        </div>
-                    </div>
-
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
-                        </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
-                            <span class="services_article_para uk-text-center@s uk-text-left@m ">
-                                Rest, XML, Twilio, ATG, Cloud
-                            </span>
-                        </div>
-                    </div>
-                
-                </div>
-            </div>
-            <button  class=" case_btn uk-button uk-modal-close uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold" onclick="goback8()">Back</button>
-
-        </div>
     </div>
-
-</div>
-<!-- work 5 -->
-<div id="works5" class="uk-padding-large" uk-modal>
-    <div class="uk-card uk-card-body uk-margin-small-top uk-card-default">
-        <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-            <div class="uk-flex uk-width-1-4@s">
-                <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Site Redesign
+    <!-- work 5 -->
+    <div id="works5" class="uk-padding-large" uk-modal>
+        <div class="uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
+            <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+                <div class="uk-flex uk-width-1-4@s">
+                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Site Redesign
+                        
+                    </div>
                     
                 </div>
-                
-            </div>
-            <div class="uk-width-3-4@s">
-                <div class="uk-margin uk-padding"> 
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                <div class="uk-width-3-4@s">
+                    <div class="uk-margin uk-padding"> 
+                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                            </div>
+                            <div class="uk-width-expand@s">
+                                <div class="uk-h3 case_points uk-margin-remove-bottom">
+                                    Business Need: </div>
+                                <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                    Client wanted to redesign whole of its portal to make it responsive and mobile devices friendly.
+                                </span>
+                            </div>
                         </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">
-                                Business Need: </div>
-                            <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                Client wanted to redesign whole of its portal to make it responsive and mobile devices friendly.
-                            </span>
+                        
+                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                            </div>
+                            <div class="uk-width-expand@s">
+                                <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
+                                <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                    Provided solution with minimum TTM (Time-to-Market). 
+                                    Delivered in 2 phases: 1st phase for path-to-product in 3 months and then rest of the site 
+                                    in 2nd Phase of 3 months duration.
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                       
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
-                        </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
-                            <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                Provided solution with minimum TTM (Time-to-Market). 
-                                Delivered in 2 phases: 1st phase for path-to-product in 3 months and then rest of the site 
-                                in 2nd Phase of 3 months duration.
-                            </span>
-                        </div>
-                    </div>
 
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                            </div>
+                            <div class="uk-width-expand@s">
+                                <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
+                                <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                    Site has been responsive with latest look and feel. 
+                                    Also improved SEO a lot.
+                                </span>  
+                            </div>
                         </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
-                            <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                Site has been responsive with latest look and feel. 
-                                Also improved SEO a lot.
-                            </span>  
-                        </div>
-                    </div>
 
-                
+                    
+                    </div>
                 </div>
             </div>
-
-            <button  class=" case_btn uk-button uk-modal-close uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold" onclick="goback3()">Back</button>
-
-
+            <button class="uk-modal-close-default" type="button" uk-close></button>  
         </div>
     </div>
-</div>
-<!-- work 6 -->
-<div id="works6" class="uk-padding-large" uk-modal>
-    <div  class="uk-card uk-card-body uk-margin-small-top uk-card-default">
-        <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-            <div class="uk-flex uk-width-1-4@s">
-                <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">SalesForce Integration
+    <!-- work 6 -->
+    <div id="works6" class="uk-padding-large" uk-modal>
+        <div  class="uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
+            <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+                <div class="uk-flex uk-width-1-4@s">
+                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">SalesForce Integration
+                        
+                    </div>
                     
                 </div>
-                
-            </div>
-            <div class="uk-width-3-4@s">
-                <div class="uk-margin uk-padding"> 
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                <div class="uk-width-3-4@s">
+                    <div class="uk-margin uk-padding"> 
+                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                            </div>
+                            <div class="uk-width-expand@s">
+                                <div class="uk-h3 case_points uk-margin-remove-bottom">
+                                    Business Need: </div>
+                                <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                    Requirement was to provide integration between the commerce site and 
+                                    a pro-toolbox in Salesforce with some access control rules in place. 
+                                </span>
+                            </div>
                         </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">
-                                Business Need: </div>
-                            <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                Requirement was to provide integration between the commerce site and 
-                                a pro-toolbox in Salesforce with some access control rules in place. 
-                            </span>
+                        
+                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                            </div>
+                            <div class="uk-width-expand@s">
+                                <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
+                                <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                    Single sign-on (SSO) and Single Logout (SLO) capabilities were implemented between ATG 
+                                    and Salesforce with ATG acting as an Identity Provider (IdP) whereas Salesforce acting as 
+                                    Service Provider (SP).
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                       
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
-                        </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
-                            <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                Single sign-on (SSO) and Single Logout (SLO) capabilities were implemented between ATG 
-                                and Salesforce with ATG acting as an Identity Provider (IdP) whereas Salesforce acting as 
-                                Service Provider (SP).
-                            </span>
-                        </div>
-                    </div>
 
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                            </div>
+                            <div class="uk-width-expand@s">
+                                <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
+                                <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                    A seamless integration between ATG and Salesforce with access control rules offered 
+                                    an enriching CX and a significant increase for professionals opting for the pro-toolbox program.
+                                </span>  
+                            </div>
                         </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
-                            <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                A seamless integration between ATG and Salesforce with access control rules offered 
-                                an enriching CX and a significant increase for professionals opting for the pro-toolbox program.
-                            </span>  
-                        </div>
-                    </div>
 
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small">
-                            <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                            </div>
+                            <div class="uk-width-expand@s">
+                                <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
+                                <span class="services_article_para uk-text-center@s uk-text-left@m ">
+                                    ATG, Salesforce, SAML, REST, Groovy
+                                </span>
+                            </div>
                         </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
-                            <span class="services_article_para uk-text-center@s uk-text-left@m ">
-                                ATG, Salesforce, SAML, REST, Groovy
-                            </span>
-                        </div>
+                    
                     </div>
-                
                 </div>
-            </div>
-            <button  class=" case_btn uk-button uk-modal-close uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold" onclick="goback7()">Back</button>
 
+            </div>
+            <button class="uk-modal-close-default" type="button" uk-close></button>  
         </div>
     </div>
-</div>
-
 
 </div>
-
+</div>
 <!-------------Completed Works Section Ends-------->
 
  <!--Counts Section-->

@@ -6,16 +6,17 @@ include_once "../header.php";
     <div id="case_heading" class="uk-h1 uk-text-center services_mainheading">Our Case Studies</div>
     <div  class="uk-card uk-card-body case_page uk-margin-large-bottom" >
         <!-- case1 -->
-        <div id="case1" class="uk-card uk-card-body uk-animation-toggle uk-animation-fade case_box uk-card-default " >
+        <div id="works1" class="uk-padding-large" uk-modal>
+        <div class="uk-card uk-card-body uk-card-default case_box" >
             
             <div class=" uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-text-bold uk-height-small uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Multi-site</br>implementation
+                <div class=" uk-width-1-4@s uk-flex">
+                    <div class="uk-text-center uk-text-bold multi_box uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-margin-auto uk-margin-auto-vertical">Multi-site</br>implementation
                         <div class="uk-text-meta uk-text-secondary"></div>
                     </div>
                   
                 </div>
-                <div class="uk-width-3-4@s uk-padding">
+                <div class="uk-width-3-4@s case_box2">
                     <div class="uk-margin uk-padding-small"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
@@ -70,242 +71,214 @@ include_once "../header.php";
                     </div>
 
                 </div>
-                <div class="uk-align-center">
-                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback1()">Back</button>
-                </div>
-                
-   
-                    
+            </div>
+            <button class="uk-modal-close-default" type="button" uk-close></button>
             </div>
         </div>
 
         <!-- case2  -->
-        <div id="case2" class=" uk-card uk-card-body uk-card-default case_box uk-animation-toggle uk-animation-fade ">
-            <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Data Center Migration
-                        <div class="uk-text-meta uk-text-secondary"></div>
-                    </div>
-                    
+        <div id="works2" class="uk-padding-large" uk-modal>
+            <div  class=" uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
+            <div class="uk-child-width-1-4@s  uk-column-divider uk-grid match" uk-grid>
+            <div class="uk-flex uk-width-1-4@s">
+                <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Data Center Migration
+                    <div class="uk-text-meta uk-text-secondary"></div>
                 </div>
-                <div class="uk-width-3-4@s">
-                    <div class="uk-margin uk-padding"> 
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">
-                                    Business Need: </div>
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Client wanted to change its hosting provider and therefore whole infrastructure needed to be moved.
-                                </span>
-                            </div>
-                        </div>
-                           
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Provided support to migrate all the Application hosted in ATG.
-                                </span>
-                            </div>
-                        </div>
-
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Migrated all non-prod and prod servers in one month time with a downtime of only 4 hours.
-                                    Client got High-Availability/Disaster Recovery infrastructure for its retail portal.
-                                </span>  
-                            </div>
-                        </div>
-
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
-                                <span class="services_article_para uk-text-center@s uk-text-left@m ">
-                                    
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="uk-align-center">
-                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback2()">Back</button>
-                </div>
-
+                
             </div>
+            <div class="uk-width-3-4@s">
+                <div class="uk-margin uk-padding"> 
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">
+                                Business Need: </div>
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Client wanted to change its hosting provider and therefore whole infrastructure needed to be moved.
+                            </span>
+                        </div>
+                    </div>
+                       
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Provided support to migrate all the Application hosted in ATG.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Migrated all non-prod and prod servers in one month time with a downtime of only 4 hours.
+                                Client got High-Availability/Disaster Recovery infrastructure for its retail portal.
+                            </span>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+    </div>
+</div>
+        
 
         <!-- case3 -->
-        <div id="case3" class="uk-card uk-card-body case_box uk-card-default uk-animation-toggle uk-animation-fade ">
-            <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-padding-small uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">
-                        Site Redesign
-                    </div>
+        <div id="works3" class="uk-padding-large" uk-modal>
+            <div class="uk-card uk-card-body uk-card-default case_box">
+            <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+            <div class="uk-flex uk-width-1-4@s">
+                <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Site Redesign
                     
                 </div>
-                <div class="uk-width-3-4@s">
-                    <div class="uk-margin uk-padding"> 
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">
-                                    Business Need: </div>
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Client wanted to redesign whole of its portal to make it responsive and mobile devices friendly.
-                                </span>
-                            </div>
-                        </div>
-                           
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Provided solution with minimum TTM (Time-to-Market). 
-                                    Delivered in 2 phases: 1st phase for path-to-product in 3 months and then rest of the site 
-                                    in 2nd Phase of 3 months duration.
-                                </span>
-                            </div>
-                        </div>
-
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Site has been responsive with latest look and feel. 
-                                    Also improved SEO a lot.
-                                </span>  
-                            </div>
-                        </div>
-
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
-                                <span class="services_article_para uk-text-center@s uk-text-left@m ">
-                                   
-                                </span>
-                            </div>
-                        </div>
-                    
-                    </div>
-                </div>
-
-                <div class="uk-align-center">
-                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback3()">Back</button>
-                </div>
-
+                
             </div>
-        </div>
-    <!-- case 4 -->
-        <div id="case4" class="uk-card uk-card-body uk-card-default case_box uk-animation-toggle uk-animation-fade ">
-            <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-padding-small uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Cross-Reference Tool
-                        
+            <div class="uk-width-3-4@s">
+                <div class="uk-margin uk-padding"> 
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">
+                                Business Need: </div>
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Client wanted to redesign whole of its portal to make it responsive and mobile devices friendly.
+                            </span>
+                        </div>
                     </div>
+                       
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Provided solution with minimum TTM (Time-to-Market). 
+                                Delivered in 2 phases: 1st phase for path-to-product in 3 months and then rest of the site 
+                                in 2nd Phase of 3 months duration.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Site has been responsive with latest look and feel. 
+                                Also improved SEO a lot.
+                            </span>  
+                        </div>
+                    </div>
+
+                
+                </div>
+            </div>
+          </div>
+          <button class="uk-modal-close-default" type="button" uk-close></button>
+    </div>
+</div>
+       <!-- case 4 -->
+        <div id="works4" class="uk-padding-large" uk-modal>
+            <div  class="uk-card uk-card-body case_box uk-margin-small-top uk-card-default">
+            <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+            <div class="uk-flex uk-width-1-4@s">
+                <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Cross-Reference Tool
                     
                 </div>
-                <div class="uk-width-3-4@s">
-                    <div class="uk-margin uk-padding"> 
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small ">
-                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">
-                                    Business Need: </div>
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Client wanted to develop a new cross-reference tool for their sales & marketing 
-                                    team to offer matches for various competitor products. It was required to be a cloud based 
-                                    solution outside of existing commerce systems. 
-                                </span>
-                            </div>
+                
+            </div>
+            <div class="uk-width-3-4@s">
+                <div class="uk-margin uk-padding"> 
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
                         </div>
-                           
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    A headless architecture offering graphql based services developed on top of Micronaut framework. 
-                                    A containerised solution which was deployed on Azure Kubernetes Service with 
-                                    authentication/authorization integrated with Azure AD. 
-                                    A react based frontend was hooked up providing state-of-the-art UX. 
-                                </span>
-                            </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">
+                                Business Need: </div>
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Client wanted to develop a new cross-reference tool for their sales & marketing 
+                                team to offer matches for various competitor products. It was required to be a cloud based 
+                                solution outside of existing commerce systems. 
+                            </span>
                         </div>
-
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Easy access to various cross reference data for customer’s team in the field. With data 
-                                    updation requests and approval workflows, it always offered up-to-date information which 
-                                    is critical for sales & marketing team. 
-                                </span>  
-                            </div>
-                        </div>
-
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small ">
-                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
-                                <span class="services_article_para uk-text-center@s uk-text-left@m ">
-                                    Micronaut, GraphQL, Azure, Kubernetes, React
-                                </span>
-                            </div>
-                        </div>
-                    
                     </div>
-                </div>
+                       
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                A headless architecture offering graphql based services developed on top of Micronaut framework. 
+                                A containerised solution which was deployed on Azure Kubernetes Service with 
+                                authentication/authorization integrated with Azure AD. 
+                                A react based frontend was hooked up providing state-of-the-art UX. 
+                            </span>
+                        </div>
+                    </div>
 
-                <div class="uk-align-center">
-                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback4()">Back</button>
-                </div>           
-             </div>
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Easy access to various cross reference data for customer’s team in the field. With data 
+                                updation requests and approval workflows, it always offered up-to-date information which 
+                                is critical for sales & marketing team. 
+                            </span>  
+                        </div>
+                    </div>
+
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
+                            <span class="services_article_para uk-text-center@s uk-text-left@m ">
+                                Micronaut, GraphQL, Azure, Kubernetes, React
+                            </span>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+
         </div>
+             <button class="uk-modal-close-default" type="button" uk-close></button>
+    </div>
+</div>
         <!-- case 5 -->
-        <div id="case5" class="uk-card uk-card-body  uk-card-default case_box">
+        <div id="works5" class="uk-padding-large" uk-modal>
+            <div id="" class="uk-card uk-card-body case_box uk-card-default">
             <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-padding-small uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Membership (Loyalty) Program
-                        
-                    </div>
+                
+                <div class="uk-text-center uk-text-bold case_subheading uk-text-break uk-margin-auto uk-margin-auto-vertical">Membership (Loyalty) Program   
+                </div>
                     
                 </div>
-                <div class="uk-width-3-4@s">
+                <div class="uk-width-3-4@s case_box2">
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
@@ -363,21 +336,21 @@ include_once "../header.php";
                     
                     </div>
                 </div>
-                <div class="uk-align-center">
-                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback5()">Back</button>
-                </div>
-            </div>
-        </div>
 
-        <div id="case6" class="uk-card uk-card-body  uk-card-default case_box uk-animation-toggle uk-animation-fade " >
+            </div>
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+        </div>
+</div>
+        <!-- case 6 -->
+        <div id="works6" class="uk-padding-large" uk-modal>
+            <div id="" class="uk-card uk-card-body  uk-card-default case_box" >
             <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-text-bold uk-height-medium uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Multi-site implementation
-                      
-                    </div>
+                <div class="uk-text-center uk-text-bold multi_box case_subheading uk-text-break uk-margin-auto uk-margin-auto-vertical">Multi-site implementation   
+                </div>
                     
                 </div>
-                <div class="uk-width-3-4@s uk-padding">
+                <div class="uk-width-3-4@s case_box2">
                     <div class="uk-margin uk-padding-small uk-margin-small-left "> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
@@ -432,158 +405,164 @@ include_once "../header.php";
                     
                     </div>
                 </div>
-                <div class="uk-align-center">
-                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback6()">Back</button>
-                </div>
+
             </div>
+            <button class="uk-modal-close-default" type="button" uk-close></button>
         </div>
+</div>
 
         <!-- case 7 -->
-        <div id="case7" class="uk-card uk-card-body uk-card-default case_box uk-animation-toggle uk-animation-fade ">
-            <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-padding-small uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">SalesForce Integration
-                        
-                    </div>
+        <div id="works7" class="uk-padding-large" uk-modal>
+            <div  class="uk-card uk-card-body uk-margin-small-top uk-card-default">
+                <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
+            <div class="uk-flex uk-width-1-4@s">
+                <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">SalesForce Integration
                     
                 </div>
-                <div class="uk-width-3-4@s">
-                    <div class="uk-margin uk-padding"> 
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">
-                                    Business Need: </div>
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Requirement was to provide integration between the commerce site and 
-                                    a pro-toolbox in Salesforce with some access control rules in place. 
-                                </span>
-                            </div>
+                
+            </div>
+            <div class="uk-width-3-4@s case_box">
+                <div class="uk-margin uk-padding"> 
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
                         </div>
-                           
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Single sign-on (SSO) and Single Logout (SLO) capabilities were implemented between ATG 
-                                    and Salesforce with ATG acting as an Identity Provider (IdP) whereas Salesforce acting as 
-                                    Service Provider (SP).
-                                </span>
-                            </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">
+                                Business Need: </div>
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Requirement was to provide integration between the commerce site and 
+                                a pro-toolbox in Salesforce with some access control rules in place. 
+                            </span>
                         </div>
-
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    A seamless integration between ATG and Salesforce with access control rules offered 
-                                    an enriching CX and a significant increase for professionals opting for the pro-toolbox program.
-                                </span>  
-                            </div>
-                        </div>
-
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
-                                <span class="services_article_para uk-text-center@s uk-text-left@m ">
-                                    ATG, Salesforce, SAML, REST, Groovy
-                                </span>
-                            </div>
-                        </div>
-                    
                     </div>
-                </div>
-                <div class="uk-align-center">
-                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback7()">Back</button>
+                       
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Single sign-on (SSO) and Single Logout (SLO) capabilities were implemented between ATG 
+                                and Salesforce with ATG acting as an Identity Provider (IdP) whereas Salesforce acting as 
+                                Service Provider (SP).
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                A seamless integration between ATG and Salesforce with access control rules offered 
+                                an enriching CX and a significant increase for professionals opting for the pro-toolbox program.
+                            </span>  
+                        </div>
+                    </div>
+
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
+                            <span class="services_article_para uk-text-center@s uk-text-left@m ">
+                                ATG, Salesforce, SAML, REST, Groovy
+                            </span>
+                        </div>
+                    </div>
+                
                 </div>
             </div>
+
         </div>
-
-        <div id="case8" class="uk-card uk-card-body case_box uk-card-default uk-animation-toggle uk-animation-fade ">
-            <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+    </div>
+</div>
+        <!-- case 8 -->
+        <div id="works8" class="uk-padding-large" uk-modal>
+            <div class="uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
+                <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-padding-small uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Twillo Integration
-                        <div class="uk-text-meta uk-text-secondary"></div>
-                    </div>
-                    
+                <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">Twillo Integration
+                    <div class="uk-text-meta uk-text-secondary"></div>
                 </div>
-                <div class="uk-width-3-4@s">
-                    <div class="uk-margin uk-padding"> 
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small ">
-                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">
-                                    Business Need: </div>
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Integrate the Automatic voice and message communication API for the website. 
-                                    In case of any special orders placed on site automatic message and call needs 
-                                    to be triggered to sales representative.
-                                </span>
-                            </div>
+                
+            </div>
+            <div class="uk-width-3-4@s">
+                <div class="uk-margin uk-padding"> 
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
                         </div>
-                           
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Suggested Twillo Communication and Message API. Integrated the API through REST. 
-                                    XML configurations are made for message and voice call generation. So business can change it easily. 
-                                </span>
-                            </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">
+                                Business Need: </div>
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Integrate the Automatic voice and message communication API for the website. 
+                                In case of any special orders placed on site automatic message and call needs 
+                                to be triggered to sales representative.
+                            </span>
                         </div>
-
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Cloud Based Configuration Management. Messages can be changed by Business any time. 
-                                </span>  
-                            </div>
-                        </div>
-
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
-                                <span class="services_article_para uk-text-center@s uk-text-left@m ">
-                                    Rest, XML, Twilio, ATG, Cloud
-                                </span>
-                            </div>
-                        </div>
-                    
                     </div>
-                </div>
-                <div class="uk-align-center">
-                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback8()">Back</button>
+                       
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Suggested Twillo Communication and Message API. Integrated the API through REST. 
+                                XML configurations are made for message and voice call generation. So business can change it easily. 
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Cloud Based Configuration Management. Messages can be changed by Business any time. 
+                            </span>  
+                        </div>
+                    </div>
+
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
+                            <span class="services_article_para uk-text-center@s uk-text-left@m ">
+                                Rest, XML, Twilio, ATG, Cloud
+                            </span>
+                        </div>
+                    </div>
+                
                 </div>
             </div>
-        </div>
 
-        <div id="case9" class="uk-card uk-card-body  uk-card-default case_box uk-animation-toggle uk-animation-fade ">
+        </div>
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+    </div>
+
+</div>
+
+
+<!-- case 9 -->
+<div id="works9" class="uk-padding-large" uk-modal>
+        <div id="" class="uk-card uk-card-body case_box  uk-card-default ">
             <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-padding-small uk-text-bold uk-height-medium uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Multi-part search
+                    <div class="uk-text-center uk-padding-small uk-text-bold uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Multi-part search
                         <div class="uk-text-meta uk-text-secondary"></div>
                     </div>
                     
@@ -643,19 +622,20 @@ include_once "../header.php";
                     
                     </div>
                 </div>
-                <div class="uk-align-center">
-                    <button class=" uk-button uk-button-default uk-text-bold" onclick="goback9()">Back</button>
-                </div>            
+                
+          
             </div>
+            <button class="uk-modal-close-default" type="button" uk-close></button>
         </div>
+</div>
         
-        <div id="main">
-        <div  class="uk-grid-medium uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid >
+        <div class="uk-grid-medium uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s uk-text-center" uk-grid >
+            
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case11.jpg" alt="" style="opacity: 0.9;">
-                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open1()">Multi-site implementation</button>
+                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works1" class="uk-button uk-button-text cases_btnlink" >Multi-site implementation</button>
                         </div>
         
                     
@@ -665,7 +645,7 @@ include_once "../header.php";
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case2.jpg" alt="" style="opacity: 0.9;">
-                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open2()">Data Center Migration</button>
+                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works2" class="uk-button uk-button-text cases_btnlink">Data Center Migration</button>
                         </div>
         
                     
@@ -675,20 +655,20 @@ include_once "../header.php";
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case3.jpg" alt="" style="opacity: 0.9;">
-                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open3()">Site Redesign</button>
+                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works3" class="uk-button uk-button-text cases_btnlink">Site Redesign</button>
                         </div>
         
                     
                 </div>
             </div>
-        </div>
         
-        <div class="uk-grid-medium uk-child-width-expand@s uk-text-center" uk-grid>
+        
+        
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case4.jpg" alt="" style="opacity: 0.9;">
-                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open4()">Cross-Reference Tool</button>
+                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works4" class="uk-button uk-button-text cases_btnlink">Cross-Reference Tool</button>
                         </div>
         
                     
@@ -698,7 +678,7 @@ include_once "../header.php";
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case5.jpg" alt="" style="opacity: 0.9;">
-                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open5()">Membership (Loyalty) Program</button>
+                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works5" class="uk-button uk-button-text cases_btnlink">Membership (Loyalty) Program</button>
                         </div>
         
                     
@@ -708,21 +688,21 @@ include_once "../header.php";
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case6.jpg" alt="" style="opacity: 0.9;">
-                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open6()">Multi-site implementation (Canada)</button>
+                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works6" class="uk-button uk-button-text cases_btnlink" >Multi-site implementation (Canada)</button>
                         </div>
         
                     
                 </div>
             </div>
 
-        </div>
         
-        <div class="uk-grid-medium uk-child-width-expand@s uk-text-center" uk-grid>
+        
+       
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case7.jpg" alt="" style="opacity: 0.9;">
-                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open7()">SalesForce Integration</button>
+                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works7" class="uk-button uk-button-text cases_btnlink">SalesForce Integration</button>
                         </div>
         
                     
@@ -732,7 +712,7 @@ include_once "../header.php";
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case8.jpg" alt="" style="opacity: 0.9;">
-                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open8()">Twillo Integration</button>
+                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works8" class="uk-button uk-button-text cases_btnlink">Twillo Integration</button>
                         </div>
         
                     
@@ -742,14 +722,14 @@ include_once "../header.php";
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case10.jpg" alt="" style="opacity: 0.9;">
-                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" class="uk-button uk-button-text cases_btnlink"  onclick="case_study_open9()">Multi-part search</button>
+                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works9" class="uk-button uk-button-text cases_btnlink">Multi-part search</button>
                         </div>
         
                     
                 </div>
             </div>
 
-        </div>
+        
     </div>
         
     </div>
@@ -762,116 +742,3 @@ include_once "../header.php";
 include_once "../footer.php"
 ?>
 <div>
-    <script>
-                        function case_study_open1()
-                        {
-                            document.getElementById("case1").style.display="block";
-                            document.getElementById("main").style.display="none";
-                            document.getElementById("case_heading").style.display="none";
-                        }
-                        function case_study_open2()
-                        {
-                            document.getElementById("case2").style.display="block";
-                            document.getElementById("main").style.display="none";
-                            document.getElementById("case_heading").style.display="none";
-                        }
-                        function case_study_open3()
-                        {
-                            document.getElementById("case3").style.display="block";
-                            document.getElementById("main").style.display="none";
-                            document.getElementById("case_heading").style.display="none";
-                        }
-                        function case_study_open4()
-                        {
-                            document.getElementById("case4").style.display="block";
-                            document.getElementById("main").style.display="none";
-                            document.getElementById("case_heading").style.display="none";
-                        }
-                        function case_study_open5()
-                        {
-                            document.getElementById("case5").style.display="block";
-                            document.getElementById("main").style.display="none";
-                            document.getElementById("case_heading").style.display="none";
-                        }
-                        function case_study_open6()
-                        {
-                            document.getElementById("case6").style.display="block";
-                            document.getElementById("main").style.display="none";
-                            document.getElementById("case_heading").style.display="none";
-                        }
-                        function case_study_open7()
-                        {
-                            document.getElementById("case7").style.display="block";
-                            document.getElementById("main").style.display="none";
-                            document.getElementById("case_heading").style.display="none";
-                        }
-                        function case_study_open8()
-                        {
-                            document.getElementById("case8").style.display="block";
-                            document.getElementById("main").style.display="none";
-                            document.getElementById("case_heading").style.display="none";
-                        }
-                        function case_study_open9()
-                        {
-                            document.getElementById("case9").style.display="block";
-                            document.getElementById("main").style.display="none";
-                            document.getElementById("case_heading").style.display="none";
-                        }
-                       
-                        function goback1()
-                        {
-                            document.getElementById("case1").style.display="none";
-                            document.getElementById("main").style.display="block";
-                           document.getElementById("case_heading").style.display="block";
-                        }
-                        function goback2()
-                        {
-                            document.getElementById("case2").style.display="none";
-                            document.getElementById("main").style.display="block";
-                            document.getElementById("case_heading").style.display="block";
-                        }
-                        function goback3()
-                        {
-                            document.getElementById("case3").style.display="none";
-                            document.getElementById("main").style.display="block";
-                            document.getElementById("case_heading").style.display="block";
-                        }
-                        function goback4()
-                        {
-                            document.getElementById("case4").style.display="none";
-                            document.getElementById("main").style.display="block";
-                            document.getElementById("case_heading").style.display="block";
-                        }
-                        function goback5()
-                        {
-                            document.getElementById("case5").style.display="none";
-                            document.getElementById("main").style.display="block";
-                            document.getElementById("case_heading").style.display="block";
-                        }
-                        function goback6()
-                        {
-                            document.getElementById("case6").style.display="none";
-                            document.getElementById("main").style.display="block";
-                            document.getElementById("case_heading").style.display="block";
-                        }
-                        function goback7()
-                        {
-                            document.getElementById("case7").style.display="none";
-                            document.getElementById("main").style.display="block";
-                            document.getElementById("case_heading").style.display="block";
-                        }
-                        function goback8()
-                        {
-                            document.getElementById("case8").style.display="none";
-                            document.getElementById("main").style.display="block";
-                            document.getElementById("case_heading").style.display="block";
-                        }
-                        function goback9()
-                        {
-                            document.getElementById("case9").style.display="none";
-                            document.getElementById("main").style.display="block";
-                            document.getElementById("case_heading").style.display="block";
-                        }
-                                 
-    
-    </script>

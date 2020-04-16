@@ -476,56 +476,12 @@ color:#FE9603;
     font-weight: 800;
   }
   
-  .case_btn{
-     width: 10%;
-  }
- .case_box{
-  background-image: linear-gradient(to left, rgba(254,150,3,0), rgba(254,150,3,0.3)); 
-  /*background-image: url("images/case/case11.jpg");
-  filter: blur(8px);
-  -webkit-filter: blur(8px);*/
-
- }
+ 
 
  .case_border{
    border-left: 4px solid #FE9603;
  }
 
-  #case1{
-    display: none;
-  }
-  #case2{
-    display: none;
-  }
-  #case3{
-    display: none;
-  }
-  #case4{
-    display: none;
-  }
-  #case5{
-    display: none;
-  }
-  #case6{
-    display: none;
-  }
-  #case7{
-    display: none;
-  }
-  #case8{
-    display: none;
-  }
-  #case9{
-    display: none;
-  }
-
-
-  
-
-  
-  #main{
-    display: block;
-  }
 
 .skills_card{
   border-bottom: 3px solid #FE9603;
@@ -634,9 +590,11 @@ color:#FE9603;
     background: #FE9603;
    
   }
-
-  
-  
+  .multi_box{
+    font-weight: 600;
+    font-size:35px;
+    color:#1C1C1C;
+  }
   
 /******************services page css end***************/
 
@@ -699,6 +657,12 @@ color:#FE9603;
 .testi_box1{
   padding:0px;
 }
+
+.multi_box{
+  margin:0px;
+  font-size: 30px;
+ 
+}
   
   }
 
@@ -751,6 +715,9 @@ color:#FE9603;
   .testi_box1{
     padding:70px;
   }
+  .case_box2{
+   padding-left: 80px;
+  }
 
 }
 
@@ -770,6 +737,10 @@ color:#FE9603;
     width:280px;
   }
 }
-
+@media screen and (max-width: 375px){
  
-
+  .case_box{
+    padding:0px;
+    padding-top: 20px;
+  }
+}
