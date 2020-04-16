@@ -74,8 +74,8 @@ body  {
 }
 /* mobile nav css*/
 .drop-nav{
-  left: 39.0156px !important;
-  top: 163px !important;
+  left: 69.0156px !important;
+    top: 187px !important;
 }
 
 .sub-togle{
@@ -517,11 +517,11 @@ body{
     }
     .uk-sticky-fixed .img {
       width: 140px !important;
-      margin-left: 342px !important;
+      margin-left: -19px !important;
   }
   .img {
     width: 135px !important;
-    margin-left: 287px !important;
+    margin-left: -21px !important;
 }
   
   }
@@ -722,7 +722,7 @@ color: #000 !important;
 
       .uk-sticky-fixed .img {
         width: 120px;
-        margin-left: -21px;
+        margin-left: 29px;
     }
 
     .uk-sticky-fixed .menu-toggle {

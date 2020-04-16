@@ -30,6 +30,7 @@
 
     <!--footer-->
     <!--mobile nav-->
+    <!--mobile nav-->
     <div id="offcanvas-usage" uk-offcanvas>
         <div class="uk-offcanvas-bar menu-list">
 
@@ -37,24 +38,34 @@
 
             <h3>Menu</h3>
 
-
+            
             <a href="<?php echo $filePath;?>">Home</a>
             <br>
-            <a href="<?php echo $filePath;?>about">About Us</a>
+            
+                <button class="uk-button sub-togle">About Us</button>
+                    <div class="drop-nav" uk-dropdown="mode: click" >
+                      <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="<?php echo $filePath;?>about">WHAT WE DO</a></li>
+                        <li class="uk-active"><a href="<?php echo $filePath;?>csr">COMMUNITY</a></li>
+                        <li class="uk-active"><a href="<?php echo $filePath;?>contactus">CONTACT US</a></li>
+                     </ul>
+                  
+                </div>
+                
+            
             <br>
+            <a href="<?php echo $filePath;?>skill">Skills</a>
+            <br>           
             <a href="<?php echo $filePath;?>service">Services</a>
             <br>
             <a href="<?php echo $filePath;?>resource">Resource</a>
             <br>
-            <a href="<?php echo $filePath;?>csr.html">CSR</a>
-            <br>
             <a href="<?php echo $filePath;?>careers">Careers</a>
-            <br>
-            <a href="<?php echo $filePath;?>contactus">Contact Us</a>
             <br>
 
         </div>
     </div>
+    <!--mobile nav end-->
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="<?php echo $filePath;?>js/count.js"></script>

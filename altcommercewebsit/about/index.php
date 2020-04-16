@@ -11,7 +11,7 @@
                 
             <div class="uk-width-1-2@m">
                 <div class="uk-text-center uk-child-width-1-1@s"> 
-                  <img src="<?php echo $filePath;?>images/about-us.jpg" style="height:100%;">
+                  <img src="<?php echo $filePath;?>images/about-us.jpg" style="height:440px;">
                 </div>        
             </div> 
             <div class ="uk-width-1-2@m">
