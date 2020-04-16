@@ -67,6 +67,7 @@ body  {
 
   .sub-menu:hover{
   color: #f6922d;
+  background-color: #5f615f;
   }
 
 .social-icon:hover{
@@ -88,6 +89,20 @@ body  {
     text-align: center;
     margin-top: 165px;
     font-size:50px;
+}
+
+.drop-navbar{
+  position: absolute;
+  width: 190px;
+  background-color: #fff;
+  box-shadow: 0 13px 42px 11px rgba(0,0,0,.05);
+  border: 1px solid #eee;
+  border-top: 2px solid #f6922d;
+  height: auto;
+  z-index: 199;
+  top: 100%;
+  left: 0;
+  margin: 0;
 }
 
   /*header end*/
