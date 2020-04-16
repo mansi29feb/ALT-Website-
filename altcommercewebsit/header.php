@@ -31,7 +31,7 @@
             <div class="uk-navbar-left nav-social">
                 <ul class="uk-navbar-nav ">
                     <li>
-                        <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" uk-text-bold></a>
+                        <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" ></a>
                     </li>
                     <li>
                         <a href="https://twitter.com/altcommerce" uk-icon="twitter"></a>
@@ -40,7 +40,7 @@
                         <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin"></a>
                     </li>
                     <li>
-                        <a href="mailto:email@yourdomain.com" uk-icon="mail" uk-text-bold></a>
+                        <a href="mailto:info@altcommerce.com" uk-icon="mail"></a>
                     </li>
                 </ul>
             </div>
@@ -80,13 +80,14 @@
                             <a href="<?php echo $filePath;?>">Home</a>
                         </li>
                         <li>
-                            <button class="uk-button sub-menu">ABOUT US</button>
-                                <div uk-dropdown="mode: click">
-                                  <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-active"><a href="<?php echo $filePath;?>about">WHAT WE DO</a></li>
-                                    <li class="uk-active"><a href="<?php echo $filePath;?>csr">COMMUNITY</a></li>
-                                    <li class="uk-active"><a href="<?php echo $filePath;?>contactus">CONTACT US</a></li>
-                                 </ul>
+                            <button class="uk-button sub-menu">ABOUT US<span uk-icon="icon: chevron-down"></span></button>
+                                <div uk-dropdown="mode: click" class="drop-navbar">
+                                
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li class="uk-active uk-animation-slide-right-small"><a href="<?php echo $filePath;?>about">WHAT WE DO</a></li>
+                                        <li class="uk-active uk-animation-slide-right-small "><a href="<?php echo $filePath;?>csr">COMMUNITY</a></li>
+                                        <li class="uk-active uk-animation-slide-right-small"><a href="<?php echo $filePath;?>contactus">CONTACT US</a></li>
+                                    </ul>
                               
                             </div>
                             
