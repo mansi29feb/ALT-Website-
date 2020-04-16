@@ -78,16 +78,16 @@ include_once "../header.php";
             </div>
         
         <div class="uk-container csr_text_box uk-card" >
-            <p class=" uk-padding  uk-text-left" style="font-size: 16px; color:#fff">Help to replenish what is been taken away by giving back to the earth
-                400 acres forest area, around 500- 1000 rain harvesting pits dug to harvest water. &nbsp;Jamun , mangoes, kokum forest fruits. Around 1000 plants in 2 years we planted. 
+            <p class=" uk-padding  uk-text-left" style="font-size: 16px; color:#fff">Help to replenish what is been taken away by giving back to the earth.
+            In the forest area of 400 acres, we took a little step to harvest water. Around 500- 1000 rain harvesting pits dug to harvest water in the rainy season. Planted around 1000 trees of fruits like Jamun, mangoes, kokum, etc. in 2 years.  
                 
-                &nbsp;People of Uttara Kannada district are working towards creating awareness about the importance of water & environmental resources.</br> The work towards <span class="csr_text" >"Rain Harvesting"</span> is planned in many regions of the district.
+                &nbsp;People of Uttara Kannada district are working towards creating awareness about the importance of water & environmental resources. The work towards <span class="csr_text" >"Rain Harvesting"</span> is planned in many regions of the district.
                 
                 
             </br></br><span class=" csr_text" style=" font-size: 28px;">"Tejobindu Hindustan Foundation"</span> is also working towards rainwater harvesting in Bengle Village. Bengle is a small village located in Sirsi Tq. Foundation is creating many small water storage structures in Bengle forest area for water management. When Monsoon starts in this area it will stop the erosion of rainwater & increase the ground water level & soil fertility too.
                 
                 
-        </br></br><span class="csr_text" >Tejobindu Hindustan Foundation</span> has plans to plant 1000 trees across this small storage structure built for rain harvesting. Thus achieving the reduction in temperature during summer. 
+        </br></br> Thus achieving the reduction in temperature during summer. 
                 
 
                 </p>
@@ -149,13 +149,7 @@ include_once "../header.php";
 
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m ">
                
-                <div class=" csr_li">
-                    <img  src="<?php echo $filePath;?>images/csr/water/agriculture-carabao-clouds-countryside-460229.jpg" alt="">
-                    
-                </div>
-                
-                
-                <li class=" csr_li">
+            <li class=" csr_li">
                     <img src="<?php echo $filePath;?>images/csr/water/kids-water3.jpg" alt="">
                    
                 </li>
@@ -163,8 +157,19 @@ include_once "../header.php";
                     <img src="<?php echo $filePath;?>images/csr/water/kids-water1.jpg" alt="">
                     
                 </li>
+                <div class=" csr_li">
+                    <img  src="<?php echo $filePath;?>/images/csr/water/water_act2.JPG" alt="">
+                    
+                </div>
+                
                 <li class=" csr_li">
-                    <img src="<?php echo $filePath;?>images/csr/earth/agriculture.jpg" alt="">
+                    <img src="<?php echo $filePath;?>images/csr/water/water_act1.JPG" alt="">
+                    
+                </li>
+                
+               
+                <li class=" csr_li">
+                    <img src="<?php echo $filePath;?>images/csr/water/water_act3.JPG" alt="">
                     
                 </li>
             </ul>
@@ -218,7 +223,7 @@ include_once "../header.php";
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
             <img  data-src="<?php echo $filePath;?>images/csr/earth/lake.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">Planting fruit trees provides habitat for wildlife.</p>
+                <p class="uk-h4 uk-margin-remove">Provides Nourishment.</p>
             </div>
         </div>
         
@@ -227,7 +232,7 @@ include_once "../header.php";
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/earth/kids-green.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">Offer watershed protection.</p>
+                <p class="uk-h4 uk-margin-remove">Clean water keeps doctors away.</p>
             </div>
         </div>
         
@@ -236,7 +241,7 @@ include_once "../header.php";
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/earth/climate-change1.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">Better livelihoods for people living near forests.</p>
+                <p class="uk-h4 uk-margin-remove">Combating waterborne diseases.</p>
             </div>
         </div>
         
@@ -246,7 +251,7 @@ include_once "../header.php";
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/water/kids-water2.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">Prevent soil erosion & mitigate climate change.</p>
+                <p class="uk-h4 uk-margin-remove">Stave off the birth defects in new-born babies.</p>
             </div>
         </div>
         
@@ -270,7 +275,7 @@ include_once "../header.php";
     
 </div>
 
-<div class="uk-position-relative uk-visible-toggle uk-padding " tabindex="-1" uk-slider=" autoplay:true; sets:true; autoplay-interval:2000;">
+<div class="uk-position-relative uk-visible-toggle uk-padding " tabindex="-1" uk-slider=" autoplay:true; sets:true; autoplay-interval:3000;">
 
         <ul class="uk-slider-items uk-child-width-1-1@s uk-child-width-1-4@m uk-grid">
             <li class=" li1">

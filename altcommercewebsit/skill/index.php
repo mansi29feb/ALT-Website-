@@ -277,7 +277,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/javaScript.png" height="100" width="100" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/JavaScript.png" height="100" width="100" uk-img>
                                   
                                 </div>
                                     
