@@ -39,8 +39,8 @@
                     <li>
                         <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin"></a>
                     </li>
-                    <li>
-                        <a class="uk-text-bold" href="mailto:email@yourdomain.com" uk-icon="mail" ></a>
+                    <li style="color: black;">
+                        <a href="mailto:info@altcommerce.com" uk-icon="mail" ></a>
                     </li>
                 </ul>
             </div>
