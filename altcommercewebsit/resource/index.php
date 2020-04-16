@@ -6,7 +6,7 @@ include_once "../header.php";
     <div id="case_heading" class="uk-h1 uk-text-center services_mainheading">Our Case Studies</div>
     <div  class="uk-card uk-card-body case_page uk-margin-large-bottom" >
         <!-- case1 -->
-        <div id="case1" class=" uk-card uk-card-body uk-animation-toggle uk-animation-fade case_box uk-card-default " >
+        <div id="case1" class="uk-card uk-card-body uk-animation-toggle uk-animation-fade case_box uk-card-default " >
             
             <div class=" uk-child-width-1-4@s uk-grid-collapse" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
@@ -18,7 +18,7 @@ include_once "../header.php";
                 <div class="uk-width-3-4@s uk-padding">
                     <div class="uk-margin uk-padding-small"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -32,7 +32,7 @@ include_once "../header.php";
                         </div>
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -44,7 +44,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -56,7 +56,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s  uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small ">
                                 <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -91,7 +91,7 @@ include_once "../header.php";
                 <div class="uk-width-3-4@s">
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -104,7 +104,7 @@ include_once "../header.php";
                         </div>
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -116,7 +116,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -129,7 +129,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -161,7 +161,7 @@ include_once "../header.php";
                 <div class="uk-width-3-4@s">
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -174,7 +174,7 @@ include_once "../header.php";
                         </div>
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -188,7 +188,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -201,7 +201,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -233,7 +233,7 @@ include_once "../header.php";
                 <div class="uk-width-3-4@s">
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                            <div class="uk-width-auto@s uk-padding-small ">
                                 <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -248,7 +248,7 @@ include_once "../header.php";
                         </div>
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -263,7 +263,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -277,7 +277,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small ">
                                 <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -308,7 +308,7 @@ include_once "../header.php";
                 <div class="uk-width-3-4@s">
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -323,7 +323,7 @@ include_once "../header.php";
                         </div>
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -337,7 +337,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -350,7 +350,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -380,7 +380,7 @@ include_once "../header.php";
                 <div class="uk-width-3-4@s uk-padding">
                     <div class="uk-margin uk-padding-small uk-margin-small-left "> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -393,7 +393,7 @@ include_once "../header.php";
                         </div>
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -406,7 +406,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -419,7 +419,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -450,7 +450,7 @@ include_once "../header.php";
                 <div class="uk-width-3-4@s">
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -464,7 +464,7 @@ include_once "../header.php";
                         </div>
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -478,7 +478,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -491,7 +491,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -521,7 +521,7 @@ include_once "../header.php";
                 <div class="uk-width-3-4@s">
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                            <div class="uk-width-auto@s uk-padding-small ">
                                 <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -536,7 +536,7 @@ include_once "../header.php";
                         </div>
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -549,7 +549,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -561,7 +561,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -591,7 +591,7 @@ include_once "../header.php";
                 <div class="uk-width-3-4@s">
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -605,7 +605,7 @@ include_once "../header.php";
                         </div>
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -618,7 +618,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
@@ -630,7 +630,7 @@ include_once "../header.php";
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
+                            <div class="uk-width-auto@s uk-padding-small">
                                 <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">

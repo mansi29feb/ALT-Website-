@@ -250,7 +250,7 @@
             <div class="uk-text-center " >
                 <div class="uk-inline-clip  uk-transition-toggle uk-light" tabindex="0">
                     <img class=" " data-src="images/case/case11.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
-                    <div id="button3" class="works_overlay uk-position-center " >
+                    <div id="button3" class="works_overlay uk-position-center">
                         <button uk-toggle="target: #works1" class=" more uk-position-center uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
                 </div>
@@ -344,20 +344,20 @@
 
     <!-- Work 2 -->
     <div id="works2" class="uk-padding-large" uk-modal>
-        <div id="" class="case_detail uk-card uk-card-default uk-margin-small-top">
+    <div id="" class="uk-card uk-card-body uk-animation-toggle uk-card-default " >
             
-            <div class="uk-card-body uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-                <div class="uk-flex uk-width-1-4@s ">
-                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Multi-site implementation
+            <div class=" uk-child-width-1-4@s uk-grid-collapse" uk-grid>
+                <div class="uk-flex uk-width-1-4@s">
+                    <div class="uk-text-center uk-text-bold uk-height-small uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Multi-site</br>implementation
                         <div class="uk-text-meta uk-text-secondary"></div>
                     </div>
                   
                 </div>
-                <div class="uk-width-3-4@s">
-                    <div class="uk-margin uk-padding"> 
+                <div class="uk-width-3-4@s uk-padding">
+                    <div class="uk-margin uk-padding-small"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex ">
-                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -370,8 +370,8 @@
                         </div>
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -382,8 +382,8 @@
                         </div>
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -393,9 +393,9 @@
                             </div>
                         </div>
 
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small uk-flex">
-                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                        <div class="uk-margin uk-child-width-1-2@s  uk-grid-collapse" uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small ">
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -406,14 +406,12 @@
                         </div>
                     
                     </div>
+
                 </div>
-                
-                <button type="button" class="case_btn uk-modal-close uk-button uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-text-bold">Back</button>
-                    
+                <button  class=" case_btn uk-button uk-modal-close uk-margin-remove-top uk-button-default uk-align-center uk-text-center uk-text-capitalize uk-tex-bold">Back</button>     
             </div>
         </div>
-
-    </div>
+</div>
 
     <!-- work 1 -->
     <div id="works1" class="uk-padding-large" uk-modal>
@@ -428,7 +426,7 @@
             <div class="uk-width-3-4@s">
                 <div class="uk-margin uk-padding"> 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -441,7 +439,7 @@
                     </div>
                        
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -453,7 +451,7 @@
                     </div>
 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -462,18 +460,6 @@
                                 Migrated all non-prod and prod servers in one month time with a downtime of only 4 hours.
                                 Client got High-Availability/Disaster Recovery infrastructure for its retail portal.
                             </span>  
-                        </div>
-                    </div>
-
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
-                            <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
-                        </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
-                            <span class="services_article_para uk-text-center@s uk-text-left@m ">
-                                
-                            </span>
                         </div>
                     </div>
                 </div>
@@ -499,7 +485,7 @@
             <div class="uk-width-3-4@s">
                 <div class="uk-margin uk-padding"> 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -514,7 +500,7 @@
                     </div>
                        
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -529,7 +515,7 @@
                     </div>
 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -543,7 +529,7 @@
                     </div>
 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -577,7 +563,7 @@
             <div class="uk-width-3-4@s">
                 <div class="uk-margin uk-padding"> 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -592,7 +578,7 @@
                     </div>
                        
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -605,7 +591,7 @@
                     </div>
 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -617,7 +603,7 @@
                     </div>
 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -649,7 +635,7 @@
             <div class="uk-width-3-4@s">
                 <div class="uk-margin uk-padding"> 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -662,7 +648,7 @@
                     </div>
                        
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -676,7 +662,7 @@
                     </div>
 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -688,17 +674,6 @@
                         </div>
                     </div>
 
-                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
-                            <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
-                        </div>
-                        <div class="uk-width-expand@s">
-                            <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
-                            <span class="services_article_para uk-text-center@s uk-text-left@m ">
-                               
-                            </span>
-                        </div>
-                    </div>
                 
                 </div>
             </div>
@@ -722,7 +697,7 @@
             <div class="uk-width-3-4@s">
                 <div class="uk-margin uk-padding"> 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex ">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -736,7 +711,7 @@
                     </div>
                        
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -750,7 +725,7 @@
                     </div>
 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
@@ -763,7 +738,7 @@
                     </div>
 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                        <div class="uk-width-auto@s uk-padding-small uk-flex">
+                        <div class="uk-width-auto@s uk-padding-small">
                             <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
