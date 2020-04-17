@@ -28,7 +28,7 @@ include_once '../header.php';
             today with a strong trust of our clients on us.
         </p>
 
-        <div class="uk-container  uk-child-width-1-2@m uk-child-width-1-1@s uk-padding uk-margin" uk-grid>
+        <div class=" uk-child-width-1-2@m uk-child-width-1-1@s uk-padding uk-margin" uk-grid>
             <div class="uk-width-1-2@m uk-width-1-1@s uk-card uk-card-body uk-margin-small-bottom">
                 <div class="uk-child-width-1-2@s uk-grid-small " uk-grid>
                     <div class="uk-width-1-2@s">
@@ -57,7 +57,7 @@ include_once '../header.php';
             </div>
 
             <div class="uk-width-1-2@m uk-width-1-1@s uk-margin-large-top">
-                <div class="uk-margin uk-padding">
+                <div class="uk-padding-small uk-margin">
                     <div class=" uk-text-left@m uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Our Expertise</div>
                     <p class="uk-text-left@m uk-text-center services_mainpara"> Our Custom Software Developments include techniques and programs
                         like ATG, JSP Programming / Java, application re-engineering, PHP, software re- factoring. 
@@ -66,9 +66,8 @@ include_once '../header.php';
                     </p>
                 </div>
             </div>
-            
-        
         </div>
+
         <div class="uk-margin uk-padding">
             <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/license.svg" width="150" height="150" uk-img></div>
             <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Digital Commerce</div>
