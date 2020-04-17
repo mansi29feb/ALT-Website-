@@ -501,7 +501,7 @@ body{
       display:none;
     }
     .img {
-      width: 132px;
+      width: 135px;
     margin-left: 0px;
     }
     .nav-slider {
@@ -678,10 +678,12 @@ color: #000 !important;
     }
     .menu-toggle{
       height: 10px;
-      width: 0px;
-    }
+      width: 3px;
+      
+    
+      }
       .uk-sticky-fixed .menu-toggle{
-        margin-left: 2px;
+        margin-left: 10px;
       }
 
       .uk-sticky-fixed{
@@ -695,13 +697,6 @@ color: #000 !important;
       font-family: 'Poppins' !important;
       margin-bottom: 64px;
   }
-  .sub-button {
-    color: #fff;
-    background-color: #ff7600;
-    border-color: #ff7600;
-    font-weight: bolder !important;
-    margin-left: 45px;
-}
     }
     
     @media screen and (max-width:399px) and (min-width:360px){

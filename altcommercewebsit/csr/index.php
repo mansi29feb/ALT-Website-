@@ -4,8 +4,11 @@ include_once "../header.php";
     
 <!-- csr starts -->
     <div class="uk-child-width-1-1" uk-grid>
-        <div class="uk-background-fixed uk-background-center-center uk-height-large uk-width-1-1" style="background-image: url(<?php echo $filePath;?>images/csr3.jpg);">
-            <p class="uk-h1 uk-text-bold csr-head" uk-parallax="y:200; easing:2;">"ENACT POSITIVE CHANGES"</p>  
+    <div class="uk-h2 uk-text-center uk-text-bold uk-margin-medium-top services_mainheading">"Enact Positive Changes"</div>
+    <p class="uk-text-center services_mainpara">We always have undertaken various initiatives with an aim to improve quality 
+    of life & ensure the holistic development of its surrounding communities. </p>
+
+        <div class="uk-background-contain uk-height-large uk-flex uk-flex-center uk-flex-middle" style="background-image: url(<?php echo $filePath;?>images/csr/earth/earth-alt.png);"> 
         </div> 
     </div>
        
@@ -43,8 +46,8 @@ include_once "../header.php";
     </div>
 
     <div class="">
-        <div class="" style="background-image: url(<?php echo $filePath;?>images/csr/earth/blur-tree.jpg)"> 
-            <div class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#fff">वृक्ष लगाओ जीवन बचाओ</div>
+        <div class="" style=" background-color: #fafafa;"> 
+            <div class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#1C1C1C">वृक्ष लगाओ जीवन बचाओ</div>
             
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider=" autoplay:true; autoplay-interval:2000;">
 
@@ -78,7 +81,7 @@ include_once "../header.php";
             </div>
         
         <div class="uk-container csr_text_box uk-card" >
-            <p class=" uk-padding  uk-text-left" style="font-size: 16px; color:#fff">Help to replenish what is been taken away by giving back to the earth.
+            <p class=" uk-padding  uk-text-left" style="font-size: 16px; color:#1c1c1c;">Help to replenish what is been taken away by giving back to the earth.
             In the forest area of 400 acres, we took a little step to harvest water. Around 500- 1000 rain harvesting pits dug to harvest water in the rainy season. Planted around 1000 trees of fruits like Jamun, mangoes, kokum, etc. in 2 years.  
                 
                 &nbsp;People of Uttara Kannada district are working towards creating awareness about the importance of water & environmental resources. The work towards <span class="csr_text" >"Rain Harvesting"</span> is planned in many regions of the district.
@@ -142,8 +145,8 @@ include_once "../header.php";
 
 <!-- water activity -->
 <div class=" ">
-    <div class="" style="background-image: url(<?php echo $filePath;?>images/csr/water/blur-water3.jpg)">
-        <div class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#fff">जल ही जीवन हे !</div>
+    <div class="" style="background-color: #fafafa;">
+        <div class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#1c1c1c;">जल ही जीवन हे !</div>
         
         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider=" autoplay:true; autoplay-interval:2000;">
 
@@ -178,7 +181,7 @@ include_once "../header.php";
         </div>
     
     <div class="uk-container csr_text_box uk-card" >
-        <p class=" uk-padding uk-text-left" style="font-size: 16px; color:#fff">
+        <p class=" uk-padding uk-text-left" style="font-size: 16px; color:#1c1c1c;">
             
             Clean water is the basis of health. Not only do the rural poor drink highly contaminated 
             water, but many even have no awareness that water is the reason for illness & death. 
@@ -230,7 +233,7 @@ include_once "../header.php";
     </div>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="<?php echo $filePath;?>images/csr/earth/kids-green.jpg" height="300" width="300" alt="" uk-img>
+            <img data-src="<?php echo $filePath;?>images/csr/water/happy-kids.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove">Clean water keeps doctors away.</p>
             </div>
@@ -239,7 +242,7 @@ include_once "../header.php";
     </div>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="<?php echo $filePath;?>images/csr/earth/climate-change1.jpg" height="300" width="300" alt="" uk-img>
+            <img data-src="<?php echo $filePath;?>images/csr/water/kids-water2.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove">Combating waterborne diseases.</p>
             </div>
@@ -249,7 +252,7 @@ include_once "../header.php";
     
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="<?php echo $filePath;?>images/csr/water/kids-water2.jpg" height="300" width="300" alt="" uk-img>
+            <img data-src="<?php echo $filePath;?>images/csr/water/village-baby.jpg" height="300" width="300" alt="" uk-img>
             <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove">Stave off the birth defects in new-born babies.</p>
             </div>
@@ -260,7 +263,7 @@ include_once "../header.php";
 </div>
 </div>
 
-<div class="uk-margin">
+<!-- <div class="uk-margin">
 
     <div class="uk-flex uk-child-width-1-1 uk-grid-collapse uk-margin-medium-top" uk-grid>
         <div class="uk-width-1-1 ">
@@ -273,9 +276,9 @@ include_once "../header.php";
         <div class="uk-width-1-2 uk-align-right purpose"></div>
         </div>
     
-</div>
+</div> -->
 
-<div class="uk-position-relative uk-visible-toggle uk-padding " tabindex="-1" uk-slider=" autoplay:true; sets:true; autoplay-interval:3000;">
+<!-- <div class="uk-position-relative uk-visible-toggle uk-padding " tabindex="-1" uk-slider=" autoplay:true; sets:true; autoplay-interval:3000;">
 
         <ul class="uk-slider-items uk-child-width-1-1@s uk-child-width-1-4@m uk-grid">
             <li class=" li1">
@@ -371,6 +374,7 @@ include_once "../header.php";
     
         <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin csr_nav"></ul>
     </div>
+</div> -->
 
     
     

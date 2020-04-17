@@ -16,8 +16,8 @@
                     <li>
                         <div class="uk-card font-text">
                             <div class="uk-card-body uk-text-left">
-                                <h2 class="uk-card-title slider-title slide-txt">Driving Innovation, Driving
-                                    <br>Results</h2>
+                                <h2 class="uk-card-title slider-title">Driving Innovation,Driving
+                                    <br> Results</h2>
                                 <p>Our focus on innovation is based on delivering results for our clients.</p>
                             </div>
                         </div>
@@ -25,9 +25,9 @@
                     <li>
                         <div class="uk-card font-text">
                             <div class="uk-card-body uk-text-left">
-                                <h2 class="uk-card-title slider-title">Agile, Experienced
-                                    <br>&amp; Effective</h2>
-                                <p>ALT commerce is an expert in Omni-Channel Commerce
+                                <h2 class="uk-card-title slider-title">Agile,Experienced
+                                    <br>&amp;Effective</h2>
+                                <p>Alt commerce is an expert in Omni-Channel Commerce
                                     <br> and delivering Oracle Commerce, Commerce Cloud and
                                     <br> the suite of Oracle CX products.</p>
                             </div>
@@ -36,7 +36,7 @@
                     <li>
                         <div class="uk-card font-text">
                             <div class="uk-card-body uk-text-left">
-                                <h2 class="uk-card-title slider-title">ALT Commerce</h2>
+                                <h2 class="uk-card-title slider-title">Alt Commerce</h2>
                                 <p>We focus all our work not only on developing and
                                     <br>maintaining the products and services,
                                     <br> but rather on building long term relationships.</p>

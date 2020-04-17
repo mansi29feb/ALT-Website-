@@ -17,7 +17,7 @@
 
             <ul class=" uk-subnav uk-margin-medium-bottom uk-padding-small">
                 <li class="" uk-filter-control><button class="uk-button  skills_btn uk-margin-small-right uk-margin-small-top active">All Skills</button></li>
-                <li  uk-filter-control=".oracle"><button class="uk-button skills_btn  uk-margin-small-right uk-margin-small-top">Retail Platform</button>
+                <li  uk-filter-control=".oracle"><button class="uk-button skills_btn  uk-margin-small-right uk-margin-small-top">Digital Commerce Platform</button>
                 </li>
                 <li uk-filter-control=".endeca"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">WEB ANALYTICS </button>
                 </li>
@@ -41,7 +41,7 @@
                 <li uk-filter-control=".integration"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">CONTINUOUS INTEGRATION</button>
 
                 </li>
-                <li uk-filter-control=".services"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">POS</button>
+                <li uk-filter-control=".services"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">Payment Gateway</button>
 
                 </li>
                 <li uk-filter-control=".testing"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">QUALITY ENGINEERING</button>
