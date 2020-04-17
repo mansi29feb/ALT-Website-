@@ -9,32 +9,38 @@ include_once "../header.php";
             
         <div class="uk-width-1-2@m">
             <div class="uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Send us a Message</div>
-            <div class="career_para uk-text-left">At Alt Commerce, our goal is to deliver solutions that 
+            <div class="career_para uk-text-left">At ALT Commerce, our goal is to deliver solutions that 
                 exactly meet the business objectives of our clients. We look forward to learning how we can help you.</div><br>
-            <form class="uk-form-stacked" action="?" method="POST">
+
+            <form class="uk-form-stacked" action="<?php echo $filePath;?>sendmail/index.php" method="post">
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-stacked-text">NAME*</label>
                     <div class="uk-form-controls">
-                        <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+                        <input class="uk-input" id="form-stacked-text" type="text" placeholder="" name="name">
                     </div>
                 </div>
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-s-email">EMAIL*</label>
                     <div class="uk-form-controls">
-                        <input class="uk-input" id="form-s-email" type="email" placeholder="">
+                        <input class="uk-input" id="form-s-email" type="email" placeholder="" name="email">
                     </div>
                 </div>
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-stacked-text">SUBJECT*</label>
                     <div class="uk-form-controls">
-                        <input class="uk-input" id="form-stacked-text" type="text" placeholder="">
+                        <input class="uk-input" id="form-stacked-text" type="text" placeholder="" name="subject">
                     </div>
                 </div>
                 <div class="uk-margin">
                     <label class="uk-form-label" for="form-stacked-text">MESSAGE*</label>
-                    <textarea class="uk-textarea" rows="5" placeholder=""></textarea>
+                    <textarea class="uk-textarea" rows="5" placeholder="" name="msg"></textarea>
                 </div>
-                <div class="g-recaptcha" data-sitekey="your_site_key"></div><br>
+                
+                <div class="uk-margin">
+                    <div class="g-recaptcha" data-sitekey="6Lcw6HcUAAAAALgTE9ImQ-5lSlG0-uRuIvsLxvTX" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                    <input style="display:none" class="form-control d-none" data-recaptcha="true"  data-error="Please complete the Captcha">
+                    <div class="help-block with-errors"></div>
+                </div><br>
                 <button class="uk-button uk-button-default sub-button">SEND MESSAGE</button>
             </form>  
         </div> 
