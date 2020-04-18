@@ -17,40 +17,30 @@
 
             <ul class=" uk-subnav uk-margin-medium-bottom uk-padding-small">
                 <li class="" uk-filter-control><button class="uk-button  skills_btn uk-margin-small-right uk-margin-small-top active">All Skills</button></li>
-                <li  uk-filter-control=".oracle"><button class="uk-button skills_btn  uk-margin-small-right uk-margin-small-top">Digital Commerce Platform</button>
-                </li>
-                <li uk-filter-control=".endeca"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">WEB ANALYTICS </button>
+                <li uk-filter-control=".server"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">APPLICATION SERVERS</button>
                 </li>
                 <li uk-filter-control=".hybris"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top"> CLOUD PLATFORMS</button>
                 </li>
+                <li uk-filter-control=".database"><button class="uk-button skills_btn  uk-margin-small-right uk-margin-small-top ">DATABASE</button>
+                </li>
                 <li uk-filter-control=".aem"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">DevOps</button>
-
+                </li>
+                <li  uk-filter-control=".oracle"><button class="uk-button skills_btn  uk-margin-small-right uk-margin-small-top">Digital Commerce Platform</button>
                 </li>
                 <li uk-filter-control=".lang"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">LANGUAGES</button>
-
                 </li>
-                <li uk-filter-control=".database"><button class="uk-button skills_btn  uk-margin-small-right uk-margin-small-top ">DATABASE</button>
-
-                </li>
-                <li uk-filter-control=".server"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">APPLICATION SERVERS</button>
-
-                </li>
-                <li uk-filter-control=".cms"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">COMMUNICATION</button>
-
-                </li>
-                <li uk-filter-control=".integration"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">CONTINUOUS INTEGRATION</button>
-
+                <li uk-filter-control=".cms"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">Microservices</button>
                 </li>
                 <li uk-filter-control=".services"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">Payment Gateway</button>
-
                 </li>
                 <li uk-filter-control=".testing"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">QUALITY ENGINEERING</button>
-
                 </li>
                 <li uk-filter-control=".search"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">SEARCH</button>
-
                 </li>
-                
+                <li uk-filter-control=".integration"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">Third Party integration</button>
+                </li>
+                <li uk-filter-control=".endeca"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">WEB ANALYTICS </button>
+                </li>        
             </ul>
         
             
@@ -112,7 +102,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="integration">
+                    <li class="aem">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
@@ -174,7 +164,7 @@
                         </div>
                     </li>
                 
-                    <li class="integration">
+                    <li class="aem">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
@@ -236,7 +226,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills/slack.png" height="200" width="200" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -463,7 +453,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills/skype.png" height="200" width="200" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -472,10 +462,6 @@
                         </div>
                     </li>
                   
-                    
-                    
-                    
-                
                 </ul>
 
             
@@ -483,107 +469,7 @@
         </div>
     </div>
         
-    </div>
-
-    
-
-
-
-
-   <!--<div class="" style="background-color: #f2f2f2;">
-     <div class="uk-container uk-card  uk-margin-large-bottom" >
-         <div  class="uk-margin uk-padding" uk-switcher="connect: #component-nav; toggle: > *;">
-             <button class="uk-button skills_btn uk-button-default uk-margin-small-right uk-margin-small-top" onclick="btn1()">Oracle Commerce Suite</button>
-             <button class="uk-button skills_btn uk-button-default uk-margin-small-right uk-margin-small-top">Endeca Guided Search</button>
-             <button class="uk-button skills_btn uk-button-default uk-margin-small-right uk-margin-small-top">SAP Hybris eCommerce</button>
-             <button class="uk-button skills_btn uk-button-default uk-margin-small-right uk-margin-small-top">Adobe Experience Manager</button>
-             <button class="uk-button skills_btn uk-button-default uk-margin-small-right uk-margin-small-top">LANGUAGES</button>
-             <button class="uk-button skills_btn uk-button-default uk-margin-small-right uk-margin-small-top ">DATABASE</button>
-             <button class="uk-button skills_btn uk-button-default uk-margin-small-right uk-margin-small-top">APPLICATION SERVERS</button>
-             <button class="uk-button skills_btn uk-button-default uk-margin-small-right uk-margin-small-top">CONFIGURATION MANAGEMENT</button>
-             <button class="uk-button skills_btn uk-button-default uk-margin-small-right uk-margin-small-top">SERVICES EXECUTION / IMPLEMENTATION </button>
-             
-         </div>
-
-         <div id="btn1_detail" class=" uk-padding-small box">
-            <div class="uk-container uk-grid-small  uk-child-width-1-3@m" uk-grid>
-                <div class="">
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <div class="uk-card-badge label uk-label">Badge</div>
-                        <h3 class="uk-card-title">Default</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <div class="uk-card-footer">
-                            <a href="#" class="uk-button uk-button-text">Read more</a>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <div class="uk-card-badge label uk-label">Badge</div>
-                        <h3 class="uk-card-title">Primary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <div class="uk-card-footer">
-                            <a href="#" class="uk-button uk-button-text">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <div class="uk-card-badge label uk-label">Badge</div>
-                        <h3 class="uk-card-title">Secondary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <div class="uk-card-footer">
-                            <a href="#" class="uk-button uk-button-text">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <div class="uk-card-badge label uk-label">Badge</div>
-                        <h3 class="uk-card-title">Secondary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <div class="uk-card-footer">
-                            <a href="#" class="uk-button uk-button-text">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <div class="uk-card-badge label uk-label">Badge</div>
-                        <h3 class="uk-card-title">Secondary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <div class="uk-card-footer">
-                            <a href="#" class="uk-button uk-button-text">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <div class="uk-card-badge label uk-label">Badge</div>
-                        <h3 class="uk-card-title">Secondary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <div class="uk-card-footer">
-                            <a href="#" class="uk-button uk-button-text">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body">
-                        <div class="uk-card-badge label uk-label">Badge</div>
-                        <h3 class="uk-card-title">Secondary</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <div class="uk-card-footer">
-                            <a href="#" class="uk-button uk-button-text">Read more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         </div>
-        </div>
-    </div>-->
-
-    
+    </div>    
     <?php
 	 include_once '../footer.php';
     ?>

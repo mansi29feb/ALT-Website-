@@ -928,7 +928,7 @@
 
 
 <!--Blog Section Starts-->
-<!--div class="uk-container uk-margin-medium-bottom uk-margin-medium-top">
+<!-- <div class="uk-container uk-margin-medium-bottom uk-margin-medium-top">
     <button class="uk-button uk-text-capitalize uk-align-center uk-margin-small-bottom uk-padding-small uk-padding-remove-vertical btn" disabled>Latest Articles</button>
     <div class="uk-h3 section2_heading uk-text-center uk-text-bolder uk-margin-remove-top uk-margin-medium-top uk-margin-large-bottom">Recently From the Blog</div>
     <div class="uk-child-width-1-3@m uk-grid-small uk-child-width-1-1@s " uk-grid>
@@ -985,7 +985,7 @@
             </div>
         </div>
         
-</div>-->
+</div> -->
 <!----------------------Blog Section Ends---------------------->
 
 
