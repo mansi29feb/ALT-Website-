@@ -27,7 +27,7 @@
 	<body class=" uk-background-norepeat <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
 <!--topbar-->
     <div class="uk-container">
-        <div class="uk-grid " uk-grid>
+        <div class="uk-grid" uk-grid>
             <div class="uk-navbar-left nav-social">
                 <ul class="uk-navbar-nav ">
                     <li>
@@ -53,7 +53,7 @@
 
                 
                 
-        <div class="uk-child-width-expand@s nav-header uk-sticky-fixed " uk-grid  uk-sticky>
+        <div class="uk-child-width-expand@s nav-header uk-sticky-fixed" uk-grid  uk-sticky>
             
             <div class="clear-padd uk-width-auto@m">
                 <div class="uk-navbar">

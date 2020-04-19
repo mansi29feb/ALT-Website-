@@ -19,19 +19,21 @@
                 <li class="" uk-filter-control><button class="uk-button  skills_btn uk-margin-small-right uk-margin-small-top active">All Skills</button></li>
                 <li uk-filter-control=".server"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">APPLICATION SERVERS</button>
                 </li>
-                <li uk-filter-control=".hybris"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top"> CLOUD PLATFORMS</button>
+                <li uk-filter-control=".cloud"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top"> CLOUD PLATFORMS</button>
                 </li>
                 <li uk-filter-control=".database"><button class="uk-button skills_btn  uk-margin-small-right uk-margin-small-top ">DATABASE</button>
                 </li>
-                <li uk-filter-control=".aem"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">DevOps</button>
+                <li uk-filter-control=".devops"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">Development & Operations</button>
                 </li>
-                <li  uk-filter-control=".oracle"><button class="uk-button skills_btn  uk-margin-small-right uk-margin-small-top">Digital Commerce Platform</button>
+                <li  uk-filter-control=".commerce"><button class="uk-button skills_btn  uk-margin-small-right uk-margin-small-top">Digital Commerce Platform</button>
+                </li>
+                <li  uk-filter-control=".hybrid"><button class="uk-button skills_btn  uk-margin-small-right uk-margin-small-top">Hybrid Mobile App Development</button>
                 </li>
                 <li uk-filter-control=".lang"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">LANGUAGES</button>
                 </li>
-                <li uk-filter-control=".cms"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">Microservices</button>
+                <li uk-filter-control=".micro"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">Microservices</button>
                 </li>
-                <li uk-filter-control=".services"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">Payment Gateway</button>
+                <li uk-filter-control=".payment"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">Payment Gateway</button>
                 </li>
                 <li uk-filter-control=".testing"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">QUALITY ENGINEERING</button>
                 </li>
@@ -39,18 +41,18 @@
                 </li>
                 <li uk-filter-control=".integration"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">Third Party integration</button>
                 </li>
-                <li uk-filter-control=".endeca"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">WEB ANALYTICS </button>
+                <li uk-filter-control=".analytics"><button class="uk-button skills_btn uk-margin-small-right uk-margin-small-top">WEB ANALYTICS </button>
                 </li>        
             </ul>
         
             
                 <ul class="js-filter uk-child-width-1-1@s uk-child-width-1-3@m uk-text-center uk-grid-small" uk-grid uk-scrollspy="target: > li > .uk-card; cls:uk-animation-slide-bottom-medium; delay: 100;">
-                    <li class="oracle">
+                    <li class="commerce">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-animation-toggle uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/atg.png" height="200" width="200" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/atg.png" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
@@ -60,12 +62,25 @@
                             
                         </div>
                     </li>
-                    <li class="services">
+                    <li class="lang">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills/paypal.png" height="150" width="150" uk-img >
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/java.png" height="100" width="100" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="payment">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/paypal.png" height="200" width="200" uk-img >
                                   
                                 </div>
                                     
@@ -74,14 +89,51 @@
                         
                     </li>
 
+                    <li class="server">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/tomcat.jpg" height="300" width="300" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
 
+                        </div>
+                    </li>
+                    <li class="integration">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/usps.svg" height="200" width="200" uk-img >
+                                  
+                                </div>
+                                    
+                            </div>
+                        </div> 
+                        
+                    </li>
+                    <li class="server">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/websphere.png" height="250" width="250" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
 
+                        </div>
+                    </li>
                     <li class="testing">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/postman.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/postman.png" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
@@ -89,41 +141,62 @@
     
                         </div>
                     </li>
+                    <li class="hybrid">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/ionic.png" height="200" width="200" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+                        </div>
+                    </li>
 
-                    <li class="endeca">
+                    <li class="analytics">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/analytics.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/google_analytics.png" height="300" width="300" uk-img>
                                   
                                 </div>
                                     
                             </div>
                         </div>
                     </li>
-                    <li class="aem">
+                    <li class="devops">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/bitbucket.png" height="100" width="100" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Jenkins.jpg" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
                             </div>
-                            <div class="skills_heading uk-text-bold" style="color: #253858;">
-                               Bitbucket
-                            </div>
                         </div>
                     </li>
-                    
-                    <li class="oracle">
+                    <li class="integration">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/magento.png" height="200" width="200" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/taxware.png" height="200" width="200" uk-img >
+                                  
+                                </div>
+                                    
+                            </div>
+                        </div> 
+                        
+                    </li>
+                    <li class="commerce">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/hybris.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -131,74 +204,132 @@
                         </div>
                     </li>
                    
-
+                    <li class="hybrid">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/react_native.png" height="150" width="150" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+                        </div>
+                    </li>
 
                     <li class="testing">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/selenium.png" height="100" width="100" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/selenium.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
                             </div>
-                            <div class="skills_heading" style="color: #067ceb;">
-                                Selenium
-                             </div>
+
 
                         </div>
                     </li>
-
-                    <li class="lang">
+                    <li class="integration">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/java.png" height="100" width="100" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/Experian.svg" height="200" width="200" uk-img >
                                   
                                 </div>
                                     
                             </div>
-
-                        </div>
+                        </div> 
+                        
                     </li>
-                
-                    <li class="aem">
+                    <li class="analytics">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/github.png" height="100" width="100" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/adobe-analytics.png" height="180" width="180" uk-img>
                                   
                                 </div>
                                     
                             </div>
-                            <div class="skills_heading" style="color: black;">
-                                GitHub
-                             </div>
                         </div>
                     </li>
-                    <li class="oracle">
+                    <li class="payment">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/hybris.svg" height="200" width="200" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/Vantive.png" height="200" width="200" uk-img >
                                   
                                 </div>
                                     
                             </div>
-
-                        </div>
+                        </div> 
+                        
                     </li>
-                    <li class="hybris">
+                    <li class="cloud">
                         
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/azure.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Google_Cloud.svg" height="250" width="250" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="integration">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/Zendesk.png" height="180" width="180" uk-img >
+                                  
+                                </div>
+                                    
+                            </div>
+                        </div> 
+                        
+                    </li>
+                 
+                
+                    <li class="devops">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/maven.png" height="200" width="200" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+                        </div>
+                    </li>
+                    <li class="commerce">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/magento.png" height="200" width="200" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="cloud">
+                        
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/aws.svg" height="150" width="150" uk-img>
                                   
                                 </div>
                                     
@@ -212,7 +343,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/ms-sql.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/MSSQL.png" height="300" width="300" uk-img>
                                   
                                 </div>
                                     
@@ -221,12 +352,25 @@
                         </div>
                     </li>
                     
-                    <li class="cms">
+                    <li class="micro">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card  " data-src="<?php echo $filePath;?>" height="200" width="200" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/micronaut.svg" height="300" width="300" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="commerce">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/commercetools.png" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
@@ -239,7 +383,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/cucumber.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/cucumber.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -247,12 +391,64 @@
 
                         </div>
                     </li>
-                    <li class="aem">
+                    <li class="analytics">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/maven.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Omniture.png" height="200" width="200" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+                        </div>
+                    </li>
+                    <li class="cloud">
+                        
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Azure.svg" height="200" width="200" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="micro">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/spring.svg" height="200" width="200" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="commerce">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/salesforce.svg" height="200" width="200" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="devops">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/git.jpg" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
@@ -267,14 +463,12 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/JavaScript.png" height="100" width="100" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/JavaScript.png" height="150" width="150" uk-img>
                                   
                                 </div>
                                     
                             </div>
-                            <div class="skills_heading" style="color: black; font-weight: 600;">
-                                JavaScript
-                             </div>
+    
                         </div>
                     </li>
                     
@@ -283,7 +477,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/weblogic.jpg" height="250" width="250" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/weblogic.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -296,7 +490,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/gradle.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Angular.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -304,13 +498,38 @@
 
                         </div>
                     </li>
-                    
+                    <li class="testing">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Jira.svg" height="250" width="250" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="micro">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/graphql.png" height="250" width="250" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+
+                        </div>
+                    </li>
                     <li class="lang">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/jquery.png" height="180" width="180" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/php.png" height="180" width="180" uk-img>
                                   
                                 </div>
                                     
@@ -325,7 +544,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/endeca.png" height="180" width="180" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/endeca.bmp" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -334,13 +553,39 @@
                         </div>
                     </li>
                     
+                    <li class="devops">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Bamboo.svg" height="200" width="200" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+
+                        </div>
+                    </li>
                    
+                    <li class="payment">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/paymetric.png" height="250" width="250" uk-img >
+                                  
+                                </div>
+                                    
+                            </div>
+                        </div> 
+                        
+                    </li>
                     <li class="lang">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/xml.png" height="180" width="180" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/reactJs.png" height="300" width="300" uk-img>
                                   
                                 </div>
                                     
@@ -348,7 +593,20 @@
 
                         </div>
                     </li>
-                    
+
+                   <li class="devops">
+                        <div class="uk-card uk-card-default uk-card-body skills_card">
+                            
+                            <div class="uk-flex uk-margin uk-margin-remove-bottom">
+                                <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/gradle.png" height="200" width="200" uk-img>
+                                  
+                                </div>
+                                    
+                            </div>
+
+                        </div>
+                    </li> 
                    
                     
                     <li class="database">
@@ -356,7 +614,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/mysql-db.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/MySQL.png" height="300" width="300" uk-img>
                                   
                                 </div>
                                     
@@ -368,12 +626,12 @@
                     
                     
                     
-                    <li class="aem">
+                    <li class="devops">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/jenkins.png" height="180" width="180" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Bitbucket.svg" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -383,12 +641,14 @@
                     </li>
 
                     
-                    <li class="server">
+                
+                    
+                    <li class="testing">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/tomcat.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/spock.jpg" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -397,12 +657,12 @@
                         </div>
                     </li>
                     
-                    <li class="server">
+                    <li class="lang">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/websphere.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/groovy.png" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
@@ -415,7 +675,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/ibm-db2.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/OracleDB.png" height="300" width="300" uk-img>
                                   
                                 </div>
                                     
@@ -427,7 +687,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/jboss.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/jboss.jpg" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -440,7 +700,7 @@
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills/oracle-db.png" height="180" width="180" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/ibm-db2.png" height="150" width="150" uk-img>
                                   
                                 </div>
                                     
@@ -448,12 +708,12 @@
 
                         </div>
                     </li>
-                    <li class="cms">
+                    <li class="lang">
                         <div class="uk-card uk-card-default uk-card-body skills_card">
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card  " data-src="<?php echo $filePath;?>" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/geb.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
