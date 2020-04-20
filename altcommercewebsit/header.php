@@ -13,7 +13,7 @@
         	if($explodeUrl[2]!=''){$filePath	=	'../';}else{$filePath	=	'';}
         ?>
 	    
-	    <title>Digital Commerce with Alt Commerce</title>
+	    <title>Digital Commerce with ALT Commerce</title>
 	    <link rel="shortcut icon" href="<?php echo $filePath;?>images/alt.png">
 	    <link rel="stylesheet" href="<?php echo $filePath;?>css/uikit.min.css">
 	    <link rel="stylesheet" href="<?php echo $filePath;?>css/style1.css">
