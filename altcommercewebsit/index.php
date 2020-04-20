@@ -213,25 +213,24 @@
                                     <h3 class="uk-text-bold uk-text-secondary form_heading uk-margin-small-top">Apply Now</h3>
                                     <div class="">
                                         <div class="uk-margin-small-bottom form_field">NAME:*</div>
-                                        <input class="uk-input uk-margin-small-bottom" type="text">
+                                        <input class="uk-input uk-margin-small-bottom uk-padding-small"  type="text" name="name">
                                     </div>
                                     <div class="form_uk-margin-small-top">
                                         <div class="uk-margin-small-bottom form_field">EMAIL ADDRESS:*</div>
-                                        <input class="uk-input" type="email">
+                                        <input class="uk-input uk-padding-small" type="email" name="email">
                                     </div></br>
 
                                     <div class="js-upload" uk-form-custom>
                                         <div class="uk-margin-small-bottom form_field">UPLOAD YOUR RESUME:*</div>
-                                        <input class="" type="file" name="fileToUpload" id="fileToUpload" multiple>
+                                        <input class="" type="file" name="file" id="file" multiple>
         
                                         <button class="uk-button uk-button-default upload uk-text-bolder uk-text-capitalize" type="button" tabindex="-1">Upload &nbsp;<span uk-icon="cloud-upload"></span></button>
                                         
                                     </div>
                                 </br>
   
-                                    <button class="g-recaptcha uk-button uk-margin-remove-bottom uk-text-bold uk-align-center 
-                                    uk-text-center form_btn uk-text-capitalize" data-sitekey="your_site_key" 
-                                    data-callback='onSubmit'>Apply Now</button>
+                                    <button class="uk-button uk-margin-remove-bottom uk-text-bold uk-align-center 
+                                    uk-text-center form_btn uk-text-capitalize" type="submit" name="submit">Apply Now</button>
                                     <div>
        
     </div>     
@@ -842,7 +841,7 @@
                                 <div class="uk-card uk-card-default">
                                    
                                     <div class="uk-card-media-top">
-                                        <img class="uk-align-center uk-border-circle testi_img"  data-src="images/avatar1.png" width="50" height="50" alt="" uk-img>
+                                        <img class="uk-align-center uk-border-circle testi_img"  data-src="images/ava1.jpg" width="50" height="50" alt="" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">I never considered ALT Commerce as a consulting company, I always count them as an extension of my own team. </p>
@@ -855,7 +854,7 @@
                             <li class="slider_item ">
                                 <div class="uk-card uk-card-default">
                                     <div class="uk-card-media-top">
-                                        <img class="uk-align-center uk-border-circle testi_img" data-src="images/avatar2.png" width="50" height="50" alt="" uk-img>
+                                        <img class="uk-align-center uk-border-circle testi_img" data-src="images/ava2.jpg" width="50" height="80" alt="" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         
@@ -870,7 +869,7 @@
                             <li class="slider_item">
                                 <div class="uk-card uk-card-default">
                                     <div class="uk-card-media-top">
-                                        <img class="uk-align-center uk-border-circle testi_img" data-src="images/avatar3.png" width="50" height="50" alt="" uk-img>
+                                        <img class="uk-align-center uk-border-circle testi_img" data-src="images/ava3.jpg" width="50" height="50" alt="" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">I never considered ALT Commerce as a consulting company, 
@@ -884,7 +883,7 @@
                             <li class="slider_item">
                                 <div class="uk-card uk-card-default">
                                     <div  class="uk-card-media-top">
-                                        <img class="uk-align-center uk-border-circle testi_img" data-src="images/avatar4.png" width="50" height="50" alt="" uk-img>
+                                        <img class="uk-align-center uk-border-circle testi_img" data-src="images/ava4.jpg" width="50" height="50" alt="" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">In our very first meeting, I got so many solutions to our 
@@ -898,7 +897,7 @@
                             <li class="slider_item">
                                 <div class="uk-card uk-card-default">
                                     <div class="uk-card-media-top">
-                                        <img class="uk-align-center uk-border-circle testi_img" data-src="images/avatar5.jpeg" width="50" height="50" alt="" uk-img>
+                                        <img class="uk-align-center uk-border-circle testi_img" data-src="images/ava5.jpg" width="50" height="50" alt="" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">ALT Commerce team's innovative ideas and solutions are always best and we always look forward to them. </p>

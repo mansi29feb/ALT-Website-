@@ -19,7 +19,7 @@ include_once '../header.php';
          Customer trusts us to deliver customized, end-to-end implementations.
         </div>
         <div class="uk-flex uk-flex-center uk-padding">
-            <img data-src="<?php echo $filePath;?>images/employee.png" height="100" width="500" uk-img>
+            <img data-src="<?php echo $filePath;?>images/employee.png" height="100" width="700" uk-img>
         </div>
 
         <p class="uk-text-center services_mainpara">

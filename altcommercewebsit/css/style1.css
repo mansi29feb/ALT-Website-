@@ -185,6 +185,7 @@ body a:focus{
 .form{
   border-radius: 3px;
   border:1px solid #ced4da;
+  
  
 }
 
@@ -253,6 +254,7 @@ body a:focus{
 input[type="text"],input[type="email"]{
   border-radius: 3px;
   border:1px solid #ced4da;
+  
 }
 
 
