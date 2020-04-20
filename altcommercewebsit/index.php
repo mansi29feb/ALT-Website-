@@ -27,7 +27,7 @@
                             <div class="uk-card-body uk-text-left">
                                 <h2 class="uk-card-title slider-title">Agile,Experienced
                                     <br>&amp;Effective</h2>
-                                <p>Alt commerce is an expert in Omni-Channel Commerce
+                                <p>ALT commerce is an expert in Omni-Channel Commerce
                                     <br> and delivering Oracle Commerce, Commerce Cloud and
                                     <br> the suite of Oracle CX products.</p>
                             </div>
@@ -36,7 +36,7 @@
                     <li>
                         <div class="uk-card font-text">
                             <div class="uk-card-body uk-text-left">
-                                <h2 class="uk-card-title slider-title">Alt Commerce</h2>
+                                <h2 class="uk-card-title slider-title">ALT Commerce</h2>
                                 <p>We focus all our work not only on developing and
                                     <br>maintaining the products and services,
                                     <br> but rather on building long term relationships.</p>
@@ -198,8 +198,8 @@
                         <div class=" uk-h2 uk-text-bold uk-text-secondary uk-margin-remove-top careersection_heading  uk-margin-medium-bottom ">Stay “ALWAYS AHEAD” </div>
                             <p class=" uk-width-large uk-padding-large uk-padding-remove-left uk-padding-remove-top 
                             uk-margin-small-top careersection_para">Careers are made from experiences.</br>
-                            At Alt Commerce, those experiences can be diverse, unlimited and far-reaching.
-                            Joining Alt Commerce is about joining a culture of openness, collaboration, trust, and expectation to have a voice.
+                            At ALT Commerce, those experiences can be diverse, unlimited and far-reaching.
+                            Joining ALT Commerce is about joining a culture of openness, collaboration, trust, and expectation to have a voice.
                             </p>
                             </div>
                     </div>
@@ -209,7 +209,7 @@
 
 
                     <div class="uk-card uk-card-body uk-width-1-5@m uk-width-1-1@s uk-display-inline-block box2">
-                            <form class="uk-card uk-card-body uk-card-default uk-padding-small form" uk-scrollspy="cls: uk-animation-scale-up"> 
+                            <form id="demo-form" class="uk-card uk-card-body uk-card-default uk-padding-small form" action="upload.php" method="POST" enctype="multipart/form-data" uk-scrollspy="cls: uk-animation-scale-up"> 
                                     <h3 class="uk-text-bold uk-text-secondary form_heading uk-margin-small-top">Apply Now</h3>
                                     <div class="">
                                         <div class="uk-margin-small-bottom form_field">NAME:*</div>
@@ -222,11 +222,16 @@
 
                                     <div class="js-upload" uk-form-custom>
                                         <div class="uk-margin-small-bottom form_field">UPLOAD YOUR RESUME:*</div>
-                                        <input class="" type="file" multiple>
+                                        <input class="" type="file" name="fileToUpload" id="fileToUpload" multiple>
+        
                                         <button class="uk-button uk-button-default upload uk-text-bolder uk-text-capitalize" type="button" tabindex="-1">Upload &nbsp;<span uk-icon="cloud-upload"></span></button>
+                                        
                                     </div>
                                 </br>
-                                    <button class="uk-button uk-margin-remove-bottom uk-text-bold uk-align-center uk-text-center form_btn uk-text-capitalize">Apply Now</button>
+  
+                                    <button class="g-recaptcha uk-button uk-margin-remove-bottom uk-text-bold uk-align-center 
+                                    uk-text-center form_btn uk-text-capitalize" data-sitekey="your_site_key" 
+                                    data-callback='onSubmit'>Apply Now</button>
                                     <div>
        
     </div>     
@@ -1008,7 +1013,7 @@
                             <p>We focus all our work not only on developing and 
                                 maintaining the products & services, but rather on 
                                 building long term relationships.
-                                Alt commerce is an expert in <span class="uk-text-bold">Omni-Channel Commerce</span>
+                                ALT commerce is an expert in <span class="uk-text-bold">Omni-Channel Commerce</span>
                                  & delivering <span class="uk-text-bold">Oracle Commerce</span>,
                                  <span class="uk-text-bold">Commerce Cloud</span>  and
                                   <span class="uk-text-bold">the suite of Oracle CX products.</span></p>
@@ -1095,3 +1100,9 @@
 	 include_once 'footer.php';
  ?>
 
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+     <script>
+       function onSubmit(token) {
+         document.getElementById("demo-form").submit();
+       }
+     </script>

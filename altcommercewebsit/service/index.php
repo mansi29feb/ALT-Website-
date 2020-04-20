@@ -23,7 +23,7 @@ include_once '../header.php';
         </div>
 
         <p class="uk-text-center services_mainpara">
-            We at Alt Commerce provide affordable and quality services to various clients across the
+            We at ALT Commerce provide affordable and quality services to various clients across the
             Globe.</br> Very few Indian companies could reach the zenith that we have reached 
             today with a strong trust of our clients on us.
         </p>
@@ -73,7 +73,7 @@ include_once '../header.php';
             <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Digital Commerce</div>
             <p class="uk-text-center services_mainpara"> Digital commerce is in the midst of revolution and things are moving 
                 faster than ever.While all this excitement means new possibilities, it also comes with the challenge of figuring 
-                out just how to proceed. Alt commerce focuses all our work not only developing and maintaining the products but 
+                out just how to proceed. ALT commerce focuses all our work not only developing and maintaining the products but 
                 rather on building long term relationships.
         </div>
 
@@ -100,7 +100,7 @@ include_once '../header.php';
                         <div class="uk-width-1-1@s uk-width-1-2@m  uk-padding-large uk-padding-remove-top ">
                             <div class="uk-text-center@s uk-text-left@m uk-text-bold uk-margin-medium-top services_article_heading">CUSTOM SOFTWARE DEVELOPMENT</div>
                             <p class="uk-text-center@s uk-text-left@m services_article_para"> We can bring to life any software idea you may have. 
-                                Alt Commerce is a custom software development company and offers a complete cycle of customized software programming services that 
+                                ALT Commerce is a custom software development company and offers a complete cycle of customized software programming services that 
                                 include offshore web development, product ideas, enhancement and support.
                             
                         </div>
@@ -128,7 +128,7 @@ include_once '../header.php';
             <div class="uk-margin uk-padding">
                 <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/globe.svg" width="150" height="150" uk-img></div>
                 <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top">Web Design & Development</div>
-                <p class="uk-text-center services_mainpara"> Software Development at Alt Commerce has lots of benefits. Through our custom 
+                <p class="uk-text-center services_mainpara"> Software Development at ALT Commerce has lots of benefits. Through our custom 
                     software development you reduce costs of outsourcing software development and  get the best software utility ever.
                     <div class="uk-child-width-1-1@s uk-child-width-1-3@m uk-grid-medium uk-margin uk-grid-match" uk-grid>
                         <div class="uk-width-1-1@s uk-width-1-3@m">
@@ -174,7 +174,7 @@ include_once '../header.php';
                 <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/team.svg" width="150" height="150" uk-img></div>
                 <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">User Journey & Experience</div>
                 <p class="uk-text-center services_mainpara"> Providing our customers with a consistent and seamless brand experience 
-                    is a given when the competition is only a click away.At Alt commerce customers becoming advocates for the company, creating referral, retention and profitable growth.
+                    is a given when the competition is only a click away.At ALT commerce customers becoming advocates for the company, creating referral, retention and profitable growth.
                     
                     <div class="uk-child-width-1-1@s uk-child-width-1-3@m uk-grid-medium uk-margin uk-grid-match" uk-grid>
                         <div class="uk-width-1-1@s uk-width-1-3@m ">

@@ -4,7 +4,7 @@
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	    <meta name="Digital Commerce with Alt Commerce" content="Alt commerce is an expert in Omni-Channel Commerce and delivering Oracle Commerce, Commerce Cloud and the suite of Oracle CX products.">
+	    <meta name="Digital Commerce with ALT Commerce" content="ALT commerce is an expert in Omni-Channel Commerce and delivering Oracle Commerce, Commerce Cloud and the suite of Oracle CX products.">
 	    
 	    <?php 
             $url = $_SERVER["REQUEST_URI"];
@@ -13,7 +13,7 @@
         	if($explodeUrl[2]!=''){$filePath	=	'../';}else{$filePath	=	'';}
         ?>
 	    
-	    <title>Digital Commerce with Alt Commerce</title>
+	    <title>Digital Commerce with ALT Commerce</title>
 	    <link rel="shortcut icon" href="<?php echo $filePath;?>images/alt.png">
 	    <link rel="stylesheet" href="<?php echo $filePath;?>css/uikit.min.css">
 	    <link rel="stylesheet" href="<?php echo $filePath;?>css/style1.css">

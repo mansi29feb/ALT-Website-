@@ -28,7 +28,7 @@
                   <div class="uk-width-1-1@s ">
                       <div class="uk-h4 services_subheading">Working and Thriving</div>
                       <div class="uk-child-width-1-2@s " uk-grid>
-                        <p class="uk-width-1-1@s services_mainpara uk-align-center uk-margin-large-horizintal">Stay “ALWAYS AHEAD” by giving your career a kick-start with Alt Commerce.</p>
+                        <p class="uk-width-1-1@s services_mainpara uk-align-center uk-margin-large-horizintal">Stay “ALWAYS AHEAD” by giving your career a kick-start with ALT Commerce.</p>
                       </div>
                       
                   </div>
@@ -39,7 +39,7 @@
                       <img src="<?php echo $filePath;?>images/career/future.jpg">
                       <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Embracing The Future</div>
                       <div class="uk-margin-small-left services_article_para uk-text-left">We generate possibilities and use the power of creativity to innovate in ways that matter to people. 
-                          Careers are made from experiences. At Alt Commerce, those experiences can be diverse, unlimited and far-reaching.</div></br>
+                          Careers are made from experiences. At ALT Commerce, those experiences can be diverse, unlimited and far-reaching.</div></br>
         
                         </div>
                   </div >
@@ -66,10 +66,10 @@
                     <img src="<?php echo $filePath;?>images/career/big-brands.jpg">
                     <div class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">A Chance to work with BIG BRANDS</div>
                     <div class="uk-margin-small-left services_article_para uk-text-left">Don’t be afraid of starting over. It’s a brand new opportunity to rebuild what 
-                        you truly want. Joining Alt Commerce is about joining a culture of openness, collaboration, trust & expectation 
+                        you truly want. Joining ALT Commerce is about joining a culture of openness, collaboration, trust & expectation 
                         to have a voice. We build trust and engagement with our employees.
                         We’re a team of self-starters with a passion for people-centric innovation. 
-                        At Alt Commerce, work is more than a job.
+                        At ALT Commerce, work is more than a job.
                             </div></br>
                     </div>   
                   </div>

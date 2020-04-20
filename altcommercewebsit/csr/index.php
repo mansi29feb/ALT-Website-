@@ -12,7 +12,7 @@ include_once "../header.php";
     </div>
        
      
-     <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-top">Sustainability at Alt Commerce</div>
+     <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-top">Sustainability at ALT Commerce</div>
    
 
      <div class=" uk-text-center uk-padding uk-padding-remove-top services_mainpara">
@@ -207,7 +207,7 @@ include_once "../header.php";
             Clean water is the basis of health. Not only do the rural poor drink highly contaminated 
             water, but many even have no awareness that water is the reason for illness & death. 
             To date, there has been no access to reliably clean water at an affordable price & no
-             efforts made to address & open up markets for the rural poor. Alt Commerce in collaboration 
+             efforts made to address & open up markets for the rural poor. ALT Commerce in collaboration 
              with <span class=" csr_text" style=" font-size: 28px;">Tejobindu Hindustan Foundation </span>took small steps 
              to help the people living in the remote 
              village <span class=" csr_text" style=" font-size: 28px;"></span>Bhanpur Chhapra of Madhya Pradesh (central India) by distributing the Gravity based 
