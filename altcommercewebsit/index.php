@@ -16,7 +16,7 @@
                     <li>
                         <div class="uk-card font-text">
                             <div class="uk-card-body uk-text-left">
-                                <h2 class="uk-card-title slider-title">Driving Innovation,Driving
+                                <h2 class="uk-card-title slider-title">Driving Innovation, Driving
                                     <br> Results</h2>
                                 <p>Our focus on innovation is based on delivering results for our clients.</p>
                             </div>
@@ -25,8 +25,8 @@
                     <li>
                         <div class="uk-card font-text">
                             <div class="uk-card-body uk-text-left">
-                                <h2 class="uk-card-title slider-title">Agile,Experienced
-                                    <br>&amp;Effective</h2>
+                                <h2 class="uk-card-title slider-title">Agile, Experienced
+                                    <br>&amp; Effective</h2>
                                 <p>ALT commerce is an expert in Omni-Channel Commerce
                                     <br> and delivering Oracle Commerce, Commerce Cloud and
                                     <br> the suite of Oracle CX products.</p>
