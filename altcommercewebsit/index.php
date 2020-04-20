@@ -222,11 +222,13 @@
 
                                     <div class="js-upload" uk-form-custom>
                                         <div class="uk-margin-small-bottom form_field">UPLOAD YOUR RESUME:*</div>
-                                        <input class="" type="file" name="file" id="file" multiple>
+                                        <input  class="" type="file" name="file" id="file" multiple>
         
                                         <button class="uk-button uk-button-default upload uk-text-bolder uk-text-capitalize" type="button" tabindex="-1">Upload &nbsp;<span uk-icon="cloud-upload"></span></button>
-                                        
+                                        </br><label id="file-name" style="font-size:13px; color:#1c1c1c;"></label>        
                                     </div>
+
+                                    
                                 </br>
   
                                     <button class="uk-button uk-margin-remove-bottom uk-text-bold uk-align-center 
@@ -1104,4 +1106,8 @@
        function onSubmit(token) {
          document.getElementById("demo-form").submit();
        }
+
+       document.querySelector("#file").onchange = function(){
+  document.querySelector("#file-name").textContent = this.files[0].name;
+}
      </script>

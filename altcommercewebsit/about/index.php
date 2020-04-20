@@ -3,8 +3,8 @@ include_once "../header.php";
 ?>
 
 <div class="uk-child-width-1-1 uk-grid uk-grid-stack" uk-grid="">
-    <div class="uk-h2 uk-text-center uk-text-bold uk-margin-medium-top services_mainheading uk-first-column">About the ALT Commerce</div>
-        <p class="uk-text-center services_mainpara">Alt Commerce is a professional services firm focused on implementing and optimizing Oracle Commerce and the Oracle Customer Experience suite of products.</div>
+    <div class="uk-h2 uk-text-center uk-text-bold uk-margin-medium-top services_mainheading uk-first-column">About ALT Commerce</div>
+        <p class="uk-text-center services_mainpara">ALT Commerce is a professional services firm focused on implementing and optimizing Oracle Commerce and the Oracle Customer Experience suite of products.</div>
         <div class="uk-background-contain uk-height-large uk-grid" style="background-image: url(<?php echo $filePath;?>images/about3.png);"> </div> 
         <div class="uk-container uk-margin-medium-bottom uk-margin-medium-top">
             <div class="services_article_para  uk-text-justify">
