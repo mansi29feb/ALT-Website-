@@ -39,7 +39,7 @@ include_once "../header.php";
     <div class="uk-child-width-1-3@m uk-grid-small uk-child-width-1-1@s uk-padding-small" uk-grid>
                 
         <div class="uk-width-1-3@m">
-            <div class="uk-text-left career1_box"> 
+            <div class="uk-text-left career2_box"> 
                 <!--<i class="fa fa-gamepad stroke-transparent fa-3x" aria-hidden="true"></i>-->
                 <img src="<?php echo $filePath;?>images/culture.jpeg" style="height: 206px; width: 375px;">
                 <div class="uk-h3 uk-text-left services_article_heading  uk-margin-small-top">OUR CULTURE</div>
@@ -49,7 +49,7 @@ include_once "../header.php";
            </div>        
         </div> 
         <div class="uk-width-1-3@m">
-                <div class="uk-text-left career1_box">
+                <div class="uk-text-left career2_box">
                 <!--<i class="fa fa-cog stroke-transparent fa-3x" aria-hidden="true"></i>-->
                 <img src="<?php echo $filePath;?>images/ourteam.jpeg" style="height: 204px;">
                 <div class="uk-h3 uk-text-left services_article_heading  uk-margin-small-top ">OUR TEAM</div> 
@@ -60,7 +60,7 @@ include_once "../header.php";
                 </div>
         </div>
         <div class="uk-width-1-3@m">
-                <div class="uk-text-left career1_box">
+                <div class="uk-text-left career2_box">
            <!-- <i class="fa fa-paper-plane-o stroke-transparent fa-3x" aria-hidden="true"></i>-->
                 <img src="<?php echo $filePath;?>images/ourcompany.jpeg" style="height: 206px; width: 360px;">
                 <div class="uk-h3 uk-text-left services_article_heading uk-margin-small-top ">OUR COMPANY</div> 
