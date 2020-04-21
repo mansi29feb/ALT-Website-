@@ -48,7 +48,9 @@
         </div>
     </div>
 <!-- Slider ends-->
+
 <!--what we do start-->
+
     <div class="uk-container uk-padding uk-margin">
         <div class="uk-child-width-1-1@s uk-margin-large-top uk-text-center uk-margin-medium-bottom" uk-grid >
             <div class="uk-width-1-1@s">
@@ -177,27 +179,20 @@
 
 
     </div>
+<!--WHAT WE DO ENDS-->
 
-    <!--WHAT WE DO ENDS-->
-
-
-   
-
-
-
-
-    <!-----------------------------------------Careers section starts------------------->
+<!-----------------------------------------Careers section starts------------------->
 
         <div class="uk-section uk-card uk-card-default uk-card-body uk-padding-remove">
            <div class="uk-background-contain uk-background-center-right career_homepage">
-               <div class="uk-child-width-1-1@s uk-child-width-1-5@m uk-grid-small uk-flex uk-flex-center@s uk-flex-left@m career_box" uk-grid>
+               <div class="uk-child-width-1-1@s uk-child-width-1-5@m uk-flex uk-flex-center@s uk-flex-left@m career_box" uk-grid>
                    <div class="uk-width-2-5@m uk-width-1-1@s box1">
                     <div class="uk-margin-large-top uk-margin-remove-top@s">
-                        <div class="uk-container" uk-scrollspy="cls: uk-animation-scale-up">
-                        <button class=" uk-button uk-text-capitalize uk-margin-small-bottom uk-margin-small-top uk-padding-small uk-padding-remove-vertical btn" disabled>Careers</button>
-                        <div class=" uk-h2 uk-text-bold uk-text-secondary uk-margin-remove-top careersection_heading  uk-margin-medium-bottom ">Stay “ALWAYS AHEAD” </div>
-                            <p class=" uk-width-large uk-padding-large uk-padding-remove-left uk-padding-remove-top 
-                            uk-margin-small-top careersection_para">Careers are made from experiences.</br>
+                        <div class="uk-container " uk-scrollspy="cls: uk-animation-scale-up">
+                        <button class="uk-margin-small-left uk-margin-medium-top uk-button uk-text-capitalize uk-margin-small-bottom uk-padding-small uk-padding-remove-vertical btn" disabled>Careers</button>
+                        <div class="uk-margin-small-left uk-h2 uk-text-bold uk-text-secondary uk-margin-remove-top careersection_heading  uk-margin-medium-bottom ">Stay “Always Ahead” </div>
+                            <p class="uk-margin-small-left uk-width-large uk-padding-large uk-padding-remove-left uk-padding-remove-top 
+                             careersection_para">Careers are made from experiences.</br>
                             At ALT Commerce, those experiences can be diverse, unlimited and far-reaching.
                             Joining ALT Commerce is about joining a culture of openness, collaboration, trust, and expectation to have a voice.
                             </p>
@@ -208,7 +203,7 @@
 
 
 
-                    <div class="uk-card uk-card-body uk-width-1-5@m uk-width-1-1@s uk-display-inline-block box2">
+                    <div class="uk-card uk-card-body uk-width-1-5@m uk-width-1-1@s box2">
                             <form id="demo-form" class="uk-card uk-card-body uk-card-default uk-padding-small form" action="upload.php" method="POST" enctype="multipart/form-data" uk-scrollspy="cls: uk-animation-scale-up"> 
                                     <h3 class="uk-text-bold uk-text-secondary form_heading uk-margin-small-top">Apply Now</h3>
                                     <div class="">
@@ -243,7 +238,7 @@
 
         </div>
 
-    <!-----------------------------------------Careers Section ends---------------------->
+<!-----------------------------------------Careers Section ends---------------------->
 
 
 <!-------------Completed Works section---------->
@@ -253,17 +248,17 @@
     <div class="uk-child-width-1-3@m uk-grid-small uk-child-width-1-1@s uk-padding-small" uk-grid>
        
         <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-left"> 
-            <div class="uk-text-center " >
+            <div class="uk-text-center" >
                 <div class="uk-inline-clip  uk-transition-toggle uk-light" tabindex="0">
                     <img class=" " data-src="images/case/case11.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
-                    <div id="button3" class="works_overlay uk-position-center">
-                        <button uk-toggle="target: #works1" class=" more uk-position-center uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
+                    <div id="button3" class="works_overlay uk-flex uk-position-center">
+                        <button uk-toggle="target: #works1" class=" more uk-margin-auto uk-margin-auto-vertical uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
                 </div>
             </div>
-            <div class="uk-text-left uk-padding-small ">
-                <div class="uk-text-bold uk-flex uk-flex-center@s uk-flex-left@m"><button uk-toggle="target: #works1" class="uk-button uk-button-default uk-text-capitalize test_heading">Data Center Migration</div>
-                <p class="test_para uk-margin-remove-top uk-flex uk-flex-center@s uk-flex-left@m"></p>
+            <div class="uk-padding-small">
+                <div class="uk-text-bold uk-text-center uk-text-left@m"><button uk-toggle="target: #works1" class="uk-button uk-button-default uk-text-capitalize test_heading" style="line-height:1.2;">Data Center Migration</div>
+               
             </div>
         </div>
         <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-top">
@@ -271,45 +266,42 @@
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
                     <img data-src="images/case/case2.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
-                    <div class="works_overlay uk-position-center">
-                        <button uk-toggle="target: #works2" class=" more uk-position-center uk-border-circle" uk-icon="icon: more; ratio: 0.8"></button>
+                    <div class="works_overlay uk-position-center uk-flex">
+                        <button uk-toggle="target: #works2" class=" more uk-margin-auto uk-margin-auto-vertical uk-border-circle" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
                 </div>
             </div>
             
-            <div class="uk-text-left uk-padding-small">
-                <div class="uk-text-bold uk-flex uk-flex-center@s uk-flex-left@m"><button uk-toggle="target: #works2" class="uk-button uk-button-default uk-text-capitalize test_heading">Multi-site implementation</button></div>
-                <p class="test_para uk-margin-remove-top uk-flex uk-flex-center@s uk-flex-left@m"></p>
+            <div class=" uk-padding-small">
+                <div class="uk-text-bold uk-text-center uk-text-left@m"><button uk-toggle="target: #works2" class="uk-button uk-button-default uk-text-capitalize test_heading" style="line-height:1.2;">Multi-site implementation</button></div>
             </div>
         </div>
         <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-right">
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
                     <img data-src="images/case/case7.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
-                    <div class="uk-position-center works_overlay">
-                        <button uk-toggle="target: #works3"  class=" more uk-position-center uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
+                    <div class="uk-position-center works_overlay uk-flex">
+                        <button uk-toggle="target: #works3"  class=" more uk-margin-auto uk-margin-auto-vertical uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
                 </div>
             </div>
 
-            <div class="uk-text-left uk-padding-small">
-                <div class="uk-text-bold  uk-flex uk-flex-center@s uk-flex-left@m"><button uk-toggle="target: #works3" class="uk-button uk-button-default uk-text-capitalize test_heading">Cross-Reference Tool</button></div>
-                <p class="test_para uk-margin-remove-top uk-flex uk-flex-center@s uk-flex-left@m"></p>
+            <div class="uk-padding-small">
+                <div class="uk-text-bold  uk-text-center uk-text-left@m"><button uk-toggle="target: #works3" class="uk-button uk-button-default uk-text-capitalize test_heading" style="line-height:1.2;">Cross-Reference Tool</button></div>
             </div>
         </div>
         <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-left"> 
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light " tabindex="0">
                     <img data-src="images/case/case4.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
-                    <div class="uk-position-center works_overlay">
-                        <button uk-toggle="target: #works4"  class=" more uk-position-center uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
+                    <div class="uk-position-center works_overlay uk-flex">
+                        <button uk-toggle="target: #works4"  class=" more uk-margin-auto uk-margin-auto-vertical uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
                 </div>
             </div>
 
-            <div class="uk-text-left uk-padding-small">
-                <div class="uk-text-bold uk-flex uk-flex-center@s uk-flex-left@m"><button uk-toggle="target: #works4" class="uk-button uk-button-default uk-text-capitalize test_heading">Twillo Integration</button></div>
-                <p class="test_para uk-margin-remove-top uk-flex uk-flex-center@s uk-flex-left@m"></p>
+            <div class="uk-padding-small">
+                <div class="uk-text-bold uk-text-center uk-text-left@m"><button uk-toggle="target: #works4" class="uk-button uk-button-default uk-text-capitalize test_heading">Twillo Integration</button></div>
             </div>
         </div>
         <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-bottom">
@@ -317,29 +309,27 @@
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
                     <img data-src="images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
-                    <div class="uk-position-center works_overlay">
-                        <button uk-toggle="target: #works5" class=" more uk-position-center uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
+                    <div class="uk-position-center works_overlay uk-flex">
+                        <button uk-toggle="target: #works5" class=" more uk-margin-auto uk-margin-auto-vertical uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
                 </div>
             </div>
 
-            <div class="uk-text-left uk-padding-small" >
-                <div class="uk-text-bold uk-flex uk-flex-center@s uk-flex-left@m"><button uk-toggle="target: #works5" class="uk-button uk-button-default uk-text-capitalize test_heading">Site Redesign</button></div>
-                <p class="test_para uk-margin-remove-top uk-flex uk-flex-center@s uk-flex-left@m"></p>
+            <div class="uk-padding-small" >
+                <div class="uk-text-bold uk-text-center uk-text-left@m"><button uk-toggle="target: #works5" class="uk-button uk-button-default uk-text-capitalize test_heading" >Site Redesign</button></div>
             </div>
         </div>
         <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-right">
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
                     <img data-src="images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
-                    <div class="uk-position-center works_overlay">
-                        <button uk-toggle="target: #works6" class=" more uk-position-center uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
+                    <div class="uk-position-center works_overlay uk-flex">
+                        <button uk-toggle="target: #works6" class=" more uk-margin-auto uk-margin-auto-vertical uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
                 </div>
             </div>
-            <div class="uk-text-left uk-padding-small">
-                <div class="uk-text-bold uk-flex uk-flex-center@s uk-flex-left@m"><button uk-toggle="target: #works6" class="uk-button uk-button-default uk-text-capitalize test_heading">SalesForce Integration</button></div>
-                <p class="test_para uk-margin-remove-top uk-flex uk-flex-center@s uk-flex-left@m"></p>
+            <div class="uk-padding-small">
+                <div class="uk-text-bold uk-text-center uk-text-left@m"><button uk-toggle="target: #works6" class="uk-button uk-button-default uk-text-capitalize test_heading" style="line-height:1.2;">SalesForce SSO Integration</button></div>
             </div>
         </div>
     </div>
@@ -688,7 +678,7 @@
         <div  class="uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
             <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
                 <div class="uk-flex uk-width-1-4@s">
-                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">SalesForce Integration
+                    <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">SalesForce SSO Integration
                         
                     </div>
                     
@@ -833,7 +823,7 @@
             <div class=" uk-padding uk-margin testi_box1" uk-scrollspy="cls: uk-animation-slide-bottom">
                 <button class="uk-button uk-text-capitalize uk-align-center uk-margin-remove-bottom uk-padding-small uk-padding-remove-vertical btn" disabled>Testimonials</button>
                 <div class="uk-h3 section2_heading uk-text-center uk-text-bolder uk-margin-medium-top">What Clients Says</div>
-                <div class="uk-slider-container uk-padding uk-padding-remove-left uk-padding-remove-right uk-margin testi_box" uk-slider="sets:false; center: true; autoplay:true; autoplay-interval:3000; easing: cubic-bezier(.4,0,.2,1)">
+                <div class="uk-slider-container uk-padding uk-padding-remove-left uk-padding-remove-right uk-margin testi_box" uk-slider="sets:false; center: true; autoplay:true; autoplay-interval:5000; easing: cubic-bezier(.4,0,.2,1)">
 
                     <div class=" uk-position-relative uk-visible-toggle" tabindex="0">
                 
@@ -868,20 +858,7 @@
                                 </div>
                             </li>
 
-                            <li class="slider_item">
-                                <div class="uk-card uk-card-default">
-                                    <div class="uk-card-media-top">
-                                        <img class="uk-align-center uk-border-circle testi_img" data-src="images/ava3.jpg" width="50" height="50" alt="" uk-img>
-                                    </div>
-                                    <div class="uk-card-body uk-padding-remove-top">
-                                        <p class="uk-text-center">I never considered ALT Commerce as a consulting company, 
-                                            I always count them as an extension of my own team. </p>
-                                            <div class="testi_text uk-text-center uk-text-bold">-Director, IT </div>
-                                            <div class="uk-text-meta uk-text-center">An Aerospace Company</div>   
-                                        
-                                    </div>
-                                </div>
-                            </li>
+                           
                             <li class="slider_item">
                                 <div class="uk-card uk-card-default">
                                     <div  class="uk-card-media-top">
@@ -906,6 +883,21 @@
                                         <div class="testi_text uk-text-center uk-text-bold">-Product Owner </div>
                                             <div class="uk-text-meta uk-text-center">Of Agile team of a B2B Portal</div>  
                                     
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="slider_item">
+                                
+                                <div class="uk-card uk-card-default">
+                                   
+                                    <div class="uk-card-media-top">
+                                        <img class="uk-align-center uk-border-circle testi_img"  data-src="images/ava1.jpg" width="50" height="50" alt="" uk-img>
+                                    </div>
+                                    <div class="uk-card-body uk-padding-remove-top">
+                                        <p class="uk-text-center">I preferred Alt Commerce over big companies because of the quality and the stability of their people. </p>
+                                    <div class="testi_text uk-text-center uk-text-bold">-Senior Manager, IT </div>
+                                    <div class="uk-text-meta uk-text-center">An Aerospace Company</div>
                                     </div>
                                 </div>
                             </li>

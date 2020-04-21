@@ -27,6 +27,7 @@ if(isset($_POST["submit"]) && !empty($_FILES["file"]["name"])){
             $insert = $conn->query("INSERT into career_form (name, email, filename, time) VALUES ('$name', '$email_id' ,'".$fileName."', NOW())");
             if($insert){
                 $statusMsg = "The file ".$fileName. " has been uploaded successfully.";
+              
             }else{
                 $statusMsg = "File upload failed, please try again.";
             } 
@@ -42,4 +43,6 @@ if(isset($_POST["submit"]) && !empty($_FILES["file"]["name"])){
 
 // Display status message
 echo "$statusMsg";
+
+ 
 ?>

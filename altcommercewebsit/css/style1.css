@@ -254,7 +254,7 @@ body a:focus{
 input[type="text"],input[type="email"]{
   border-radius: 3px;
   border:1px solid #ced4da;
-  
+  font-size: 13px;
 }
 
 
@@ -397,8 +397,9 @@ display:block;
   opacity: 1;
 }
 
-
-
+.csr_text1{
+  font-size:28px;
+}
 
 
 /******************services page css*******************/
@@ -539,7 +540,8 @@ color:#FE9603;
     
     transform: scale(1.1);
   }
-  
+ 
+
   .csr_text_box:hover > p >.csr_text{
     font-weight: 600;
   }
@@ -596,6 +598,10 @@ color:#FE9603;
     color:#1C1C1C;
   }
   
+ 
+  .box2{
+    margin-left:-120px;
+  }
 /******************services page css end***************/
 
 
@@ -610,6 +616,9 @@ color:#FE9603;
 
   .hero-section{
     max-height: 220px;
+  }
+  .box2{
+    margin-left:27px;
   }
   
 .footer{
@@ -663,13 +672,30 @@ color:#FE9603;
   font-size: 30px;
  
 }
-  
+ 
+.csr_text{
+   font-size:20px; 
+}
+
+.csr_text1{
+  font-size:22px;
+}
+
+.impact_text{
+  font-size:15px;
+}
   }
+
+
 
 @media screen and (min-width: 1200px){
   .footer{
     background-image: url(../images/footer.svg);
      
+  }
+
+  .box1{
+    margin-left:120px;
   }
   .services_mainheading{
     font-size:70px;
@@ -693,12 +719,12 @@ color:#FE9603;
 
 @media screen and (max-width: 768px) and (min-width: 768px) {
   .box1{
-    width:45%;
+    width:50%;
     background-color: white; 
     
   }
   .box2{
-    width:45%;
+    width:42%;
   }
   .bx1{
     text-align: left;
@@ -723,15 +749,28 @@ color:#FE9603;
 
 @media screen and (max-width: 1024px) and (min-width: 1024px) {
   
+  .box1{
+    width:45%;
+    background-color: white; 
+    
+  }
+  .box2{
+    width:45%;
+    
+  }
+
+  .career_box{
+    margin-left:100px;
+  }
+  .career_homepage{
+    background-image:none;
+  }
   .works_btn1{
     width:15%;
   }
 
   .testi_box1{
     padding:55px;
-  }
-  .career_homepage{
-    background-image: url(../images/bg2.jpg);
   }
   .form{
     width:280px;
