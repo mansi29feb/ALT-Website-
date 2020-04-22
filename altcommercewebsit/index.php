@@ -56,7 +56,7 @@
             <div class="uk-width-1-1@s">
                 <div class="uk-text-centre section2">
                     <button class="uk-button uk-text-capitalize uk-padding-small uk-margin-medium-top uk-padding-remove-vertical btn" disabled uk-scrollspy="cls: uk-animation-scale-up">Services</button>
-                    <h3 class="uk-h3 uk-text-secondary uk-margin-small-top uk-text-bolder section2_heading" uk-scrollspy="cls: uk-animation-fade">What We do</h3>
+                    <h3 class="uk-h3 uk-text-secondary uk-margin-small-top section2_heading" uk-scrollspy="cls: uk-animation-fade">What We do</h3>
                     <p class="uk-text-center section2_para " uk-scrollspy="cls: uk-animation-slide-top">We work beyond the norms of an established client relationship by investing more time to understand customer current and future business needs and recommend global best practices.</p>
                 </div>
             </div>
@@ -832,8 +832,8 @@
                                 
                                 <div class="uk-card uk-card-default">
                                    
-                                    <div class="uk-card-media-top">
-                                        <img class="uk-align-center uk-border-circle testi_img"  data-src="images/ava1.jpg" width="50" height="50" alt="" uk-img>
+                                    <div class="uk-card-media-top uk-padding-remove">
+                                        <img class="uk-align-center uk-margin-small-top"  data-src="images/writer.svg" width="50" height="50" alt="" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">I never considered ALT Commerce as a consulting company, I always count them as an extension of my own team. </p>
@@ -845,8 +845,8 @@
                             
                             <li class="slider_item ">
                                 <div class="uk-card uk-card-default">
-                                    <div class="uk-card-media-top">
-                                        <img class="uk-align-center uk-border-circle testi_img" data-src="images/ava2.jpg" width="50" height="80" alt="" uk-img>
+                                    <div class="uk-card-media-top uk-padding-remove">
+                                        <img class="uk-align-center uk-margin-small-top" data-src="images/writer.svg" width="50" height="80" alt="" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         
@@ -861,8 +861,8 @@
                            
                             <li class="slider_item">
                                 <div class="uk-card uk-card-default">
-                                    <div  class="uk-card-media-top">
-                                        <img class="uk-align-center uk-border-circle testi_img" data-src="images/ava4.jpg" width="50" height="50" alt="" uk-img>
+                                    <div  class="uk-card-media-top uk-padding-remove">
+                                        <img class="uk-align-center uk-margin-small-top" data-src="images/writer.svg" width="50" height="50" alt="" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">In our very first meeting, I got so many solutions to our 
@@ -875,8 +875,8 @@
                             </li>
                             <li class="slider_item">
                                 <div class="uk-card uk-card-default">
-                                    <div class="uk-card-media-top">
-                                        <img class="uk-align-center uk-border-circle testi_img" data-src="images/ava5.jpg" width="50" height="50" alt="" uk-img>
+                                    <div class="uk-card-media-top uk-padding-remove">
+                                        <img class="uk-align-center uk-margin-small-top" data-src="images/writer.svg" width="50" height="50" alt="" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">ALT Commerce team's innovative ideas and solutions are always best and we always look forward to them. </p>
@@ -891,8 +891,8 @@
                                 
                                 <div class="uk-card uk-card-default">
                                    
-                                    <div class="uk-card-media-top">
-                                        <img class="uk-align-center uk-border-circle testi_img"  data-src="images/ava1.jpg" width="50" height="50" alt="" uk-img>
+                                    <div class="uk-card-media-top uk-padding-remove">
+                                        <img class="uk-align-center uk-margin-small-top"  data-src="images/writer.svg" width="50" height="50" alt="" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">I preferred Alt Commerce over big companies because of the quality and the stability of their people. </p>

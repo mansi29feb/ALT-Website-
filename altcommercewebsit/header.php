@@ -16,8 +16,7 @@
 	    <title>Digital Commerce with ALT Commerce</title>
 	    <link rel="shortcut icon" href="<?php echo $filePath;?>images/alt.png">
 	    <link rel="stylesheet" href="<?php echo $filePath;?>css/uikit.min.css">
-	    <link rel="stylesheet" href="<?php echo $filePath;?>css/style1.css">
-	    
+	  
 	    <link rel="stylesheet" href="<?php echo $filePath;?>css/altcommerce-style.css">
 	    <link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.css">
 	    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">

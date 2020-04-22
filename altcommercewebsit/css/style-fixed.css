@@ -2,6 +2,85 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) !important;
 }
 
+
+
+@media screen and (max-width: 1199px){
+ 
+
+  .hero-section{
+    max-height: 220px;
+  }
+  .box2{
+    margin-left:27px;
+  }
+  
+.footer{
+  background-color: #FE9603; 
+  opacity: 0.9;
+  background-image: none;
+}
+.services_mainheading{
+  font-size:50px;
+}
+
+.services_subheading{
+  font-size:35px;
+}
+
+.services_mainpara{
+  font-size:18px; 
+}
+
+.career_homepage{
+  background-image: none;
+}
+
+.hide-icon{
+  visibility:visible;
+}
+
+.works_btn1{
+  width:40%;
+}
+.work_name_btn{
+  background-color: #fff;
+}
+.alt_desc{
+  margin-left:30px;
+}
+.contact_box{
+  margin-left:30px;
+}
+
+.career_box{
+  box-shadow: none;
+}
+
+.testi_box1{
+  padding:0px;
+}
+
+.multi_box{
+  margin:0px;
+  font-size: 30px;
+ 
+}
+ 
+.csr_text{
+   font-size:20px; 
+}
+
+.csr_text1{
+  font-size:22px;
+}
+
+.impact_text{
+  font-size:15px;
+}
+  }
+
+
+
 @media (min-width: 1200px){
   .clear-padd{
    padding: 0px;
@@ -48,4 +127,96 @@
   margin-right: 25px;
 }
 
+.footer{
+  background-image: url(../images/footer.svg);
+   
+}
+
+.box1{
+  margin-left:120px;
+}
+.services_mainheading{
+  font-size:70px;
+   
+}
+
+.services_mainpara{
+  font-size:22px; 
+}
+.career_homepage{
+  background-image: url(../images/bg2.jpg);
+}
+
+.form{
+  width:280px;
+}
+
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 768px) {
+  .box1{
+    width:50%;
+    background-color: white; 
+    
+  }
+  .box2{
+    width:42%;
+  }
+  .bx1{
+    text-align: left;
+  }
+  .visible-icon{
+    visibility:visible;
+  }
+  .hide-icon{
+    visibility:visible;
+  }
+  .works_btn1{
+    width:20%;
+  }
+  .testi_box1{
+    padding:70px;
+  }
+  .case_box2{
+   padding-left: 80px;
+  }
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 1024px) {
+  
+  .box1{
+    width:45%;
+    background-color: white; 
+    
+  }
+  .box2{
+    width:45%;
+    
+  }
+
+  .career_box{
+    margin-left:100px;
+  }
+  .career_homepage{
+    background-image:none;
+  }
+  .works_btn1{
+    width:15%;
+  }
+
+  .testi_box1{
+    padding:55px;
+  }
+  .form{
+    width:280px;
+  }
+}
+@media screen and (max-width: 375px){
+ 
+  .case_box{
+    padding:0px;
+    padding-top: 20px;
+  }
 }

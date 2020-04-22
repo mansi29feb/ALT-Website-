@@ -45,15 +45,15 @@ include_once "../header.php";
     </div>
 
     <div class="">
-        <div class="" style=" background-color: ;"> 
+        <div class=""> 
             <div class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#1C1C1C;">The PM CARES Fund</div>
             
-            <div class=" uk-child-width-1-2@m uk-width-1-1@s uk-margin-large-bottom" uk-grid>
-                <div class="uk-width-1-2@s">
-                    <img class="uk-margin-small-left" data-src="<?php echo $filePath;?>images/csr/pmcare2.jpg" alt="" uk-img>
+            <div class=" uk-child-width-1-2@s uk-width-1-1@s uk-margin-large-bottom" uk-grid>
+                <div class="uk-width-1-2@s ">
+                    <img class="uk-margin-small-left" data-src="<?php echo $filePath;?>images/csr/pmcare2.jpg" height="800" width="800" alt="" uk-img>
                 </div>
-                <div class="uk-width-1-2@m uk-width-1-1@s ">
-                    <div class="uk-padding uk-margin-medium-top">
+                <div class="uk-width-1-2@s">
+                    <div class="uk-padding ">
                         <p class="uk-text-left services_mainpara uk-padding-small" style="font-size: 18px;"> ALT Commerce has tried to do 
                     its bit for the <span class="uk-text-bold">COVID-19</span> situation in the country.</br></br> The company encouraged everyone to contribute to provide relief to 
                     those affected by any kind of emergency or distress situation.  And supported the government in its fight against the 
