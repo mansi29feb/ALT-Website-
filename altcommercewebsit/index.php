@@ -1061,7 +1061,7 @@
                     <div class="uk-width-expand@s uk-flex uk-flex-center@s uk-flex-right@m uk-margin-small-left uk-padding uk-padding-remove-vertical text" uk-scrollspy="cls: uk-animation-fade;">
                            <div class="contact_box"><span uk-icon="receiver"></span>&nbsp;Call Us:</br>
                                 <div class="uk-text-bold uk-text-secondary contact_text">
-                                    0120-4226757</br></br>
+                                    +911204226757</br></br>
                                  </div>
                             
                                  <span uk-icon="mail"></span>&nbsp;Email Us:</br> 
