@@ -80,7 +80,7 @@
                             <a href="<?php echo $filePath;?>">Home</a>
                         </li>
                         <li>
-                            <button class="uk-button sub-menu">ABOUT US<span uk-icon="icon: chevron-down"></span></button>
+                            <button class="uk-button sub-menu">ABOUT US</button>
                                 <div uk-dropdown="mode: click" class="drop-navbar">
                                 
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
