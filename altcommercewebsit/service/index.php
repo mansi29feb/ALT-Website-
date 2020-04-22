@@ -36,10 +36,10 @@ include_once '../header.php';
                             <img class="uk-align-center" data-src="<?php echo $filePath;?>images/atg.png" width="200" height="200" uk-img>
                         </div>
                         <div class="uk-margin uk-padding-small">
-                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/commercetools.png" width="200" height="200" uk-img>
+                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/skills-page/commercetools.png" width="200" height="200" uk-img>
                         </div>
                         <div class="uk-margin uk-padding uk-card uk-card-default uk-card-hover">
-                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/azure.png" width="200" height="200" uk-img>
+                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/azure.png" width="300" height="300" uk-img>
                         </div>
                        
                     </div>
@@ -50,7 +50,9 @@ include_once '../header.php';
                         <div class="uk-padding-small uk-margin-medium-top uk-card uk-card-default uk-card-hover">
                             <img class="uk-align-center" data-src="<?php echo $filePath;?>images/aem.png" width="200" height="200" uk-img>
                         </div>
-                       
+                        <div class="uk-margin">
+                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/skills-page/java.png" width="100" height="100" uk-img>
+                        </div>
                     </div>
 
                 </div>
