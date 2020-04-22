@@ -195,40 +195,6 @@ font-family:'Poppins' !important;
 }
 
 
-
-
-
-.resource-tag{
-  background-color: rgb(90, 134, 62);
-  margin: 8px;
-  padding-bottom: 85px !important;
-}
-.res-title{
-  font-size: 27px;
-  color: #fff;
-  font-family: 'Poppins' !important;
-  padding-top: 90px;
-}
-.resource-tag1{
-  background-color: rgb(23, 99, 76);
-  margin: 8px;
-  padding-bottom: 85px !important;
-}
-.btns{
-    color: #ffff;
-    background-color: #5a863e;
-    border: 2px solid #ffffff;
-    font-size: 16px;
-    border-radius: 23px;
-}
-.btns1{
-  color: #ffff;
-    background-color: #25634c;
-    border: 2px solid #ffffff;
-    font-size: 16px;
-    border-radius: 23px;
-}
-
 /******************/
 
 .footer{
