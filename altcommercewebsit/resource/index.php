@@ -405,7 +405,7 @@ include_once "../header.php";
             <div  class="uk-card uk-card-body uk-margin-small-top uk-card-default">
                 <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
             <div class="uk-flex uk-width-1-4@s">
-                <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">SalesForce Integration
+                <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">SalesForce SSO Integration
                     
                 </div>
                 
@@ -691,7 +691,7 @@ include_once "../header.php";
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case7.jpg" alt="" style="opacity: 0.9;">
-                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works7" class="uk-button uk-button-text cases_btnlink">SalesForce Integration</button>
+                        <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works7" class="uk-button uk-button-text cases_btnlink">SalesForce SSO Integration</button>
                         </div>
         
                     

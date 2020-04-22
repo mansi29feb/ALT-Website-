@@ -11,14 +11,16 @@
                     <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Work With Us</div>
 
                     <div class="uk-width-1-2@s uk-align-center">
-                        <p class="services_mainpara uk-card uk-card-default uk-card-body uk-box-shadow-medium uk-padding-small uk-text-center uk-card-hover ">“ Coming together is the beginning. </br>Keeping together is progress. Working together is success. ”
-                        </p>
+                        <div class="services_mainpara uk-card uk-card-default uk-padding-small uk-text-center  ">“ Coming together is the beginning. </br>Keeping together is progress. Working together is success. ”
+                        <p class="uk-text-meta uk-text-right uk-margin-remove-top uk-margin-remove-bottom" style="color:black;">- Henry Ford</p>
+                    </div>
+                       
                     </div>
                     <div>
                         <a class="uk-button uk-text-bold uk-align-center uk-text-center works_btn1 uk-text-capitalize" href="#target_career" uk-scroll>VIEW CAREERS</a>
                     </div>
                     
-                    <div class="uk-text-center uk-margin-remove-top internship_link"><button class="uk-button uk-button-text uk-text-bold uk-text-capitalize">Looking for internships?</button></div>
+                    <!-- <div class="uk-text-center uk-margin-remove-top internship_link"><button class="uk-button uk-button-text uk-text-bold uk-text-capitalize">Looking for internships?</button></div> -->
                 </div>
                
             </div>

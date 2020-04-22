@@ -54,10 +54,10 @@ include_once "../header.php";
                 </div>
                 <div class="uk-width-1-2@m uk-width-1-1@s ">
                     <div class="uk-padding uk-margin-medium-top">
-                        <p class="uk-text-left services_mainpara uk-padding-small" style="font-size: 18px;"> ALT Commerce has fulfilled its Corporate social 
-                            Responsibility obligations through donating to the newly formed  <span class="uk-text-bold">PM CARES Fund</span>.</br> The company encourages everyone 
-                            to contribute to providing relief to those affected by any kind of emergency or distress situation and support 
-                            the government in its fight against the impact of </br><span class="uk-text-bold">COVID-19</span>.
+                        <p class="uk-text-left services_mainpara uk-padding-small" style="font-size: 18px;"> ALT Commerce has tried to do 
+                    its bit for the <span class="uk-text-bold">COVID-19</span> situation in the country.</br></br> The company encouraged everyone to contribute to provide relief to 
+                    those affected by any kind of emergency or distress situation.  And supported the government in its fight against the 
+                    impact of <span class="uk-text-bold">COVID-19</span>.  
                         </p>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ include_once "../header.php";
                 &nbsp;People of Uttara Kannada district are working towards creating awareness about the importance of water & environmental resources. The work towards <span class="csr_text" >"Rain Harvesting"</span> is planned in many regions of the district.
                 
                 
-            </br></br><span class=" csr_text" style=" font-size: 28px;">"Tejobindu Hindustan Foundation"</span> is also working towards rainwater harvesting in Bengle Village. Bengle is a small village located in Sirsi Tq. Foundation is creating many small water storage structures in Bengle forest area for water management. When Monsoon starts in this area it will stop the erosion of rainwater & increase the ground water level & soil fertility too.
+            </br></br><span class=" csr_text1">"Tejobindu Hindustan Foundation"</span> is also working towards rainwater harvesting in Bengle Village. Bengle is a small village located in Sirsi Tq. Foundation is creating many small water storage structures in Bengle forest area for water management. When Monsoon starts in this area it will stop the erosion of rainwater & increase the ground water level & soil fertility too.
                 
                 
         </br></br> Thus achieving the reduction in temperature during summer. 
@@ -122,12 +122,12 @@ include_once "../header.php";
 <div class="uk-padding" style="background-color: #f2f2f0;">
     <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-bottom ">Impact</div>
     
-<div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-grid-collapse uk-margin-large-bottom" uk-grid>
+<div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-large-bottom" uk-grid>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
-        <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
+        <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
             <img  data-src="<?php echo $filePath;?>images/csr/earth/berry.jpg" height="300" width="300" alt="" uk-img>
-            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">Planting fruit trees provides habitat for wildlife.</p>
+            <div  class="uk-position-bottom uk-overlay uk-overlay-primary ">
+                <p class="uk-h4 uk-margin-remove impact_text">Planting fruit trees provides habitat for wildlife.</p>
             </div>
         </div>
         
@@ -135,8 +135,8 @@ include_once "../header.php";
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s uk-">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/earth/kids.jpg" height="300" width="300" alt="" uk-img>
-            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">Better livelihoods for people living near forests.</p>
+            <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
+                <p class="uk-h4 uk-margin-remove impact_text">Better livelihoods for people living near forests.</p>
             </div>
         </div>
         
@@ -144,8 +144,8 @@ include_once "../header.php";
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/earth/soil2.jpg" height="300" width="300" alt="" uk-img>
-            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">Prevent soil erosion & mitigate climate change.</p>
+            <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
+                <p class="uk-h4 uk-margin-remove impact_text">Prevent soil erosion & mitigate climate change.</p>
             </div>
         </div>
         
@@ -153,8 +153,8 @@ include_once "../header.php";
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/earth/water.jpg" height="300" width="300" alt="" uk-img>
-            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">Offer watershed protection.</p>
+<div class=" uk-position-bottom uk-overlay uk-overlay-primary">
+                <p class="uk-h4 uk-margin-remove impact_text">Offer watershed protection.</p>
             </div>
         </div>
         
@@ -208,16 +208,16 @@ include_once "../header.php";
             water, but many even have no awareness that water is the reason for illness & death. 
             To date, there has been no access to reliably clean water at an affordable price & no
              efforts made to address & open up markets for the rural poor. ALT Commerce in collaboration 
-             with <span class=" csr_text" style=" font-size: 28px;">Tejobindu Hindustan Foundation </span>took small steps 
+             with <span class=" csr_text1" >Tejobindu Hindustan Foundation </span>took small steps 
              to help the people living in the remote 
-             village <span class=" csr_text" style=" font-size: 28px;"></span>Bhanpur Chhapra of Madhya Pradesh (central India) by distributing the Gravity based 
+             village <span class=" csr_text1"></span>Bhanpur Chhapra of Madhya Pradesh (central India) by distributing the Gravity based 
              water filters to enable them to have access to clean drinking water. </br></br>
             
             We live now in an era wherein everything is made possible. The modernization & development 
             of technologies & machines have skyrocketed throughout the years. This had left us all in awe, 
             about how certain things come together & result in something greater than we cannot easily grasp 
             or underst& & leave us feeling surprised.
-            One of the examples that can surprise us with its greatness is the <span class=" csr_text" style=" font-size: 28px;">Gravity Water Filter.</span></br></br>
+            One of the examples that can surprise us with its greatness is the <span class=" csr_text1">Gravity Water Filter.</span></br></br>
             
             
             <span class=" csr_text"  >Gravity based water purifiers</span> are capable of efficiently removing coarse particles like s&, dirt, 
@@ -242,12 +242,12 @@ include_once "../header.php";
 <div class="uk-padding" style="background-color: #f2f2f0;">
     <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-bottom ">Impact</div>
     
-<div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-grid-collapse uk-margin-large-bottom" uk-grid>
+<div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-large-bottom" uk-grid>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
             <img  data-src="<?php echo $filePath;?>images/csr/earth/lake.jpg" height="300" width="300" alt="" uk-img>
-            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">Provides Nourishment.</p>
+        <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
+                <p class=" uk-margin-remove impact_text">Provides Nourishment.</p>
             </div>
         </div>
         
@@ -255,8 +255,8 @@ include_once "../header.php";
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/water/happy-kids.jpg" height="300" width="300" alt="" uk-img>
-            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">Clean water keeps doctors away.</p>
+            <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
+                <p class=" uk-margin-remove impact_text">Clean water keeps doctors away.</p>
             </div>
         </div>
         
@@ -264,8 +264,8 @@ include_once "../header.php";
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/water/kids-water2.jpg" height="300" width="300" alt="" uk-img>
-            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">Combating waterborne diseases.</p>
+            <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
+                <p class=" uk-margin-remove impact_text">Combating waterborne diseases.</p>
             </div>
         </div>
         
@@ -274,8 +274,8 @@ include_once "../header.php";
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/water/village-baby.jpg" height="300" width="300" alt="" uk-img>
-            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class="uk-h4 uk-margin-remove">Stave off the birth defects in new-born babies.</p>
+            <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
+                <p class=" uk-margin-remove impact_text">Stave off the birth defects in new-born babies.</p>
             </div>
         </div>
         
@@ -409,82 +409,11 @@ include_once "../header.php";
     
  
    <script>
-       function read_more1() {
-            var dots = document.getElementById("dots1");
-            var moreText = document.getElementById("more1");
-            var btnText = document.getElementById("read_btn1");
-
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Read more"; 
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read less"; 
-                moreText.style.display = "inline";
-            }
-            }
-        function read_more2() {
-            var dots = document.getElementById("dots2");
-            var moreText = document.getElementById("more2");
-            var btnText = document.getElementById("read_btn2");
-
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Read more"; 
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read less"; 
-                moreText.style.display = "inline";
-            }
-            }
-        function read_more3() {
-            var dots = document.getElementById("dots3");
-            var moreText = document.getElementById("more3");
-            var btnText = document.getElementById("read_btn3");
-
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Read more"; 
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read less"; 
-                moreText.style.display = "inline";
-            }
-            }
-        function read_more4() {
-            var dots = document.getElementById("dots4");
-            var moreText = document.getElementById("more4");
-            var btnText = document.getElementById("read_btn4");
-
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Read more"; 
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read less"; 
-                moreText.style.display = "inline";
-            }
-            }
-        function read_more5() {
-            var dots = document.getElementById("dots5");
-            var moreText = document.getElementById("more5");
-            var btnText = document.getElementById("read_btn5");
-
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Read more"; 
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read less"; 
-                moreText.style.display = "inline";
-            }
-            }
-                
+$(document).ready(function(){
+  $(".impact_box").hover(function(){
+    $("impact_overlay").slideDown();
+  });
+});              
    </script>
     
     
