@@ -12,16 +12,13 @@ include_once '../header.php';
             Very few Indian companies could reach the zenith that we have reached 
             today with a strong trust of our clients on us.
         </p>
-        <div class="uk-flex uk-flex-center uk-padding uk-margin-medium-top uk-margin-medium-bottom">
-            <img data-src="<?php echo $filePath;?>images/cloud.png" height="150" width="1000" uk-img>
-        </div>
+        
+        <div class=""> <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/cloud.png" width="800" height="800" uk-img></div>
         <div class=" uk-text-center services_subheading">
          Customer trusts us to deliver customized, end-to-end implementations.
         </div>
-        <div class="uk-flex uk-flex-center uk-padding">
-            <img data-src="<?php echo $filePath;?>images/employee.png" height="100" width="700" uk-img>
-        </div>
-
+       
+        <div class=""> <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/employee.png" width="500" height="500" uk-img></div>
         <p class="uk-text-center services_mainpara">
             We at ALT Commerce provide affordable and quality services to various clients across the
             Globe.</br> Very few Indian companies could reach the zenith that we have reached 

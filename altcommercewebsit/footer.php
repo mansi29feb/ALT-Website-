@@ -7,10 +7,10 @@
 
 <!--footer start -->
 
-<div class="uk-child-width-expand@s uk-text-center footer" uk-grid>
+<div class="uk-child-width-expand@s footer" uk-grid>
     <div>
-        <div class=" footerbox">
-            <span class="uk-text-capitalize">Copyrights © 2020 All Rights Reserved by <span class="uk-text-bold">ALT Commerce Pvt. Ltd.</span></span>
+        <div class="footerbox uk-text-center uk-margin-small">
+            <span class="uk-text-capitalize ">Copyrights © 2020 All Rights Reserved by <span class="uk-text-bold">ALT Commerce Pvt. Ltd.</span></span>
         </div>
     </div>
     <div>
