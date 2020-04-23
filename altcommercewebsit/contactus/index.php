@@ -17,7 +17,8 @@ include_once "../header.php";
             
                 <div class="uk-width-1-2@m">
                     <div class="uk-text-center">
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNl0WC5Kx-jqt27eq7ppyLZsLmVDvGlIMvObK_Mmi18Shtyg/viewform?embedded=true" width="600" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        
+                            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNl0WC5Kx-jqt27eq7ppyLZsLmVDvGlIMvObK_Mmi18Shtyg/viewform?embedded=true" width="600" height="1000" >Loading…</iframe>
                     </div> 
                 </div>
                 <div class="uk-width-1-2@m">
