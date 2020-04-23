@@ -80,6 +80,7 @@ body  {
 .drop-nav{
   left: 39.0156px !important;
   top: 163px !important;
+  border-top: 2px solid #f6922d !important;
 }
 
 .sub-togle{

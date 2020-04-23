@@ -32,9 +32,9 @@
     <!--mobile nav-->
     
     <div id="offcanvas-usage" uk-offcanvas>
-        <div class="uk-offcanvas-bar menu-list">
+        <div class="uk-offcanvas-bar menu-list" style="height: 344px;">
 
-            <button class="uk-offcanvas-close menu-list" type="button" uk-close></button>
+            <button class="uk-offcanvas-close " type="button" uk-close></button>
 
             <h3>Menu</h3>
 
