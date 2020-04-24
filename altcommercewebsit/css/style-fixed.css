@@ -80,6 +80,19 @@
   }
 
 
+@media screen and (max-width: 1112px) and (min-width: 1112px) {
+  .box1{
+    width:50%;
+    background-color: white; 
+    margin-left:50px;
+    
+  }
+  .box2{
+    width:33%;
+  }
+  
+}
+
 
 @media (min-width: 1200px){
   .clear-padd{
