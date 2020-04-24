@@ -21,7 +21,11 @@
 	    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       
+       <script>
+           function submenu_show(){
+               document.getElementById("about_submenu").style.display="block";
+           }
+       </script>
 
    
 	</head>
@@ -60,7 +64,7 @@
                 <div class="uk-navbar">
                     <div class="menu-toggle">
                         <button class="uk-margin-small-right mobile-navbutton" uk-toggle="target: #offcanvas-usage">
-            <!--today-->                <img src="https://img.icons8.com/ios-filled/50/000000/menu.png"/ style="height: 27px; width: 22px;">
+            <!--today-->                <img src="https://img.icons8.com/ios-filled/50/000000/menu.png" style="height: 27px; width: 22px;">
                         </button>
                     </div>
                     <div class="uk-navbar-left logo-img">
@@ -81,8 +85,8 @@
                             <a class="<?php if($currentPage =='home'){echo 'active_page';}?>" href="<?php echo $filePath;?>">Home</a>
                         </li>
                         <li >
-                            <button class="uk-button sub-menu <?php if($currentPage =='about'){echo 'active_page';}?>">ABOUT US</button>
-                                <div uk-dropdown="mode: click" class="drop-navbar">
+                            <button class="uk-button sub-menu<?php if($currentPage =='about'){echo 'active_page';}?>" onclick="submenu_show()">ABOUT US</button>
+                                <div id="about_submenu" uk-dropdown="mode: click" class="drop-navbar" style="display:none;">
                                 
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
                                         <li class="uk-active uk-animation-slide-right-small "><a href="<?php echo $filePath;?>about">WHAT WE DO</a></li>
