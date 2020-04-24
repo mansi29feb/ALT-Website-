@@ -45,7 +45,7 @@
         
                         </div>
                   </div >
-                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-margin uk-padding-remove-vertical uk-margin-remove-top"> 
+                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-margin uk-padding-remove-vertical"> 
                     <div class="career1_box"> 
                     <img src="<?php echo $filePath;?>images/career/professional.jpg">
                     <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Experienced Professional</div>

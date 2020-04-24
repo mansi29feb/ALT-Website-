@@ -57,12 +57,12 @@
                 <div class="uk-navbar">
                     <div class="menu-toggle">
                         <button class="uk-margin-small-right mobile-navbutton" uk-toggle="target: #offcanvas-usage">
-                            <img src="https://img.icons8.com/ios-filled/50/000000/menu.png"/>
+            <!--today-->                <img src="https://img.icons8.com/ios-filled/50/000000/menu.png"/ style="height: 27px; width: 22px;">
                         </button>
                     </div>
                     <div class="uk-navbar-left logo-img">
-                        <div class="uk-navbar-item img clear-padd brand-logo">
-                            <img src="<?php echo $filePath;?>images/alt.png" alt="">
+                        <div class="uk-navbar-item  clear-padd brand-logo img">
+                             <img src="<?php echo $filePath;?>images/alt.png" alt="">
                         </div>
 
                     </div>

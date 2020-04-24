@@ -15,11 +15,10 @@ include_once "../header.php";
         
         <div class="uk-child-width-1-2@m uk-grid-small uk-child-width-1-1@s uk-padding-small" uk-grid>
             
-                <div class="uk-width-1-2@m" grid>
+                <div class="uk-width-1-2@m">
                     <div class="uk-text-center">
                         
-                            
-                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNl0WC5Kx-jqt27eq7ppyLZsLmVDvGlIMvObK_Mmi18Shtyg/viewform?embedded=true" width="550" height="1000">Loading…</iframe>
+                     <iframe  class="cont-form" src="https://docs.google.com/forms/d/e/1FAIpQLSdNl0WC5Kx-jqt27eq7ppyLZsLmVDvGlIMvObK_Mmi18Shtyg/viewform?embedded=true">Loading…</iframe>
                     </div> 
                 </div>
                 <div class="uk-width-1-2@m">
@@ -30,8 +29,8 @@ include_once "../header.php";
                             
                                 <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/noida.jpg" alt="" style="opacity: 0.9; width: 300px; height: 222px;">
                                 <div class="uk-overlay uk-position-center"><button type="button" class="uk-button uk-button-text" ><a  class="cases_btnlink" href="https://goo.gl/maps/yn6EXoLCaQzXEMEY9" style="color:white;" target="_blank">CORPORATE OFFICE </a></button>
-                                </div>
-            
+                            </div>
+             
                         </div>
                     </div>
                     <div class="uk-inline">

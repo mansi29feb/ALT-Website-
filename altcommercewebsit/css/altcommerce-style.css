@@ -157,6 +157,11 @@ background: #f6f6f6;
   color:#fff;
 }
 
+/* form*/
+iframe.cont-form {
+  height: 1000px;
+  width: 600px;
+}
 /* font icons*/
 .icon-tag{
   margin-top:40px;
@@ -806,10 +811,7 @@ body{
   .mobile-nav{
     display:none;
   }
-  .logo-img{
-    margin: auto;
-    padding-right: 75px;
-  }
+  
   .mobile-navbutton{
   background: no-repeat;
     border: black;
@@ -818,12 +820,26 @@ body{
   .top-bar{
     display:none;
  }
- .img {
-  width: 125px;
+ .uk-sticky-fixed .img { /*new changes*/
+  width: 162px !important;
+  margin-left: 0px;
 }
-.menu-toggle{
-  width:39px;
+.uk-sticky-fixed .logo-img{ /*new changes*/
+  margin: auto;
+  padding-right: 57px !important;
 }
+
+.menu-toggle{ /*new changes*/
+ margin-left: -56px;
+}
+.logo-img { /* new changes*/
+  margin: auto;
+  padding-right: 37px !important;
+}
+.uk-sticky-fixed .menu-toggle { /* new changes*/
+  margin-left: -28px;
+}
+
 .slider-title{
   font-size: 29px !important;
   color: #000 !important;
@@ -902,12 +918,35 @@ body{
     background-color: #f6f6f6;
   }
   }
-  @media screen and (max-width:959px){
+  /* new added */
+  @media screen and (max-width:959px)and (min-width:900px){
     .img {
-      width: 135px;
-      margin-left: -9px;
-  }
+      width:  162px !important;
+      margin-left: 133px !important;
+      }
+      .uk-sticky-fixed .img {
+        width: 162px !important;
+        margin-left: 223px !important;
+    }
+    .uk-sticky-fixed  .logo-img {
+      margin: auto !important;
+      padding-right: 314px !important;
+    }
+    .logo-img {
+      margin: auto !important;
+      padding-right: 222px !important;
+    }
+    .menu-toggle {
+      height: 10px !important;
+      /* width: 58px; */
+      margin-left: -49px !important;
+    }
+    .uk-sticky-fixed .menu-toggle {
+      margin-left: -9px !important;
+    }
   } 
+
+
   @media screen and (max-width:990px){
 body{
   width:100%;;
@@ -1017,9 +1056,10 @@ body{
 .nav-social{
   margin: auto;
 }
-.menu-toggle{
+.menu-toggle{ /*new change*/
   height: 10px;
   width: 58px;
+  margin-left: -49px;
   }
 .mobile-navbutton{
   background: no-repeat;
@@ -1033,15 +1073,15 @@ body{
     display:none;
  }
 .logo-img{
-  margin: auto !important;
-  padding-right: 75px !important;
+  margin: auto;
+  padding-right: 75px;
 }
 .mobile-nav{
   display:none;
 }
-.img {
-  width: 135px !important;
-  margin-left: 317px !important;
+.img { /* new change*/
+  width: 150px;
+    margin-left: 353px;
 }
 .nav-slider {
 margin: 35px 0px;
@@ -1060,10 +1100,16 @@ color: #000 !important;
   top: -11px !important;
   width: 100% !important;
  }
-
- .uk-sticky-fixed .img{
-  width: 140px !important;
-  margin-left: 365px !important;
+ .uk-sticky-fixed .menu-toggle { /* new change*/
+  height: 10px;
+  width: 58px;
+  margin-left: -14px;
+}
+ 
+ 
+ .uk-sticky-fixed .img{ /*new change*/
+  width: 165px;
+  margin-left: 369px;
  }
  
 }
@@ -1085,10 +1131,14 @@ color: #000 !important;
      }
      
      
-     .img {
-      width: 122px;
-    margin-left: 36px;
+     .img { /*change */
+      /*width: 122px;*/
+    margin-left: 54px; 
       
+    }
+    .uk-sticky-fixed .img{ /*change */
+     margin-left: -4px;
+     width: 162px;
     }
     .nav-slider {
       margin: 17px -2px !important;
@@ -1103,13 +1153,10 @@ color: #000 !important;
     
     }
     .menu-toggle{
-      height: 10px;
-      width: 3px;
-      
-    
-      }
-      .uk-sticky-fixed .menu-toggle{
-        margin-left: 10px;
+      margin-left: -21px; /*change */
+    }
+      .uk-sticky-fixed .menu-toggle{ /*change */
+        margin-left: -1px;
       }
 
       .uk-sticky-fixed{
@@ -1143,9 +1190,9 @@ color: #000 !important;
       }
       
       
-      .img {
-        width: 120px;
-     }
+    .img {  /*changes*/
+       /* width: 120px;*/
+    }
      .nav-slider {
        margin: 10px 0px !important;
      }
@@ -1157,13 +1204,15 @@ color: #000 !important;
          margin-bottom: 26px;
          font-family: poppins !important;
      }
-     .menu-toggle{
-      height: 10px;
-      width: 58px;
+     .menu-toggle{ /*changes*/
+      margin-left: -54px;
       }
-
+      .logo-img { /*changes*/
+        margin: auto;
+        padding-right: 31px;
+    }
       .uk-sticky-fixed .img {
-        width: 120px;
+        width: 162px;
         margin-left: -21px;
     }
 
