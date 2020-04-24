@@ -85,7 +85,7 @@
                             <a class="<?php if($currentPage =='home'){echo 'active_page';}?>" href="<?php echo $filePath;?>">Home</a>
                         </li>
                         <li >
-                            <button class="uk-button sub-menu<?php if($currentPage =='about'){echo 'active_page';}?>" onclick="submenu_show()">ABOUT US</button>
+                            <button class="uk-button sub-menu <?php if($currentPage =='about'){echo 'active_page';}?>" onclick="submenu_show()">ABOUT US</button>
                                 <div id="about_submenu" uk-dropdown="mode: click" class="drop-navbar" style="display:none;">
                                 
                                     <ul class="uk-nav uk-navbar-dropdown-nav">

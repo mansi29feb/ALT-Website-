@@ -171,15 +171,15 @@ iframe.cont-form {
 .icon-tag h5{
 font-family:'Poppins' !important;
 }
-.icon-tag:hover > h4{
+.price-tag1:hover >.icon-tag> h4{
   color:#f6922d;
 }
 
-.icon-tag:hover > h2{
+.price-tag1:hover >.icon-tag> h2{
   color:#fff;
 }
 
-.icon-tag:hover > h5{
+.price-tag1:hover >.icon-tag> h5{
   color:#fff;
   
 }

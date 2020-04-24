@@ -649,7 +649,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/spock.jpg" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/spock.png" height="300" width="300" uk-img>
                                   
                                 </div>
                                     

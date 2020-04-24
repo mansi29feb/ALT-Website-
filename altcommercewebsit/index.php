@@ -760,21 +760,21 @@
                         <h5 class="uk-padding-large uk-padding-remove-top uk-padding-remove-left uk-padding-remove-right">MAN YEARS OF EXPERIENCE IN DIGITAL COMMERCE</h5>
                     </div>
                 </div> 
-                <div class="uk-width-1-4@m uk-width-1-1@s price1">
+                <div class="uk-width-1-4@m uk-width-1-1@s price1 price-tag1">
                     <div class="uk-text-center icon-tag">
                         <h4><i class="fa fa-users fa-2x" aria-hidden="true"></i></h4>
                         <h2><span class="Count">20</span><span>+</span></h2>
                         <h5>NO OF EMPLOYEES</h5>
                     </div>
                 </div>
-                <div class="uk-width-1-4@m uk-width-1-1@s price-tag2">
+                <div class="uk-width-1-4@m uk-width-1-1@s price-tag2 price-tag1">
                     <div class="uk-text-center icon-tag">
                         <h4><i class="fa fa-briefcase fa-2x" aria-hidden="true"></i></h4>
                         <h2><span class="Count">50</span><span>+</span></h2>
                         <h5>PROJECTS DONE</h5>
                     </div>   
                 </div>
-                <div class="uk-width-1-4@m uk-width-1-1@s price2">
+                <div class="uk-width-1-4@m uk-width-1-1@s price2 price-tag1">
                     <div class="uk-text-center icon-tag">
                         <h4><i class="fa fa-globe fa-2x" aria-hidden="true" ratio: 2.5></i></h4>
                         <h2><span class="Count">5</span><span>+</span></h2>

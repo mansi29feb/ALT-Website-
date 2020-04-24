@@ -13,12 +13,12 @@ include_once '../header.php';
             today with a strong trust of our clients on us.
         </p>
         
-        <div class=""> <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/cloud.png" width="800" height="800" uk-img></div>
+        <div class=""> <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/cloud.png" width="1000" height="1000" uk-img></div>
         <div class=" uk-text-center services_subheading">
          Customer trusts us to deliver customized, end-to-end implementations.
         </div>
        
-        <div class=""> <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/employee.png" width="500" height="500" uk-img></div>
+        <div class=""> <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/employee.png" width="400" height="400" uk-img></div>
         <p class="uk-text-center services_mainpara">
             We at ALT Commerce provide affordable and quality services to various clients across the
             Globe.</br> Very few Indian companies could reach the zenith that we have reached 
@@ -26,7 +26,7 @@ include_once '../header.php';
         </p>
 
         <div class=" uk-child-width-1-2@m uk-child-width-1-1@s uk-padding uk-margin" uk-grid>
-            <div class="uk-width-1-2@m uk-width-1-1@s uk-card uk-card-body uk-margin-small-bottom">
+            <div class="uk-width-1-2@m uk-width-1-1@s uk-card uk-card-body">
                 <div class="uk-child-width-1-2@s uk-grid-small " uk-grid>
                     <div class="uk-width-1-2@s">
                         <div class="uk-margin uk-padding-small uk-card uk-card-default uk-card-hover">
@@ -67,7 +67,7 @@ include_once '../header.php';
             </div>
         </div>
 
-        <div class="uk-margin uk-padding">
+        <div class="uk-margin uk-padding uk-margin-remove-top">
             <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/license.svg" width="150" height="150" uk-img></div>
             <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Digital Commerce</div>
             <p class="uk-text-center services_mainpara"> Digital commerce is in the midst of revolution and things are moving 
