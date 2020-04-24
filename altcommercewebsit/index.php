@@ -204,15 +204,15 @@
 
 
                     <div class="uk-card uk-card-body uk-width-1-5@m uk-width-1-1@s box2">
-                            <form id="demo-form" class="uk-card uk-card-body uk-card-default uk-padding-small form" action="upload.php" method="POST" enctype="multipart/form-data" uk-scrollspy="cls: uk-animation-scale-up"> 
+                            <form id="demo-form" class="uk-card uk-card-body uk-card-default uk-padding-small form" method="POST" enctype="multipart/form-data" uk-scrollspy="cls: uk-animation-scale-up"> 
                                     <h3 class="uk-text-bold uk-text-secondary form_heading uk-margin-small-top">Apply Now</h3>
                                     <div class="">
                                         <div class="uk-margin-small-bottom form_field">NAME:*</div>
-                                        <input class="uk-input uk-margin-small-bottom uk-padding-small"  type="text" name="name">
+                                        <input class="uk-input uk-margin-small-bottom uk-padding-small"  type="text" name="name" required>
                                     </div>
                                     <div class="form_uk-margin-small-top">
                                         <div class="uk-margin-small-bottom form_field">EMAIL ADDRESS:*</div>
-                                        <input class="uk-input uk-padding-small" type="email" name="email">
+                                        <input class="uk-input uk-padding-small" type="email" name="email" required>
                                     </div></br>
 
                                     <div class="js-upload" uk-form-custom>
@@ -226,10 +226,10 @@
                                     
                                 </br>
   
-                                    <button class="uk-button uk-margin-remove-bottom uk-text-bold uk-align-center 
+                                    <button id="submit" class="uk-button uk-margin-remove-bottom uk-text-bold uk-align-center 
                                     uk-text-center form_btn uk-text-capitalize" type="submit" name="submit">Apply Now</button>
                                     <div>
-       
+       <!-- <div class="statusMsg"></div> -->
     </div>     
                             </form>
                     </div>
@@ -1094,6 +1094,7 @@
  ?>
 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
      <script>
        function onSubmit(token) {
          document.getElementById("demo-form").submit();
@@ -1102,4 +1103,54 @@
        document.querySelector("#file").onchange = function(){
   document.querySelector("#file-name").textContent = this.files[0].name;
 }
+
+$("#file").change(function() {
+    var file = this.files[0];
+    var fileType = file.type;
+    var match = ['application/pdf'];
+    if(!((fileType == match[0]))){
+        alert('Sorry, only PDF files are allowed to upload.');
+        $("#file").val('');
+        return false;
+    }
+});
+
+
+
+$(document).ready(function(e){
+    // Submit form data via Ajax
+    $("#demo-form").on('submit', function(e){
+        e.preventDefault();
+        $.ajax({
+            type: 'POST',
+            url: 'submit.php',
+            data: new FormData(this),
+            dataType: 'json',
+            contentType: false,
+            cache: false,
+            processData:false,
+            beforeSend: function(){
+                $('.form_btn').attr("disabled","disabled");
+                $('#demo-form').css("opacity",".5");
+            },
+            success: function(response){ //console.log(response);
+                $('.statusMsg').html('');
+                if(response.status == 1){
+                    $('#demo-form')[0].reset();
+                    document.querySelector("#file-name").textContent = '';
+                    // $('.statusMsg').html('<p class=" uk-alert-success" uk-alert>'+response.message+'</p>');
+                    alert(response.message);
+                }else{
+                    // $('.statusMsg').html('<p class=" uk-alert-danger" uk-alert>'+response.message+'</p>');
+                    alert(response.message);
+                }
+                $('#demo-form').css("opacity","");
+                $(".form_btn").removeAttr("disabled");
+            }
+        });
+    });
+});
+
+
+
      </script>
