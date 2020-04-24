@@ -1,4 +1,5 @@
 <?php
+$currentPage = 'skill';
      include_once '../header.php';
 ?>
 

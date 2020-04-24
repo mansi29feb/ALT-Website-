@@ -1,4 +1,5 @@
 <?php
+$currentPage = 'career';
 	 include_once '../header.php';
  ?>
     <!-------------------------------------CAREERS SECTION--------------------------------->

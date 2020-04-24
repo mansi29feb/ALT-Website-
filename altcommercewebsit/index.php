@@ -1,6 +1,6 @@
 
 <?php
-    
+    $currentPage = 'home';
      include_once 'header.php';
  ?>
   

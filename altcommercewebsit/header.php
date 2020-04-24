@@ -21,6 +21,9 @@
 	    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+
+   
 	</head>
 	<body class=" uk-background-norepeat <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
 <!--topbar-->
@@ -74,15 +77,15 @@
             <div class="uk-navbar mobile-nav uk-width-expand@m">
                 
                     <ul class="uk-navbar-nav uk-text-bold nav-menu">
-                        <li class="uk-active">
-                            <a href="<?php echo $filePath;?>">Home</a>
+                        <li class=" ">
+                            <a class="<?php if($currentPage =='home'){echo 'active_page';}?>" href="<?php echo $filePath;?>">Home</a>
                         </li>
-                        <li>
-                            <button class="uk-button sub-menu">ABOUT US</button>
+                        <li >
+                            <button class="uk-button sub-menu <?php if($currentPage =='about'){echo 'active_page';}?>">ABOUT US</button>
                                 <div uk-dropdown="mode: click" class="drop-navbar">
                                 
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active uk-animation-slide-right-small"><a href="<?php echo $filePath;?>about">WHAT WE DO</a></li>
+                                        <li class="uk-active uk-animation-slide-right-small "><a href="<?php echo $filePath;?>about">WHAT WE DO</a></li>
                                         <li class="uk-active uk-animation-slide-right-small "><a href="<?php echo $filePath;?>csr">COMMUNITY</a></li>
                                         <li class="uk-active uk-animation-slide-right-small"><a href="<?php echo $filePath;?>contactus">CONTACT US</a></li>
                                     </ul>
@@ -91,17 +94,17 @@
                             
                         </li>
                         <li class="">
-                            <a href="<?php echo $filePath;?>skill">Skills</a>
+                            <a class="<?php if($currentPage =='skill'){echo 'active_page';}?>" href="<?php echo $filePath;?>skill">Skills</a>
                         </li>
-                        <li class="">
-                            <a href="<?php echo $filePath;?>service">Services</a>
+                        <li >
+                            <a class="<?php if($currentPage =='service'){echo 'active_page';}?>" href="<?php echo $filePath;?>service">Services</a>
                         </li>
-                        <li class="">
-                            <a href="<?php echo $filePath;?>resource">Resources</a>
+                        <li >
+                            <a class="<?php if($currentPage =='resource'){echo 'active_page';}?>" href="<?php echo $filePath;?>resource">Resources</a>
                         </li>
                         
-                        <li class="">
-                            <a href="<?php echo $filePath;?>careers">Careers</a>
+                        <li >
+                            <a class="<?php if($currentPage =='career'){echo 'active_page';}?>" href="<?php echo $filePath;?>careers">Careers</a>
                         </li>
                        
                     </ul>

@@ -1,4 +1,5 @@
 <?php
+$currentPage = 'resource';
 include_once "../header.php";
 ?>
 <!---Resource page starts-->

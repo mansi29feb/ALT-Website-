@@ -1,6 +1,6 @@
       
 <?php
-    
+$currentPage = 'service';    
 include_once '../header.php';
 ?>
 

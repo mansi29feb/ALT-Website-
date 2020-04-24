@@ -1,4 +1,5 @@
 <?php
+$currentPage = 'about';
 include_once "../header.php";
 ?>
     
