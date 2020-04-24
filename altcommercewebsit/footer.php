@@ -14,7 +14,7 @@
         </div>
     </div>
     <div>
-        <div class=" uk-link-text uk-visible@s footermenu">
+        <div class=" uk-link-text uk-text-center uk-visible@s footermenu">
             <a href="<?php echo $filePath;?>">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>/
             <a href="<?php echo $filePath;?>about">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a>/
             <a href="<?php echo $filePath;?>service">&nbsp;&nbsp;Services&nbsp;&nbsp;</a>/

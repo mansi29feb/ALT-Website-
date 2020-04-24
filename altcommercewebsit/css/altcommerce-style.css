@@ -202,6 +202,10 @@ font-family:'Poppins' !important;
 
 
 /******************/
+.active_page{
+  color:#FE9603 !important;
+}
+
 
 .footer{
     
@@ -213,7 +217,7 @@ font-family:'Poppins' !important;
 }
 
 .footerbox{
-    margin-top:50px;
+    margin-top:70px;
     font-size: 15px;
     color:#5f615f;
     padding-right:30px;
