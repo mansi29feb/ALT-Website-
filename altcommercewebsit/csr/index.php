@@ -30,7 +30,7 @@ include_once "../header.php";
             </p>
         </div>
         <div class="uk-width-1-4@m  uk-width-1-2@s">
-            <img class="uk-margin-large-top" data-src="<?php echo $filePath;?>images/csr/earth/earth-protect.jpg" height="450" width="450" alt="" uk-img>
+            <img class="uk-margin-large-top lazy" data-src="<?php echo $filePath;?>images/csr/earth/earth-protect.jpg" height="450" width="450" alt="" uk-img>
         </div>
 
         <div class="uk-width-1-4@m uk-width-1-2@s" style="background-color: #fafafa;">
@@ -41,7 +41,7 @@ include_once "../header.php";
             </p></div>
 
         <div class="uk-width-1-4@m uk-width-1-2@s" style="background-color: black;">
-            <img class="uk-margin-medium-top"  data-src="<?php echo $filePath;?>images/csr/earth/green_earth.jpg" height="450" width="450" alt="" uk-img>
+            <img class="uk-margin-medium-top lazy"  data-src="<?php echo $filePath;?>images/csr/earth/green_earth.jpg" height="450" width="450" alt="" uk-img>
         </div>  
     </div>
 
@@ -51,7 +51,7 @@ include_once "../header.php";
             
             <div class=" uk-child-width-1-2@s uk-width-1-1@s uk-margin-large-bottom" uk-grid>
                 <div class="uk-width-1-2@s ">
-                    <img class="uk-margin-small-left" data-src="<?php echo $filePath;?>images/csr/pmcare2.jpg" height="800" width="800" alt="" uk-img>
+                    <img class="uk-margin-small-left lazy" data-src="<?php echo $filePath;?>images/csr/pmcare2.jpg" height="800" width="800" alt="" uk-img>
                 </div>
                 <div class="uk-width-1-2@s">
                     <div class="uk-padding ">
@@ -76,24 +76,24 @@ include_once "../header.php";
                 <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m ">
                    
                     <div class=" csr_li ">
-                        <img  src="<?php echo $filePath;?>images/csr/csr5.jpg" alt="">
+                        <img class="lazy" data-src="<?php echo $filePath;?>images/csr/csr5.jpg" alt="">
                         
                     </div>
                     <li class=" csr_li">
-                        <img src="<?php echo $filePath;?>images/csr/csr6.jpg" alt="">
+                        <img class="lazy" data-src="<?php echo $filePath;?>images/csr/csr6.jpg" alt="">
                         
                     </li >
                     
                     <li class=" csr_li">
-                        <img src="<?php echo $filePath;?>images/csr/csr8.jpg" alt="">
+                        <img class="lazy" data-src="<?php echo $filePath;?>images/csr/csr8.jpg" alt="">
                        
                     </li>
                     <li class=" csr_li">
-                        <img src="<?php echo $filePath;?>images/csr/csr9.jpg" alt="">
+                        <img  class="lazy" data-src="<?php echo $filePath;?>images/csr/csr9.jpg" alt="">
                         
                     </li>
                     <li class=" csr_li">
-                        <img src="<?php echo $filePath;?>images/csr/csr11.jpg" alt="">
+                        <img class="lazy" data-src="<?php echo $filePath;?>images/csr/csr11.jpg" alt="">
                         
                     </li>
                     
@@ -126,7 +126,7 @@ include_once "../header.php";
 <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-large-bottom" uk-grid>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-            <img  data-src="<?php echo $filePath;?>images/csr/earth/berry.jpg" height="300" width="300" alt="" uk-img>
+            <img  class="lazy" data-src="<?php echo $filePath;?>images/csr/earth/berry.jpg" height="300" width="300" alt="" uk-img>
             <div  class="uk-position-bottom uk-overlay uk-overlay-primary ">
                 <p class="uk-h4 uk-margin-remove impact_text">Planting fruit trees provides habitat for wildlife.</p>
             </div>
@@ -135,7 +135,7 @@ include_once "../header.php";
     </div>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s uk-">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="<?php echo $filePath;?>images/csr/earth/kids.jpg" height="300" width="300" alt="" uk-img>
+            <img class="lazy" data-src="<?php echo $filePath;?>images/csr/earth/kids.jpg" height="300" width="300" alt="" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove impact_text">Better livelihoods for people living near forests.</p>
             </div>
@@ -144,7 +144,7 @@ include_once "../header.php";
     </div>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="<?php echo $filePath;?>images/csr/earth/soil2.jpg" height="300" width="300" alt="" uk-img>
+            <img class="lazy" data-src="<?php echo $filePath;?>images/csr/earth/soil2.jpg" height="300" width="300" alt="" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove impact_text">Prevent soil erosion & mitigate climate change.</p>
             </div>
@@ -153,7 +153,7 @@ include_once "../header.php";
     </div>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="<?php echo $filePath;?>images/csr/earth/water.jpg" height="300" width="300" alt="" uk-img>
+            <img class="lazy" data-src="<?php echo $filePath;?>images/csr/earth/water.jpg" height="300" width="300" alt="" uk-img>
 <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove impact_text">Offer watershed protection.</p>
             </div>
@@ -175,26 +175,26 @@ include_once "../header.php";
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m ">
                
             <li class=" csr_li">
-                    <img src="<?php echo $filePath;?>images/csr/water/kids-water3.jpg" alt="">
+                    <img data-src="<?php echo $filePath;?>images/csr/water/kids-water3.jpg" alt="">
                    
                 </li>
                 <li class=" csr_li">
-                    <img src="<?php echo $filePath;?>images/csr/water/kids-water1.jpg" alt="">
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/kids-water1.jpg" alt="">
                     
                 </li>
                 <div class=" csr_li">
-                    <img  src="<?php echo $filePath;?>/images/csr/water/water_act2.JPG" alt="">
+                    <img class="lazy" data-src="<?php echo $filePath;?>/images/csr/water/water_act2.JPG" alt="">
                     
                 </div>
                 
                 <li class=" csr_li">
-                    <img src="<?php echo $filePath;?>images/csr/water/water_act1.JPG" alt="">
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/water_act1.JPG" alt="">
                     
                 </li>
                 
                
                 <li class=" csr_li">
-                    <img src="<?php echo $filePath;?>images/csr/water/water_act3.JPG" alt="">
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/water_act3.JPG" alt="">
                     
                 </li>
             </ul>
@@ -246,7 +246,7 @@ include_once "../header.php";
 <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-large-bottom" uk-grid>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img  data-src="<?php echo $filePath;?>images/csr/earth/lake.jpg" height="300" width="300" alt="" uk-img>
+            <img class="lazy"  data-src="<?php echo $filePath;?>images/csr/earth/lake.jpg" height="300" width="300" alt="" uk-img>
         <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class=" uk-margin-remove impact_text">Provides Nourishment.</p>
             </div>
@@ -255,7 +255,7 @@ include_once "../header.php";
     </div>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="<?php echo $filePath;?>images/csr/water/happy-kids.jpg" height="300" width="300" alt="" uk-img>
+            <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/happy-kids.jpg" height="300" width="300" alt="" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class=" uk-margin-remove impact_text">Clean water keeps doctors away.</p>
             </div>
@@ -264,7 +264,7 @@ include_once "../header.php";
     </div>
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="<?php echo $filePath;?>images/csr/water/kids-water2.jpg" height="300" width="300" alt="" uk-img>
+            <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/kids-water2.jpg" height="300" width="300" alt="" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class=" uk-margin-remove impact_text">Combating waterborne diseases.</p>
             </div>
@@ -274,7 +274,7 @@ include_once "../header.php";
     
     <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
         <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
-            <img data-src="<?php echo $filePath;?>images/csr/water/village-baby.jpg" height="300" width="300" alt="" uk-img>
+            <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/village-baby.jpg" height="300" width="300" alt="" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class=" uk-margin-remove impact_text">Stave off the birth defects in new-born babies.</p>
             </div>
@@ -416,5 +416,20 @@ $(document).ready(function(){
   });
 });              
    </script>
+   <script>
+  if ('loading' in HTMLImageElement.prototype) {
+      const images = document.querySelectorAll("img.lazy");
+      images.forEach(img => {
+          img.src = img.dataset.src;
+      });
+  } else {
+      // Dynamically import the LazySizes library
+    let script = document.createElement("script");
+    script.async = true;
+    script.src =
+      "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js";
+    document.body.appendChild(script);
+  }
+</script>
     
     

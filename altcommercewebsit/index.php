@@ -69,7 +69,7 @@
                     <div class="uk-child-width-1-1@s uk-grid-match uk-margin-large-top uk-margin-medium-bottom " uk-grid uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
                         <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s grid1" uk-grid>
                             <div class="uk-width-1-5@s  uk-padding-remove hide-icon uk-hidden@m ">
-                                <img data-src="images/application.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/application.svg" width="60" height="60" alt="" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-remove bx1">
 
@@ -79,13 +79,13 @@
 
                             </div>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove visible-icon uk-visible@m">
-                                <img data-src="images/application.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/application.svg" width="60" height="60" alt="" uk-img>
                             </div>
                         </div>
 
                         <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s" uk-grid>
                             <div class="uk-width-1-5@s uk-padding-remove hide-icon uk-hidden@m">
-                                <img data-src="images/research-and-development.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy"  data-src="images/research-and-development.svg" width="60" height="60" alt="" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-remove bx1">
 
@@ -94,13 +94,13 @@
 
                             </div>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove visible-icon uk-visible@m">
-                                <img data-src="images/research-and-development.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/research-and-development.svg" width="60" height="60" alt="" uk-img>
                             </div>
                         </div>
 
                         <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s" uk-grid>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove hide-icon uk-hidden@m">
-                                <img data-src="images/om.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/om.svg" width="60" height="60" alt="" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-remove bx1">
                                 <div class="uk-text-bold uk-text-secondary section2_subheading">Omni-Channel Commerce</div>
@@ -108,7 +108,7 @@
                                     experience.</span>
                             </div>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove uk-visible@m">
-                                <img data-src="images/om.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/om.svg" width="60" height="60" alt="" uk-img>
                             </div>
                         </div>
 
@@ -120,7 +120,7 @@
                     <!--middle part-->
                     <div class="uk-child-width-1-1@s uk-visible@m uk-padding-remove uk-margin-medium-bottom uk-margin-small-left" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: false">
                         <div class="uk-width-1-1@s uk-padding-remove uk-align-center">
-                            <img class="mobile_img " src="images/warranty-period.svg">
+                            <img class="mobile_img " data-src="images/warranty-period.svg">
                         </div>
 
                     </div>
@@ -133,7 +133,7 @@
                     <div class="uk-child-width-1-1@s uk-grid-match uk-margin-small-left uk-margin-large-top uk-grid-collapse uk-margin-medium-bottom" uk-grid uk-scrollspy="cls: uk-animation-slide-right; repeat: false">
                         <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s uk-margin-remove-bottom"  uk-grid>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove">
-                                <img data-src="images/quality-assurance.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/quality-assurance.svg" width="60" height="60" alt="" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-small uk-padding-remove-top uk-padding-remove-left bx1">
                                 <div class="uk-text-bold uk-text-secondary section2_subheading">QA & Software Testing</div>
@@ -144,7 +144,7 @@
                         <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s" uk-grid>
 
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove">
-                                <img data-src="images/advertisement.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/advertisement.svg" width="60" height="60" alt="" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-small uk-padding-remove-top uk-padding-remove-left bx1">
                                 <div class="uk-text-bold uk-text-secondary section2_subheading">Digital Commerce</div>
@@ -156,7 +156,7 @@
 
                         <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s" uk-grid>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove">
-                                <img data-src="images/user-experience.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/user-experience.svg" width="60" height="60" alt="" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-small uk-padding-remove-top uk-padding-remove-left bx1">
                                 <div class="uk-text-bold uk-text-secondary section2_subheading">User/Customer Experience </div>
@@ -265,7 +265,7 @@
 
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-                    <img data-src="images/case/case2.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <img class="lazy" data-src="images/case/case2.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                     <div class="works_overlay uk-position-center uk-flex">
                         <button uk-toggle="target: #works2" class=" more uk-margin-auto uk-margin-auto-vertical uk-border-circle" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
@@ -279,7 +279,7 @@
         <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-right">
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-                    <img data-src="images/case/case7.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <img class="lazy" data-src="images/case/case7.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                     <div class="uk-position-center works_overlay uk-flex">
                         <button uk-toggle="target: #works3"  class=" more uk-margin-auto uk-margin-auto-vertical uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
@@ -293,7 +293,7 @@
         <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-left"> 
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light " tabindex="0">
-                    <img data-src="images/case/case4.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <img class="lazy"  data-src="images/case/case4.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                     <div class="uk-position-center works_overlay uk-flex">
                         <button uk-toggle="target: #works4"  class=" more uk-margin-auto uk-margin-auto-vertical uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
@@ -308,7 +308,7 @@
             
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-                    <img data-src="images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <img class="lazy" data-src="images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                     <div class="uk-position-center works_overlay uk-flex">
                         <button uk-toggle="target: #works5" class=" more uk-margin-auto uk-margin-auto-vertical uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
@@ -322,7 +322,7 @@
         <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-right">
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-                    <img data-src="images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <img  class="lazy" data-src="images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                     <div class="uk-position-center works_overlay uk-flex">
                         <button uk-toggle="target: #works6" class=" more uk-margin-auto uk-margin-auto-vertical uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
@@ -792,7 +792,7 @@
             <div class="uk-child-width-1-3@m uk-child-width-1-1@s uk-grid-medium uk-padding" uk-grid>
                 <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-left;">
                     <div >
-                        <img class="uk-align-center" data-src="images/designer.svg" width="80" height="80" alt="" uk-img>
+                        <img class="uk-align-center lazy" data-src="images/designer.svg" width="80" height="80" alt="" uk-img>
                     </div>
                     <div class="uk-text-center">
                         <div class="uk-text-bold uk-text-secondary test_heading">1. Designing</div>
@@ -801,7 +801,7 @@
                 </div>
                 <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-top;">
                     <div >
-                        <img class="uk-align-center" data-src="images/edit-code.svg" width="80" height="80" alt="" uk-img>
+                        <img class="uk-align-center lazy" data-src="images/edit-code.svg" width="80" height="80" alt="" uk-img>
                         <div class="uk-text-center">
                             <div class="uk-text-bold uk-text-secondary test_heading">2. Development</div>
                             <p class="test_para"> Developing a design around solutions to the problems presented by requirements.</p>
@@ -810,7 +810,7 @@
                 </div>
                 <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-right;">
                     <div >
-                        <img class="uk-align-center" data-src="images/deployment.svg" width="80" height="80" alt="" uk-img>
+                        <img class="uk-align-center lazy" data-src="images/deployment.svg" width="80" height="80" alt="" uk-img>
                         <div class="uk-text-center">
                             <div class="uk-text-bold uk-text-secondary test_heading">3. Deployment</div>
                             <p class="test_para">We are delivering complete solutions and resolving the user’s problem. 
@@ -833,7 +833,7 @@
                                 <div class="uk-card uk-card-default">
                                    
                                     <div class="uk-card-media-top uk-padding-remove">
-                                        <img class="uk-align-center uk-margin-small-top"  data-src="images/writer.svg" width="50" height="50" alt="" uk-img>
+                                        <img class="uk-align-center uk-margin-small-top "  data-src="images/writer.svg" width="50" height="50" alt="" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">I never considered ALT Commerce as a consulting company, I always count them as an extension of my own team. </p>
@@ -1154,3 +1154,18 @@ $(document).ready(function(e){
 
 
      </script>
+     <script>
+  if ('loading' in HTMLImageElement.prototype) {
+      const images = document.querySelectorAll("img.lazy");
+      images.forEach(img => {
+          img.src = img.dataset.src;
+      });
+  } else {
+      // Dynamically import the LazySizes library
+    let script = document.createElement("script");
+    script.async = true;
+    script.src =
+      "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js";
+    document.body.appendChild(script);
+  }
+</script>
