@@ -9,7 +9,7 @@ $currentPage = 'skill';
         <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Our Technical Expertise</div>
         <p class="uk-text-center services_mainpara"> Rendering the best services with the Updated Technologies.
         </p>
-        <div class=""> <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/skill.jpg" width="800" height="800" uk-img></div>
+        <div class=""> <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/skill.jpg" width="800" height="800" uk-img></div>
        
     <div class="uk-text-center@s uk-text-bold services_subheading ">Our Skills</div>
     
@@ -53,7 +53,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-animation-toggle uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy  " data-src="<?php echo $filePath;?>images/skills-page/atg.png" height="250" width="250" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/atg.png" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
@@ -68,7 +68,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/java.png" height="100" width="100" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/java.png" height="100" width="100" uk-img>
                                   
                                 </div>
                                     
@@ -81,7 +81,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy  " data-src="<?php echo $filePath;?>images/skills-page/paypal.png" height="200" width="200" uk-img >
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/paypal.png" height="200" width="200" uk-img >
                                   
                                 </div>
                                     
@@ -95,7 +95,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/tomcat.jpg" height="300" width="300" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/tomcat.jpg" height="300" width="300" uk-img>
                                   
                                 </div>
                                     
@@ -108,7 +108,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy  " data-src="<?php echo $filePath;?>images/skills-page/usps.svg" height="200" width="200" uk-img >
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/usps.svg" height="200" width="200" uk-img >
                                   
                                 </div>
                                     
@@ -121,7 +121,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/websphere.png" height="250" width="250" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/websphere.png" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
@@ -134,7 +134,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/postman.png" height="250" width="250" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/postman.png" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
@@ -147,7 +147,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/ionic.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/ionic.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -160,7 +160,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/google_analytics.png" height="300" width="300" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/google_analytics.png" height="300" width="300" uk-img>
                                   
                                 </div>
                                     
@@ -172,7 +172,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/Jenkins.jpg" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Jenkins.jpg" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -184,7 +184,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/taxware.png" height="200" width="200" uk-img >
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/taxware.png" height="200" width="200" uk-img >
                                   
                                 </div>
                                     
@@ -197,7 +197,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/hybris.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/hybris.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -210,7 +210,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/react_native.png" height="150" width="150" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/react_native.png" height="150" width="150" uk-img>
                                   
                                 </div>
                                     
@@ -223,7 +223,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/selenium.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/selenium.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -237,7 +237,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy  " data-src="<?php echo $filePath;?>images/skills-page/Experian.svg" height="200" width="200" uk-img >
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/Experian.svg" height="200" width="200" uk-img >
                                   
                                 </div>
                                     
@@ -250,7 +250,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/adobe-analytics.png" height="180" width="180" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/adobe-analytics.png" height="180" width="180" uk-img>
                                   
                                 </div>
                                     
@@ -262,7 +262,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/Vantive.png" height="200" width="200" uk-img >
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/Vantive.png" height="200" width="200" uk-img >
                                   
                                 </div>
                                     
@@ -289,7 +289,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/Zendesk.png" height="180" width="180" uk-img >
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/Zendesk.png" height="180" width="180" uk-img >
                                   
                                 </div>
                                     
@@ -304,7 +304,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/maven.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/maven.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -316,7 +316,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/magento.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/magento.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -330,7 +330,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/aws.svg" height="150" width="150" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/aws.svg" height="150" width="150" uk-img>
                                   
                                 </div>
                                     
@@ -344,7 +344,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/MSSQL.png" height="300" width="300" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/MSSQL.png" height="300" width="300" uk-img>
                                   
                                 </div>
                                     
@@ -358,7 +358,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/micronaut.svg" height="300" width="300" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/micronaut.svg" height="300" width="300" uk-img>
                                   
                                 </div>
                                     
@@ -371,7 +371,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/commercetools.png" height="250" width="250" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/commercetools.png" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
@@ -384,7 +384,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/cucumber.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/cucumber.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -397,7 +397,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/Omniture.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Omniture.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -410,7 +410,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/Azure.svg" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Azure.svg" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -423,7 +423,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/spring.svg" height="200" width="200" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/spring.svg" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -436,7 +436,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/salesforce.svg" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/salesforce.svg" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -449,7 +449,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/git.jpg" height="250" width="250" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/git.jpg" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
@@ -464,7 +464,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/JavaScript.png" height="150" width="150" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/JavaScript.png" height="150" width="150" uk-img>
                                   
                                 </div>
                                     
@@ -478,7 +478,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/weblogic.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/weblogic.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -491,7 +491,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/Angular.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Angular.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -504,7 +504,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/Jira.svg" height="250" width="250" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Jira.svg" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
@@ -517,7 +517,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/graphql.png" height="250" width="250" uk-img>
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/graphql.png" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
@@ -530,7 +530,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/php.png" height="180" width="180" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/php.png" height="180" width="180" uk-img>
                                   
                                 </div>
                                     
@@ -545,7 +545,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/endeca.bmp" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/endeca.bmp" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -559,7 +559,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/Bamboo.svg" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Bamboo.svg" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -573,7 +573,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy " data-src="<?php echo $filePath;?>images/skills-page/paymetric.png" height="250" width="250" uk-img >
+                                    <img class="uk-card  " data-src="<?php echo $filePath;?>images/skills-page/paymetric.png" height="250" width="250" uk-img >
                                   
                                 </div>
                                     
@@ -586,7 +586,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/reactJs.png" height="300" width="300" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/reactJs.png" height="300" width="300" uk-img>
                                   
                                 </div>
                                     
@@ -600,7 +600,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/gradle.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/gradle.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -615,7 +615,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/MySQL.png" height="300" width="300" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/MySQL.png" height="300" width="300" uk-img>
                                   
                                 </div>
                                     
@@ -632,7 +632,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/Bitbucket.svg" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/Bitbucket.svg" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -649,7 +649,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/spock.png" height="300" width="300" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/spock.png" height="300" width="300" uk-img>
                                   
                                 </div>
                                     
@@ -663,7 +663,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/groovy.png" height="250" width="250" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/groovy.png" height="250" width="250" uk-img>
                                   
                                 </div>
                                     
@@ -676,7 +676,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/OracleDB.png" height="300" width="300" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/OracleDB.png" height="300" width="300" uk-img>
                                   
                                 </div>
                                     
@@ -688,7 +688,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/jboss.jpg" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/jboss.jpg" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -701,7 +701,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/ibm-db2.png" height="150" width="150" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/ibm-db2.png" height="150" width="150" uk-img>
                                   
                                 </div>
                                     
@@ -714,7 +714,7 @@ $currentPage = 'skill';
                             
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
-                                    <img class="uk-card lazy" data-src="<?php echo $filePath;?>images/skills-page/geb.png" height="200" width="200" uk-img>
+                                    <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/geb.png" height="200" width="200" uk-img>
                                   
                                 </div>
                                     
@@ -753,19 +753,4 @@ $currentPage = 'skill';
 
 
     </script>
-    <script>
-  if ('loading' in HTMLImageElement.prototype) {
-      const images = document.querySelectorAll("img.lazy");
-      images.forEach(img => {
-          img.src = img.dataset.src;
-      });
-  } else {
-      // Dynamically import the LazySizes library
-    let script = document.createElement("script");
-    script.async = true;
-    script.src =
-      "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js";
-    document.body.appendChild(script);
-  }
-</script>
     

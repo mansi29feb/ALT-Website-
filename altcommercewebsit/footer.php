@@ -69,25 +69,9 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="<?php echo $filePath;?>js/count.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js"></script>
     <script src="<?php echo $filePath;?>js/uikit.min.js"></script>
     <script src="<?php echo $filePath;?>js/uikit-icons.min.js"></script>
    
-    <script>
-  if ('loading' in HTMLImageElement.prototype) {
-      const images = document.querySelectorAll("img.lazy");
-      images.forEach(img => {
-          img.src = img.dataset.src;
-      });
-  } else {
-      // Dynamically import the LazySizes library
-    let script = document.createElement("script");
-    script.async = true;
-    script.src =
-      "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js";
-    document.body.appendChild(script);
-  }
-</script>
    
 </body>
 

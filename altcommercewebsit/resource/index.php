@@ -644,7 +644,7 @@ include_once "../header.php";
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up " src="<?php echo $filePath;?>images/case/case3.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case3.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works3" class="uk-button uk-button-text cases_btnlink">Site Redesign</button>
                         </div>
         
@@ -657,7 +657,7 @@ include_once "../header.php";
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" src="<?php echo $filePath;?>images/case/case4.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case4.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works4" class="uk-button uk-button-text cases_btnlink">Cross-Reference Tool</button>
                         </div>
         
@@ -711,7 +711,7 @@ include_once "../header.php";
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up " src="<?php echo $filePath;?>images/case/case10.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/case/case10.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works9" class="uk-button uk-button-text cases_btnlink">Multi-part search</button>
                         </div>
         
@@ -730,22 +730,5 @@ include_once "../header.php";
 
 <?php
 include_once "../footer.php"
-
 ?>
-
-<script>
-  if ('loading' in HTMLImageElement.prototype) {
-      const images = document.querySelectorAll("img.lazy");
-      images.forEach(img => {
-          img.src = img.dataset.src;
-      });
-  } else {
-      // Dynamically import the LazySizes library
-    let script = document.createElement("script");
-    script.async = true;
-    script.src =
-      "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js";
-    document.body.appendChild(script);
-  }
-</script>
-
+<div>
