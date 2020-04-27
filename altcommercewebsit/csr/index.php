@@ -20,9 +20,9 @@ include_once "../header.php";
         We always have undertaken various initiatives with an aim to improve quality of life & ensure the holistic development of its surrounding communities. 
        </div>
 
-       <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-grid-collapse uk-margin-remove" uk-grid>
+       <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-child-width-1-2@s uk-grid-collapse uk-margin-remove" uk-grid>
 
-        <div class="uk-width-1-4@m uk-width-1-2@s uk-padding-small" style="background-color: #fafafa;">
+        <div class="uk-width-1-4@m uk-width-1-2@s uk-padding-small csr_box" style="background-color: #fafafa;">
             <p class=" uk-padding  uk-text-left" style="font-size: 18px; color:black">
                 The underlying goal of the interventions is to transform the lives of the community through 
                 a result-oriented participatory approach. The efforts are directed towards inclusive growth, 
@@ -30,10 +30,10 @@ include_once "../header.php";
             </p>
         </div>
         <div class="uk-width-1-4@m  uk-width-1-2@s">
-            <img class="uk-margin-large-top" data-src="<?php echo $filePath;?>images/csr/earth/earth-protect.jpg" height="450" width="450" alt="" uk-img>
+            <img class="uk-margin-large-top " data-src="<?php echo $filePath;?>images/csr/earth/earth-protect.jpg" height="450" width="450" alt="" uk-img>
         </div>
 
-        <div class="uk-width-1-4@m uk-width-1-2@s" style="background-color: #fafafa;">
+        <div class="uk-width-1-4@m uk-width-1-2@s csr_box" style="background-color: #fafafa;">
             <p class=" uk-padding  uk-text-left" style="font-size: 18px; color:black">
                 All our environmental or social development projects work with the concept of “better living” which translates to “Sustainable Development Goals”.
                 Alt initiates working with few Sustainable Development Goals like Good health & Wellbeing, Clean water & 3 Ps of Sustainable Development like People, Planet & Prosperity.
@@ -41,7 +41,7 @@ include_once "../header.php";
             </p></div>
 
         <div class="uk-width-1-4@m uk-width-1-2@s" style="background-color: black;">
-            <img class="uk-margin-medium-top"  data-src="<?php echo $filePath;?>images/csr/earth/green_earth.jpg" height="450" width="450" alt="" uk-img>
+            <img class="uk-margin-medium-top uk-padding uk-margin-small-top"  data-src="<?php echo $filePath;?>images/csr/earth/green_earth.jpg" height="350" width="350" alt="" uk-img>
         </div>  
     </div>
 
@@ -50,12 +50,12 @@ include_once "../header.php";
             <div class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#1C1C1C;">The PM CARES Fund</div>
             
             <div class=" uk-child-width-1-2@s uk-width-1-1@s uk-margin-large-bottom" uk-grid>
-                <div class="uk-width-1-2@s ">
-                    <img class="uk-margin-small-left" data-src="<?php echo $filePath;?>images/csr/pmcare2.jpg" height="800" width="800" alt="" uk-img>
+                <div class="uk-width-1-2@s">
+                    <img class="uk-margin-small-left covid_img" data-src="<?php echo $filePath;?>images/csr/pmcare2.jpg" height="800" width="800" alt="" uk-img>
                 </div>
                 <div class="uk-width-1-2@s">
                     <div class="uk-padding ">
-                        <p class="uk-text-left services_mainpara uk-padding-small" style="font-size: 18px;"> ALT Commerce has tried to do 
+                        <p class="uk-text-left covid services_mainpara uk-padding-small" style="font-size: 18px;"> ALT Commerce has tried to do 
                     its bit for the <span class="uk-text-bold">COVID-19</span> situation in the country.</br></br> The company encouraged everyone to contribute to provide relief to 
                     those affected by any kind of emergency or distress situation.  And supported the government in its fight against the 
                     impact of <span class="uk-text-bold">COVID-19</span>.  

@@ -167,7 +167,7 @@
 }
 
 
-@media screen and (max-width: 768px) and (min-width: 768px) {
+@media screen and (max-width: 800px) and (min-width: 768px) {
   .box1{
     width:50%;
     background-color: white; 
@@ -194,6 +194,13 @@
   .case_box2{
    padding-left: 80px;
   }
+  .covid{
+    padding:0px;
+  }
+  .covid_img{
+    margin-top:70px;
+  }
+
 
 }
 
@@ -225,11 +232,26 @@
   .form{
     width:280px;
   }
+ 
+  .covid_img{
+    margin-top:20px;
+  }
+  .csr_box{
+    width:50%;
+  }
+
+
 }
 @media screen and (max-width: 375px){
  
   .case_box{
     padding:0px;
     padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .services_subheading{
+    font-size: 27px;
   }
 }

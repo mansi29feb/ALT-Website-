@@ -14,11 +14,11 @@ include_once '../header.php';
         </p>
         
         <div class=""> <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/cloud.png" width="1000" height="1000" uk-img></div>
-        <div class=" uk-text-center services_subheading">
+        <div class=" uk-text-center services_subheading uk-margin-medium-bottom">
          Customer trusts us to deliver customized, end-to-end implementations.
         </div>
        
-        <div class=""> <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/employee.png" width="400" height="400" uk-img></div>
+        <div class=""> <img class=" uk-align-center " data-src="<?php echo $filePath;?>images/employee.png" width="400" height="400" uk-img></div>
         <p class="uk-text-center services_mainpara">
             We at ALT Commerce provide affordable and quality services to various clients across the
             Globe.</br> Very few Indian companies could reach the zenith that we have reached 
@@ -56,7 +56,7 @@ include_once '../header.php';
             </div>
 
             <div class="uk-width-1-2@m uk-width-1-1@s uk-margin-large-top">
-                <div class="uk-padding-small uk-margin">
+                <div class=" uk-margin">
                     <div class=" uk-text-left@m uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Our Expertise</div>
                     <p class="uk-text-left@m uk-text-center services_mainpara"> Our Custom Software Developments include techniques and programs
                         like ATG, JSP Programming / Java, application re-engineering, PHP, software re- factoring. 
@@ -173,7 +173,7 @@ include_once '../header.php';
                 <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/team.svg" width="150" height="150" uk-img></div>
                 <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">User Journey & Experience</div>
                 <p class="uk-text-center services_mainpara"> Providing our customers with a consistent and seamless brand experience 
-                    is a given when the competition is only a click away.At ALT commerce customers becoming advocates for the company, creating referral, retention and profitable growth.
+                    is a given when the competition is only a click away. At ALT commerce customers becoming advocates for the company, creating referral, retention and profitable growth.
                     
                     <div class="uk-child-width-1-1@s uk-child-width-1-3@m uk-grid-medium uk-margin uk-grid-match" uk-grid>
                         <div class="uk-width-1-1@s uk-width-1-3@m ">
