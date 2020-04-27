@@ -90,7 +90,22 @@
   .box2{
     width:33%;
   }
-  
+  .csr_box{
+    width:70%;
+    padding-top:30px;
+    }
+
+    .imp_box{
+      width:50%;
+      
+    }
+
+    .img_csr1{
+      float:right;
+    }
+    .img_csr2{
+      float:left;
+    }
 }
 
 
@@ -237,11 +252,36 @@
     margin-top:20px;
   }
   .csr_box{
+  width:70%;
+  padding-top:30px;
+  }
+
+  .imp_box{
     width:50%;
   }
 
+  .img_csr1{
+    float:right;
+  }
+  .img_csr2{
+    float:left;
+  }
 
 }
+
+@media screen and (max-width: 1280px) and (min-width: 1280px) {
+  .imp_box{
+    width:50%;
+  }
+
+  .img_csr1{
+    float:right;
+  }
+  .img_csr2{
+    float:left;
+  }
+}
+
 @media screen and (max-width: 375px){
  
   .case_box{
@@ -252,6 +292,6 @@
 
 @media screen and (max-width: 414px) {
   .services_subheading{
-    font-size: 27px;
+    
   }
 }

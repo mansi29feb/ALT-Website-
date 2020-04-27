@@ -22,8 +22,8 @@ include_once "../header.php";
 
        <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-child-width-1-2@s uk-grid-collapse uk-margin-remove" uk-grid>
 
-        <div class="uk-width-1-4@m uk-width-1-2@s uk-padding-small csr_box" style="background-color: #fafafa;">
-            <p class=" uk-padding  uk-text-left" style="font-size: 18px; color:black">
+        <div class="uk-width-1-4@m uk-width-1-2@s csr_box" style="background-color: #fafafa;">
+            <p class=" uk-padding uk-text-left" style="font-size: 18px; color:black">
                 The underlying goal of the interventions is to transform the lives of the community through 
                 a result-oriented participatory approach. The efforts are directed towards inclusive growth, 
                 so as to reach out to its nearby communities & help them build a sustainable future. 
@@ -36,12 +36,12 @@ include_once "../header.php";
         <div class="uk-width-1-4@m uk-width-1-2@s csr_box" style="background-color: #fafafa;">
             <p class=" uk-padding  uk-text-left" style="font-size: 18px; color:black">
                 All our environmental or social development projects work with the concept of “better living” which translates to “Sustainable Development Goals”.
-                Alt initiates working with few Sustainable Development Goals like Good health & Wellbeing, Clean water & 3 Ps of Sustainable Development like People, Planet & Prosperity.
+                ALT initiates working with few Sustainable Development Goals like Good health & Wellbeing, Clean water & 3 Ps of Sustainable Development like People, Planet & Prosperity.
                 
             </p></div>
 
-        <div class="uk-width-1-4@m uk-width-1-2@s" style="background-color: black;">
-            <img class="uk-margin-medium-top uk-padding uk-margin-small-top"  data-src="<?php echo $filePath;?>images/csr/earth/green_earth.jpg" height="350" width="350" alt="" uk-img>
+        <div class="uk-width-1-4@m uk-width-1-2@s" style="background-color: ;">
+            <img class="uk-margin-large-top"  data-src="<?php echo $filePath;?>images/csr/earth/green-earth1.png" height="450" width="450" alt="" uk-img>
         </div>  
     </div>
 
@@ -124,8 +124,8 @@ include_once "../header.php";
     <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-bottom ">Impact</div>
     
 <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-large-bottom" uk-grid>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
-        <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+        <div class="uk-inline-clip uk-transition-toggle impact_box img_csr1" tabindex="0">
             <img  data-src="<?php echo $filePath;?>images/csr/earth/berry.jpg" height="300" width="300" alt="" uk-img>
             <div  class="uk-position-bottom uk-overlay uk-overlay-primary ">
                 <p class="uk-h4 uk-margin-remove impact_text">Planting fruit trees provides habitat for wildlife.</p>
@@ -133,8 +133,8 @@ include_once "../header.php";
         </div>
         
     </div>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s uk-">
-        <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+        <div class="uk-inline-clip uk-transition-toggle impact_box img_csr2" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/earth/kids.jpg" height="300" width="300" alt="" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove impact_text">Better livelihoods for people living near forests.</p>
@@ -142,8 +142,8 @@ include_once "../header.php";
         </div>
         
     </div>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
-        <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+        <div class="uk-inline-clip uk-transition-toggle impact_box img_csr1" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/earth/soil2.jpg" height="300" width="300" alt="" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove impact_text">Prevent soil erosion & mitigate climate change.</p>
@@ -151,8 +151,8 @@ include_once "../header.php";
         </div>
         
     </div>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
-        <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+        <div class="uk-inline-clip uk-transition-toggle impact_box img_csr2" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/earth/water.jpg" height="300" width="300" alt="" uk-img>
 <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
                 <p class="uk-h4 uk-margin-remove impact_text">Offer watershed protection.</p>
@@ -244,39 +244,39 @@ include_once "../header.php";
     <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-bottom ">Impact</div>
     
 <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-large-bottom" uk-grid>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
-        <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+        <div class="uk-inline-clip uk-transition-toggle impact_box img_csr1" tabindex="0">
             <img  data-src="<?php echo $filePath;?>images/csr/earth/lake.jpg" height="300" width="300" alt="" uk-img>
         <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class=" uk-margin-remove impact_text">Provides Nourishment.</p>
+                <p class="uk-h4 uk-margin-remove impact_text">Provides Nourishment.</p>
             </div>
         </div>
         
     </div>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
-        <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+        <div class="uk-inline-clip uk-transition-toggle impact_box img_csr2" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/water/happy-kids.jpg" height="300" width="300" alt="" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class=" uk-margin-remove impact_text">Clean water keeps doctors away.</p>
+                <p class="uk-h4 uk-margin-remove impact_text">Clean water keeps doctors away.</p>
             </div>
         </div>
         
     </div>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
-        <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+        <div class="uk-inline-clip uk-transition-toggle impact_box img_csr1" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/water/kids-water2.jpg" height="300" width="300" alt="" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class=" uk-margin-remove impact_text">Combating waterborne diseases.</p>
+                <p class="uk-h4 uk-margin-remove impact_text">Combating waterborne diseases.</p>
             </div>
         </div>
         
     </div>
     
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s">
-        <div class="uk-inline-clip uk-transition-toggle impact_box" tabindex="0">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+        <div class="uk-inline-clip uk-transition-toggle impact_box img_csr2" tabindex="0">
             <img data-src="<?php echo $filePath;?>images/csr/water/village-baby.jpg" height="300" width="300" alt="" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
-                <p class=" uk-margin-remove impact_text">Stave off the birth defects in new-born babies.</p>
+                <p class="uk-h4 uk-margin-remove impact_text">Stave off the birth defects in new-born babies.</p>
             </div>
         </div>
         
