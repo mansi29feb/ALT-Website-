@@ -21,21 +21,7 @@
 	    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       <!-- <script>
-           function submenu_show(){
-               document.getElementById("about_submenu").style.display="block";
-           }
-       </script> -->
-        <!-- <script>
-            $(document).ready(function(){
-            $("sub-menu").mouseenter(function(){
-                $("about_submenu").css("display", "block");
-            });
-            $("sub-menu").mouseleave(function(){
-                $("sbout_submenu").css("display", "none");
-            });
-            });
-        </script> -->
+     
    
 	</head>
 	<body class=" uk-background-norepeat <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
