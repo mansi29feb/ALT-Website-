@@ -13,12 +13,12 @@ include_once '../header.php';
             today with a strong trust of our clients on us.
         </p>
         
-        <div class=""> <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/cloud.png" width="1000" height="1000" uk-img></div>
+        <div class=""> <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/cloud.png" width="1000" height="1000" uk-img></div>
         <div class=" uk-text-center services_subheading uk-margin-medium-bottom">
          Customer trusts us to deliver customized, end-to-end implementations.
         </div>
        
-        <div class=""> <img class=" uk-align-center " data-src="<?php echo $filePath;?>images/employee.png" width="400" height="400" uk-img></div>
+        <div class=""> <img class="uk-align-center lazy " data-src="<?php echo $filePath;?>images/employee.png" width="400" height="400" uk-img></div>
         <p class="uk-text-center services_mainpara">
             We at ALT Commerce provide affordable and quality services to various clients across the
             Globe.</br> Very few Indian companies could reach the zenith that we have reached 
@@ -30,25 +30,25 @@ include_once '../header.php';
                 <div class="uk-child-width-1-2@s uk-grid-small " uk-grid>
                     <div class="uk-width-1-2@s">
                         <div class="uk-margin uk-padding-small uk-card uk-card-default uk-card-hover">
-                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/atg.png" width="200" height="200" uk-img>
+                            <img class="uk-align-center lazy " data-src="<?php echo $filePath;?>images/atg.png" width="200" height="200" uk-img>
                         </div>
                         <div class="uk-margin uk-padding-small">
-                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/skills-page/commercetools.png" width="200" height="200" uk-img>
+                            <img class="uk-align-center lazy " data-src="<?php echo $filePath;?>images/skills-page/commercetools.png" width="200" height="200" uk-img>
                         </div>
                         <div class="uk-margin uk-padding uk-card uk-card-default uk-card-hover">
-                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/azure.png" width="300" height="300" uk-img>
+                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/azure.png" width="300" height="300" uk-img>
                         </div>
                        
                     </div>
                     <div class="uk-width-1-2@s ">
                         <div class="uk-margin uk-padding">
-                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/oracle-endeca.jpg" width="200" height="200" uk-img>
+                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/oracle-endeca.jpg" width="200" height="200" uk-img>
                         </div>
                         <div class="uk-padding-small uk-margin-medium-top uk-card uk-card-default uk-card-hover">
-                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/aem.png" width="200" height="200" uk-img>
+                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/aem.png" width="200" height="200" uk-img>
                         </div>
                         <div class="uk-margin">
-                            <img class="uk-align-center" data-src="<?php echo $filePath;?>images/skills-page/java.png" width="100" height="100" uk-img>
+                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/skills-page/java.png" width="100" height="100" uk-img>
                         </div>
                     </div>
 
@@ -68,7 +68,7 @@ include_once '../header.php';
         </div>
 
         <div class="uk-margin uk-padding uk-margin-remove-top">
-            <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/license.svg" width="150" height="150" uk-img></div>
+            <div> <img class="uk-align-center " data-src="<?php echo $filePath;?>images/license.svg" width="150" height="150" uk-img></div>
             <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Digital Commerce</div>
             <p class="uk-text-center services_mainpara"> Digital commerce is in the midst of revolution and things are moving 
                 faster than ever.While all this excitement means new possibilities, it also comes with the challenge of figuring 
@@ -80,7 +80,7 @@ include_once '../header.php';
         
            <!-------Services Implementation---->
             <div class="uk-margin uk-padding uk-padding-remove-bottom">
-                <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/setup.svg" width="150" height="150" uk-img></div>
+                <div> <img class=" uk-align-center " data-src="<?php echo $filePath;?>images/setup.svg" width="150" height="150" uk-img></div>
                 <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Planning & Strategy</div>
                 <p class="uk-text-center services_mainpara"> Customer satisfaction is our motto and we strive to provide the best solution to our clients. 
                     Very few Indian companies could reach the zenith that we have reached 
@@ -218,3 +218,18 @@ include_once '../header.php';
 <?php
 include_once "../footer.php";
 ?>
+ <script>
+  if ('loading' in HTMLImageElement.prototype) {
+      const images = document.querySelectorAll("img.lazy");
+      images.forEach(img => {
+          img.src = img.dataset.src;
+      });
+  } else {
+      // Dynamically import the LazySizes library
+    let script = document.createElement("script");
+    script.async = true;
+    script.src =
+      "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.0/lazysizes.min.js";
+    document.body.appendChild(script);
+  }
+</script>
