@@ -37,7 +37,7 @@ $currentPage = 'career';
                   </div>
                 </div> 
                 <div class="uk-child-width-1-2@m uk-child-width-1-1@s uk-grid-small uk-padding uk-padding-remove-top uk-grid-match" uk-grid>
-                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-padding-remove-vertical uk-margin">
+                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-padding-remove-vertical  uk-margin pad_rem">
                       <div class="career1_box">
                       <img src="<?php echo $filePath;?>images/career/future.jpg">
                       <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Embracing The Future</div>
@@ -46,7 +46,7 @@ $currentPage = 'career';
         
                         </div>
                   </div >
-                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-margin uk-padding-remove-vertical"> 
+                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-margin uk-padding-remove-vertical uk-margin-remove-top pad_rem"> 
                     <div class="career1_box"> 
                     <img src="<?php echo $filePath;?>images/career/professional.jpg">
                     <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Experienced Professional</div>
@@ -55,7 +55,7 @@ $currentPage = 'career';
                         amazing, important work. </div>
                     </div> 
                   </div>
-                  <div class=" uk-width-1-2@m uk-width-1-1@s uk-padding uk-padding-remove-vertical uk-margin"> 
+                  <div class=" uk-width-1-2@m uk-width-1-1@s uk-padding uk-padding-remove-vertical uk-margin pad_rem"> 
                     <div class="career1_box">  
                     <img src="<?php echo $filePath;?>images/career/team2.jpg">
                     <div class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">We're a Team & not a bunch of Individuals</div>
@@ -64,7 +64,7 @@ $currentPage = 'career';
                         It doesn’t matter who gets&nbsp; credit for what because you accomplish everything together. You’re knit together, not separated.</div>
                      </div>   
                   </div>
-                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding-remove-vertical uk-padding uk-margin">
+                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding-remove-vertical uk-padding uk-margin pad_rem">
                     <div class="career1_box"> 
                     <img src="<?php echo $filePath;?>images/career/big-brands.jpg">
                     <div class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">A Chance to work with BIG BRANDS</div>
