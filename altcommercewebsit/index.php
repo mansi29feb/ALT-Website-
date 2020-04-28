@@ -1042,18 +1042,7 @@
     
                             </ul>
                         </div>
-                       <!-- <div class="uk-display-inline-block uk-float-left" uk-scrollspy="cls: uk-animation-slide-left-medium;">
-                            <ul>
-                                <li> <span uk-icon="chevron-double-right"></span><a href="i<?php echo $filePath;?>">Home</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">About Us</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Services</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Resources</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">CSR</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Careers</a></li>
-                                <li><span uk-icon="chevron-double-right"></span><a href="<?php echo $filePath;?>">Contact Us</a></li>
-    
-                            </ul>
-                        </div>-->
+                      
                         
                     </div>
 
