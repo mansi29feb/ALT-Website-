@@ -147,6 +147,11 @@
     box-shadow: 0 5px 15px rgba(0,0,0,.09);
     margin: 4px 0px !important;
 }
+
+#about_submenu{
+  margin-left:400px;
+
+}
 .mobile-nav{
   margin-left:auto;
 }

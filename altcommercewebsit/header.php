@@ -21,12 +21,21 @@
 	    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-       <script>
+       <!-- <script>
            function submenu_show(){
                document.getElementById("about_submenu").style.display="block";
            }
-       </script>
-
+       </script> -->
+        <!-- <script>
+            $(document).ready(function(){
+            $("sub-menu").mouseenter(function(){
+                $("about_submenu").css("display", "block");
+            });
+            $("sub-menu").mouseleave(function(){
+                $("sbout_submenu").css("display", "none");
+            });
+            });
+        </script> -->
    
 	</head>
 	<body class=" uk-background-norepeat <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
@@ -58,13 +67,13 @@
 
                 
                 
-        <div class="uk-child-width-expand@s nav-header uk-sticky-fixed" uk-grid  uk-sticky>
+        <div class="uk-child-width-expand@s nav-header" uk-grid  uk-sticky>
             
             <div class="clear-padd uk-width-auto@m">
                 <div class="uk-navbar">
                     <div class="menu-toggle">
                         <button class="uk-margin-small-right mobile-navbutton" uk-toggle="target: #offcanvas-usage">
-            <!--today-->                <img src="https://img.icons8.com/ios-filled/50/000000/menu.png" style="height: 27px; width: 22px;">
+                           <img src="https://img.icons8.com/ios-filled/50/000000/menu.png" style="height: 27px; width: 22px;">
                         </button>
                     </div>
                     <div class="uk-navbar-left logo-img">
@@ -73,25 +82,26 @@
                         </div>
 
                     </div>
+                    
                 </div>
 
             </div>
 
 
-            <div class="uk-navbar mobile-nav uk-width-expand@m">
+            <div class="uk-navbar mobile-nav uk-navbar-right uk-width-expand@m">
                 
                     <ul class="uk-navbar-nav uk-text-bold nav-menu">
-                        <li class=" ">
+                        <li class="">
                             <a class="<?php if($currentPage =='home'){echo 'active_page';}?>" href="<?php echo $filePath;?>">Home</a>
                         </li>
                         <li >
-                            <button class="uk-button sub-menu <?php if($currentPage =='about'){echo 'active_page';}?>" onclick="submenu_show()">ABOUT US</button>
-                                <div id="about_submenu" uk-dropdown="mode: click" class="drop-navbar" style="display:none;">
+                            <button class="uk-button sub-menu <?php if($currentPage =='about'){echo 'active_page';}?>">ABOUT US</button>
+                                <div id="about_submenu"  class="drop-navbar" style="display:none;" uk-dropdown>
                                 
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="uk-active uk-animation-slide-right-small "><a href="<?php echo $filePath;?>about">WHAT WE DO</a></li>
-                                        <li class="uk-active uk-animation-slide-right-small "><a href="<?php echo $filePath;?>csr">COMMUNITY</a></li>
-                                        <li class="uk-active uk-animation-slide-right-small"><a href="<?php echo $filePath;?>contactus">CONTACT US</a></li>
+                                        <li class="sub"><a href="<?php echo $filePath;?>about">WHAT WE DO</a></li>
+                                        <li class="sub"><a href="<?php echo $filePath;?>csr">COMMUNITY</a></li>
+                                        <li class="sub"><a href="<?php echo $filePath;?>contactus">CONTACT US</a></li>
                                     </ul>
                               
                             </div>
