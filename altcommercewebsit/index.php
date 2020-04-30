@@ -423,7 +423,7 @@
                 <div class="uk-margin uk-padding"> 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                         <div class="uk-width-auto@s uk-padding-small">
-                            <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                            <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
                             <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -436,7 +436,7 @@
                        
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                         <div class="uk-width-auto@s uk-padding-small">
-                            <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                            <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
                             <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -448,7 +448,7 @@
 
                     <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                         <div class="uk-width-auto@s uk-padding-small">
-                            <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                            <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                         </div>
                         <div class="uk-width-expand@s">
                             <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -478,7 +478,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -493,7 +493,7 @@
                         
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -508,7 +508,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -522,7 +522,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -556,7 +556,7 @@
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -571,7 +571,7 @@
                             
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -584,7 +584,7 @@
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -596,7 +596,7 @@
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -628,7 +628,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -641,7 +641,7 @@
                         
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -655,7 +655,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -687,7 +687,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical" data-src="images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -701,7 +701,7 @@
                         
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -715,7 +715,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -728,7 +728,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical  " data-src="images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
