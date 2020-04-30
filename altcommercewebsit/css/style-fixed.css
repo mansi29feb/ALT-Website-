@@ -138,9 +138,7 @@
 
   .uk-sticky-fixed .brand-logo{
     width: 132px;
-    margin-left: 62px;
-   
-    
+    margin-left: 62px; 
   }
   .nav-header {
     background-color: #fff !important;
@@ -156,6 +154,7 @@
   margin-left:auto;
 }
 .nav-menu{
+  
   margin-left:auto;
   margin-right: 25px;
 }

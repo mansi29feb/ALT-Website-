@@ -21,7 +21,6 @@ $currentPage = 'career';
                         <a class="uk-button uk-text-bold uk-align-center uk-text-center works_btn1 uk-text-capitalize" href="#target_career" uk-scroll>VIEW CAREERS</a>
                     </div>
                     
-                    <!-- <div class="uk-text-center uk-margin-remove-top internship_link"><button class="uk-button uk-button-text uk-text-bold uk-text-capitalize">Looking for internships?</button></div> -->
                 </div>
                
             </div>
@@ -170,7 +169,6 @@ $currentPage = 'career';
                                          
                                             <li><p class=" services_article_para uk-text-bold ">Please send your resume to <button class="uk-button uk-button-text uk-text-lowercase services_article_para"><a href="mailto:info@altcommerce.com" style="color:#FE9603 ;text-decoration: none;">info@altcommerce.com</a></button></p></li>
 
-                                        <!-- <li><button class="uk-margin-small-bottom uk-button uk-text-capitalize uk-align-center uk-padding-small uk-padding-remove-vertical form_btn">Apply Now<span class="" style="color:white;" uk-icon="arrow-right"></span></li> -->
                                     </ul>
                                     
                                 </div>
