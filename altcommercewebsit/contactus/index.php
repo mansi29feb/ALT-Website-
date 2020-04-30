@@ -20,6 +20,9 @@ include_once "../header.php";
                     <div class="uk-text-center">
                         
                      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNl0WC5Kx-jqt27eq7ppyLZsLmVDvGlIMvObK_Mmi18Shtyg/viewform?embedded=true" style="width:100%; height:950px;" >Loading…</iframe>
+
+
+
                     </div> 
                 </div>
                 <div class="uk-width-1-2@m">
