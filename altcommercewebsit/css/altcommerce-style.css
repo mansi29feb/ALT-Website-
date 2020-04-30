@@ -90,6 +90,8 @@ body  {
 }
 
 
+  
+  
   .drop-navbar{
     position: absolute;
     width: 190px;
@@ -103,8 +105,8 @@ body  {
     left: 0;
     margin: 0;
   }
-  
 
+  
 
   /*header end*/
 .sub-button{
@@ -1196,9 +1198,7 @@ color: #000 !important;
       }
       
       
-    .img {  /*changes*/
-       /* width: 120px;*/
-    }
+    
      .nav-slider {
        margin: 10px 0px !important;
      }

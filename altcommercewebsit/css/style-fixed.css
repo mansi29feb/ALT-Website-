@@ -146,6 +146,10 @@
     margin: 4px 0px !important;
 }
 
+.uk-sticky-fixed .drop-navbar{
+  left:25.2188px !important;
+
+}
 #about_submenu{
   margin-left:400px;
 
