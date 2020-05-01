@@ -9,7 +9,7 @@ include_once "../header.php";
     <div class="uk-h2 uk-text-center uk-text-bold uk-margin-medium-top services_mainheading">"Enact Positive Changes"</div>
     <p class="uk-text-center services_mainpara">Change Your Ways, Save The Environment </p>
 
-        <div class="uk-background-contain uk-height-large uk-flex uk-flex-center uk-flex-middle" style="background-image: url(<?php echo $filePath;?>images/csr/earth/earth-alt.png);"> 
+        <div class="uk-background-contain uk-height-large uk-flex uk-flex-center uk-flex-middle" uk-scrollspy="cls:uk-animation-fade" style="background-image: url(<?php echo $filePath;?>images/csr/earth/earth-alt.png);"> 
         </div> 
     </div>
        
@@ -30,8 +30,8 @@ include_once "../header.php";
                 so as to reach out to its nearby communities & help them build a sustainable future. 
             </p>
         </div>
-        <div class="uk-width-1-4@m  uk-width-1-2@s">
-            <img class="lazy uk-margin-large-top " data-src="<?php echo $filePath;?>images/csr/earth/earth-protect.jpg" height="450" width="450" alt="" uk-img>
+        <div class="uk-width-1-4@m  uk-width-1-2@s" uk-scrollspy="cls:uk-animation-slide-top-medium">
+            <img class="lazy uk-margin-large-top " data-src="<?php echo $filePath;?>images/csr/earth/earth-protect.jpg" height="450" width="450" alt="" uk-img >
         </div>
 
         <div class="uk-width-1-4@m uk-width-1-2@s csr_box" style="background-color: #fafafa;">
@@ -41,7 +41,7 @@ include_once "../header.php";
                 
             </p></div>
 
-        <div class="uk-width-1-4@m uk-width-1-2@s" style="background-color: ;">
+        <div class="uk-width-1-4@m uk-width-1-2@s" uk-scrollspy="cls:uk-animation-slide-bottom-medium">
             <img  class="lazy uk-margin-large-top"  data-src="<?php echo $filePath;?>images/csr/earth/green-earth1.png" height="450" width="450" alt="" uk-img>
         </div>  
     </div>
@@ -51,12 +51,12 @@ include_once "../header.php";
             <div class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#1C1C1C;">The PM CARES Fund</div>
             
             <div class=" uk-child-width-1-2@s uk-width-1-1@s uk-margin-large-bottom" uk-grid>
-                <div class="uk-width-1-2@s">
+                <div class="uk-width-1-2@s" uk-scrollspy="cls:uk-animation-slide-left-medium">
                     <img class="uk-margin-small-left covid_img" data-src="<?php echo $filePath;?>images/csr/pmcare2.jpg" height="800" width="800" alt="" uk-img>
                 </div>
                 <div class="uk-width-1-2@s">
                     <div class="uk-padding ">
-                        <p class="uk-text-left covid services_mainpara uk-padding-small" style="font-size: 18px;"> ALT Commerce has tried to do 
+                        <p class="uk-text-left covid services_mainpara uk-padding-small" style="font-size: 18px;" uk-scrollspy="cls:uk-animation-fade"> ALT Commerce has tried to do 
                     its bit for the <span class="uk-text-bold">COVID-19</span> situation in the country.</br></br> The company encouraged everyone to contribute to provide relief to 
                     those affected by any kind of emergency or distress situation.  And supported the government in its fight against the 
                     impact of <span class="uk-text-bold">COVID-19</span>.  
@@ -77,24 +77,24 @@ include_once "../header.php";
                 <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m ">
                    
                     <div class=" csr_li ">
-                        <img class="lazy" data-src="<?php echo $filePath;?>images/csr/csr5.jpg" alt="">
+                        <img class="lazy" data-src="<?php echo $filePath;?>images/csr/csr5.jpg" alt="" uk-img>
                         
                     </div>
                     <li class=" csr_li">
-                        <img  class="lazy" data-src="<?php echo $filePath;?>images/csr/csr6.jpg" alt="">
+                        <img  class="lazy" data-src="<?php echo $filePath;?>images/csr/csr6.jpg" alt="" uk-img>
                         
                     </li >
                     
                     <li class=" csr_li">
-                        <img class="lazy" data-src="<?php echo $filePath;?>images/csr/csr8.jpg" alt="">
+                        <img class="lazy" data-src="<?php echo $filePath;?>images/csr/csr8.jpg" alt="" uk-img>
                        
                     </li>
                     <li class=" csr_li">
-                        <img class="lazy" data-src="<?php echo $filePath;?>images/csr/csr9.jpg" alt="">
+                        <img class="lazy" data-src="<?php echo $filePath;?>images/csr/csr9.jpg" alt="" uk-img>
                         
                     </li>
                     <li class=" csr_li">
-                        <img class="lazy" data-src="<?php echo $filePath;?>images/csr/csr11.jpg" alt="">
+                        <img class="lazy" data-src="<?php echo $filePath;?>images/csr/csr11.jpg" alt="" uk-img>
                         
                     </li>
                     
@@ -176,26 +176,26 @@ include_once "../header.php";
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m ">
                
             <li class=" csr_li">
-                    <img class="lazy"  data-src="<?php echo $filePath;?>images/csr/water/kids-water3.jpg" alt="">
+                    <img class="lazy"  data-src="<?php echo $filePath;?>images/csr/water/kids-water3.jpg" alt="" uk-img>
                    
                 </li>
                 <li class=" csr_li">
-                    <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/kids-water1.jpg" alt="">
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/kids-water1.jpg" alt="" uk-img>
                     
                 </li>
                 <div class=" csr_li">
-                    <img class="lazy"  data-src="<?php echo $filePath;?>/images/csr/water/water_act2.JPG" alt="">
+                    <img class="lazy"  data-src="<?php echo $filePath;?>/images/csr/water/water_act2.JPG" alt="" uk-img>
                     
                 </div>
                 
                 <li class=" csr_li">
-                    <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/water_act1.JPG" alt="">
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/water_act1.JPG" alt="" uk-img>
                     
                 </li>
                 
                
                 <li class=" csr_li">
-                    <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/water_act3.JPG" alt="">
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/water_act3.JPG" alt="" uk-img>
                     
                 </li>
             </ul>

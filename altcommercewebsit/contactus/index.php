@@ -10,9 +10,10 @@ include_once "../header.php";
         <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Get in Touch</div>
 
         <div class="uk-width-1-2@s uk-align-center">
-                <p class="services_mainpara uk-card uk-card-default uk-card-body uk-box-shadow-medium uk-padding-small uk-text-center uk-card-hover ">“ Don't ignore the effort of a person <br> who tries to keep in touch.
-                                It is not all the <br>time someone cares  ~Anonymous ”
-                </p>
+            <div class="services_mainpara uk-card uk-card-default uk-padding-small uk-text-center  ">“ We do look forward to keeping in touch with you guys, because we'll always be connected in people's mind ”
+            <p class="uk-text-meta uk-text-right uk-margin-remove-top uk-margin-remove-bottom" style="color:black;">- Barry Zito</p>
+            </div>
+
         </div>
         
         <div class="uk-child-width-1-2@m uk-grid-small uk-child-width-1-1@s uk-padding-small" uk-grid>
