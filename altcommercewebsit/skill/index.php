@@ -1,4 +1,5 @@
 <?php
+$meta7 = 'The technology has made our lives better and so our best skills and services we are rendering.';
 $currentPage = 'skill';
      include_once '../header.php';
 ?>
