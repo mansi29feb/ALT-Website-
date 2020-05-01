@@ -94,8 +94,8 @@ include_once "../header.php";
             <div class="uk-card uk-card-body uk-card-default case_box" >
             
                 <div class=" uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                    <div class=" uk-width-1-4@s uk-flex">
-                        <div class="uk-text-center uk-text-bold multi_box uk-padding-small uk-padding-remove-top uk-padding-remove-bottom uk-margin-auto uk-margin-auto-vertical">Multi-site</br>implementation
+                    <div class=" uk-width-1-4@s">
+                        <div class="uk-text-center uk-text-bold multi_box uk-padding-small uk-padding-remove-top uk-padding-remove-bottom case_head">Multi-site</br>implementation
                             <div class="uk-text-meta uk-text-secondary"></div>
                         </div>
                     </div>
@@ -163,8 +163,8 @@ include_once "../header.php";
         <div id="works2" class="uk-padding-large" uk-modal>
             <div  class=" uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
                 <div class="uk-child-width-1-4@s  uk-column-divider uk-grid match" uk-grid>
-                    <div class="uk-flex uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Data Center Migration
+                    <div class="uk-width-1-4@s">
+                        <div class="uk-text-center uk-text-bold case_subheading case_head">Data Center Migration
                             <div class="uk-text-meta uk-text-secondary"></div>
                         </div>
                     </div>
@@ -219,8 +219,8 @@ include_once "../header.php";
         <div id="works3" class="uk-padding-large" uk-modal>
             <div class="uk-card uk-card-body uk-card-default case_box">
                 <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-                    <div class="uk-flex uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Site Redesign 
+                    <div class="uk-width-1-4@s">
+                        <div class="uk-text-center uk-text-bold case_subheading case_head">Site Redesign 
                         </div>  
                     </div>
                     <div class="uk-width-3-4@s">
@@ -275,8 +275,8 @@ include_once "../header.php";
         <div id="works4" class="uk-padding-large" uk-modal>
             <div  class="uk-card uk-card-body case_box uk-margin-small-top uk-card-default">
                 <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-                    <div class="uk-flex uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Cross-Reference Tool
+                    <div class="uk-width-1-4@s">
+                        <div class="uk-text-center uk-text-bold case_subheading case_head">Cross-Reference Tool
                         </div>
                     </div>
                     <div class="uk-width-3-4@s">
@@ -349,8 +349,8 @@ include_once "../header.php";
         <div id="works5" class="uk-padding-large" uk-modal>
             <div class="uk-card uk-card-body case_box uk-card-default">
                 <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                    <div class="uk-flex uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading uk-text-break uk-margin-auto uk-margin-auto-vertical">Membership (Loyalty) Program   
+                    <div class="uk-width-1-4@s">
+                        <div class="uk-text-center uk-text-bold case_subheading uk-text-break case_head">Membership (Loyalty) Program   
                         </div>   
                     </div>
                     <div class="uk-width-3-4@s case_box2">
@@ -410,8 +410,8 @@ include_once "../header.php";
         <div id="works6" class="uk-padding-large" uk-modal>
             <div id="" class="uk-card uk-card-body  uk-card-default case_box" >
                 <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                    <div class="uk-flex uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold multi_box case_subheading uk-text-break uk-margin-auto uk-margin-auto-vertical">Multi-site implementation   
+                    <div class="uk-width-1-4@s">
+                        <div class="uk-text-center uk-text-bold multi_box case_subheading uk-text-break case_head">Multi-site implementation   
                         </div>
                     </div>
                     <div class="uk-width-3-4@s case_box2">
@@ -479,8 +479,8 @@ include_once "../header.php";
         <div id="works7" class="uk-padding-large" uk-modal>
             <div  class="uk-card uk-card-body uk-margin-small-top uk-card-default">
                 <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-                    <div class="uk-flex uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">SalesForce SSO Integration  
+                    <div class="uk-width-1-4@s">
+                        <div class="uk-text-center uk-text-bold case_subheading case_head">SalesForce SSO Integration  
                         </div>  
                     </div>
                     <div class="uk-width-3-4@s case_box">
@@ -550,8 +550,8 @@ include_once "../header.php";
         <div id="works8" class="uk-padding-large" uk-modal>
             <div class="uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
                 <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-                    <div class="uk-flex uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading uk-margin-auto uk-margin-auto-vertical">Twillo Integration
+                    <div class="uk-width-1-4@s">
+                        <div class="uk-text-center uk-text-bold case_subheading case_head">Twillo Integration
                             <div class="uk-text-meta uk-text-secondary"></div>
                         </div>  
                     </div>
@@ -621,8 +621,8 @@ include_once "../header.php";
         <div id="works9" class="uk-padding-large" uk-modal>
             <div id="" class="uk-card uk-card-body case_box  uk-card-default ">
                 <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                    <div class="uk-flex uk-width-1-4@s">
-                        <div class="uk-text-center uk-padding-small uk-text-bold uk-flex uk-flex-middle case_subheading uk-margin-auto uk-margin-auto-vertical case_head">Multi-part search
+                    <div class="uk-width-1-4@s">
+                        <div class="uk-text-center uk-padding-small uk-text-bold case_subheading case_head">Multi-part search
                             <div class="uk-text-meta uk-text-secondary"></div>
                         </div>   
                     </div>
