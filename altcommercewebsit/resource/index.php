@@ -163,7 +163,7 @@ include_once "../header.php";
         <!-- case2  -->
         <div id="works2" class="uk-padding-large" uk-modal>
             <div  class=" uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
-                <div class="uk-child-width-1-4@s  uk-column-divider uk-grid match" uk-grid>
+                <div class="uk-child-width-1-4@s uk-column-divider" uk-grid>
                     <div class="uk-width-1-4@s">
                         <div class="uk-text-center uk-text-bold case_subheading case_head">Data Center Migration
                             <div class="uk-text-meta uk-text-secondary"></div>
@@ -177,47 +177,42 @@ include_once "../header.php";
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">
-                                        Business Need: </div>
+                                    Business Need: </div>
                                     <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                        Client wanted to change its hosting provider and therefore whole infrastructure needed to be moved.
+                                    Client wanted to change its hosting provider and therefore whole infrastructure needed to be moved.
                                     </span>
                                 </div>
                             </div>
-                        </div>
                         
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                            <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                                <div class="uk-width-auto@s uk-padding-small">
+                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                </div>
+                                <div class="uk-width-expand@s">
+                                    <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
+                                    <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                        Provided support to migrate all the Application hosted in ATG.
+                                    </span>
+                                </div>
                             </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Provided solution with minimum TTM (Time-to-Market). 
-                                    Delivered in 2 phases: 1st phase for path-to-product in 3 months and then rest of the site 
-                                    in 2nd Phase of 3 months duration.
-                                </span>
-                            </div>
-                        </div>
 
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                            <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
+                                <div class="uk-width-auto@s uk-padding-small">
+                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                </div>
+                                <div class="uk-width-expand@s">
+                                    <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
+                                    <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                        Migrated all non-prod and prod servers in one month time with a downtime of only 4 hours.
+                                        Client got High-Availability/Disaster Recovery infrastructure for its retail portal.
+                                    </span>  
+                                </div>
                             </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Site has been responsive with latest look and feel. 
-                                    Also improved SEO a lot.
-                                </span>  
-                            </div>
-                        </div>
-
-                    
                         </div>
                     </div>
                 </div>
                 <button class="uk-modal-close-default" type="button" uk-close></button>  
-            </div>
+             </div>
         </div>
         
 
