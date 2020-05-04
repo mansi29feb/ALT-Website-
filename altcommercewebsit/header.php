@@ -34,20 +34,20 @@
 	<body class=" uk-background-norepeat <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
 <!--topbar-->
     <div class="uk-container">
-        <div class="uk-grid " uk-grid>
-            <div class="uk-navbar-left nav-social uk-margin-small-top ">
+        <div class="uk-grid" uk-grid>
+            <div class="uk-navbar-left nav-social uk-margin-small-top">
                 <ul class=" uk-navbar-nav" >
                     <li>
-                        <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" ></a>
+                        <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" target="_blank" ></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/altcommerce" uk-icon="twitter"></a>
+                        <a href="https://twitter.com/altcommerce" uk-icon="twitter" target="_blank"></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin"></a>
+                        <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin" target="_blank"></a>
                     </li>
                     <li>
-                        <a href="mailto:info@altcommerce.com" uk-icon="mail"></a>
+                        <a href="mailto:info@altcommerce.com" uk-icon="mail" target="_blank"></a>
                     </li>
                 </ul>
             </div>

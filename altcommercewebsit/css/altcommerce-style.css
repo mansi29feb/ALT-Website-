@@ -45,9 +45,9 @@ body  {
 
    }*/
    _:-ms-fullscreen, :root .nav-menu > li > a{ 
-     display:inline;
+    display:inline;
     line-height:80px;
-  vertical-align: middle; }
+    vertical-align: middle; }
 
   .nav-slider {
     margin: 56px 0px;
@@ -1000,6 +1000,7 @@ body{
       background: no-repeat;
         border: black;
         margin: 28px 14px;
+        
       }
       .nav-header{
         box-shadow: none !important;
