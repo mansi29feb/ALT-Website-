@@ -21,9 +21,11 @@ body  {
   .nav-menu li a:hover, li a:active {
     color: #f6922d;
   }
-  .img{
-  width: 137px;
-  }
+ 
+.image{
+  width:131px;
+}
+  
   .slider-title{
     color:#000 !important;
     font-size:40px !important;
@@ -37,6 +39,16 @@ body  {
     text-align: center;
     background-color: #f6922d;
    }
+  /* .nav-social > li > a{
+    border:1px solid #000;
+    line-height: 18px;
+
+   }*/
+   _:-ms-fullscreen, :root .nav-menu > li > a{ 
+     display:inline;
+    line-height:80px;
+  vertical-align: middle; }
+
   .nav-slider {
     margin: 56px 0px;
     margin-left: 71px;
@@ -52,6 +64,7 @@ body  {
   }
   .nav-social{
     margin-right:49px;
+    
   }
   .about_heading{
     font-size: 29px;

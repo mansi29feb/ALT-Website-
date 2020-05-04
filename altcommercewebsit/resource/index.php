@@ -183,31 +183,36 @@ include_once "../header.php";
                                     </span>
                                 </div>
                             </div>
-                            
-                            <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                                <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
-                                </div>
-                                <div class="uk-width-expand@s">
-                                    <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
-                                    <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                        Provided support to migrate all the Application hosted in ATG.
-                                    </span>
-                                </div>
+                        </div>
+                        
+                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
                             </div>
+                            <div class="uk-width-expand@s">
+                                <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
+                                <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                    Provided solution with minimum TTM (Time-to-Market). 
+                                    Delivered in 2 phases: 1st phase for path-to-product in 3 months and then rest of the site 
+                                    in 2nd Phase of 3 months duration.
+                                </span>
+                            </div>
+                        </div>
 
-                            <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                                <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
-                                </div>
-                                <div class="uk-width-expand@s">
-                                    <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
-                                    <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                        Migrated all non-prod and prod servers in one month time with a downtime of only 4 hours.
-                                        Client got High-Availability/Disaster Recovery infrastructure for its retail portal.
-                                    </span>  
-                                </div>
+                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
+                            <div class="uk-width-auto@s uk-padding-small">
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
                             </div>
+                            <div class="uk-width-expand@s">
+                                <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
+                                <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                    Site has been responsive with latest look and feel. 
+                                    Also improved SEO a lot.
+                                </span>  
+                            </div>
+                        </div>
+
+                    
                         </div>
                     </div>
                 </div>

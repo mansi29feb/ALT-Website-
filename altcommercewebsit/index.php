@@ -70,7 +70,7 @@
                     <div class="uk-child-width-1-1@s uk-grid-match uk-margin-large-top uk-margin-medium-bottom " uk-grid uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
                         <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s grid1" uk-grid>
                             <div class="uk-width-1-5@s  uk-padding-remove hide-icon uk-hidden@m ">
-                                <img data-src="images/application.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/application.svg" width="60" height="60" alt="" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-remove bx1">
 
@@ -80,13 +80,13 @@
 
                             </div>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove visible-icon uk-visible@m">
-                                <img data-src="images/application.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/application.svg" width="60" height="60" alt="" uk-img>
                             </div>
                         </div>
 
                         <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s" uk-grid>
                             <div class="uk-width-1-5@s uk-padding-remove hide-icon uk-hidden@m">
-                                <img data-src="images/research-and-development.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/research-and-development.svg" width="60" height="60" alt="" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-remove bx1">
 
@@ -95,13 +95,13 @@
 
                             </div>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove visible-icon uk-visible@m">
-                                <img data-src="images/research-and-development.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/research-and-development.svg" width="60" height="60" alt="" uk-img>
                             </div>
                         </div>
 
                         <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s" uk-grid>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove hide-icon uk-hidden@m">
-                                <img data-src="images/om.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/om.svg" width="60" height="60" alt="" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-remove bx1">
                                 <div class="uk-text-bold uk-text-secondary section2_subheading">Omni-Channel Commerce</div>
@@ -109,7 +109,7 @@
                                     experience.</span>
                             </div>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove uk-visible@m">
-                                <img data-src="images/om.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/om.svg" width="60" height="60" alt="" uk-img>
                             </div>
                         </div>
 
@@ -134,7 +134,7 @@
                     <div class="uk-child-width-1-1@s uk-grid-match uk-margin-small-left uk-margin-large-top uk-grid-collapse uk-margin-medium-bottom" uk-grid uk-scrollspy="cls: uk-animation-slide-right; repeat: false">
                         <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s uk-margin-remove-bottom"  uk-grid>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove">
-                                <img data-src="images/quality-assurance.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/quality-assurance.svg" width="60" height="60" alt="" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-small uk-padding-remove-top uk-padding-remove-left bx1">
                                 <div class="uk-text-bold uk-text-secondary section2_subheading">QA & Software Testing</div>
@@ -145,7 +145,7 @@
                         <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s" uk-grid>
 
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove">
-                                <img data-src="images/advertisement.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy"  data-src="images/advertisement.svg" width="60" height="60" alt="" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-small uk-padding-remove-top uk-padding-remove-left bx1">
                                 <div class="uk-text-bold uk-text-secondary section2_subheading">Digital Commerce</div>
@@ -157,7 +157,7 @@
 
                         <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s" uk-grid>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove">
-                                <img data-src="images/user-experience.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/user-experience.svg" width="60" height="60" alt="" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-small uk-padding-remove-top uk-padding-remove-left bx1">
                                 <div class="uk-text-bold uk-text-secondary section2_subheading">User/Customer Experience </div>
@@ -419,50 +419,52 @@
                         <div class="uk-text-meta uk-text-secondary"></div>
                     </div>
                 </div>
-                <div class="uk-width-3-4@s">
-                    <div class="uk-margin uk-padding"> 
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">
-                                    Business Need: </div>
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Client wanted to change its hosting provider and therefore whole infrastructure needed to be moved.
-                                </span>
-                            </div>
+                
+            </div>
+            <div class="uk-width-3-4@s">
+                <div class="uk-margin uk-padding"> 
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
                         </div>
-                        
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Provided support to migrate all the Application hosted in ATG.
-                                </span>
-                            </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">
+                                Business Need: </div>
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Client wanted to change its hosting provider and therefore whole infrastructure needed to be moved.
+                            </span>
                         </div>
+                    </div>
+                       
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Provided support to migrate all the Application hosted in ATG.
+                            </span>
+                        </div>
+                    </div>
 
-                        <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
-                            <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
-                            </div>
-                            <div class="uk-width-expand@s">
-                                <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
-                                <span class="services_article_para uk-text-center@s uk-text-left@m">
-                                    Migrated all non-prod and prod servers in one month time with a downtime of only 4 hours.
-                                    Client got High-Availability/Disaster Recovery infrastructure for its retail portal.
-                                </span>  
-                            </div>
+                    <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
+                        <div class="uk-width-auto@s uk-padding-small">
+                            <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                        </div>
+                        <div class="uk-width-expand@s">
+                            <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
+                            <span class="services_article_para uk-text-center@s uk-text-left@m">
+                                Migrated all non-prod and prod servers in one month time with a downtime of only 4 hours.
+                                Client got High-Availability/Disaster Recovery infrastructure for its retail portal.
+                            </span>  
                         </div>
                     </div>
                 </div>
             </div>
-            <button class="uk-modal-close-default" type="button" uk-close></button>  
         </div>
+        <button class="uk-modal-close-default" type="button" uk-close></button>  
+
     </div>
     <!-- work 3 -->
     <div id="works3" class="uk-padding-large" uk-modal>

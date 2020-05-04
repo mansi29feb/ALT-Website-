@@ -34,9 +34,9 @@
 	<body class=" uk-background-norepeat <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
 <!--topbar-->
     <div class="uk-container">
-        <div class="uk-grid" uk-grid>
-            <div class="uk-navbar-left nav-social">
-                <ul class="uk-navbar-nav ">
+        <div class="uk-grid " uk-grid>
+            <div class="uk-navbar-left nav-social uk-margin-small-top ">
+                <ul class=" uk-navbar-nav" >
                     <li>
                         <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" ></a>
                     </li>
@@ -60,7 +60,7 @@
 
                 
                 
-        <div class="uk-child-width-expand@s nav-header" uk-grid  uk-sticky>
+        <div class=" uk-child-width-expand@s nav-header" uk-grid  uk-sticky>
             
             <div class="clear-padd uk-width-auto@m">
                 <div class="uk-navbar">
@@ -69,9 +69,9 @@
                            <img src="https://img.icons8.com/ios-filled/50/000000/menu.png" style="height: 27px; width: 22px;">
                         </button>
                     </div>
-                    <div class="uk-navbar-left logo-img">
+                    <div class="uk-flex uk-navbar-left logo-img">
                         <div class="uk-navbar-item  clear-padd brand-logo img">
-                             <img src="<?php echo $filePath;?>images/alt.png" alt="">
+                             <img class="image" src="<?php echo $filePath;?>images/alt.png" alt="">
                         </div>
 
                     </div>
