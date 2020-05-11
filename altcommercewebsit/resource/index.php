@@ -14,7 +14,7 @@ include_once "../header.php";
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case11.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up lazy" src="<?php echo $filePath;?>images/case/case11.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works1" class="uk-button uk-button-text cases_btnlink" >Multi-site implementation</button>
                         </div>  
                 </div>
@@ -22,7 +22,7 @@ include_once "../header.php";
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case2.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up lazy" src="<?php echo $filePath;?>images/case/case2.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works2" class="uk-button uk-button-text cases_btnlink">Data Center Migration</button>
                         </div>   
                 </div>
@@ -30,7 +30,7 @@ include_once "../header.php";
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case3.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up lazy" src="<?php echo $filePath;?>images/case/case3.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works3" class="uk-button uk-button-text cases_btnlink">Site Redesign</button>
                         </div>    
                 </div>
@@ -38,7 +38,7 @@ include_once "../header.php";
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case4.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up lazy" src="<?php echo $filePath;?>images/case/case4.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works4" class="uk-button uk-button-text cases_btnlink">Cross-Reference Tool</button>
                         </div>   
                 </div>
@@ -46,7 +46,7 @@ include_once "../header.php";
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case5.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up lazy" src="<?php echo $filePath;?>images/case/case5.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works5" class="uk-button uk-button-text cases_btnlink">Membership (Loyalty) Program</button>
                         </div>    
                 </div>
@@ -54,7 +54,7 @@ include_once "../header.php";
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case6.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up lazy" src="<?php echo $filePath;?>images/case/case6.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works6" class="uk-button uk-button-text cases_btnlink" >Multi-site implementation (Canada)</button>
                         </div> 
                 </div>
@@ -62,7 +62,7 @@ include_once "../header.php";
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case7.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up lazy" src="<?php echo $filePath;?>images/case/case7.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works7" class="uk-button uk-button-text cases_btnlink">SalesForce SSO Integration</button>
                         </div>  
                 </div>
@@ -70,7 +70,7 @@ include_once "../header.php";
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case8.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up lazy" src="<?php echo $filePath;?>images/case/case8.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works8" class="uk-button uk-button-text cases_btnlink">Twillo Integration</button>
                         </div> 
                 </div>
@@ -78,7 +78,7 @@ include_once "../header.php";
             <div class="uk-inline">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case10.jpg" alt="" style="opacity: 0.9;">
+                        <img class="uk-transition-scale-up lazy" src="<?php echo $filePath;?>images/case/case10.jpg" alt="" style="opacity: 0.9;">
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works9" class="uk-button uk-button-text cases_btnlink">Multi-part search</button>
                         </div>  
                 </div>
