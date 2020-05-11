@@ -251,7 +251,13 @@
         <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-left"> 
             <div class="uk-text-center" >
                 <div class="uk-inline-clip  uk-transition-toggle uk-light" tabindex="0">
+                <picture>
+                    <source srcset="images/case/case11.webp" type="image/webp">
+                    <source srcset="images/case/case11.jpg" type="image/jpeg"> 
                     <img class="lazy" data-src="images/case/case11.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                </picture>
+
+                    <!-- <img class="lazy" data-src="images/case/case11.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div id="button3" class="works_overlay uk-position-center">
                         <button uk-toggle="target: #works1" class="more uk-border-circle" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
@@ -266,7 +272,14 @@
 
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+
+                <picture>
+                    <source srcset="images/case/case2.webp" type="image/webp">
+                    <source srcset="images/case/case2.jpg" type="image/jpeg"> 
                     <img class="lazy" data-src="images/case/case2.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                </picture>
+
+
                     <div class="works_overlay uk-position-center">
                         <button uk-toggle="target: #works2" class=" more uk-border-circle" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
@@ -280,7 +293,14 @@
         <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-right">
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+
+                <picture>
+                    <source srcset="images/case/case7.webp" type="image/webp">
+                    <source srcset="images/case/case7.jpg" type="image/jpeg"> 
                     <img class="lazy" data-src="images/case/case7.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                </picture>
+
+                    <!-- <img class="lazy" data-src="images/case/case7.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="uk-position-center works_overlay">
                         <button uk-toggle="target: #works3"  class=" more uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
@@ -294,7 +314,15 @@
         <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-left"> 
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light " tabindex="0">
+
+                <picture>
+                    <source srcset="images/case/case4.webp" type="image/webp">
+                    <source srcset="images/case/case4.jpg" type="image/jpeg"> 
                     <img class="lazy" data-src="images/case/case4.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                </picture>
+
+
+                    <!-- <img class="lazy" data-src="images/case/case4.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="uk-position-center works_overlay">
                         <button uk-toggle="target: #works4"  class=" more uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
@@ -309,7 +337,13 @@
             
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+
+                <picture>
+                    <source srcset="images/case/case5.webp" type="image/webp">
+                    <source srcset="images/case/case5.jpg" type="image/jpeg"> 
                     <img class="lazy" data-src="images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                </picture>
+                    <!-- <img class="lazy" data-src="images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="uk-position-center works_overlay">
                         <button uk-toggle="target: #works5" class=" more uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
@@ -323,7 +357,13 @@
         <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-right">
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+
+                <picture>
+                    <source srcset="images/case/case6.webp" type="image/webp">
+                    <source srcset="images/case/case6.jpg" type="image/jpeg"> 
                     <img class="lazy" data-src="images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                </picture>
+                    <!-- <img class="lazy" data-src="images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="uk-position-center works_overlay">
                         <button uk-toggle="target: #works6" class=" more uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>

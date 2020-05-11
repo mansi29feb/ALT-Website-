@@ -72,6 +72,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.0/lazysizes.min.js"></script>
     <script src="<?php echo $filePath;?>js/uikit.min.js"></script>
     <script src="<?php echo $filePath;?>js/uikit-icons.min.js"></script>
+    <script src="<?php echo $filePath;?>js/modernizr-custom.js"></script>
     <script>
     if ('loading' in HTMLImageElement.prototype) {
         const images = document.querySelectorAll("img.lazy");
@@ -87,6 +88,15 @@
         "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.0/lazysizes.min.js";
         document.body.appendChild(script);
     }
+
+    Modernizr.on('webp', function (result) {
+        if (result) {
+              //suported
+              }
+         else {
+             //not-supported
+                }
+         });
 </script>
 
    
