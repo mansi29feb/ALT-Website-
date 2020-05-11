@@ -252,9 +252,9 @@
             <div class="uk-text-center" >
                 <div class="uk-inline-clip  uk-transition-toggle uk-light" tabindex="0">
                 <picture>
-                    <source srcset="images/case/case11.webp" type="image/webp">
-                    <source srcset="images/case/case11.jpg" type="image/jpeg"> 
-                    <img class="lazy" data-src="images/case/case11.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <source srcset="<?php echo $filePath;?>images/case/case11.webp" type="image/webp">
+                    <source srcset="<?php echo $filePath;?>images/case/case11.jpg" type="image/jpeg"> 
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case11.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
 
                     <!-- <img class="lazy" data-src="images/case/case11.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
@@ -274,9 +274,9 @@
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 
                 <picture>
-                    <source srcset="images/case/case2.webp" type="image/webp">
-                    <source srcset="images/case/case2.jpg" type="image/jpeg"> 
-                    <img class="lazy" data-src="images/case/case2.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <source srcset="<?php echo $filePath;?>images/case/case2.webp" type="image/webp">
+                    <source srcset="<?php echo $filePath;?>images/case/case2.jpg" type="image/jpeg"> 
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case2.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
 
 
@@ -295,9 +295,9 @@
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 
                 <picture>
-                    <source srcset="images/case/case7.webp" type="image/webp">
-                    <source srcset="images/case/case7.jpg" type="image/jpeg"> 
-                    <img class="lazy" data-src="images/case/case7.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <source srcset="<?php echo $filePath;?>images/case/case7.webp" type="image/webp">
+                    <source srcset="<?php echo $filePath;?>images/case/case7.jpg" type="image/jpeg"> 
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case7.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
 
                     <!-- <img class="lazy" data-src="images/case/case7.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
@@ -316,9 +316,9 @@
                 <div class="uk-inline-clip uk-transition-toggle uk-light " tabindex="0">
 
                 <picture>
-                    <source srcset="images/case/case4.webp" type="image/webp">
-                    <source srcset="images/case/case4.jpg" type="image/jpeg"> 
-                    <img class="lazy" data-src="images/case/case4.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <source srcset="<?php echo $filePath;?>images/case/case4.webp" type="image/webp">
+                    <source srcset="<?php echo $filePath;?>images/case/case4.jpg" type="image/jpeg"> 
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case4.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
 
 
@@ -339,9 +339,9 @@
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 
                 <picture>
-                    <source srcset="images/case/case5.webp" type="image/webp">
-                    <source srcset="images/case/case5.jpg" type="image/jpeg"> 
-                    <img class="lazy" data-src="images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <source srcset="<?php echo $filePath;?>images/case/case5.webp" type="image/webp">
+                    <source srcset="<?php echo $filePath;?>images/case/case5.jpg" type="image/jpeg"> 
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
                     <!-- <img class="lazy" data-src="images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="uk-position-center works_overlay">
@@ -359,9 +359,9 @@
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 
                 <picture>
-                    <source srcset="images/case/case6.webp" type="image/webp">
-                    <source srcset="images/case/case6.jpg" type="image/jpeg"> 
-                    <img class="lazy" data-src="images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <source srcset="<?php echo $filePath;?>images/case/case6.webp" type="image/webp">
+                    <source srcset="<?php echo $filePath;?>images/case/case6.jpg" type="image/jpeg"> 
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
                     <!-- <img class="lazy" data-src="images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="uk-position-center works_overlay">
