@@ -34,6 +34,12 @@
    
 	</head>
 	<body class=" uk-background-norepeat <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
+    <div class="preloader-wrapper">
+        <div class="preloader">
+            <img src="images/Preloader.gif" alt="" >
+        </div>
+    </div>
+
 <!--topbar-->
     <div class="uk-container">
         <div class="uk-grid" uk-grid>
