@@ -248,7 +248,7 @@
     <div class="uk-h3 section2_heading uk-text-center uk-text-bolder uk-margin-remove-top uk-margin-medium-top uk-margin-large-bottom" uk-scrollspy="cls: uk-animation-slide-top">Our Latest Works</div>
     <div class="uk-child-width-1-3@m uk-grid-small uk-child-width-1-1@s uk-padding-small" uk-grid>
        
-        <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-left"> 
+        <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-left-medium"> 
             <div class="uk-text-center" >
                 <div class="uk-inline-clip  uk-transition-toggle uk-light" tabindex="0">
                 <picture>
@@ -268,7 +268,7 @@
                
             </div>
         </div>
-        <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-top">
+        <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-top-medium">
 
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
@@ -290,7 +290,7 @@
                 <div class="uk-text-bold uk-text-center uk-text-left@m"><button uk-toggle="target: #works2" class="uk-button uk-button-default uk-text-capitalize test_heading" style="line-height:1.2;">Multi-site implementation</button></div>
             </div>
         </div>
-        <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-right">
+        <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-right-medium">
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 
@@ -311,7 +311,7 @@
                 <div class="uk-text-bold  uk-text-center uk-text-left@m"><button uk-toggle="target: #works3" class="uk-button uk-button-default uk-text-capitalize test_heading" style="line-height:1.2;">Cross-Reference Tool</button></div>
             </div>
         </div>
-        <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-left"> 
+        <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-left-medium"> 
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light " tabindex="0">
 
@@ -333,7 +333,7 @@
                 <div class="uk-text-bold uk-text-center uk-text-left@m"><button uk-toggle="target: #works4" class="uk-button uk-button-default uk-text-capitalize test_heading">Twillo Integration</button></div>
             </div>
         </div>
-        <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-bottom">
+        <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
             
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
@@ -354,7 +354,7 @@
                 <div class="uk-text-bold uk-text-center uk-text-left@m"><button uk-toggle="target: #works5" class="uk-button uk-button-default uk-text-capitalize test_heading" >Site Redesign</button></div>
             </div>
         </div>
-        <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-right">
+        <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-right-medium">
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 
