@@ -12,7 +12,7 @@ $currentPage = 'career';
 
                     <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Work With Us</div>
 
-                    <div class="uk-width-1-2@s uk-align-center">
+                    <div class="uk-width-1-2@s uk-align-center"  uk-scrollspy="cls: uk-animation-fade">
                         <div class="services_mainpara uk-card uk-card-default uk-padding-small uk-text-center  ">“ Coming together is the beginning. </br>Keeping together is progress. Working together is success. ”
                         <p class="uk-text-meta uk-text-right uk-margin-remove-top uk-margin-remove-bottom" style="color:black;">- Henry Ford</p>
                     </div>
@@ -37,7 +37,7 @@ $currentPage = 'career';
                   </div>
                 </div> 
                 <div class="uk-child-width-1-2@m uk-child-width-1-1@s uk-grid-small uk-padding uk-padding-remove-top uk-grid-match" uk-grid>
-                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-padding-remove-vertical  uk-margin pad_rem">
+                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-padding-remove-vertical  uk-margin pad_rem" uk-scrollspy="cls: uk-animation-slide-top-medium">
                       <div class="career1_box">
                       <img src="<?php echo $filePath;?>images/career/future.jpg">
                       <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Embracing The Future</div>
@@ -46,7 +46,7 @@ $currentPage = 'career';
         
                         </div>
                   </div >
-                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-margin uk-padding-remove-vertical uk-margin-remove-top pad_rem"> 
+                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-margin uk-padding-remove-vertical uk-margin-remove-top pad_rem " uk-scrollspy="cls: uk-animation-slide-top-medium"> 
                     <div class="career1_box"> 
                     <img src="<?php echo $filePath;?>images/career/professional.jpg">
                     <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Experienced Professional</div>
@@ -55,7 +55,7 @@ $currentPage = 'career';
                         amazing, important work. </div>
                     </div> 
                   </div>
-                  <div class=" uk-width-1-2@m uk-width-1-1@s uk-padding uk-padding-remove-vertical uk-margin pad_rem"> 
+                  <div class=" uk-width-1-2@m uk-width-1-1@s uk-padding uk-padding-remove-vertical uk-margin pad_rem " uk-scrollspy="cls: uk-animation-slide-top-medium"> 
                     <div class="career1_box">  
                     <img src="<?php echo $filePath;?>images/career/team2.jpg">
                     <div class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">We're a Team & not a bunch of Individuals</div>
@@ -64,7 +64,7 @@ $currentPage = 'career';
                         It doesn’t matter who gets&nbsp; credit for what because you accomplish everything together. You’re knit together, not separated.</div>
                      </div>   
                   </div>
-                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding-remove-vertical uk-padding uk-margin pad_rem">
+                  <div class="uk-width-1-2@m uk-width-1-1@s uk-padding-remove-vertical uk-padding uk-margin pad_rem" uk-scrollspy="cls: uk-animation-slide-top-medium">
                     <div class="career1_box"> 
                     <img src="<?php echo $filePath;?>images/career/big-brands.jpg">
                     <div class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">A Chance to work with BIG BRANDS</div>
@@ -85,10 +85,10 @@ $currentPage = 'career';
                 <table class="uk-table  uk-table-divider uk-text-left">
                    
                     <tbody >
-                        <tr class="openings_para" >
-                            <td>
+                        <tr class="openings_par" >
+                            <td uk-scrollspy="cls: uk-animation-slide-left-medium">
 
-                                <a class="services_article_heading" style="color:black; font-size: 20px; font-weight: 600;" href="#" uk-toggle="target: #toggle-click; mode: click" >Oracle ATG Commerce Developer</a>
+                                <a class="services_article_heading" style="color:black; font-size: 20px; font-weight: 600;" href="#" uk-toggle="target: #toggle-click; mode: click">Oracle ATG Commerce Developer</a>
                                 <div id="toggle-click" hidden>
                                     <ul class="uk-list uk-card uk-card-default uk-card-body uk-margin-medium-top uk-padding-large uk-animation-slide-top-small" >
                                         <div class="services_article_heading uk-h3 uk-text-bold">RESPONSIBILITIES:</div>
@@ -114,12 +114,12 @@ $currentPage = 'career';
                                 </div>
                             
                             </td>
-                            <td class="services_article_heading uk-text-right uk-text-nowrap" style="color:black; font-size: 20px; font-weight: 600;">Noida, U.P.</td>
+                            <td class="services_article_heading uk-text-right uk-text-nowrap" style="color:black; font-size: 20px; font-weight: 600;" uk-scrollspy="cls: uk-animation-slide-right-medium" >Noida, U.P.</td>
                             
                         </tr>
                         
                         <tr class="openings_para">
-                            <td>
+                            <td  uk-scrollspy="cls: uk-animation-slide-left-medium">
                             <a class="services_article_heading" style="color:black; font-size: 20px; font-weight: 600;" href="#" uk-toggle="target: #toggle-click2; mode: click">Endeca Developer</a>
                                 <div id="toggle-click2" hidden>
                                     <ul class="uk-list uk-card uk-card-default uk-card-body uk-margin-medium-top uk-padding-large uk-animation-slide-top-small">
@@ -146,12 +146,12 @@ $currentPage = 'career';
                                 </div>
                             
                             </td>
-                            <td class="services_article_heading uk-text-right uk-text-nowrap" style="color:black; font-size: 20px; font-weight: 600;">Noida, U.P.</td>
+                            <td class="services_article_heading uk-text-right uk-text-nowrap" style="color:black; font-size: 20px; font-weight: 600;"  uk-scrollspy="cls: uk-animation-slide-right-medium">Noida, U.P.</td>
                             
                         </tr>
 
                         <tr class="openings_para">
-                            <td>
+                            <td  uk-scrollspy="cls: uk-animation-slide-left-medium">
                             <a class="services_article_heading" style="color:black; font-size: 20px; font-weight: 600;" href="#" uk-toggle="target: #toggle-click3; mode: click">Hybris Developer</a>
                                 <div id="toggle-click3" hidden>
                                     <ul class="uk-list uk-card uk-card-default uk-card-body uk-margin-medium-top uk-padding-large uk-animation-slide-top-small ">
@@ -174,8 +174,8 @@ $currentPage = 'career';
                                     
                                 </div>
                             
-                            </td>
-                            <td class="services_article_heading uk-text-right uk-text-nowrap" style="color:black; font-size: 20px; font-weight: 600;">Noida, U.P.</td>
+                            </td  >
+                            <td class="services_article_heading uk-text-right uk-text-nowrap" style="color:black; font-size: 20px; font-weight: 600;" uk-scrollspy="cls: uk-animation-slide-right-medium">Noida, U.P.</td>
                             
                         </tr>
                     </tbody>
