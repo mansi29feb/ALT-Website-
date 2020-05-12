@@ -38,7 +38,7 @@
         <div class="preloader">
             <img src="images/Preloader.gif" alt="" >
         </div>
-    </div>
+    </div> 
 
 <!--topbar-->
     <div class="uk-container">

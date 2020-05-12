@@ -5,7 +5,7 @@ body  {
   body a:focus{
    background-color: #fff;
   }
-/*preloader */
+/*preloader 
 body.preloader-site {
   overflow: hidden;
 }
@@ -30,7 +30,7 @@ body.preloader-site {
   width: 300px;
 }
 
-/* preloder css end*/
+ preloder css end*/
  /*header*/
    .nav-header {
     background-color: #fff !important;

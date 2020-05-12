@@ -97,16 +97,19 @@
              //not-supported
                 }
          });
-    //preloader
-    $(document).ready(function($) {
+</script>
+
+  <script>
+      $(document).ready(function($) {
     var Body = $('body');
     Body.addClass('preloader-site');
-    });
-    $(window).load(function() {
-        $('.preloader-wrapper').fadeOut();
-        $('body').removeClass('preloader-site');
-    });
-    </script>
+});
+$(window).load(function() {
+    $('.preloader-wrapper').fadeOut();
+    $('body').removeClass('preloader-site');
+});
+</script> 
+   
 </body>
 
 </html>
