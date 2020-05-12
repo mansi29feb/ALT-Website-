@@ -11,7 +11,7 @@ include_once "../header.php";
         
         <div class="uk-grid-medium uk-grid-match uk-child-width-1-3@m uk-child-width-1-2@s uk-text-center" uk-grid >
             
-            <div class="uk-inline">
+            <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-left-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case11.jpg" alt="" style="opacity: 0.9;" uk-img>
@@ -19,7 +19,7 @@ include_once "../header.php";
                         </div>  
                 </div>
             </div>
-            <div class="uk-inline">
+            <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-top-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case2.jpg" alt="" style="opacity: 0.9;" uk-img>
@@ -27,7 +27,7 @@ include_once "../header.php";
                         </div>   
                 </div>
             </div>
-            <div class="uk-inline">
+            <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-right-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case3.jpg" alt="" style="opacity: 0.9;" uk-img>
@@ -35,7 +35,7 @@ include_once "../header.php";
                         </div>    
                 </div>
             </div>
-            <div class="uk-inline">
+            <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-left-small">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case4.jpg" alt="" style="opacity: 0.9;" uk-img>
@@ -43,7 +43,7 @@ include_once "../header.php";
                         </div>   
                 </div>
             </div>
-            <div class="uk-inline">
+            <div class="uk-inline" >
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case5.jpg" alt="" style="opacity: 0.9;" uk-img>
@@ -51,7 +51,7 @@ include_once "../header.php";
                         </div>    
                 </div>
             </div>
-            <div class="uk-inline">
+            <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-right-small">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case6.jpg" alt="" style="opacity: 0.9;" uk-img>
@@ -59,7 +59,7 @@ include_once "../header.php";
                         </div> 
                 </div>
             </div>
-            <div class="uk-inline">
+            <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-left-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case7.jpg" alt="" style="opacity: 0.9;" uk-img>
@@ -67,7 +67,7 @@ include_once "../header.php";
                         </div>  
                 </div>
             </div>
-            <div class="uk-inline">
+            <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case8.jpg" alt="" style="opacity: 0.9;" uk-img>
@@ -75,7 +75,7 @@ include_once "../header.php";
                         </div> 
                 </div>
             </div>
-            <div class="uk-inline">
+            <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-right-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
                         <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case10.jpg" alt="" style="opacity: 0.9;" uk-img>
