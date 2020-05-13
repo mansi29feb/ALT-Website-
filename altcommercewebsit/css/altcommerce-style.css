@@ -8,8 +8,7 @@ body  {
 /*preloader */
  .preloader-site {
     overflow: hidden;
-}
-
+ }
 .preloader-wrapper {
     height: 100%;
     width: 100%;
@@ -18,7 +17,7 @@ body  {
     top: 0;
     left: 0;
     z-index: 9999999;
-    transition-duration: 15s;
+    
 }
 
 .preloader-wrapper .preloader {
