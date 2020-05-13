@@ -121,7 +121,7 @@
                     <!--middle part-->
                     <div class="uk-child-width-1-1@s uk-visible@m uk-padding-remove uk-margin-medium-bottom uk-margin-small-left" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: false">
                         <div class="uk-width-1-1@s uk-padding-remove uk-align-center">
-                            <img class="mobile_img " src="images/warranty-period.svg">
+                            <img class="mobile_img lazy" data-src="images/warranty-period.svg" uk-img>
                         </div>
 
                     </div>
@@ -1025,11 +1025,6 @@
 </div> -->
 <!----------------------Blog Section Ends---------------------->
 
-
-
-
-
-
     <div class="uk-container uk-margin uk-padding">
         <!--Section Above Footer Starts-->
 
@@ -1113,9 +1108,6 @@
     <!--footer above footer End -->
         
 </div>
-
-
-
 
 <?php
 	 include_once 'footer.php';
