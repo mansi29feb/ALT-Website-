@@ -66,7 +66,7 @@
         </div>
     </div>
     <!--mobile nav end-->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" defer></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script  src="<?php echo $filePath;?>js/count.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.0/lazysizes.min.js" async></script>
@@ -97,13 +97,11 @@
              //not-supported
                 }
          });
-</script>
-
-  <script>
-      $(document).ready(function($) {
+         //preloader
+    S $(document).ready(function($) {
     var Body = $('body');
     Body.addClass('preloader-site');
-});
+    });
 $(window).load(function() {
     $('.preloader-wrapper').fadeOut();
     $('body').removeClass('preloader-site');
