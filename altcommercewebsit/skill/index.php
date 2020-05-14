@@ -8,7 +8,7 @@ $currentPage = 'skill';
 
     <div class="uk-container uk-margin">
         <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Our Technical Expertise</div>
-        <p class="uk-text-center services_mainpara"> Rendering the best services with the Updated Technologies.
+        <p class="uk-text-center services_mainpara"> Rendering the best services with the updated Technologies.
         </p>
         <div class=""> <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/skill.jpg" width="800" height="800" uk-img></div>
        

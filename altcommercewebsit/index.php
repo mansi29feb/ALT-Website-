@@ -70,7 +70,7 @@
                     <div class="uk-child-width-1-1@s uk-grid-match uk-margin-large-top uk-margin-medium-bottom " uk-grid uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
                         <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s grid1" uk-grid>
                             <div class="uk-width-1-5@s  uk-padding-remove hide-icon uk-hidden@m ">
-                                <img class="lazy" data-src="images/application.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/application.svg" width="60" height="60" alt="Application Icon" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-remove bx1">
 
@@ -80,13 +80,13 @@
 
                             </div>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove visible-icon uk-visible@m">
-                                <img class="lazy" data-src="images/application.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/application.svg" width="60" height="60" alt="Application Icon" uk-img>
                             </div>
                         </div>
 
                         <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s" uk-grid>
                             <div class="uk-width-1-5@s uk-padding-remove hide-icon uk-hidden@m">
-                                <img class="lazy" data-src="images/research-and-development.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/research-and-development.svg" width="60" height="60" alt="R&D Icon" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-remove bx1">
 
@@ -95,13 +95,13 @@
 
                             </div>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove visible-icon uk-visible@m">
-                                <img class="lazy" data-src="images/research-and-development.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/research-and-development.svg" width="60" height="60" alt="R&D Icon" uk-img>
                             </div>
                         </div>
 
                         <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s" uk-grid>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove hide-icon uk-hidden@m">
-                                <img class="lazy" data-src="images/om.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/om.svg" width="60" height="60" alt="Omni-channel icon" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-remove bx1">
                                 <div class="uk-text-bold uk-text-secondary section2_subheading">Omni-Channel Commerce</div>
@@ -109,7 +109,7 @@
                                     experience.</span>
                             </div>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove uk-visible@m">
-                                <img class="lazy" data-src="images/om.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/om.svg" width="60" height="60" alt="Omni-channel icon" uk-img>
                             </div>
                         </div>
 
@@ -121,7 +121,7 @@
                     <!--middle part-->
                     <div class="uk-child-width-1-1@s uk-visible@m uk-padding-remove uk-margin-medium-bottom uk-margin-small-left" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: false">
                         <div class="uk-width-1-1@s uk-padding-remove uk-align-center">
-                            <img class="mobile_img lazy" data-src="images/warranty-period.svg" uk-img>
+                            <img class="mobile_img lazy" data-src="images/warranty-period.svg" alt="middle image" uk-img>
                         </div>
 
                     </div>
@@ -134,7 +134,7 @@
                     <div class="uk-child-width-1-1@s uk-grid-match uk-margin-small-left uk-margin-large-top uk-grid-collapse uk-margin-medium-bottom" uk-grid uk-scrollspy="cls: uk-animation-slide-right; repeat: false">
                         <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s uk-margin-remove-bottom"  uk-grid>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove">
-                                <img class="lazy" data-src="images/quality-assurance.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/quality-assurance.svg" width="60" height="60" alt="Testing icon" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-small uk-padding-remove-top uk-padding-remove-left bx1">
                                 <div class="uk-text-bold uk-text-secondary section2_subheading">QA & Software Testing</div>
@@ -145,7 +145,7 @@
                         <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s" uk-grid>
 
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove">
-                                <img class="lazy"  data-src="images/advertisement.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy"  data-src="images/advertisement.svg" width="60" height="60" alt="Digital Commerce" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-small uk-padding-remove-top uk-padding-remove-left bx1">
                                 <div class="uk-text-bold uk-text-secondary section2_subheading">Digital Commerce</div>
@@ -157,7 +157,7 @@
 
                         <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s" uk-grid>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove">
-                                <img class="lazy" data-src="images/user-experience.svg" width="60" height="60" alt="" uk-img>
+                                <img class="lazy" data-src="images/user-experience.svg" width="60" height="60" alt="UX/UI icon" uk-img>
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-small uk-padding-remove-top uk-padding-remove-left bx1">
                                 <div class="uk-text-bold uk-text-secondary section2_subheading">User/Customer Experience </div>
@@ -254,7 +254,7 @@
                 <picture>
                     <source srcset="<?php echo $filePath;?>images/case/case11.webp" type="image/webp">
                     <source srcset="<?php echo $filePath;?>images/case/case11.jpg" type="image/jpeg"> 
-                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case11.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case11.jpg" alt="Data Center Migration" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
 
                     <!-- <img class="lazy" data-src="images/case/case11.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
@@ -276,7 +276,7 @@
                 <picture>
                     <source srcset="<?php echo $filePath;?>images/case/case2.webp" type="image/webp">
                     <source srcset="<?php echo $filePath;?>images/case/case2.jpg" type="image/jpeg"> 
-                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case2.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case2.jpg" alt="Multi-site implementation" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
 
 
@@ -297,7 +297,7 @@
                 <picture>
                     <source srcset="<?php echo $filePath;?>images/case/case7.webp" type="image/webp">
                     <source srcset="<?php echo $filePath;?>images/case/case7.jpg" type="image/jpeg"> 
-                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case7.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case7.jpg" alt="Cross-Reference Tool" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
 
                     <!-- <img class="lazy" data-src="images/case/case7.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
@@ -318,7 +318,7 @@
                 <picture>
                     <source srcset="<?php echo $filePath;?>images/case/case4.webp" type="image/webp">
                     <source srcset="<?php echo $filePath;?>images/case/case4.jpg" type="image/jpeg"> 
-                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case4.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case4.jpg" alt="Twillo Integration" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
 
 
@@ -341,7 +341,7 @@
                 <picture>
                     <source srcset="<?php echo $filePath;?>images/case/case5.webp" type="image/webp">
                     <source srcset="<?php echo $filePath;?>images/case/case5.jpg" type="image/jpeg"> 
-                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case5.jpg" alt="Site Redesign" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
                     <!-- <img class="lazy" data-src="images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="uk-position-center works_overlay">
@@ -361,7 +361,7 @@
                 <picture>
                     <source srcset="<?php echo $filePath;?>images/case/case6.webp" type="image/webp">
                     <source srcset="<?php echo $filePath;?>images/case/case6.jpg" type="image/jpeg"> 
-                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
+                    <img class="lazy" data-src="<?php echo $filePath;?>images/case/case6.jpg" alt="SalesForce SSO Integration" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
                     <!-- <img class="lazy" data-src="images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="uk-position-center works_overlay">
@@ -394,7 +394,7 @@
                     <div class="uk-margin uk-padding-small"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="Business Need" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -408,7 +408,7 @@
                            
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="Solution" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -420,7 +420,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="benefit" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -432,7 +432,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s  uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small ">
-                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="technology" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
