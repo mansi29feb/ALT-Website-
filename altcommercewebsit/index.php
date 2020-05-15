@@ -64,7 +64,7 @@
                 <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-margin-small-left" uk-grid >
 
                     <!--left side-->
-                    <div class="uk-child-width-1-1@s uk-grid-match uk-margin-large-top uk-margin-medium-bottom " uk-grid uk-scrollspy="cls: uk-animation-slide-left; repeat: false">
+                    <div class="uk-child-width-1-1@s uk-grid-match uk-margin-large-top uk-margin-medium-bottom " uk-grid uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: false">
                         <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s grid1" uk-grid>
                             <div class="uk-width-1-5@s  uk-padding-remove hide-icon uk-hidden@m ">
                                 <img class="lazy" data-src="images/application.svg" width="60" height="60" alt="Application Icon" uk-img>
@@ -128,7 +128,7 @@
 
                     <!-----right side-------->
 
-                    <div class="uk-child-width-1-1@s uk-grid-match uk-margin-small-left uk-margin-large-top uk-grid-collapse uk-margin-medium-bottom" uk-grid uk-scrollspy="cls: uk-animation-slide-right; repeat: false">
+                    <div class="uk-child-width-1-1@s uk-grid-match uk-margin-small-left uk-margin-large-top uk-grid-collapse uk-margin-medium-bottom" uk-grid uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: false">
                         <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s uk-margin-remove-bottom"  uk-grid>
                             <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove">
                                 <img class="lazy" data-src="images/quality-assurance.svg" width="60" height="60" alt="Testing icon" uk-img>
@@ -249,13 +249,13 @@
             <div class="uk-text-center" >
                 <div class="uk-inline-clip  uk-transition-toggle uk-light" tabindex="0">
                 <picture>
-                    <source srcset="<?php echo $filePath;?>images/case/case11.webp" type="image/webp">
-                    <source srcset="<?php echo $filePath;?>images/case/case11.jpg" type="image/jpeg"> 
+                    <source class="lazy" srcset="<?php echo $filePath;?>images/case/case11.webp" type="image/webp">
+                    <source class="lazy" srcset="<?php echo $filePath;?>images/case/case11.jpg" type="image/jpeg"> 
                     <img class="lazy" data-src="<?php echo $filePath;?>images/case/case11.jpg" alt="Data Center Migration" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
 
                     <!-- <img class="lazy" data-src="images/case/case11.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
-                    <div id="button3" class="works_overlay uk-position-center">
+                    <div class="works_overlay uk-position-center">
                         <button uk-toggle="target: #works1" class="more uk-border-circle" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
                 </div>
@@ -271,8 +271,8 @@
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 
                 <picture>
-                    <source srcset="<?php echo $filePath;?>images/case/case2.webp" type="image/webp">
-                    <source srcset="<?php echo $filePath;?>images/case/case2.jpg" type="image/jpeg"> 
+                    <source class="lazy" srcset="<?php echo $filePath;?>images/case/case2.webp" type="image/webp">
+                    <source class="lazy" srcset="<?php echo $filePath;?>images/case/case2.jpg" type="image/jpeg"> 
                     <img class="lazy" data-src="<?php echo $filePath;?>images/case/case2.jpg" alt="Multi-site implementation" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
 
@@ -292,8 +292,8 @@
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 
                 <picture>
-                    <source srcset="<?php echo $filePath;?>images/case/case7.webp" type="image/webp">
-                    <source srcset="<?php echo $filePath;?>images/case/case7.jpg" type="image/jpeg"> 
+                    <source class="lazy" srcset="<?php echo $filePath;?>images/case/case7.webp" type="image/webp">
+                    <source class="lazy" srcset="<?php echo $filePath;?>images/case/case7.jpg" type="image/jpeg"> 
                     <img class="lazy" data-src="<?php echo $filePath;?>images/case/case7.jpg" alt="Cross-Reference Tool" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
 
@@ -313,8 +313,8 @@
                 <div class="uk-inline-clip uk-transition-toggle uk-light " tabindex="0">
 
                 <picture>
-                    <source srcset="<?php echo $filePath;?>images/case/case4.webp" type="image/webp">
-                    <source srcset="<?php echo $filePath;?>images/case/case4.jpg" type="image/jpeg"> 
+                    <source class="lazy" srcset="<?php echo $filePath;?>images/case/case4.webp" type="image/webp">
+                    <source class="lazy" srcset="<?php echo $filePath;?>images/case/case4.jpg" type="image/jpeg"> 
                     <img class="lazy" data-src="<?php echo $filePath;?>images/case/case4.jpg" alt="Twillo Integration" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
 
@@ -336,8 +336,8 @@
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 
                 <picture>
-                    <source srcset="<?php echo $filePath;?>images/case/case5.webp" type="image/webp">
-                    <source srcset="<?php echo $filePath;?>images/case/case5.jpg" type="image/jpeg"> 
+                    <source class="lazy" srcset="<?php echo $filePath;?>images/case/case5.webp" type="image/webp">
+                    <source class="lazy" srcset="<?php echo $filePath;?>images/case/case5.jpg" type="image/jpeg"> 
                     <img class="lazy" data-src="<?php echo $filePath;?>images/case/case5.jpg" alt="Site Redesign" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
                     <!-- <img class="lazy" data-src="images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
@@ -356,8 +356,8 @@
                 <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 
                 <picture>
-                    <source srcset="<?php echo $filePath;?>images/case/case6.webp" type="image/webp">
-                    <source srcset="<?php echo $filePath;?>images/case/case6.jpg" type="image/jpeg"> 
+                    <source class="lazy" srcset="<?php echo $filePath;?>images/case/case6.webp" type="image/webp">
+                    <source class="lazy" srcset="<?php echo $filePath;?>images/case/case6.jpg" type="image/jpeg"> 
                     <img class="lazy" data-src="<?php echo $filePath;?>images/case/case6.jpg" alt="SalesForce SSO Integration" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
                 </picture>
                     <!-- <img class="lazy" data-src="images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
@@ -791,28 +791,29 @@
             <div class="uk-child-width-1-4@m uk-grid-small uk-grid-collapse price-count" uk-grid>
                 <div class="uk-width-1-4@m uk-width-1-1@s price-tag1">
                     <div class="uk-text-center icon-tag">
-                        <h4><i class="fa fa-smile-o fa-2x" aria-hidden="true"></i></h4>
+                        <!-- <h4><i class="fa fa-smile-o fa-2x" aria-hidden="true"></i></h4> -->
+                        <h4><img data-src="<?php echo $filePath;?>images/gestures.svg" height="40" width="40" uk-svg></h4>
                         <h2><span class="Count">100</span><span>+</span></h2>
                         <h5 class="uk-padding-large uk-padding-remove-top uk-padding-remove-left uk-padding-remove-right">MAN YEARS OF EXPERIENCE IN DIGITAL COMMERCE</h5>
                     </div>
                 </div> 
                 <div class="uk-width-1-4@m uk-width-1-1@s price1 price-tag1">
                     <div class="uk-text-center icon-tag">
-                        <h4><i class="fa fa-users fa-2x" aria-hidden="true"></i></h4>
+                        <h4><img data-src="<?php echo $filePath;?>images/employee.svg" height="40" width="40" uk-svg></h4>
                         <h2><span class="Count">20</span><span>+</span></h2>
                         <h5>NO OF EMPLOYEES</h5>
                     </div>
                 </div>
                 <div class="uk-width-1-4@m uk-width-1-1@s price-tag2 price-tag1">
                     <div class="uk-text-center icon-tag">
-                        <h4><i class="fa fa-briefcase fa-2x" aria-hidden="true"></i></h4>
+                        <h4><img data-src="<?php echo $filePath;?>images/briefcase.svg" height="40" width="40" uk-svg></h4>
                         <h2><span class="Count">50</span><span>+</span></h2>
                         <h5>PROJECTS DONE</h5>
                     </div>   
                 </div>
                 <div class="uk-width-1-4@m uk-width-1-1@s price2 price-tag1">
                     <div class="uk-text-center icon-tag">
-                        <h4><i class="fa fa-globe fa-2x" aria-hidden="true" ratio: 2.5></i></h4>
+                        <h4><img data-src="<?php echo $filePath;?>images/earth.svg" height="40" width="40" uk-svg></h4>
                         <h2><span class="Count">5</span><span>+</span></h2>
                         <h5>COUNTRIES SERVED</h5>
                     </div>
@@ -826,7 +827,7 @@
     
         <div class="uk-container uk-margin uk-margin-large-top">
             <div class="uk-child-width-1-3@m uk-child-width-1-1@s uk-grid-medium uk-padding" uk-grid>
-                <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-left;">
+                <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-left-medium;">
                     <div >
                         <img class="uk-align-center" data-src="images/designer.svg" alt="Designing icon" width="80" height="80" alt="" uk-img>
                     </div>
@@ -835,7 +836,7 @@
                         <p class="test_para">Software design usually involves problem-solving and planning a software solution.</p>
                     </div>
                 </div>
-                <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-top;">
+                <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-top-medium;">
                     <div >
                         <img class="uk-align-center" data-src="images/edit-code.svg" alt="Development icon" width="80" height="80" alt="" uk-img>
                         <div class="uk-text-center">
@@ -844,7 +845,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-right;">
+                <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-right-medium;">
                     <div >
                         <img class="uk-align-center" data-src="images/deployment.svg" alt="Deployment icon" width="80" height="80" alt="" uk-img>
                         <div class="uk-text-center">
@@ -874,7 +875,7 @@
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">I never considered ALT Commerce as a consulting company, I always count them as an extension of my own team. </p>
                                     <div class="testi_text uk-text-center uk-text-bold">-Director, IT </div>
-                                    <div class="uk-text-meta uk-text-center">An Aerospace Company</div>
+                                <div class="uk-text-meta uk-text-center">An Aerospace Company</div>
                                     </div>
                                 </div>
                             </li>
@@ -1022,15 +1023,16 @@
 </div> -->
 <!----------------------Blog Section Ends---------------------->
 
+<!--Section Above Footer Starts-->
     <div class="uk-container uk-margin uk-padding">
-        <!--Section Above Footer Starts-->
+  
 
         <div class="uk-child-width-1-1@s uk-margin-large-bottom  uk-grid-divider uk-grid-row-small" uk-grid>
             <div>
                     <div class="uk-child-width-1-3 alt_desc" uk-grid>
 
-                        <div class="uk-width-auto@m uk-margin-medium-right uk-margin-small-top" uk-scrollspy="cls: uk-animation-fade;">
-                            <img data-src="images/alt.png" width="90px" height="60px" alt="ALT logo" uk-img>
+                        <div class="uk-width-auto@m uk-margin-medium-right uk-margin-small-top" uk-scrollspy="cls: uk-animation-slide-left-medium;">
+                            <img class="lazy" data-src="images/alt.png" width="90px" height="60px" alt="ALT logo" uk-img>
                         </div>
 
                         <div class="uk-width-expand@m  uk-grid-divider  uk-margin-medium-bottom uk-text-small uk-text-emphasis text" uk-scrollspy="cls: uk-animation-slide-left-small;">
@@ -1102,16 +1104,17 @@
         
 
     </div>
-    <!--footer above footer End -->
+<!--footer above footer End -->
         
 </div>
 
+
+
+<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
 <?php
 	 include_once 'footer.php';
 ?>
-
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
         function onSubmit(token) {
             document.getElementById("demo-form").submit();
@@ -1131,8 +1134,6 @@
             return false;
         }
     });
-
-
 
     $(document).ready(function(e){
         // Submit form data via Ajax
@@ -1168,10 +1169,6 @@
         });
     });
 
-
-
-</script>
-<script>
     if ('loading' in HTMLImageElement.prototype) {
         const images = document.querySelectorAll("img.lazy");
         images.forEach(img => {
@@ -1186,4 +1183,6 @@
         "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.0/lazysizes.min.js";
         document.body.appendChild(script);
     }
+
 </script>
+

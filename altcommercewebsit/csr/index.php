@@ -125,7 +125,7 @@
     <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-bottom ">Impact</div>
     
 <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-large-bottom" uk-grid>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
         <div class="uk-inline-clip uk-transition-toggle impact_box img_csr1" tabindex="0">
             <img class="lazy" data-src="<?php echo $filePath;?>images/csr/earth/berry.jpg" height="300" width="300" alt="fruits" uk-img>
             <div  class="uk-position-bottom uk-overlay uk-overlay-primary ">
@@ -134,7 +134,7 @@
         </div>
         
     </div>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-top-medium">
         <div class="uk-inline-clip uk-transition-toggle impact_box img_csr2" tabindex="0">
             <img  class="lazy" data-src="<?php echo $filePath;?>images/csr/earth/kids.jpg" height="300" width="300" alt="livelihood" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
@@ -143,7 +143,7 @@
         </div>
         
     </div>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
         <div class="uk-inline-clip uk-transition-toggle impact_box img_csr1" tabindex="0">
             <img class="lazy" data-src="<?php echo $filePath;?>images/csr/earth/soil2.jpg" height="300" width="300" alt="soil" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
@@ -152,7 +152,7 @@
         </div>
         
     </div>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-top-medium">
         <div class="uk-inline-clip uk-transition-toggle impact_box img_csr2" tabindex="0">
             <img class="lazy" data-src="<?php echo $filePath;?>images/csr/earth/water.jpg" height="300" width="300" alt="water" uk-img>
 <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
@@ -245,7 +245,7 @@
     <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-bottom ">Impact</div>
     
 <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-large-bottom" uk-grid>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
         <div class="uk-inline-clip uk-transition-toggle impact_box img_csr1" tabindex="0">
             <img class="lazy"  data-src="<?php echo $filePath;?>images/csr/earth/lake.jpg" height="300" width="300" alt="lake" uk-img>
         <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
@@ -254,7 +254,7 @@
         </div>
         
     </div>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-top-medium">
         <div class="uk-inline-clip uk-transition-toggle impact_box img_csr2" tabindex="0">
             <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/happy-kids.jpg" height="300" width="300" alt="happy kids" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
@@ -263,7 +263,7 @@
         </div>
         
     </div>
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
         <div class="uk-inline-clip uk-transition-toggle impact_box img_csr1" tabindex="0">
             <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/kids-water2.jpg" height="300" width="300" alt="kids in water" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
@@ -273,7 +273,7 @@
         
     </div>
     
-    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box">
+    <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-top-medium">
         <div class="uk-inline-clip uk-transition-toggle impact_box img_csr2" tabindex="0">
             <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/village-baby.jpg" height="300" width="300" alt="baby" uk-img>
             <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
