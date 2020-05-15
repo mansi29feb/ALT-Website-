@@ -1,7 +1,7 @@
 <?php
-$meta5 = 'resource';
-$currentPage = 'resource';
-include_once "../header.php";
+    $meta5 = 'resource';
+    $currentPage = 'resource';
+    include_once "../header.php";
 ?>
 <!---Resource page starts-->
 <div class="uk-container uk-margin uk-margin-large-bottom">
@@ -14,7 +14,7 @@ include_once "../header.php";
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-left-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case11.jpg" alt="" style="opacity: 0.9;" uk-img>
+                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case11.jpg" alt="Multi-site implementation" style="opacity: 0.9;" uk-img>
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works1" class="uk-button uk-button-text cases_btnlink" >Multi-site implementation</button>
                         </div>  
                 </div>
@@ -22,7 +22,7 @@ include_once "../header.php";
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-top-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case2.jpg" alt="" style="opacity: 0.9;" uk-img>
+                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case2.jpg" alt="Data Center Migration" style="opacity: 0.9;" uk-img>
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works2" class="uk-button uk-button-text cases_btnlink">Data Center Migration</button>
                         </div>   
                 </div>
@@ -30,7 +30,7 @@ include_once "../header.php";
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-right-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case3.jpg" alt="" style="opacity: 0.9;" uk-img>
+                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case3.jpg" alt="Site Redesign" style="opacity: 0.9;" uk-img>
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works3" class="uk-button uk-button-text cases_btnlink">Site Redesign</button>
                         </div>    
                 </div>
@@ -38,7 +38,7 @@ include_once "../header.php";
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-left-small">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case4.jpg" alt="" style="opacity: 0.9;" uk-img>
+                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case4.jpg" alt="Cross-Reference Tool" style="opacity: 0.9;" uk-img>
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works4" class="uk-button uk-button-text cases_btnlink">Cross-Reference Tool</button>
                         </div>   
                 </div>
@@ -46,7 +46,7 @@ include_once "../header.php";
             <div class="uk-inline" >
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case5.jpg" alt="" style="opacity: 0.9;" uk-img>
+                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case5.jpg" alt="Membership (Loyalty) Program" style="opacity: 0.9;" uk-img>
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works5" class="uk-button uk-button-text cases_btnlink">Membership (Loyalty) Program</button>
                         </div>    
                 </div>
@@ -54,7 +54,7 @@ include_once "../header.php";
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-right-small">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case6.jpg" alt="" style="opacity: 0.9;" uk-img>
+                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case6.jpg" alt="Multi-site implementation (Canada)" style="opacity: 0.9;" uk-img>
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works6" class="uk-button uk-button-text cases_btnlink" >Multi-site implementation (Canada)</button>
                         </div> 
                 </div>
@@ -62,7 +62,7 @@ include_once "../header.php";
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-left-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case7.jpg" alt="" style="opacity: 0.9;" uk-img>
+                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case7.jpg" alt="SalesForce SSO Integration" style="opacity: 0.9;" uk-img>
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works7" class="uk-button uk-button-text cases_btnlink">SalesForce SSO Integration</button>
                         </div>  
                 </div>
@@ -70,7 +70,7 @@ include_once "../header.php";
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case8.jpg" alt="" style="opacity: 0.9;" uk-img>
+                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case8.jpg" alt="Twillo Integration" style="opacity: 0.9;" uk-img>
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works8" class="uk-button uk-button-text cases_btnlink">Twillo Integration</button>
                         </div> 
                 </div>
@@ -78,7 +78,7 @@ include_once "../header.php";
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-right-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case10.jpg" alt="" style="opacity: 0.9;" uk-img>
+                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case10.jpg" alt="Multi-part search" style="opacity: 0.9;" uk-img>
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works9" class="uk-button uk-button-text cases_btnlink">Multi-part search</button>
                         </div>  
                 </div>
@@ -104,7 +104,7 @@ include_once "../header.php";
                         <div class="uk-margin uk-padding-small"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="Need" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -118,7 +118,7 @@ include_once "../header.php";
                            
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="solution" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -130,7 +130,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="benefit" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -142,7 +142,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s  uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small ">
-                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="technology" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -173,7 +173,7 @@ include_once "../header.php";
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="need" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -186,7 +186,7 @@ include_once "../header.php";
                         
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="solution" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -198,7 +198,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="benefit" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -228,7 +228,7 @@ include_once "../header.php";
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="need" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -241,7 +241,7 @@ include_once "../header.php";
                             
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="solution" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -255,7 +255,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="benefit" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -284,7 +284,7 @@ include_once "../header.php";
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="need" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -299,7 +299,7 @@ include_once "../header.php";
                             
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="solution" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -314,7 +314,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="benefit" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -328,7 +328,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="technology" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -358,7 +358,7 @@ include_once "../header.php";
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="need" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -373,7 +373,7 @@ include_once "../header.php";
                             
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="solution" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -387,7 +387,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="benefit" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -419,7 +419,7 @@ include_once "../header.php";
                         <div class="uk-margin uk-padding-small uk-margin-small-left "> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="need" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -432,7 +432,7 @@ include_once "../header.php";
                            
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="solution" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -445,7 +445,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="benefit" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -458,7 +458,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="technology" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -488,7 +488,7 @@ include_once "../header.php";
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="need" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -502,7 +502,7 @@ include_once "../header.php";
                             
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="solution" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -516,7 +516,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="benefit" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -529,7 +529,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="technology" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -560,7 +560,7 @@ include_once "../header.php";
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="need" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -575,7 +575,7 @@ include_once "../header.php";
                             
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="solution" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -588,7 +588,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="benefits" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -600,7 +600,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="technology" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -631,7 +631,7 @@ include_once "../header.php";
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="need" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -645,7 +645,7 @@ include_once "../header.php";
                             
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="solution" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -658,7 +658,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="benefits" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -670,7 +670,7 @@ include_once "../header.php";
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="technology" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -693,7 +693,7 @@ include_once "../header.php";
 <!---Resource page ends-->
 
 <?php
-include_once "../footer.php"
+    include_once "../footer.php"
 ?>
 
 

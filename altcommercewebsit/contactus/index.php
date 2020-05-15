@@ -1,7 +1,7 @@
 <?php
-$meta3 = 'At Alt Commerce, our goal is to deliver solutions that exactly meet the business objectives of our clients. We look forward to learning how we can help you.';
-$currentPage = 'about';
-include_once "../header.php";
+    $meta3 = 'At Alt Commerce, our goal is to deliver solutions that exactly meet the business objectives of our clients. We look forward to learning how we can help you.';
+    $currentPage = 'about';
+    include_once "../header.php";
 ?>
 
 <!--contact us start-->
@@ -33,7 +33,7 @@ include_once "../header.php";
                         <div class="uk-inline">
                             <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                             
-                                <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/noida.jpg" alt="" style="opacity: 0.9; width: 300px; height: 222px;">
+                                <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/noida.jpg" alt="Noida Office" style="opacity: 0.9; width: 300px; height: 222px;">
                                 <div class="uk-overlay uk-position-center"><button type="button" class="uk-button uk-button-text" ><a  class="cases_btnlink" href="https://goo.gl/maps/yn6EXoLCaQzXEMEY9" style="color:white;" target="_blank">CORPORATE OFFICE </a></button>
                             </div>
              
@@ -43,7 +43,7 @@ include_once "../header.php";
 
                         <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                         
-                            <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/Bangalore.jpg" alt="" style="opacity: 0.9; width: 300px; height: 222px;">
+                            <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/Bangalore.jpg" alt="Banglore office" style="opacity: 0.9; width: 300px; height: 222px;">
                             <div class="uk-overlay uk-position-center"><button type="button" class="uk-button uk-button-text" ><a  class="cases_btnlink" href="https://goo.gl/maps/ycdkDSCKBfi7pqc76" style="color:white;" target="_blank">BANGALORE OFFICE </a></button>
                             </div>
             
@@ -67,9 +67,6 @@ include_once "../header.php";
         
     </div>
 </div>
-
-
-
 
 <!--contact us end -->
 <?php

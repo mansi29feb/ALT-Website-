@@ -3,7 +3,7 @@
     $url = $_SERVER["REQUEST_URI"];
 	$explodeUrl	=	explode("/",$url);
 	if($explodeUrl[2]!=''){$filePath	=	'../';}else{$filePath	=	'';}
- ?>
+?>
 
 <!--footer start -->
 

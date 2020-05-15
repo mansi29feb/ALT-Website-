@@ -75,14 +75,14 @@
                 <div class="uk-navbar">
                     <div class="menu-toggle">
                         <button class="uk-margin-small-right mobile-navbutton" uk-toggle="target: #offcanvas-usage">
-                           <img src="https://img.icons8.com/ios-filled/50/000000/menu.png" style="height: 27px; width: 22px;">
+                           <img src="https://img.icons8.com/ios-filled/50/000000/menu.png" alt="toggle" style="height: 27px; width: 22px;">
                         </button>
                     </div>
                     <div class="uk-flex uk-navbar-left logo-img">
                         <div class="uk-navbar-item  clear-padd brand-logo img">       
                 <picture>
                     <source srcset="<?php echo $filePath;?>images/alt.webp" type="image/webp">
-                    <img class="image" src="<?php echo $filePath;?>images/alt.png" alt="">
+                    <img class="image" src="<?php echo $filePath;?>images/alt.png" alt="ALT Logo">
                 </picture>
                         </div>
 

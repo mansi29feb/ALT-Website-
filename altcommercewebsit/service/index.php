@@ -1,8 +1,8 @@
       
 <?php
-$meta6 = 'Customer satisfaction is our motto and we strive to provide the best solution to our clients.';
-$currentPage = 'service';    
-include_once '../header.php';
+    $meta6 = 'Customer satisfaction is our motto and we strive to provide the best solution to our clients.';
+    $currentPage = 'service';    
+    include_once '../header.php';
 ?>
 
 
@@ -14,12 +14,12 @@ include_once '../header.php';
             today with a strong trust of our clients on us.
         </p>
         
-        <div class=""> <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/cloud.png" width="1000" height="1000" uk-img></div>
+        <div class=""> <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/cloud.png" alt="Words Cloud" width="1000" height="1000" uk-img></div>
         <div class=" uk-text-center services_subheading uk-margin-medium-bottom">
          Customer trusts us to deliver customized, end-to-end implementations.
         </div>
        
-        <div class=""> <img class="uk-align-center lazy " data-src="<?php echo $filePath;?>images/employee.png" width="400" height="400" uk-img></div>
+        <div class=""> <img class="uk-align-center lazy " data-src="<?php echo $filePath;?>images/employee.png" alt="meeting" width="400" height="400" uk-img></div>
         <p class="uk-text-center services_mainpara">
             We at ALT Commerce provide affordable and quality services to various clients across the
             Globe.</br> Very few Indian companies could reach the zenith that we have reached 
@@ -31,25 +31,25 @@ include_once '../header.php';
                 <div class="uk-child-width-1-2@s uk-grid-small " uk-grid >
                     <div class="uk-width-1-2@s" >
                         <div class="uk-margin uk-padding-small uk-card uk-card-default uk-card-hover">
-                            <img class="uk-align-center lazy " data-src="<?php echo $filePath;?>images/atg.png" width="200" height="200" uk-img>
+                            <img class="uk-align-center lazy " data-src="<?php echo $filePath;?>images/atg.png" alt="atg Logo" width="200" height="200" uk-img>
                         </div>
                         <div class="uk-margin uk-padding-small">
-                            <img class="uk-align-center lazy " data-src="<?php echo $filePath;?>images/skills-page/commercetools.png" width="200" height="200" uk-img uk-scrollspy="cls: uk-animation-fade">
+                            <img class="uk-align-center lazy " data-src="<?php echo $filePath;?>images/skills-page/commercetools.png" alt="Commercetools Logo" width="200" height="200" uk-img uk-scrollspy="cls: uk-animation-fade">
                         </div>
                         <div class="uk-margin uk-padding uk-card uk-card-default uk-card-hover">
-                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/azure.png" width="300" height="300" uk-img>
+                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/azure.png" alt="Azure Logo" width="300" height="300" uk-img>
                         </div>
                        
                     </div>
                     <div class="uk-width-1-2@s ">
                         <div class="uk-margin uk-padding">
-                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/oracle-endeca.jpg" width="200" height="200" uk-img uk-scrollspy="cls: uk-animation-fade">
+                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/oracle-endeca.jpg" alt="Endeca Logo" width="200" height="200" uk-img uk-scrollspy="cls: uk-animation-fade">
                         </div>
                         <div class="uk-padding-small uk-margin-medium-top uk-card uk-card-default uk-card-hover">
-                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/aem.png" width="200" height="200" uk-img>
+                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/aem.png" alt="AEM Logo" width="200" height="200" uk-img>
                         </div>
                         <div class="uk-margin">
-                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/skills-page/java.png" width="100" height="100" uk-img uk-scrollspy="cls: uk-animation-fade">
+                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/skills-page/java.png" alt="Java Logo" width="100" height="100" uk-img uk-scrollspy="cls: uk-animation-fade">
                         </div>
                     </div>
 
@@ -69,7 +69,7 @@ include_once '../header.php';
         </div>
 
         <div class="uk-margin uk-padding uk-margin-remove-top">
-            <div> <img class="uk-align-center " data-src="<?php echo $filePath;?>images/license.svg" width="150" height="150" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat:true;"></div>
+            <div> <img class="uk-align-center " data-src="<?php echo $filePath;?>images/license.svg" alt="Digital Commerce" width="150" height="150" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat:true;"></div>
             <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Digital Commerce</div>
             <p class="uk-text-center services_mainpara"> Digital commerce is in the midst of revolution and things are moving 
                 faster than ever.While all this excitement means new possibilities, it also comes with the challenge of figuring 
@@ -79,9 +79,9 @@ include_once '../header.php';
 
 
         
-           <!-------Services Implementation---->
+           <!-----Planning & Strategy------>
             <div class="uk-margin uk-padding uk-padding-remove-bottom">
-                <div> <img class=" uk-align-center " data-src="<?php echo $filePath;?>images/setup.svg" width="150" height="150" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat:true;"></div>
+                <div> <img class=" uk-align-center " data-src="<?php echo $filePath;?>images/setup.svg" alt="Planning" width="150" height="150" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat:true;"></div>
                 <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Planning & Strategy</div>
                 <p class="uk-text-center services_mainpara"> Customer satisfaction is our motto and we strive to provide the best solution to our clients. 
                     Very few Indian companies could reach the zenith that we have reached 
@@ -108,25 +108,25 @@ include_once '../header.php';
                     </div>
 
             </div>
-            <!-------Services Implementation Ends----------->
+            <!-------Planning & Strategy Ends----------->
 
 
-             <!---------Infrastructure Services----->
+             <!---------End To End Service----->
          <div class="uk-margin uk-padding">
-            <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/coding.svg" width="150" height="150" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat:true;"></div>
+            <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/coding.svg" alt="End To End Service Icon" width="150" height="150" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat:true;"></div>
             <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">End To End Service</div>
             <p class="uk-text-center services_mainpara"> 
                 Compromising creative software design business analysis backed by prototyping and data visualization services. 
                 QA & testing activities, development , hosting, support  and maintenance - we’ve got it all covered for you.
                 
         </div>
-        <!---------Infrastructure Services Ends----->
+        <!---------End To End Service Ends----->
 
          
 
-            <!----------High End Engineering Starts-------->
+            <!----------Web Design & Development Starts-------->
             <div class="uk-margin uk-padding">
-                <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/globe.svg" width="150" height="150" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat:true;"></div>
+                <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/globe.svg" alt="Web Design & Development Icon" width="150" height="150" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat:true;"></div>
                 <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top">Web Design & Development</div>
                 <p class="uk-text-center services_mainpara"> Software Development at ALT Commerce has lots of benefits. Through our custom 
                     software development you reduce costs of outsourcing software development and  get the best software utility ever.
@@ -157,21 +157,21 @@ include_once '../header.php';
                         </div>
                     </div>
             </div>
-            <!-------High end Engineering Ends------------>
+            <!-------Web Design & Development Ends------------>
 
-           <!---------Consulting & Research Starts----->
+           <!---------Agile Methodology Starts----->
            <div class="uk-margin uk-padding">
-            <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/consultant.svg" width="150" height="150" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat:true;"></div>
+            <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/consultant.svg" alt="Agile Methodology Icon" width="150" height="150" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat:true;"></div>
             <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">Agile Methodology</div>
             <p class="uk-text-center services_mainpara"> Ensuring short time-to-market figures and iterative approach to software development, 
                 particularly fit to win the competition in the dynamic online landscape.
                 
             </div>
-    <!---------Consulting & Research Ends----->
+    <!---------Agile Methodology Ends----->
 
             <!---------User Journey & Experience Starts----->
             <div class="uk-margin uk-padding uk-margin-large-bottom">
-                <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/team.svg" width="150" height="150" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat:true;"></div>
+                <div> <img class="uk-align-center" data-src="<?php echo $filePath;?>images/team.svg" alt="User Journey & Exp Icon" width="150" height="150" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat:true;"></div>
                 <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top ">User Journey & Experience</div>
                 <p class="uk-text-center services_mainpara"> Providing our customers with a consistent and seamless brand experience 
                     is a given when the competition is only a click away. At ALT commerce customers becoming advocates for the company, creating referral, retention and profitable growth.

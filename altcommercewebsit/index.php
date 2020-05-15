@@ -3,11 +3,8 @@
     $meta1 = 'ALT commerce is an expert in Omni-Channel Commerce and delivering Oracle Commerce, Commerce Cloud and the suite of Oracle CX products.';
     $currentPage = 'home';
      include_once 'header.php';
- ?>
-  
-   
-  
-   
+?> 
+
 <!--Slider start-->
 <div class="uk-container hero-section">
         <div class="uk-margin-large-bottom" uk-slider="autoplay: true">
@@ -463,7 +460,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="Need" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -476,7 +473,7 @@
                         
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="Solution" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -488,7 +485,7 @@
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="Benefit" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -518,7 +515,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="Need" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -533,7 +530,7 @@
                         
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="Solution" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -548,7 +545,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="Benefit" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -562,7 +559,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="Technology" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -595,7 +592,7 @@
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="Need" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -610,7 +607,7 @@
                             
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                    <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="Solution" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -623,7 +620,7 @@
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="Benefit" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -635,7 +632,7 @@
 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
-                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
+                                    <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="Technology" width="45" height="45" uk-img>
                                 </div>
                                 <div class="uk-width-expand@s">
                                     <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -667,7 +664,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="Need" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -680,7 +677,7 @@
                         
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="Solution" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -694,7 +691,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="Benefits" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -726,7 +723,7 @@
                     <div class="uk-margin uk-padding"> 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="Need" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">
@@ -740,7 +737,7 @@
                         
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" width="45" height="45" uk-img>
+                                <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="Solution" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Our Solution: </div> 
@@ -754,7 +751,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse " uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="Benefit" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Benefits: </div> 
@@ -767,7 +764,7 @@
 
                         <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                             <div class="uk-width-auto@s uk-padding-small">
-                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" width="45" height="45" uk-img>
+                                <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="Technology" width="45" height="45" uk-img>
                             </div>
                             <div class="uk-width-expand@s">
                                 <div class="uk-h3 case_points uk-margin-remove-bottom">Technology used:</div>
@@ -831,7 +828,7 @@
             <div class="uk-child-width-1-3@m uk-child-width-1-1@s uk-grid-medium uk-padding" uk-grid>
                 <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-left;">
                     <div >
-                        <img class="uk-align-center" data-src="images/designer.svg" width="80" height="80" alt="" uk-img>
+                        <img class="uk-align-center" data-src="images/designer.svg" alt="Designing icon" width="80" height="80" alt="" uk-img>
                     </div>
                     <div class="uk-text-center">
                         <div class="uk-text-bold uk-text-secondary test_heading">1. Designing</div>
@@ -840,7 +837,7 @@
                 </div>
                 <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-top;">
                     <div >
-                        <img class="uk-align-center" data-src="images/edit-code.svg" width="80" height="80" alt="" uk-img>
+                        <img class="uk-align-center" data-src="images/edit-code.svg" alt="Development icon" width="80" height="80" alt="" uk-img>
                         <div class="uk-text-center">
                             <div class="uk-text-bold uk-text-secondary test_heading">2. Development</div>
                             <p class="test_para"> Developing a design around solutions to the problems presented by requirements.</p>
@@ -849,7 +846,7 @@
                 </div>
                 <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-right;">
                     <div >
-                        <img class="uk-align-center" data-src="images/deployment.svg" width="80" height="80" alt="" uk-img>
+                        <img class="uk-align-center" data-src="images/deployment.svg" alt="Deployment icon" width="80" height="80" alt="" uk-img>
                         <div class="uk-text-center">
                             <div class="uk-text-bold uk-text-secondary test_heading">3. Deployment</div>
                             <p class="test_para">We are delivering complete solutions and resolving the user’s problem. 
@@ -872,7 +869,7 @@
                                 <div class="uk-card uk-card-default">
                                    
                                     <div class="uk-card-media-top uk-padding-remove">
-                                        <img class="uk-align-center uk-margin-small-top"  data-src="images/writer.svg" width="50" height="50" alt="" uk-img>
+                                        <img class="uk-align-center uk-margin-small-top" data-src="images/writer.svg" width="50" height="50" alt="quote icon" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">I never considered ALT Commerce as a consulting company, I always count them as an extension of my own team. </p>
@@ -885,7 +882,7 @@
                             <li class="slider_item ">
                                 <div class="uk-card uk-card-default">
                                     <div class="uk-card-media-top uk-padding-remove">
-                                        <img class="uk-align-center uk-margin-small-top" data-src="images/writer.svg" width="50" height="80" alt="" uk-img>
+                                        <img class="uk-align-center uk-margin-small-top" data-src="images/writer.svg" width="50" height="80" alt="quote icon" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         
@@ -901,7 +898,7 @@
                             <li class="slider_item">
                                 <div class="uk-card uk-card-default">
                                     <div  class="uk-card-media-top uk-padding-remove">
-                                        <img class="uk-align-center uk-margin-small-top" data-src="images/writer.svg" width="50" height="50" alt="" uk-img>
+                                        <img class="uk-align-center uk-margin-small-top" data-src="images/writer.svg" width="50" height="50" alt="quote icon" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">In our very first meeting, I got so many solutions to our 
@@ -915,7 +912,7 @@
                             <li class="slider_item">
                                 <div class="uk-card uk-card-default">
                                     <div class="uk-card-media-top uk-padding-remove">
-                                        <img class="uk-align-center uk-margin-small-top" data-src="images/writer.svg" width="50" height="50" alt="" uk-img>
+                                        <img class="uk-align-center uk-margin-small-top" data-src="images/writer.svg" width="50" height="50" alt="quote icon" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">ALT Commerce team's innovative ideas and solutions are always best and we always look forward to them. </p>
@@ -931,7 +928,7 @@
                                 <div class="uk-card uk-card-default">
                                    
                                     <div class="uk-card-media-top uk-padding-remove">
-                                        <img class="uk-align-center uk-margin-small-top"  data-src="images/writer.svg" width="50" height="50" alt="" uk-img>
+                                        <img class="uk-align-center uk-margin-small-top"  data-src="images/writer.svg" width="50" height="50" alt="quote icon" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
                                         <p class="uk-text-center">I preferred Alt Commerce over big companies because of the quality and the stability of their people. </p>
@@ -1033,7 +1030,7 @@
                     <div class="uk-child-width-1-3 alt_desc" uk-grid>
 
                         <div class="uk-width-auto@m uk-margin-medium-right uk-margin-small-top" uk-scrollspy="cls: uk-animation-fade;">
-                            <img data-src="images/alt.png" width="90px" height="60px" alt="" uk-img>
+                            <img data-src="images/alt.png" width="90px" height="60px" alt="ALT logo" uk-img>
                         </div>
 
                         <div class="uk-width-expand@m  uk-grid-divider  uk-margin-medium-bottom uk-text-small uk-text-emphasis text" uk-scrollspy="cls: uk-animation-slide-left-small;">
@@ -1111,48 +1108,48 @@
 
 <?php
 	 include_once 'footer.php';
- ?>
+?>
 
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-     <script>
-       function onSubmit(token) {
-         document.getElementById("demo-form").submit();
-       }
+<script>
+        function onSubmit(token) {
+            document.getElementById("demo-form").submit();
+        }
 
-       document.querySelector("#file").onchange = function(){
-  document.querySelector("#file-name").textContent = this.files[0].name;
-}
-
-$("#file").change(function() {
-    var file = this.files[0];
-    var fileType = file.type;
-    var match = ['application/pdf'];
-    if(!((fileType == match[0]))){
-        alert('Sorry, only PDF files are allowed to upload.');
-        $("#file").val('');
-        return false;
+        document.querySelector("#file").onchange = function(){
+    document.querySelector("#file-name").textContent = this.files[0].name;
     }
-});
+
+    $("#file").change(function() {
+        var file = this.files[0];
+        var fileType = file.type;
+        var match = ['application/pdf'];
+        if(!((fileType == match[0]))){
+            alert('Sorry, only PDF files are allowed to upload.');
+            $("#file").val('');
+            return false;
+        }
+    });
 
 
 
-$(document).ready(function(e){
-    // Submit form data via Ajax
-    $("#demo-form").on('submit', function(e){
-        e.preventDefault();
-        $.ajax({
-            type: 'POST',
-            url: 'submit.php',
-            data: new FormData(this),
-            dataType: 'json',
-            contentType: false,
-            cache: false,
-            processData:false,
-            beforeSend: function(){
-                $('.form_btn').attr("disabled","disabled");
-                $('#demo-form').css("opacity",".5");
-            },
+    $(document).ready(function(e){
+        // Submit form data via Ajax
+        $("#demo-form").on('submit', function(e){
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: 'submit.php',
+                data: new FormData(this),
+                dataType: 'json',
+                contentType: false,
+                cache: false,
+                processData:false,
+                beforeSend: function(){
+                    $('.form_btn').attr("disabled","disabled");
+                    $('#demo-form').css("opacity",".5");
+                },
             success: function(response){ //console.log(response);
                 $('.statusMsg').html('');
                 if(response.status == 1){
@@ -1165,15 +1162,15 @@ $(document).ready(function(e){
                     alert(response.message);
                 }
                 $('#demo-form').css("opacity","");
-                $(".form_btn").removeAttr("disabled");
-            }
+                    $(".form_btn").removeAttr("disabled");
+                }
+            });
         });
     });
-});
 
 
 
-     </script>
+</script>
 <script>
     if ('loading' in HTMLImageElement.prototype) {
         const images = document.querySelectorAll("img.lazy");
