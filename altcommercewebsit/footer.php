@@ -77,15 +77,6 @@
     <script src="<?php echo $filePath;?>js/modernizr-custom.js"></script>
 <script>
 
-        // var fPoppins = new FontFaceObserver("Poppins");
-        // fPoppins.load().then(function () {
-        //     var x = document.getElementsByClassName("mySpecialContent");
-        //     for (i = 0; i < x.length; i++) {
-        //     x[i].className += " fonts-loaded";
-        //     }
-        //     document.getElementById("myElement").className += " fonts-loaded";
-        // });
-
     if ('loading' in HTMLImageElement.prototype) {
         const images = document.querySelectorAll("img.lazy");
         images.forEach(img => {

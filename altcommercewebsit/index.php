@@ -63,7 +63,7 @@
             <div class="uk-width-1-1@s">
                 <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-margin-small-left" uk-grid >
 
-                    <!--left side-->
+                <!--left side-->
                     <div class="uk-child-width-1-1@s uk-grid-match uk-margin-large-top uk-margin-medium-bottom " uk-grid uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: false">
                         <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s grid1" uk-grid>
                             <div class="uk-width-1-5@s  uk-padding-remove hide-icon uk-hidden@m ">
@@ -112,10 +112,10 @@
 
                     </div>
 
-                    <!--left side ends-->
+                <!--left side ends-->
 
 
-                    <!--middle part-->
+                <!--middle part-->
                     <div class="uk-child-width-1-1@s uk-visible@m uk-padding-remove uk-margin-medium-bottom uk-margin-small-left" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: false">
                         <div class="uk-width-1-1@s uk-padding-remove uk-align-center">
                             <img class="mobile_img lazy" data-src="images/warranty-period.svg" alt="middle image" uk-img>
@@ -123,10 +123,10 @@
 
                     </div>
 
-                    <!------middle part ends----->
+                <!------middle part ends----->
 
 
-                    <!-----right side-------->
+                <!-----right side-------->
 
                     <div class="uk-child-width-1-1@s uk-grid-match uk-margin-small-left uk-margin-large-top uk-grid-collapse uk-margin-medium-bottom" uk-grid uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: false">
                         <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s uk-margin-remove-bottom"  uk-grid>
@@ -168,7 +168,7 @@
 
 
 
-                    <!--right side ends-->
+                <!--right side ends-->
 
 
                 </div>
