@@ -67,7 +67,6 @@
     </div>
     <!--mobile nav end-->
     <script async src="js/responsivelyLazy.min.js"></script>
-    <script src="fontfaceobserver.standalone.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
     <script  src="<?php echo $filePath;?>js/count.min.js" ></script>
