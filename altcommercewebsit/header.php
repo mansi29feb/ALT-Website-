@@ -21,7 +21,7 @@
 	    
         <title>Digital Commerce with ALT Commerce</title>
         <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
-
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         
 	    <link rel="shortcut icon" href="<?php echo $filePath;?>images/alt.png">
 	    <link rel="stylesheet" href="<?php echo $filePath;?>css/uikit.min.css">
@@ -32,10 +32,15 @@
      
    
 	</head>
-	<body class=" uk-background-norepeat <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
+	<body class=" uk-background-norepeat lazy <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
     <div class="preloader-wrapper">
-        <div class="preloader">
-            <img src="images/Preloader.gif" alt="" >
+        <div class="preloader" >
+            <!-- <img src="images/Preloader.gif" alt="" > -->
+            <img class="responsively-lazy" alt="Preloader" src="<?php echo $filePath;?>images/preloader.png"
+                 data-srcset="<?php echo $filePath;?>images/preloader.png 400w, <?php echo $filePath;?>images/preloader.webp 400w, 
+                 <?php echo $filePath;?>images/preloader.png 600w, <?php echo $filePath;?>images/preloader.webp 600w,
+                  <?php echo $filePath;?>images/preloader.png 1000w <?php echo $filePath;?>images/preloader.webp 1000w" 
+                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
         </div>
     </div> 
 

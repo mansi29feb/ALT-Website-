@@ -66,15 +66,15 @@
         </div>
     </div>
     <!--mobile nav end-->
-    <script async src="<?php echo $filePath;?>js/responsivelyLazy.min.js"></script>
+    <script src="<?php echo $filePath;?>js/modernizr-custom.js"></script>
+    <script async src="<?php echo $filePath;?>js/responsivelylazy.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
-    <script  src="<?php echo $filePath;?>js/count.min.js" ></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.0/lazysizes.min.js"></script>
+    <script src="<?php echo $filePath;?>js/count.min.js" defer></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js" defer></script> -->
+    <script src="<?php echo $filePath;?>js/lazysizes.min.js" defer></script>
     <script src="<?php echo $filePath;?>js/uikit.min.js" defer></script>
     <script src="<?php echo $filePath;?>js/uikit-icons.min.js" defer></script>
-    <script src="<?php echo $filePath;?>js/modernizr-custom.js"></script>
+    
 <script>
 
     if ('loading' in HTMLImageElement.prototype) {
