@@ -18,17 +18,20 @@
         	$explodeUrl	=	explode("/",$url);
         	if($explodeUrl[2]!=''){$filePath	=	'../';}else{$filePath	=	'';}
         ?>
-	    
+
         <title>Digital Commerce with ALT Commerce</title>
         <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         
-	    <link rel="shortcut icon" href="<?php echo $filePath;?>images/alt.png">
-	    <link rel="stylesheet" href="<?php echo $filePath;?>css/uikit.min.css">
-	  
-	    <link rel="stylesheet" href="<?php echo $filePath;?>css/altcommerce-style.css">
-	    <link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.css">
-	    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="<?php echo $filePath;?>images/alt.png">
+        <link rel="stylesheet" href="<?php echo $filePath;?>css/uikit.min.css" media="print" onload="this.media='all'; this.onload=null;">
+	    <!-- <link rel="stylesheet" href="<?php echo $filePath;?>css/uikit.min.css"> -->
+        <link rel="stylesheet" href="<?php echo $filePath;?>css/altcommerce-style.css" media="print" onload="this.media='all'; this.onload=null;">
+        <!-- <link rel="stylesheet" href="<?php echo $filePath;?>css/altcommerce-style.css"> -->
+        <link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.css" media="print" onload="this.media='all'; this.onload=null;">
+	    <!-- <link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.css"> -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" rel="stylesheet">
+        <!-- <link rel="preload" rel="font" href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap"> -->
      
    
 	</head>

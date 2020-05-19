@@ -2,9 +2,7 @@ body  {
    font-family: poppins;
    overflow-x: hidden;
   }
-  body a:focus{
-   background-color: #fff;
-  }
+
 /*preloader */
  .preloader-site {
     overflow: hidden;

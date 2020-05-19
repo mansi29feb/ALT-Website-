@@ -746,30 +746,18 @@ $currentPage = 'skill';
          btn.addEventListener('click', () => {
         myBtns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-    });
+                });
 
-});
+            });
 
-});
+            });
 
 
     </script>
-    <script>
-  if ('loading' in HTMLImageElement.prototype) {
-      const images = document.querySelectorAll("img.lazy");
-      images.forEach(img => {
-          img.src = img.dataset.src;
-      });
-  } else {
-      // Dynamically import the LazySizes library
-    let script = document.createElement("script");
-    script.async = true;
-    script.src =
-      "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.0/lazysizes.min.js";
-    document.body.appendChild(script);
-  }
-</script>
 
+</body>
+
+</html>
     
 
     

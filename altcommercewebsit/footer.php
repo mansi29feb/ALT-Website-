@@ -67,7 +67,7 @@
     </div>
     <!--mobile nav end-->
     <script src="<?php echo $filePath;?>js/modernizr-custom.js"></script>
-    <script async src="<?php echo $filePath;?>js/responsivelylazy.min.js"></script>
+    <script src="<?php echo $filePath;?>js/responsivelylazy.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="<?php echo $filePath;?>js/count.min.js" defer></script>
     <!-- <script src="https://www.google.com/recaptcha/api.js" defer></script> -->
@@ -103,6 +103,4 @@
         
 </script> 
    
-</body>
 
-</html>
