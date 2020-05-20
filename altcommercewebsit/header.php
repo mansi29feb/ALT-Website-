@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+    <head>
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -36,7 +36,8 @@
      
    
 	</head>
-	<body class=" uk-background-norepeat lazy <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
+
+<body class=" uk-background-norepeat lazy <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
     <div class="preloader-wrapper">
         <div class="preloader" >
             <!-- <img src="images/Preloader.gif" alt="" > -->
@@ -70,8 +71,9 @@
 
         </div>
     </div>
-    <!--topbar ends-->
-    <!-- navigation -->
+<!--topbar ends-->
+
+<!-- navigation -->
     <div class="uk-container">
 
                 
@@ -140,6 +142,5 @@
 
         </div>
     </div>
-    <!-- navigation ends -->
-	    <!-- navigation ends --> 
+<!-- navigation ends -->
 
