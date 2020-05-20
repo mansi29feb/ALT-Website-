@@ -39,7 +39,6 @@
                 
         <div class="uk-width-1-3@m">
             <div class="uk-text-left career2_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium"> 
-                <!--<i class="fa fa-gamepad stroke-transparent fa-3x" aria-hidden="true"></i>-->
                 <img src="<?php echo $filePath;?>images/culture.jpeg" alt="culture" style="height: 206px; width: 375px;">
                 <div class="uk-h3 uk-text-left services_article_heading  uk-margin-small-top">OUR CULTURE</div>
                 <div class="uk-text-left services_article_para"><p>Client focused and demonstrates the integrity, professional skills, attitude, and behavior required to make our clients successful and drives our organization
@@ -49,7 +48,6 @@
         </div> 
         <div class="uk-width-1-3@m">
                 <div class="uk-text-left career2_box" uk-scrollspy="cls: uk-animation-slide-top-medium">
-                <!--<i class="fa fa-cog stroke-transparent fa-3x" aria-hidden="true"></i>-->
                 <img src="<?php echo $filePath;?>images/ourteam.jpeg" alt="team" style="height: 204px;">
                 <div class="uk-h3 uk-text-left services_article_heading  uk-margin-small-top ">OUR TEAM</div> 
                 
@@ -60,7 +58,6 @@
         </div>
         <div class="uk-width-1-3@m">
                 <div class="uk-text-left career2_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
-           <!-- <i class="fa fa-paper-plane-o stroke-transparent fa-3x" aria-hidden="true"></i>-->
                 <img src="<?php echo $filePath;?>images/ourcompany.jpeg" alt="Company" style="height: 206px; width: 360px;">
                 <div class="uk-h3 uk-text-left services_article_heading uk-margin-small-top ">OUR COMPANY</div> 
                 <div class="uk-text-left services_article_para"><p>Be a highly effective, fast-moving organization that supports the growth of its clients by providing the Oracle Customer Experience (CX) 

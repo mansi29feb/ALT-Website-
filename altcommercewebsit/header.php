@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -30,7 +31,7 @@
         <!-- <link rel="stylesheet" href="<?php echo $filePath;?>css/altcommerce-style.css"> -->
         <link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.css" media="print" onload="this.media='all'; this.onload=null;">
 	    <!-- <link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.css"> -->
-        <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" as="font" onload="this.rel='stylesheet'">
+        <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" as="font" onload="this.rel='stylesheet'" crossorigin>
         <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" rel="stylesheet"> -->
       
      
