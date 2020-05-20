@@ -26,12 +26,13 @@
         <link rel="shortcut icon" href="<?php echo $filePath;?>images/alt.png">
         <link rel="stylesheet" href="<?php echo $filePath;?>css/uikit.min.css" media="print" onload="this.media='all'; this.onload=null;">
 	    <!-- <link rel="stylesheet" href="<?php echo $filePath;?>css/uikit.min.css"> -->
-        <link rel="stylesheet" href="<?php echo $filePath;?>css/altcommerce-style.css" media="print" onload="this.media='all'; this.onload=null;">
+        <link rel="preload" href="<?php echo $filePath;?>css/altcommerce-style.css" as="style" onload="this.rel='stylesheet'">
         <!-- <link rel="stylesheet" href="<?php echo $filePath;?>css/altcommerce-style.css"> -->
         <link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.css" media="print" onload="this.media='all'; this.onload=null;">
 	    <!-- <link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.css"> -->
-        <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" rel="stylesheet">
-        <!-- <link rel="preload" rel="font" href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap"> -->
+        <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" as="font" onload="this.rel='stylesheet'">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" rel="stylesheet"> -->
+      
      
    
 	</head>
