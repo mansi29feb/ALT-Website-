@@ -77,6 +77,7 @@
     
 <script>
 
+
     if ('loading' in HTMLImageElement.prototype) {
         const images = document.querySelectorAll("img.lazy");
         images.forEach(img => {

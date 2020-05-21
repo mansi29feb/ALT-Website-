@@ -14,8 +14,7 @@ body  {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 9999999;
-    
+    z-index: 9999999;    
 }
 .preloader-wrapper .preloader {
     position: absolute;
