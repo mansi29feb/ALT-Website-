@@ -27,16 +27,14 @@
         
         <!-- <link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.css" media="print" onload="this.media='all'; this.onload=null;"> -->
         <link rel="shortcut icon" href="<?php echo $filePath;?>images/alt.png">
-        <link rel="preload" href="<?php echo $filePath;?>css/uikit.min.css" as="style" onload="this.rel='stylesheet'">
-	    <link rel="stylesheet" href="<?php echo $filePath;?>css/uikit.min.css">
-        <link rel="preload"  href="<?php echo $filePath;?>css/altcommerce-style.css" as="style" onload="this.rel='stylesheet'">
-        <link rel="stylesheet" href="<?php echo $filePath;?>css/altcommerce-style.css">
-        <link rel="preload" href="<?php echo $filePath;?>css/style-fixed.css" as="style" onload="this.rel='stylesheet'">
-	    <link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.css">
-        <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" as="style" onload="this.rel='stylesheet'">
-        <link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" rel="stylesheet">
-      
-     
+        <link rel="preload" href="<?php echo $filePath;?>css/uikit.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	    <noscript><link rel="stylesheet" href="<?php echo $filePath;?>css/uikit.min.css"></noscript>
+        <link rel="preload"  href="<?php echo $filePath;?>css/altcommerce-style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="<?php echo $filePath;?>css/altcommerce-style.css"></noscript>
+        <link rel="preload" href="<?php echo $filePath;?>css/style-fixed.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	    <noscript><link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.css"></noscript>
+        <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" rel="stylesheet"></noscript>
    
 	</head>
 
