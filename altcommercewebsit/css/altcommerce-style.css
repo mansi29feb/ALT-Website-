@@ -809,14 +809,14 @@ color:#FE9603;
   }
 
   .menu-toggle{ /*new changes*/
-  margin-left: -56px;
+  margin-left: -27px;
   }
   .logo-img { /* new changes*/
     margin: auto;
     padding-right: 37px !important;
   }
   .uk-sticky-fixed .menu-toggle { /* new changes*/
-    margin-left: -28px;
+    margin-left: -10px;
   }
 
   .slider-title{
@@ -910,11 +910,11 @@ color:#FE9603;
     }
     .uk-sticky-fixed  .logo-img {
       margin: auto !important;
-      padding-right: 314px !important;
+      padding-right: 270px !important;
     }
     .logo-img {
       margin: auto !important;
-      padding-right: 222px !important;
+      padding-right: 147px !important;
     }
     .menu-toggle {
       height: 10px !important;
@@ -1063,7 +1063,7 @@ color:#FE9603;
 }
 .img { /* new change*/
   width: 150px;
-    margin-left: 353px;
+    margin-left: 64px;
 }
 .nav-slider {
 margin: 35px 0px;
@@ -1091,7 +1091,7 @@ margin: 35px 0px;
  
  .uk-sticky-fixed .img{ /*new change*/
   width: 165px;
-  margin-left: 369px;
+  margin-left: 31px;
  }
  
 }
@@ -1135,10 +1135,10 @@ margin: 35px 0px;
     
     }
     .menu-toggle{
-      margin-left: -21px; /*change */
+      margin-left: -4px;
     }
       .uk-sticky-fixed .menu-toggle{ /*change */
-        margin-left: -1px;
+        margin-left: 21px;
       }
 
       .uk-sticky-fixed{
@@ -1181,7 +1181,7 @@ margin: 35px 0px;
       font-family: poppins !important;
   }
   .menu-toggle{ /*changes*/
-  margin-left: -54px;
+  margin-left: -34px;
   }
   .logo-img { /*changes*/
     margin: auto;
@@ -1193,7 +1193,7 @@ margin: 35px 0px;
 }
 
 .uk-sticky-fixed .menu-toggle {
-    margin-left: -34px;
+    margin-left: -10px;
 }
   .uk-sticky-fixed{
     left: -13px !important;
