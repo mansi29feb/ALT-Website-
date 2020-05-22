@@ -79,7 +79,7 @@
 
                 
                 
-        <div class=" uk-child-width-expand@s nav-header" uk-grid  uk-sticky>
+        <div class=" uk-child-width-expand@s nav-header"  uk-sticky>
             
             <div class="clear-padd uk-width-auto@m">
                 <div class="uk-navbar">
@@ -97,13 +97,8 @@
                         </div>
 
                     </div>
-                    
-                </div>
 
-            </div>
-
-
-            <div class="uk-navbar mobile-nav uk-navbar-right uk-width-expand@m">
+                    <div class="mobile-nav uk-navbar-right uk-width-expand@m">
                 
                     <ul class="uk-navbar-nav uk-text-bold nav-menu">
                         <li class="">
@@ -140,6 +135,50 @@
                 
 
             </div>
+
+                    
+                </div>
+
+            </div>
+
+
+            <!-- <div class="mobile-nav uk-navbar-right uk-width-expand@m">
+                
+                    <ul class="uk-navbar-nav uk-text-bold nav-menu">
+                        <li class="">
+                            <a class="<?php if($currentPage =='home'){echo 'active_page';}?>" href="<?php echo $filePath;?>">Home</a>
+                        </li>
+                        <li >
+                            <button class="uk-button sub-menu <?php if($currentPage =='about'){echo 'active_page';}?>">ABOUT US</button>
+                                <div id="about_submenu"  class="drop-navbar" style="display:none;"  uk-dropdown="pos:top-center">
+                                
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li class="sub"><a href="<?php echo $filePath;?>about">WHAT WE DO</a></li>
+                                        <li class="sub"><a href="<?php echo $filePath;?>csr">COMMUNITY</a></li>
+                                        <li class="sub"><a href="<?php echo $filePath;?>contactus">CONTACT US</a></li>
+                                    </ul>
+                              
+                            </div>
+                            
+                        </li>
+                        <li class="">
+                            <a class="<?php if($currentPage =='skill'){echo 'active_page';}?>" href="<?php echo $filePath;?>skill">Skills</a>
+                        </li>
+                        <li >
+                            <a class="<?php if($currentPage =='service'){echo 'active_page';}?>" href="<?php echo $filePath;?>service">Services</a>
+                        </li>
+                        <li >
+                            <a class="<?php if($currentPage =='resource'){echo 'active_page';}?>" href="<?php echo $filePath;?>resource">Resources</a>
+                        </li>
+                        
+                        <li >
+                            <a class="<?php if($currentPage =='career'){echo 'active_page';}?>" href="<?php echo $filePath;?>careers">Careers</a>
+                        </li>
+                       
+                    </ul>
+                
+
+            </div> -->
 
         </div>
     </div>
