@@ -1,5 +1,5 @@
 <?php
-    $meta8 = 'We always have undertaken various initiatives with an aim to improve quality of life & ensure the holistic development of its surrounding communities.';
+    $meta8 = "We always have undertaken various initiatives with an aim to improve quality of life & ensure the holistic development of it's surrounding communities.";
     $currentPage = 'about';
     include_once "../header.php";
 ?>

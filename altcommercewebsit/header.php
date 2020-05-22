@@ -4,14 +4,14 @@
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	    <meta name="Digital Commerce with ALT Commerce" content="<?php echo $meta1; ?>">
-        <meta name="Aboutus-digital commerce with alt commerce" content="<?php echo $meta2; ?>">
-        <meta name="ContactUs - Digital Commerce with Alt Commerce" content="<?php echo $meta3; ?>">
-        <meta name="Careers - Digital Commerce with Alt Commerce" content="<?php echo $meta4; ?>">
-        <meta name="Resources-Digital Commerce with Alt Commerce" content="<?php echo $meta5; ?>">
-        <meta name="Services - Digital Commerce with Alt Commerce" content="<?php echo $meta6; ?>">
-        <meta name="Skills-Digital Commerce with Alt Commerce" content="<?php echo $meta7; ?>">
-        <meta name="Community-Digital Commerce with Alt Commerce" content="<?php echo $meta8; ?>">
+	    <meta name="Digital Commerce with ALTCommerce" content="<?php echo $meta1; ?>">
+        <meta name="Aboutus-Digital commerce with ALTCommerce" content="<?php echo $meta2; ?>">
+        <meta name="ContactUs-Digital Commerce with ALTCommerce" content="<?php echo $meta3; ?>">
+        <meta name="Careers-Digital Commerce with ALTCommerce" content="<?php echo $meta4; ?>">
+        <meta name="Resources-Digital Commerce with ALTCommerce" content="<?php echo $meta5; ?>">
+        <meta name="Services-Digital Commerce with ALTCommerce" content="<?php echo $meta6; ?>">
+        <meta name="Skills-Digital Commerce with ALTCommerce" content="<?php echo $meta7; ?>">
+        <meta name="Community-Digital Commerce with ALTCommerce" content="<?php echo $meta8; ?>">
 	    
 	    <?php 
             $url = $_SERVER["REQUEST_URI"];
