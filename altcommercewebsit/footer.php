@@ -118,7 +118,7 @@
     } 
     if ( ! sessionStorage.getItem( 'doNotShow' ) ) {
     sessionStorage.setItem( 'doNotShow', true );
-    $('#loader').delay(350).fadeOut('slow'); 
+    $('#loader').delay(250).fadeOut('slow'); 
     } else {
     $('#loader').hide();
 }

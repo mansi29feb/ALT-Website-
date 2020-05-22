@@ -47,7 +47,9 @@
                  srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
         </div>
     </div> -->
-    <div id="loader" class="center"></div>
+    <div id="loader" class="center">
+    
+    </div>
 <!--topbar-->
     <div class="uk-container">
         <div class="uk-grid" uk-grid>
