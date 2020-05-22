@@ -48,9 +48,9 @@
         </div>
     </div> -->
     
-    <div id="loader-wrapper">
+   <!-- <div id="loader-wrapper">
             <div id="loader" class="center"></div>
-    </div>
+    </div>-->
 <!--topbar-->
     <div class="uk-container">
         <div class="uk-grid" uk-grid>

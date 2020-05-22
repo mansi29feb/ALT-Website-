@@ -101,7 +101,7 @@
               }
          });
          </script>
-<script>
+<!--<script>
     document.onreadystatechange = function() { 
     if (document.readyState !== "complete") { 
         document.querySelector( 
@@ -124,7 +124,7 @@
     }; 
 
 
-</script>  
+</script>  -->
 
    
 
