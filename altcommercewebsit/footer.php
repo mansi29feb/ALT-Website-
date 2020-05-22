@@ -70,7 +70,6 @@
     <script src="<?php echo $filePath;?>js/responsivelylazy.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="<?php echo $filePath;?>js/count.min.js" defer></script>
-    <!-- <script src="https://www.google.com/recaptcha/api.js" defer></script> -->
     <script src="<?php echo $filePath;?>js/lazysizes.min.js" defer></script>
     <script src="<?php echo $filePath;?>js/uikit.min.js" defer></script>
     <script src="<?php echo $filePath;?>js/uikit-icons.min.js" defer></script>
@@ -101,28 +100,29 @@
              //not-supported
               }
          });
-       </script> 
-         <script>
+
     document.onreadystatechange = function() { 
     if (document.readyState !== "complete") { 
         document.querySelector( 
           "body").style.visibility = "hidden"; 
         document.querySelector( 
-          "#loader").style.visibility = "visible"; 
+          "#loader-wrapper").style.visibility = "visible"; 
     } else { 
         document.querySelector( 
-          "#loader").style.display = "none"; 
+          "#loader-wrapper").style.display = "none"; 
         document.querySelector( 
           "body").style.visibility = "visible"; 
         
     } 
     if ( ! sessionStorage.getItem( 'doNotShow' ) ) {
     sessionStorage.setItem( 'doNotShow', true );
-    $('#loader').delay(250).fadeOut('slow'); 
+    $('#loader-wrapper').delay(250).fadeOut('slow'); 
     } else {
-    $('#loader').hide();
+    $('#loader-wrapper').hide();
 }
 }; 
+
+
 </script>  
 
    

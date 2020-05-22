@@ -36,7 +36,7 @@
    
 	</head>
 
-<body class=" uk-background-norepeat lazy <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
+<body class=" uk-background-norepeat <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
     <!--<div class="preloader-wrapper">
         <div class="preloader" >
             <!-- <img src="images/Preloader.gif" alt="" > 
@@ -47,8 +47,9 @@
                  srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
         </div>
     </div> -->
-    <div id="loader" class="center">
     
+    <div id="loader-wrapper">
+            <div id="loader" class="center"></div>
     </div>
 <!--topbar-->
     <div class="uk-container">
@@ -141,44 +142,6 @@
 
             </div>
 
-
-            <!-- <div class="mobile-nav uk-navbar-right uk-width-expand@m">
-                
-                    <ul class="uk-navbar-nav uk-text-bold nav-menu">
-                        <li class="">
-                            <a class="<?php if($currentPage =='home'){echo 'active_page';}?>" href="<?php echo $filePath;?>">Home</a>
-                        </li>
-                        <li >
-                            <button class="uk-button sub-menu <?php if($currentPage =='about'){echo 'active_page';}?>">ABOUT US</button>
-                                <div id="about_submenu"  class="drop-navbar" style="display:none;"  uk-dropdown="pos:top-center">
-                                
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li class="sub"><a href="<?php echo $filePath;?>about">WHAT WE DO</a></li>
-                                        <li class="sub"><a href="<?php echo $filePath;?>csr">COMMUNITY</a></li>
-                                        <li class="sub"><a href="<?php echo $filePath;?>contactus">CONTACT US</a></li>
-                                    </ul>
-                              
-                            </div>
-                            
-                        </li>
-                        <li class="">
-                            <a class="<?php if($currentPage =='skill'){echo 'active_page';}?>" href="<?php echo $filePath;?>skill">Skills</a>
-                        </li>
-                        <li >
-                            <a class="<?php if($currentPage =='service'){echo 'active_page';}?>" href="<?php echo $filePath;?>service">Services</a>
-                        </li>
-                        <li >
-                            <a class="<?php if($currentPage =='resource'){echo 'active_page';}?>" href="<?php echo $filePath;?>resource">Resources</a>
-                        </li>
-                        
-                        <li >
-                            <a class="<?php if($currentPage =='career'){echo 'active_page';}?>" href="<?php echo $filePath;?>careers">Careers</a>
-                        </li>
-                       
-                    </ul>
-                
-
-            </div> -->
 
         </div>
     </div>
