@@ -119,8 +119,8 @@
     $('#loader-wrapper').delay(250).fadeOut('slow'); 
     } else {
     $('#loader-wrapper').hide();
-}
-}; 
+    }
+    }; 
 
 
 </script>  

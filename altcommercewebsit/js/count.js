@@ -10,20 +10,6 @@ $('.Count').each(function () {
     });
 });
 
-//preloader
-/*$(document).ready(function($) {
-    var Body = $('body');
-    Body.addClass('preloader-site');
-    
-    });
-function preloadeSite(){
-
-    $('.preloader-wrapper').fadeOut();
-    $('body').removeClass('preloader-site');
-
-}
-
-window.addEventListener('load', preloadeSite);*/
 
 
 
