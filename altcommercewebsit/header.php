@@ -37,17 +37,17 @@
 	</head>
 
 <body class=" uk-background-norepeat lazy <?php if($explodeUrl[2]==''){echo "bg-img";} ?>" >
-    <div class="preloader-wrapper">
+    <!--<div class="preloader-wrapper">
         <div class="preloader" >
-            <!-- <img src="images/Preloader.gif" alt="" > -->
+            <!-- <img src="images/Preloader.gif" alt="" > 
             <img class="responsively-lazy" alt="Preloader" src="<?php echo $filePath;?>images/Preloader.png"
                  data-srcset="<?php echo $filePath;?>images/Preloader.png 400w, <?php echo $filePath;?>images/Preloader.webp 400w, 
                  <?php echo $filePath;?>images/Preloader.png 600w, <?php echo $filePath;?>images/Preloader.webp 600w,
                   <?php echo $filePath;?>images/Preloader.png 1000w <?php echo $filePath;?>images/Preloader.webp 1000w" 
                  srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
         </div>
-    </div> 
-
+    </div> -->
+    <div id="loader" class="center"></div>
 <!--topbar-->
     <div class="uk-container">
         <div class="uk-grid" uk-grid>

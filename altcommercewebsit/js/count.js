@@ -10,8 +10,8 @@ $('.Count').each(function () {
     });
 });
 
-preloader
-$(document).ready(function($) {
+//preloader
+/*$(document).ready(function($) {
     var Body = $('body');
     Body.addClass('preloader-site');
     
@@ -23,7 +23,7 @@ function preloadeSite(){
 
 }
 
-window.addEventListener('load', preloadeSite);
+window.addEventListener('load', preloadeSite);*/
 
 
 
