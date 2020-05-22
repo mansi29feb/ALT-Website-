@@ -1061,7 +1061,7 @@ color:#FE9603;
 .mobile-nav{
   display:none;
 }
-.img { /* new change*/
+.img { 
   width: 150px;
     margin-left: 64px;
 }
@@ -1082,16 +1082,16 @@ margin: 35px 0px;
   top: -11px !important;
   width: 100% !important;
  }
- .uk-sticky-fixed .menu-toggle { /* new change*/
+ .uk-sticky-fixed .menu-toggle { 
   height: 10px;
   width: 58px;
   margin-left: -14px;
 }
  
  
- .uk-sticky-fixed .img{ /*new change*/
+ .uk-sticky-fixed .img{ 
   width: 165px;
-  margin-left: 31px;
+  margin-left:31px;
  }
  
 }
