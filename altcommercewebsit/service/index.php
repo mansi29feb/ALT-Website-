@@ -14,7 +14,7 @@
             today with a strong trust of our clients on us.
         </p>
         
-        <div class=""> <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/cloud.png" alt="Words Cloud" width="1000" height="1000" uk-img></div>
+        <div class=""> <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/cloud.png" alt="Words Cloud" width="1000" height="1000" uk-img uk-scrollspy="cls:uk-animation-slide-bottom-medium"></div>
         <div class=" uk-text-center services_subheading uk-margin-medium-bottom">
          Customer trusts us to deliver customized, end-to-end implementations.
         </div>
@@ -87,7 +87,7 @@
                     Very few Indian companies could reach the zenith that we have reached 
                     today with a strong trust of our clients on us.
 
-                    <div class="uk-child-width-1-1@s uk-child-width-1-2@m uk-grid-medium uk-margin" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .services; delay: 300">
+                    <div class="uk-child-width-1-1@s uk-child-width-1-2@m uk-grid-medium uk-margin" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .services; delay: 200">
                         <div class="uk-width-1-1@s uk-width-1-2@m  uk-padding-large uk-padding-remove-top services">
                             <div class="uk-text-left@s uk-text-bold uk-margin-medium-top services_article_heading">INVESTMENT MAXIMIZING</div>
                             <p class=" uk-text-left@m services_article_para uk-text-break"> Alt Commerce Strategic Services can help maximize your investments 
@@ -130,7 +130,7 @@
                 <div class="uk-text-center uk-text-bold services_subheading uk-margin-medium-top">Web Design & Development</div>
                 <p class="uk-text-center services_mainpara"> Software Development at ALT Commerce has lots of benefits. Through our custom 
                     software development you reduce costs of outsourcing software development and  get the best software utility ever.
-                    <div class="uk-child-width-1-1@s uk-child-width-1-3@m uk-grid-medium uk-margin uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .services; delay: 300">
+                    <div class="uk-child-width-1-1@s uk-child-width-1-3@m uk-grid-medium uk-margin uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .services; delay: 200">
                         <div class="uk-width-1-1@s uk-width-1-3@m services">
                             <div class="uk-text-center@s uk-text-left@m uk-text-bold uk-margin-medium-top services_article_heading">HIGHLY RESPONSIVE</div>
                             <p class="uk-text-center@s uk-text-left@m services_article_para uk-text-break"> Ensuresing visitors to the site have a similar 
@@ -176,7 +176,7 @@
                 <p class="uk-text-center services_mainpara"> Providing our customers with a consistent and seamless brand experience 
                     is a given when the competition is only a click away. At ALT commerce customers becoming advocates for the company, creating referral, retention and profitable growth.
                     
-                    <div class="uk-child-width-1-1@s uk-child-width-1-3@m uk-grid-medium uk-margin uk-grid-match" uk-grid  uk-scrollspy="cls: uk-animation-fade; target: .services; delay: 300">
+                    <div class="uk-child-width-1-1@s uk-child-width-1-3@m uk-grid-medium uk-margin uk-grid-match" uk-grid  uk-scrollspy="cls: uk-animation-fade; target: .services; delay: 200">
                         <div class="uk-width-1-1@s uk-width-1-3@m services">
                             <div class="uk-text-center@s uk-text-left@m uk-text-bold uk-margin-medium-top services_article_heading"> DRIVES LOYALTY </div>
                             <p class="uk-text-center@s uk-text-left@m services_article_para uk-text-break">Our goal is to create an enjoyable, ongoing 
