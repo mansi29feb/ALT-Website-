@@ -901,7 +901,7 @@ color:#FE9603;
   /* new added */
   @media screen and (max-width:959px)and (min-width:900px){
     .img {
-      width:  162px !important;
+      width:  152px !important;
       margin-left: 133px !important;
       }
       .uk-sticky-fixed .img {
