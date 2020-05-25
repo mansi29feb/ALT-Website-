@@ -10,7 +10,19 @@ $currentPage = 'skill';
         <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Our Technical Expertise</div>
         <p class="uk-text-center services_mainpara"> Rendering the best services with the updated Technologies.
         </p>
-        <div class=""> <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/skill.jpg" alt="Skills tree" width="800" height="800" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small"></div>
+        <div class="">
+         <!-- <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/skill.webp" alt="Skills tree" width="800" height="800" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small"> -->
+                <!-- <img class="uk-align-center" alt="Skills tree" width="1000" height="666" src="<?php echo $filePath;?>images/skill.jpg"
+                data-srcset="<?php echo $filePath;?>images/skill.jpg 400w, <?php echo $filePath;?>images/skill.webp 400w, 
+                <?php echo $filePath;?>images/skill.jpg 600w, <?php echo $filePath;?>images/skill.webp 600w,
+                <?php echo $filePath;?>images/skill.jpg 1000w <?php echo $filePath;?>images/skill.webp 1000w" 
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /> -->
+               
+                <picture>
+                    <source srcset="<?php echo $filePath;?>images/skill.webp" type="image/webp">
+                    <img class="uk-align-center" width="800" height="800" src="<?php echo $filePath;?>images/skill.jpg" alt="Skill Tree" uk-scrollspy="cls: uk-animation-slide-bottom-small">
+                </picture>
+        </div>
        
     <div class="uk-text-center@s uk-text-bold services_subheading ">Our Skills</div>
     
@@ -130,7 +142,7 @@ $currentPage = 'skill';
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
                                     <!-- <img class=" lazy uk-card  " data-src="<?php echo $filePath;?>images/skills-page/usps.svg" alt="usps logo" height="200" width="200" uk-img > -->
                                     <img class="responsively-lazy uk-card" alt="USPS logo" width="200" height="200" src="<?php echo $filePath;?>images/skills-page/usps.svg"
-                                    data-srcset="<?php echo $filePath;?>images/skills-page/usps.svg 400w, <?php echo $filePath;?>images/skills-page/tomcat.webp 400w, 
+                                    data-srcset="<?php echo $filePath;?>images/skills-page/usps.svg 400w, <?php echo $filePath;?>images/skills-page/usps.webp 400w, 
                                     <?php echo $filePath;?>images/skills-page/usps.svg 600w, <?php echo $filePath;?>images/skills-page/usps.webp 600w,
                                     <?php echo $filePath;?>images/skills-page/usps.svg 1000w <?php echo $filePath;?>images/skills-page/usps.webp 1000w" 
                                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
@@ -148,7 +160,7 @@ $currentPage = 'skill';
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
                                     <!-- <img class="lazy uk-card" data-src="<?php echo $filePath;?>images/skills-page/websphere.png" alt="websphere logo" height="250" width="250" uk-img> -->
                                     <img class="responsively-lazy uk-card" alt="Websphere logo" width="250" height="250" src="<?php echo $filePath;?>images/skills-page/websphere.png"
-                                    data-srcset="<?php echo $filePath;?>images/skills-page/websphere.png 400w, <?php echo $filePath;?>images/skills-page/tomcat.webp 400w, 
+                                    data-srcset="<?php echo $filePath;?>images/skills-page/websphere.png 400w, <?php echo $filePath;?>images/skills-page/websphere.webp 400w, 
                                     <?php echo $filePath;?>images/skills-page/websphere.png 600w, <?php echo $filePath;?>images/skills-page/websphere.webp 600w,
                                     <?php echo $filePath;?>images/skills-page/websphere.png 1000w <?php echo $filePath;?>images/skills-page/websphere.webp 1000w" 
                                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /> 
