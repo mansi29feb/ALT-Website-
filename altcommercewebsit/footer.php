@@ -101,8 +101,8 @@
               }
          });
          </script>
-<!--<script>
-    document.onreadystatechange = function() { 
+<script>
+  /*  document.onreadystatechange = function() { 
     if (document.readyState !== "complete") { 
         document.querySelector( 
           "body").style.visibility = "hidden"; 
@@ -121,10 +121,9 @@
     } else {
     $('#loader-wrapper').hide();
     }
-    }; 
-
-
-</script>  -->
+    }; */
+    
+</script>  
 
    
-
+    
