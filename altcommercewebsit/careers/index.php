@@ -27,46 +27,69 @@ $currentPage = 'career';
             </div>
 
             <div class=" career_box uk-text-center uk-padding-remove-top">
-              <div class="uk-child-width-1-2@s" uk-grid>
-                  <div class="uk-width-1-1@s ">
-                      <div class="uk-h4 services_subheading">Working and Thriving</div>
-                      <div class="uk-child-width-1-2@s " uk-grid>
-                        <p class="uk-width-1-1@s services_mainpara uk-align-center uk-margin-large-horizintal">Stay “ALWAYS AHEAD” by giving your career a kick-start with ALT Commerce.</p>
-                      </div>
-                      
-                  </div>
+                <div class="uk-child-width-1-2@s" uk-grid>
+                    <div class="uk-width-1-1@s ">
+                        <div class="uk-h4 services_subheading">Working and Thriving</div>
+                        <div class="uk-child-width-1-2@s " uk-grid>
+                            <p class="uk-width-1-1@s services_mainpara uk-align-center uk-margin-large-horizintal">Stay “ALWAYS AHEAD” by giving your career a kick-start with ALT Commerce.</p>
+                        </div>
+                        
+                    </div>
                 </div> 
                 <div class="uk-child-width-1-2@m uk-child-width-1-1@s uk-grid-small uk-padding uk-padding-remove-top uk-grid-match" uk-grid>
                   <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-padding-remove-vertical  uk-margin pad_rem" uk-scrollspy="cls: uk-animation-slide-top-medium">
                       <div class="career1_box">
-                      <img class="lazy" data-src="<?php echo $filePath;?>images/career/future.jpg" alt="Future" uk-img>
+                      <!-- <img class="lazy" data-src="<?php echo $filePath;?>images/career/future.jpg" alt="Future" uk-img> -->
+                      <img class="responsively-lazy" alt="Future" width="" height="" src="<?php echo $filePath;?>images/career/future.jpg"
+                        data-srcset="<?php echo $filePath;?>images/career/future.jpg 400w, <?php echo $filePath;?>images/career/future.webp 400w, 
+                        <?php echo $filePath;?>images/career/future.jpg 600w, <?php echo $filePath;?>images/career/future.webp 600w,
+                        <?php echo $filePath;?>images/career/future.jpg 1000w <?php echo $filePath;?>images/career/future.webp 1000w" 
+                        srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                       <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Embracing The Future</div>
                       <div class="uk-margin-small-left services_article_para uk-text-left">We generate possibilities and use the power of creativity to innovate in ways that matter to people. 
                           Careers are made from experiences. At ALT Commerce, those experiences can be diverse, unlimited and far-reaching.</div></br>
         
                         </div>
                   </div >
+
                   <div class="uk-width-1-2@m uk-width-1-1@s uk-padding uk-margin uk-padding-remove-vertical uk-margin-remove-top pad_rem " uk-scrollspy="cls: uk-animation-slide-top-medium"> 
                     <div class="career1_box"> 
-                    <img class="lazy" data-src="<?php echo $filePath;?>images/career/professional.jpg" uk-img>
+                    <!-- <img class="lazy" data-src="<?php echo $filePath;?>images/career/professional.jpg" uk-img> -->
+                        <img class="responsively-lazy" alt="Professional" width="" height="" src="<?php echo $filePath;?>images/career/professional.jpg"
+                        data-srcset="<?php echo $filePath;?>images/career/professional.jpg 400w, <?php echo $filePath;?>images/career/professional.webp 400w, 
+                        <?php echo $filePath;?>images/career/professional.jpg 600w, <?php echo $filePath;?>images/career/professional.webp 600w,
+                        <?php echo $filePath;?>images/career/professional.jpg 1000w <?php echo $filePath;?>images/career/professional.webp 1000w" 
+                        srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                     <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Experienced Professional</div>
                     <div class="uk-margin-small-left services_article_para uk-text-left">We are always looking for passionate, creative team 
                         members who thrive on overcoming technical or business challenges to accomplish 
                         amazing, important work. </div>
                     </div> 
                   </div>
+
                   <div class=" uk-width-1-2@m uk-width-1-1@s uk-padding uk-padding-remove-vertical uk-margin pad_rem " uk-scrollspy="cls: uk-animation-slide-top-medium"> 
                     <div class="career1_box">  
-                    <img class='lazy' data-src="<?php echo $filePath;?>images/career/team2.jpg" alt="Team" uk-img>
+                    <!-- <img class='lazy' data-src="<?php echo $filePath;?>images/career/team2.jpg" alt="Team" uk-img> -->
+                    <img class="responsively-lazy" alt="Team" width="" height="" src="<?php echo $filePath;?>images/career/team2.jpg"
+                        data-srcset="<?php echo $filePath;?>images/career/team2.jpg 400w, <?php echo $filePath;?>images/career/team2.webp 400w, 
+                        <?php echo $filePath;?>images/career/team2.jpg 600w, <?php echo $filePath;?>images/career/team2.webp 600w,
+                        <?php echo $filePath;?>images/career/team2.jpg 1000w <?php echo $filePath;?>images/career/team2.webp 1000w" 
+                        srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                     <div class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">We're a Team & not a bunch of Individuals</div>
                     <div class="uk-margin-small-left services_article_para uk-text-left">If you watch sports, you see how teams function. They work together, encourage each other, 
                         and communicate regularly. Teams work together on all work related projects and help where necessary. 
                         It doesn’t matter who gets&nbsp; credit for what because you accomplish everything together. You’re knit together, not separated.</div>
                      </div>   
                   </div>
+
                   <div class="uk-width-1-2@m uk-width-1-1@s uk-padding-remove-vertical uk-padding uk-margin pad_rem" uk-scrollspy="cls: uk-animation-slide-top-medium">
                     <div class="career1_box"> 
-                    <img class="lazy" data-src="<?php echo $filePath;?>images/career/big-brands.jpg" alt="Big Brands" uk-img>
+                    <!-- <img class="lazy" data-src="<?php echo $filePath;?>images/career/big-brands.jpg" alt="Big Brands" uk-img> -->
+                    <img class="responsively-lazy" alt="Big Brands" width="" height="" src="<?php echo $filePath;?>images/career/big-brands.jpg"
+                        data-srcset="<?php echo $filePath;?>images/career/big-brands.jpg 400w, <?php echo $filePath;?>images/career/big-brands.webp 400w, 
+                        <?php echo $filePath;?>images/career/big-brands.jpg 600w, <?php echo $filePath;?>images/career/big-brands.webp 600w,
+                        <?php echo $filePath;?>images/career/big-brands.jpg 1000w <?php echo $filePath;?>images/career/big-brands.webp 1000w" 
+                        srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                     <div class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">A Chance to work with BIG BRANDS</div>
                     <div class="uk-margin-small-left services_article_para uk-text-left">Don’t be afraid of starting over. It’s a brand new opportunity to rebuild what 
                         you truly want. Joining ALT Commerce is about joining a culture of openness, collaboration, trust & expectation 

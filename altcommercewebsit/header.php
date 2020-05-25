@@ -57,16 +57,16 @@
             <div class="uk-navbar-left nav-social uk-margin-small-top">
                 <ul class=" uk-navbar-nav" >
                     <li>
-                        <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" target="_blank" ></a>
+                        <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" aria-label="Facebook" target="_blank" rel="noopener"></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/altcommerce" uk-icon="twitter" target="_blank"></a>
+                        <a href="https://twitter.com/altcommerce" uk-icon="twitter" aria-label="Twitter" target="_blank" rel="noopener"></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin" target="_blank"></a>
+                        <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin" aria-label="LinkedIn" target="_blank" rel="noopener"></a>
                     </li>
                     <li>
-                        <a href="mailto:info@altcommerce.com" uk-icon="mail" target="_blank"></a>
+                        <a href="mailto:info@altcommerce.com" uk-icon="mail" aria-label="Mail" target="_blank" rel="noopener"></a>
                     </li>
                 </ul>
             </div>
