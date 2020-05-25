@@ -1,6 +1,6 @@
 <?php
-$meta4 = "Current Openings,ORACLE ATG COMMERCE DEVELOPER,Responsibilities: Developing web applications, services and integrating different enterprise .";
-$currentPage = 'career';
+    $meta = "Current Openings,ORACLE ATG COMMERCE DEVELOPER,Responsibilities: Developing web applications, services and integrating different enterprise .";
+    $currentPage = 'career';
 	 include_once '../header.php';
  ?>
     <!-------------------------------------CAREERS SECTION--------------------------------->

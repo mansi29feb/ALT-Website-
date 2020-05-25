@@ -1,5 +1,5 @@
 <?php
-    $meta5 = 'resource';
+    $meta = 'resource';
     $currentPage = 'resource';
     include_once "../header.php";
 ?>

@@ -1,5 +1,5 @@
 <?php
-    $meta3 = "At ALTCommerce, Our goal is to deliver solutions that exactly meet the business objectives of our clients. We look forward to learning how we can help you.";
+    $meta = "At ALTCommerce, Our goal is to deliver solutions that exactly meet the business objectives of our clients. We look forward to learning how we can help you.";
     $currentPage = 'about';
     include_once "../header.php";
 ?>
