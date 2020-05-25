@@ -3,7 +3,7 @@
     $currentPage = 'career';
 	 include_once '../header.php';
  ?>
-    <!-------------------------------------CAREERS SECTION--------------------------------->
+<!-------------------------------------CAREERS SECTION--------------------------------->
 
     <div class="uk-container uk-margin uk-margin-large-bottom ">
         <div class="uk-child-width-1-1@s uk-grid-small" uk-grid>
@@ -43,7 +43,7 @@
                       <img class="responsively-lazy" alt="Future" width="" height="" src="<?php echo $filePath;?>images/career/future.jpg"
                         data-srcset="<?php echo $filePath;?>images/career/future.jpg 400w, <?php echo $filePath;?>images/career/future.webp 400w, 
                         <?php echo $filePath;?>images/career/future.jpg 600w, <?php echo $filePath;?>images/career/future.webp 600w,
-                        <?php echo $filePath;?>images/career/future.jpg 1000w <?php echo $filePath;?>images/career/future.webp 1000w" 
+                        <?php echo $filePath;?>images/career/future.jpg 1000w, <?php echo $filePath;?>images/career/future.webp 1000w" 
                         srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                       <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Embracing The Future</div>
                       <div class="uk-margin-small-left services_article_para uk-text-left">We generate possibilities and use the power of creativity to innovate in ways that matter to people. 
@@ -58,7 +58,7 @@
                         <img class="responsively-lazy" alt="Professional" width="" height="" src="<?php echo $filePath;?>images/career/professional.jpg"
                         data-srcset="<?php echo $filePath;?>images/career/professional.jpg 400w, <?php echo $filePath;?>images/career/professional.webp 400w, 
                         <?php echo $filePath;?>images/career/professional.jpg 600w, <?php echo $filePath;?>images/career/professional.webp 600w,
-                        <?php echo $filePath;?>images/career/professional.jpg 1000w <?php echo $filePath;?>images/career/professional.webp 1000w" 
+                        <?php echo $filePath;?>images/career/professional.jpg 1000w, <?php echo $filePath;?>images/career/professional.webp 1000w" 
                         srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                     <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Experienced Professional</div>
                     <div class="uk-margin-small-left services_article_para uk-text-left">We are always looking for passionate, creative team 
@@ -73,7 +73,7 @@
                     <img class="responsively-lazy" alt="Team" width="" height="" src="<?php echo $filePath;?>images/career/team2.jpg"
                         data-srcset="<?php echo $filePath;?>images/career/team2.jpg 400w, <?php echo $filePath;?>images/career/team2.webp 400w, 
                         <?php echo $filePath;?>images/career/team2.jpg 600w, <?php echo $filePath;?>images/career/team2.webp 600w,
-                        <?php echo $filePath;?>images/career/team2.jpg 1000w <?php echo $filePath;?>images/career/team2.webp 1000w" 
+                        <?php echo $filePath;?>images/career/team2.jpg 1000w, <?php echo $filePath;?>images/career/team2.webp 1000w" 
                         srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                     <div class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">We're a Team & not a bunch of Individuals</div>
                     <div class="uk-margin-small-left services_article_para uk-text-left">If you watch sports, you see how teams function. They work together, encourage each other, 
@@ -88,7 +88,7 @@
                     <img class="responsively-lazy" alt="Big Brands" width="" height="" src="<?php echo $filePath;?>images/career/big-brands.jpg"
                         data-srcset="<?php echo $filePath;?>images/career/big-brands.jpg 400w, <?php echo $filePath;?>images/career/big-brands.webp 400w, 
                         <?php echo $filePath;?>images/career/big-brands.jpg 600w, <?php echo $filePath;?>images/career/big-brands.webp 600w,
-                        <?php echo $filePath;?>images/career/big-brands.jpg 1000w <?php echo $filePath;?>images/career/big-brands.webp 1000w" 
+                        <?php echo $filePath;?>images/career/big-brands.jpg 1000w, <?php echo $filePath;?>images/career/big-brands.webp 1000w" 
                         srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                     <div class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">A Chance to work with BIG BRANDS</div>
                     <div class="uk-margin-small-left services_article_para uk-text-left">Don’t be afraid of starting over. It’s a brand new opportunity to rebuild what 
@@ -209,7 +209,7 @@
 
     </div>
 
-    <!-----------------------------------CAREER SECTION ENDS------------------------------->
+<!-----------------------------------CAREER SECTION ENDS------------------------------->
     <?php
 	 include_once '../footer.php';
     ?>

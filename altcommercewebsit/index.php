@@ -1,4 +1,3 @@
-
 <?php
     $meta = 'ALT commerce is an expert in Omni-Channel Commerce and delivering Oracle Commerce, Commerce Cloud and the suite of Oracle CX products.';
     $currentPage = 'home';
@@ -6,49 +5,48 @@
 ?> 
 
 <!--Slider start-->
-<div class="uk-container hero-section">
-        <div class="uk-margin-large-bottom" uk-slider="autoplay: true">
+    <div class="uk-container hero-section">
+            <div class="uk-margin-large-bottom" uk-slider="autoplay: true">
 
-            <div class="uk-position-relative uk-light nav-slider" tabindex="-1">
-                <ul class="uk-slider-items uk-child-width-1-1@s uk-grid">
-                    <li>
-                        <div class="uk-card font-text">
-                            <div class="uk-card-body uk-text-left">
-                                <h2 class="uk-card-title slider-title">Driving Innovation, Driving
-                                    <br> Results</h2>
-                                <p>Our focus on innovation is based on delivering results for our clients.</p>
+                <div class="uk-position-relative uk-light nav-slider" tabindex="-1">
+                    <ul class="uk-slider-items uk-child-width-1-1@s uk-grid">
+                        <li>
+                            <div class="uk-card font-text">
+                                <div class="uk-card-body uk-text-left">
+                                    <h2 class="uk-card-title slider-title">Driving Innovation, Driving
+                                        <br> Results</h2>
+                                    <p>Our focus on innovation is based on delivering results for our clients.</p>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="uk-card font-text">
-                            <div class="uk-card-body uk-text-left">
-                                <h2 class="uk-card-title slider-title">Agile, Experienced
-                                    <br>&amp; Effective</h2>
-                                <p>ALT commerce is an expert in Omni-Channel Commerce
-                                    <br> and delivering Oracle Commerce, Commerce Cloud and
-                                    <br> the suite of Oracle CX products.</p>
+                        </li>
+                        <li>
+                            <div class="uk-card font-text">
+                                <div class="uk-card-body uk-text-left">
+                                    <h2 class="uk-card-title slider-title">Agile, Experienced
+                                        <br>&amp; Effective</h2>
+                                    <p>ALT commerce is an expert in Omni-Channel Commerce
+                                        <br> and delivering Oracle Commerce, Commerce Cloud and
+                                        <br> the suite of Oracle CX products.</p>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="uk-card font-text">
-                            <div class="uk-card-body uk-text-left">
-                                <h2 class="uk-card-title slider-title">ALT Commerce</h2>
-                                <p>We focus all our work not only on developing and
-                                    <br>maintaining the products and services,
-                                    <br> but rather on building long term relationships.</p>
+                        </li>
+                        <li>
+                            <div class="uk-card font-text">
+                                <div class="uk-card-body uk-text-left">
+                                    <h2 class="uk-card-title slider-title">ALT Commerce</h2>
+                                    <p>We focus all our work not only on developing and
+                                        <br>maintaining the products and services,
+                                        <br> but rather on building long term relationships.</p>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
     </div>
 <!-- Slider ends-->
 
 <!--what we do start-->
-
     <div class="uk-container uk-padding uk-margin">
         <div class="uk-child-width-1-1@s uk-margin-large-top uk-text-center uk-margin-medium-bottom" uk-grid >
             <div class="uk-width-1-1@s">
@@ -69,8 +67,8 @@
                             <div class="uk-width-1-5@s  uk-padding-remove hide-icon uk-hidden@m ">
                                 <!-- <img class="lazy" data-src="images/application.svg" width="60" height="60" alt="Application Icon" uk-img> -->
                                 <img class="responsively-lazy" alt="Application Icon" width="60" height="60" src="<?php echo $filePath;?>images/application.svg"
-                                data-srcset="<?php echo $filePath;?>images/application.svg 400w
-                                <?php echo $filePath;?>images/application.svg 600w" 
+                                data-srcset="<?php echo $filePath;?>images/application.svg 400w,
+                                <?php echo $filePath;?>images/application.svg 600w"
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                             </div>
                             <div class="uk-width-4-5@s uk-margin-remove uk-padding-remove bx1">
@@ -295,7 +293,7 @@
                 <img class="responsively-lazy" alt="Data Center Migration" width="370" height="246" src="<?php echo $filePath;?>images/case/case11.jpg"
                  data-srcset="<?php echo $filePath;?>images/case/case11.jpg 400w, <?php echo $filePath;?>images/case/case11.webp 400w, 
                  <?php echo $filePath;?>images/case/case11.jpg 600w, <?php echo $filePath;?>images/case/case11.webp 600w,
-                  <?php echo $filePath;?>images/case/case11.jpg 1000w <?php echo $filePath;?>images/case/case11.webp 1000w" 
+                  <?php echo $filePath;?>images/case/case11.jpg 1000w, <?php echo $filePath;?>images/case/case11.webp 1000w" 
                  srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
                     <!-- <img class="lazy" data-src="images/case/case11.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
@@ -322,7 +320,7 @@
                 <img class="responsively-lazy" alt="Multi-site implementation" width="370" height="246" src="<?php echo $filePath;?>images/case/case2.jpg"
                  data-srcset="<?php echo $filePath;?>images/case/case2.jpg 400w, <?php echo $filePath;?>images/case/case2.webp 400w, 
                  <?php echo $filePath;?>images/case/case2.jpg 600w, <?php echo $filePath;?>images/case/case2.webp 600w,
-                  <?php echo $filePath;?>images/case/case2.jpg 1000w <?php echo $filePath;?>images/case/case2.webp 1000w" 
+                  <?php echo $filePath;?>images/case/case2.jpg 1000w, <?php echo $filePath;?>images/case/case2.webp 1000w" 
                  srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
                     <div class="works_overlay uk-position-center">
@@ -348,7 +346,7 @@
                 <img class="responsively-lazy" alt="Cross-Reference Tool" width="370" height="246" src="<?php echo $filePath;?>images/case/case7.jpg"
                  data-srcset="<?php echo $filePath;?>images/case/case7.jpg 400w, <?php echo $filePath;?>images/case/case7.webp 400w, 
                  <?php echo $filePath;?>images/case/case7.jpg 600w, <?php echo $filePath;?>images/case/case7.webp 600w,
-                  <?php echo $filePath;?>images/case/case7.jpg 1000w <?php echo $filePath;?>images/case/case7.webp 1000w" 
+                  <?php echo $filePath;?>images/case/case7.jpg 1000w, <?php echo $filePath;?>images/case/case7.webp 1000w" 
                  srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
                     <!-- <img class="lazy" data-src="images/case/case7.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
@@ -374,7 +372,7 @@
                 <img class="responsively-lazy" alt="Twillo Integration" width="370" height="246" src="<?php echo $filePath;?>images/case/case4.jpg"
                  data-srcset="<?php echo $filePath;?>images/case/case4.jpg 400w, <?php echo $filePath;?>images/case/case4.webp 400w, 
                  <?php echo $filePath;?>images/case/case4.jpg 600w, <?php echo $filePath;?>images/case/case4.webp 600w,
-                  <?php echo $filePath;?>images/case/case4.jpg 1000w <?php echo $filePath;?>images/case/case4.webp 1000w" 
+                  <?php echo $filePath;?>images/case/case4.jpg 1000w, <?php echo $filePath;?>images/case/case4.webp 1000w" 
                  srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
 
@@ -402,7 +400,7 @@
                 <img class="responsively-lazy" alt="Site Redesign" width="370" height="246" src="<?php echo $filePath;?>images/case/case5.jpg"
                  data-srcset="<?php echo $filePath;?>images/case/case5.jpg 400w, <?php echo $filePath;?>images/case/case5.webp 400w, 
                  <?php echo $filePath;?>images/case/case5.jpg 600w, <?php echo $filePath;?>images/case/case5.webp 600w,
-                  <?php echo $filePath;?>images/case/case5.jpg 1000w <?php echo $filePath;?>images/case/case5.webp 1000w" 
+                  <?php echo $filePath;?>images/case/case5.jpg 1000w, <?php echo $filePath;?>images/case/case5.webp 1000w" 
                  srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                     <!-- <img class="lazy" data-src="images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="uk-position-center works_overlay">
@@ -427,7 +425,7 @@
                 <img class="responsively-lazy" alt="SalesForce SSO Integration" width="370" height="246" src="<?php echo $filePath;?>images/case/case6.jpg"
                  data-srcset="<?php echo $filePath;?>images/case/case6.jpg 400w, <?php echo $filePath;?>images/case/case6.webp 400w, 
                  <?php echo $filePath;?>images/case/case6.jpg 600w, <?php echo $filePath;?>images/case/case6.webp 600w,
-                  <?php echo $filePath;?>images/case/case6.jpg 1000w <?php echo $filePath;?>images/case/case6.webp 1000w" 
+                  <?php echo $filePath;?>images/case/case6.jpg 1000w, <?php echo $filePath;?>images/case/case6.webp 1000w" 
                  srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
                     <!-- <img class="lazy" data-src="images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
@@ -464,7 +462,7 @@
                                 <!-- <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="Business Need" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="Need" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/client.svg"
-                                data-srcset="<?php echo $filePath;?>images/client.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/client.svg 400w,
                                 <?php echo $filePath;?>images/client.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                             
@@ -484,7 +482,7 @@
                                 <!-- <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="Solution" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="Solution" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/jigsaw.svg"
-                                data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w,
                                 <?php echo $filePath;?>images/jigsaw.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                             
@@ -502,7 +500,7 @@
                                 <!-- <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="benefit" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="benefit" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/benefit.svg"
-                                data-srcset="<?php echo $filePath;?>images/benefit.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/benefit.svg 400w,
                                 <?php echo $filePath;?>images/benefit.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
@@ -520,7 +518,7 @@
                                 <!-- <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="technology" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="technology" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/code.svg"
-                                data-srcset="<?php echo $filePath;?>images/code.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/code.svg 400w,
                                 <?php echo $filePath;?>images/code.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                            
@@ -557,7 +555,7 @@
                                 <!-- <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="Need" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="Need" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/client.svg"
-                                data-srcset="<?php echo $filePath;?>images/client.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/client.svg 400w,
                                 <?php echo $filePath;?>images/client.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                             
@@ -576,7 +574,7 @@
                                     <!-- <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="Solution" width="45" height="45" uk-img> -->
                                     <img class="responsively-lazy uk-margin-auto-vertical" alt="Solution" width="45" height="45" 
                                     src="<?php echo $filePath;?>images/jigsaw.svg"
-                                    data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w
+                                    data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w,
                                     <?php echo $filePath;?>images/jigsaw.svg 600w" 
                                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                                     
@@ -594,7 +592,7 @@
                                     <!-- <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="Benefit" width="45" height="45" uk-img> -->
                                     <img class="responsively-lazy uk-margin-auto-vertical" alt="Benefit" width="45" height="45" 
                                     src="<?php echo $filePath;?>images/benefit.svg"
-                                    data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w
+                                    data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w,
                                     <?php echo $filePath;?>images/benefit.svg 600w" 
                                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                                 
@@ -630,7 +628,7 @@
                                 <!-- <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="Need" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="need" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/client.svg"
-                                data-srcset="<?php echo $filePath;?>images/client.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/client.svg 400w,
                                 <?php echo $filePath;?>images/client.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
@@ -651,7 +649,7 @@
                                 <!-- <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="Solution" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="Solution" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/jigsaw.svg"
-                                data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w,
                                 <?php echo $filePath;?>images/jigsaw.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                            
@@ -672,7 +670,7 @@
                                 <!-- <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="Benefit" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="Benfit" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/benefit.svg"
-                                data-srcset="<?php echo $filePath;?>images/benefit.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/benefit.svg 400w,
                                 <?php echo $filePath;?>images/benefit.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                             
@@ -692,7 +690,7 @@
                                 <!-- <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="Technology" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="Technology" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/code.svg"
-                                data-srcset="<?php echo $filePath;?>images/code.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/code.svg 400w,
                                 <?php echo $filePath;?>images/code.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                             
@@ -731,7 +729,7 @@
                                     <!-- <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="Need" width="45" height="45" uk-img> -->
                                     <img class="responsively-lazy uk-margin-auto-vertical" alt="Need" width="45" height="45" 
                                     src="<?php echo $filePath;?>images/client.svg"
-                                    data-srcset="<?php echo $filePath;?>images/client.svg 400w
+                                    data-srcset="<?php echo $filePath;?>images/client.svg 400w,
                                     <?php echo $filePath;?>images/client.svg 600w" 
                                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                                 </div>
@@ -751,7 +749,7 @@
                                     <!-- <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="Solution" width="45" height="45" uk-img> -->
                                     <img class="responsively-lazy uk-margin-auto-vertical" alt="Solution" width="45" height="45" 
                                     src="<?php echo $filePath;?>images/jigsaw.svg"
-                                    data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w
+                                    data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w,
                                     <?php echo $filePath;?>images/jigsaw.svg 600w" 
                                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
@@ -770,7 +768,7 @@
                                     <!-- <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="Benefit" width="45" height="45" uk-img> -->
                                     <img class="responsively-lazy uk-margin-auto-vertical" alt="Benefit" width="45" height="45" 
                                     src="<?php echo $filePath;?>images/benefit.svg"
-                                    data-srcset="<?php echo $filePath;?>images/benefit.svg 400w
+                                    data-srcset="<?php echo $filePath;?>images/benefit.svg 400w,
                                     <?php echo $filePath;?>images/benefit.svg 600w" 
                                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                                 
@@ -788,7 +786,7 @@
                                     <!-- <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="Technology" width="45" height="45" uk-img> -->
                                     <img class="responsively-lazy uk-margin-auto-vertical" alt="Technology" width="45" height="45" 
                                     src="<?php echo $filePath;?>images/code.svg"
-                                    data-srcset="<?php echo $filePath;?>images/code.svg 400w
+                                    data-srcset="<?php echo $filePath;?>images/code.svg 400w,
                                     <?php echo $filePath;?>images/code.svg 600w" 
                                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                                 
@@ -826,7 +824,7 @@
                                 <!-- <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="Need" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="Need" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/client.svg"
-                                data-srcset="<?php echo $filePath;?>images/client.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/client.svg 400w,
                                 <?php echo $filePath;?>images/client.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
@@ -845,7 +843,7 @@
                                 <!-- <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="Solution" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="Solution" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/jigsaw.svg"
-                                data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w,
                                 <?php echo $filePath;?>images/jigsaw.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                             
@@ -865,7 +863,7 @@
                                 <!-- <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="Benefits" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="Benefit" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/benefit.svg"
-                                data-srcset="<?php echo $filePath;?>images/benefit.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/benefit.svg 400w,
                                 <?php echo $filePath;?>images/benefit.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                             
@@ -903,7 +901,7 @@
                                 <!-- <img class="uk-margin-auto-vertical" data-src="<?php echo $filePath;?>images/client.svg" alt="Need" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="Need" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/client.svg"
-                                data-srcset="<?php echo $filePath;?>images/client.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/client.svg 400w,
                                 <?php echo $filePath;?>images/client.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                             
@@ -923,7 +921,7 @@
                                 <!-- <img class="uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/jigsaw.svg" alt="Solution" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="Solution" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/jigsaw.svg"
-                                data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/jigsaw.svg 400w,
                                 <?php echo $filePath;?>images/jigsaw.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                             
@@ -943,7 +941,7 @@
                                 <!-- <img class=" uk-margin-auto-vertical " data-src="<?php echo $filePath;?>images/benefit.svg" alt="Benefit" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="Benefit" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/benefit.svg"
-                                data-srcset="<?php echo $filePath;?>images/benefit.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/benefit.svg 400w,
                                 <?php echo $filePath;?>images/benefit.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                             
@@ -962,7 +960,7 @@
                                 <!-- <img class=" uk-margin-auto-vertical  " data-src="<?php echo $filePath;?>images/code.svg" alt="Technology" width="45" height="45" uk-img> -->
                                 <img class="responsively-lazy uk-margin-auto-vertical" alt="Technology" width="45" height="45" 
                                 src="<?php echo $filePath;?>images/code.svg"
-                                data-srcset="<?php echo $filePath;?>images/code.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/code.svg 400w,
                                 <?php echo $filePath;?>images/code.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                            
@@ -1032,7 +1030,7 @@
                     <div >
                         <!-- <img class="uk-align-center" data-src="images/designer.svg" alt="Designing icon" width="80" height="80" alt="" uk-img> -->
                         <img class="responsively-lazy uk-align-center" alt="Design" width="80" height="80" src="<?php echo $filePath;?>images/designer.svg"
-                                data-srcset="<?php echo $filePath;?>images/designer.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/designer.svg 400w,
                                 <?php echo $filePath;?>images/designer.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
@@ -1047,7 +1045,7 @@
                         <!-- <img class="uk-align-center" data-src="images/edit-code.svg" alt="Development icon" width="80" height="80" alt="" uk-img> -->
                         <img class="responsively-lazy uk-align-center" alt="Development" width="80" height="80" 
                         src="<?php echo $filePath;?>images/edit-code.svg"
-                                data-srcset="<?php echo $filePath;?>images/edit-code.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/edit-code.svg 400w,
                                 <?php echo $filePath;?>images/edit-code.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
@@ -1062,7 +1060,7 @@
                         <!-- <img class="uk-align-center" data-src="images/deployment.svg" alt="Deployment icon" width="80" height="80" alt="" uk-img> -->
                         <img class="responsively-lazy uk-align-center" alt="Deployment" width="80" height="80" 
                         src="<?php echo $filePath;?>images/deployment.svg"
-                                data-srcset="<?php echo $filePath;?>images/deployment.svg 400w
+                                data-srcset="<?php echo $filePath;?>images/deployment.svg 400w,
                                 <?php echo $filePath;?>images/deployment.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
