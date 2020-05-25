@@ -1,27 +1,21 @@
 <?php
-$meta7 = 'The technology has made our lives better and so our best skills and services we are rendering.';
-$currentPage = 'skill';
+    $meta = 'The technology has made our lives better and so our best skills and services we are rendering.';
+    $currentPage = 'skill';
      include_once '../header.php';
 ?>
-
-
-
     <div class="uk-container uk-margin">
         <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Our Technical Expertise</div>
         <p class="uk-text-center services_mainpara"> Rendering the best services with the updated Technologies.
         </p>
         <div class="">
          <!-- <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/skill.webp" alt="Skills tree" width="800" height="800" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small"> -->
-                <!-- <img class="uk-align-center" alt="Skills tree" width="1000" height="666" src="<?php echo $filePath;?>images/skill.jpg"
+                <img class="uk-align-center responsively-lazy" alt="Skills tree" uk-scrollspy="cls: uk-animation-slide-bottom-small" 
+                width="800" height="800" src="<?php echo $filePath;?>images/skill.jpg"
                 data-srcset="<?php echo $filePath;?>images/skill.jpg 400w, <?php echo $filePath;?>images/skill.webp 400w, 
                 <?php echo $filePath;?>images/skill.jpg 600w, <?php echo $filePath;?>images/skill.webp 600w,
-                <?php echo $filePath;?>images/skill.jpg 1000w <?php echo $filePath;?>images/skill.webp 1000w" 
-                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /> -->
-               
-                <picture>
-                    <source srcset="<?php echo $filePath;?>images/skill.webp" type="image/webp">
-                    <img class="uk-align-center" width="800" height="800" src="<?php echo $filePath;?>images/skill.jpg" alt="Skill Tree" uk-scrollspy="cls: uk-animation-slide-bottom-small">
-                </picture>
+                <?php echo $filePath;?>images/skill.jpg 1000w, <?php echo $filePath;?>images/skill.webp 1000w" 
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+            
         </div>
        
     <div class="uk-text-center@s uk-text-bold services_subheading ">Our Skills</div>

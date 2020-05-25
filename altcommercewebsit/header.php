@@ -4,14 +4,8 @@
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	    <meta name="Digital Commerce with ALTCommerce" content="<?php echo $meta1; ?>">
-        <meta name="Aboutus-Digital commerce with ALTCommerce" content="<?php echo $meta2; ?>">
-        <meta name="ContactUs-Digital Commerce with ALTCommerce" content="<?php echo $meta3; ?>">
-        <meta name="Careers-Digital Commerce with ALTCommerce" content="<?php echo $meta4; ?>">
-        <meta name="Resources-Digital Commerce with ALTCommerce" content="<?php echo $meta5; ?>">
-        <meta name="Services-Digital Commerce with ALTCommerce" content="<?php echo $meta6; ?>">
-        <meta name="Skills-Digital Commerce with ALTCommerce" content="<?php echo $meta7; ?>">
-        <meta name="Community-Digital Commerce with ALTCommerce" content="<?php echo $meta8; ?>">
+	    <meta name="description" content="<?php echo $meta; ?>">
+        
 	    
 	    <?php 
             $url = $_SERVER["REQUEST_URI"];
@@ -57,16 +51,16 @@
             <div class="uk-navbar-left nav-social uk-margin-small-top">
                 <ul class=" uk-navbar-nav" >
                     <li>
-                        <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" target="_blank" ></a>
+                        <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" aria-label="Facebook" target="_blank" rel="noopener"></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/altcommerce" uk-icon="twitter" target="_blank"></a>
+                        <a href="https://twitter.com/altcommerce" uk-icon="twitter" aria-label="Twitter" target="_blank" rel="noopener"></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin" target="_blank"></a>
+                        <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin" aria-label="LinkedIn" target="_blank" rel="noopener"></a>
                     </li>
                     <li>
-                        <a href="mailto:info@altcommerce.com" uk-icon="mail" target="_blank"></a>
+                        <a href="mailto:info@altcommerce.com" uk-icon="mail" aria-label="Mail" target="_blank" rel="noopener"></a>
                     </li>
                 </ul>
             </div>

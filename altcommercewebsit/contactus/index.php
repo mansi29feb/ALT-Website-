@@ -1,5 +1,5 @@
 <?php
-    $meta3 = "At ALTCommerce, Our goal is to deliver solutions that exactly meet the business objectives of our clients. We look forward to learning how we can help you.";
+    $meta = "At ALTCommerce, Our goal is to deliver solutions that exactly meet the business objectives of our clients. We look forward to learning how we can help you.";
     $currentPage = 'about';
     include_once "../header.php";
 ?>
@@ -33,7 +33,13 @@
                         <div class="uk-inline">
                             <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                             
-                                <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/noida.jpg" alt="Noida Office" style="opacity: 0.9; width: 300px; height: 222px;">
+                                <!-- <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/noida.jpg" alt="Noida Office" style="opacity: 0.9; width: 300px; height: 222px;"> -->
+                                <img class="uk-transition-scale-up responsively-lazy" alt="Noida Office" width="300" height="222" style="opacity:0.9"
+                                     src="<?php echo $filePath;?>images/noida.jpg"
+                                    data-srcset="<?php echo $filePath;?>images/noida.jpg 400w, <?php echo $filePath;?>images/noida.webp 400w, 
+                                    <?php echo $filePath;?>images/noida.jpg 600w, <?php echo $filePath;?>images/noida.webp 600w,
+                                    <?php echo $filePath;?>images/noida.jpg 1000w <?php echo $filePath;?>images/noida.webp 1000w" 
+                                    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                                 <div class="uk-overlay uk-position-center"><button type="button" class="uk-button uk-button-text" ><a  class="cases_btnlink" href="https://goo.gl/maps/yn6EXoLCaQzXEMEY9" style="color:white;" target="_blank">CORPORATE OFFICE </a></button>
                             </div>
              
@@ -43,7 +49,13 @@
 
                         <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                         
-                            <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/Bangalore.jpg" alt="Banglore office" style="opacity: 0.9; width: 300px; height: 222px;">
+                            <!-- <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/Bangalore.jpg" alt="Banglore office" style="opacity: 0.9; width: 300px; height: 222px;"> -->
+                            <img class="uk-transition-scale-up responsively-lazy" alt="Banglore office" width="300" height="222" style="opacity:0.9"
+                                     src="<?php echo $filePath;?>images/Bangalore.jpg"
+                                    data-srcset="<?php echo $filePath;?>images/Bangalore.jpg 400w, <?php echo $filePath;?>images/Bangalore.webp 400w, 
+                                    <?php echo $filePath;?>images/Bangalore.jpg 600w, <?php echo $filePath;?>images/Bangalore.webp 600w,
+                                    <?php echo $filePath;?>images/Bangalore.jpg 1000w <?php echo $filePath;?>images/Bangalore.webp 1000w" 
+                                    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                             <div class="uk-overlay uk-position-center"><button type="button" class="uk-button uk-button-text" ><a  class="cases_btnlink" href="https://goo.gl/maps/ycdkDSCKBfi7pqc76" style="color:white;" target="_blank">BANGALORE OFFICE </a></button>
                             </div>
             
