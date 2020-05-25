@@ -46,9 +46,9 @@
                   <?php echo $filePath;?>images/Preloader.png 1000w <?php echo $filePath;?>images/Preloader.webp 1000w" 
                  srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
         </div>
-    </div> -->
+    </div> 
     
-   <!-- <div id="loader-wrapper">
+    <div id="loader-wrapper">
             <div id="loader" class="center"></div>
     </div>-->
 <!--topbar-->
