@@ -80,7 +80,7 @@
 
                 
                 
-        <div class=" uk-child-width-expand@s nav-header"  uk-sticky>
+        <div class=" uk-child-width-expand@l nav-header"  uk-sticky>
             
             <div class="clear-padd uk-width-auto@m">
                 <div class="uk-navbar">
