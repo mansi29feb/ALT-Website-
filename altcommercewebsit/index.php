@@ -1369,6 +1369,7 @@
                     $('#demo-form').css("opacity",".5");
                 },
             success: function(response){ //console.log(response);
+                console.log(response);
                 $('.statusMsg').html('');
                 if(response.status == 1){
                     $('#demo-form')[0].reset();
