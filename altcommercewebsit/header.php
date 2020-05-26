@@ -4,8 +4,14 @@
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	    <meta name="description" content="<?php echo $meta; ?>">
-        
+	    <meta name="Digital Commerce with ALTCommerce" content="<?php echo $meta1; ?>">
+        <meta name="Aboutus-Digital commerce with ALTCommerce" content="<?php echo $meta2; ?>">
+        <meta name="ContactUs-Digital Commerce with ALTCommerce" content="<?php echo $meta3; ?>">
+        <meta name="Careers-Digital Commerce with ALTCommerce" content="<?php echo $meta4; ?>">
+        <meta name="Resources-Digital Commerce with ALTCommerce" content="<?php echo $meta5; ?>">
+        <meta name="Services-Digital Commerce with ALTCommerce" content="<?php echo $meta6; ?>">
+        <meta name="Skills-Digital Commerce with ALTCommerce" content="<?php echo $meta7; ?>">
+        <meta name="Community-Digital Commerce with ALTCommerce" content="<?php echo $meta8; ?>">
 	    
 	    <?php 
             $url = $_SERVER["REQUEST_URI"];
@@ -51,16 +57,16 @@
             <div class="uk-navbar-left nav-social uk-margin-small-top">
                 <ul class=" uk-navbar-nav" >
                     <li>
-                        <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" aria-label="Facebook" target="_blank" rel="noopener"></a>
+                        <a href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" target="_blank" ></a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/altcommerce" uk-icon="twitter" aria-label="Twitter" target="_blank" rel="noopener"></a>
+                        <a href="https://twitter.com/altcommerce" uk-icon="twitter" target="_blank"></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin" aria-label="LinkedIn" target="_blank" rel="noopener"></a>
+                        <a href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin" target="_blank"></a>
                     </li>
                     <li>
-                        <a href="mailto:info@altcommerce.com" uk-icon="mail" aria-label="Mail" target="_blank" rel="noopener"></a>
+                        <a href="mailto:info@altcommerce.com" uk-icon="mail" target="_blank"></a>
                     </li>
                 </ul>
             </div>
@@ -74,13 +80,13 @@
 
                 
                 
-        <div class=" uk-child-width-expand@l nav-header"  uk-sticky>
+        <div class="uk-child-width-expand@s nav-header"  uk-sticky>
             
             <div class="clear-padd uk-width-auto@m">
                 <div class="uk-navbar">
                     <div class="menu-toggle">
                         <button class="uk-margin-small-right mobile-navbutton" uk-toggle="target: #offcanvas-usage">
-                           <img src="https://img.icons8.com/ios-filled/50/000000/menu.png" alt="toggle" style="height: 27px; width: 22px;">
+                           <img src="https://img.icons8.com/ios-filled/50/000000/menu.png" alt="toggle" style="height: 27px; width: 24px;">
                         </button>
                     </div>
                     <div class="uk-flex uk-navbar-left logo-img">

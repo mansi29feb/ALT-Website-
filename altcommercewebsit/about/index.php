@@ -39,12 +39,12 @@
                 
         <div class="uk-width-1-3@m">
             <div class="uk-text-left career2_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium"> 
-                <!-- <img src="<?php echo $filePath;?>images/culture.jpeg" alt="culture" style="height: 206px; width: 375px;"> -->
-                <img class="responsively-lazy" alt="culture" width="375" height="206" src="<?php echo $filePath;?>images/culture.jpg"
+                 <img src="<?php echo $filePath;?>images/culture.jpeg" alt="culture" style="height: 206px; width: 375px;"> 
+                <!--<img class="responsively-lazy" alt="culture" width="375" height="206" src="<?php echo $filePath;?>images/culture.jpg"
                 data-srcset="<?php echo $filePath;?>images/culture.jpg 400w, <?php echo $filePath;?>images/culture.webp 400w, 
                 <?php echo $filePath;?>images/culture.jpg 600w, <?php echo $filePath;?>images/culture.webp 600w,
                 <?php echo $filePath;?>images/culture.jpg 1000w <?php echo $filePath;?>images/culture.webp 1000w" 
-                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />-->
 
                 <div class="uk-h3 uk-text-left services_article_heading  uk-margin-small-top">OUR CULTURE</div>
                 <div class="uk-text-left services_article_para"><p>Client focused and demonstrates the integrity, professional skills, attitude, and behavior required to make our clients successful and drives our organization
@@ -54,12 +54,12 @@
         </div> 
         <div class="uk-width-1-3@m">
                 <div class="uk-text-left career2_box" uk-scrollspy="cls: uk-animation-slide-top-medium">
-                <!-- <img src="<?php echo $filePath;?>images/ourteam.jpeg" alt="team" style="height: 204px;"> -->
-                <img class="responsively-lazy" alt="team" width="" height="204" src="<?php echo $filePath;?>images/ourteam.jpeg"
+                 <img src="<?php echo $filePath;?>images/ourteam.jpeg" alt="team" style="height: 204px;"> 
+                <!--<img class="responsively-lazy" alt="team"  height="248" src="<?php echo $filePath;?>images/ourteam.jpeg"
                 data-srcset="<?php echo $filePath;?>images/ourteam.jpeg 400w, <?php echo $filePath;?>images/ourteam.webp 400w, 
                 <?php echo $filePath;?>images/ourteam.jpeg 600w, <?php echo $filePath;?>images/ourteam.webp 600w,
                 <?php echo $filePath;?>images/ourteam.jpeg 1000w <?php echo $filePath;?>images/ourteam.webp 1000w" 
-                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />-->
 
                 <div class="uk-h3 uk-text-left services_article_heading  uk-margin-small-top ">OUR TEAM</div> 
                 
@@ -70,12 +70,12 @@
         </div>
         <div class="uk-width-1-3@m">
                 <div class="uk-text-left career2_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
-                <!-- <img src="<?php echo $filePath;?>images/ourcompany.jpeg" alt="Company" style="height: 206px; width: 360px;"> -->
-                <img class="responsively-lazy" alt="Company" width="360" height="206" src="<?php echo $filePath;?>images/ourcompany.jpeg"
+            <img src="<?php echo $filePath;?>images/ourcompany.jpeg" alt="Company" style="height: 206px; width: 360px;"> 
+               <!-- <img class="responsively-lazy" alt="Company" width="360" height="206" src="<?php echo $filePath;?>images/ourcompany.jpeg"
                 data-srcset="<?php echo $filePath;?>images/ourcompany.jpeg 400w, <?php echo $filePath;?>images/ourcompany.webp 400w, 
                 <?php echo $filePath;?>images/ourcompany.jpeg 600w, <?php echo $filePath;?>images/ourcompany.webp 600w,
                 <?php echo $filePath;?>images/ourcompany.jpeg 1000w <?php echo $filePath;?>images/ourcompany.webp 1000w" 
-                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />-->
                 <div class="uk-h3 uk-text-left services_article_heading uk-margin-small-top ">OUR COMPANY</div> 
                 <div class="uk-text-left services_article_para"><p>Be a highly effective, fast-moving organization that supports the growth of its clients by providing the Oracle Customer Experience (CX) 
                     solutions and services that will help them to grow their businesses and prosper.</p>
