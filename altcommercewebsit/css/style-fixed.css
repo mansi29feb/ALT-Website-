@@ -40,7 +40,7 @@
 }}
 @media (min-width:1300px){
     .uk-sticky-fixed #about_submenu {
-        margin-left: 35px;
+        margin-left: 23px;
     }
 }
 @media (min-width: 1311px){
@@ -53,4 +53,12 @@
 }
 #about_submenu {
     margin-left: -54px;
+}}
+@media (min-width: 1600px){
+.uk-sticky-fixed #about_submenu {
+    margin-left: 319px;
+}}
+@media (min-width: 1603px){
+.uk-sticky-fixed #about_submenu {
+    margin-left: 333px;
 }}
