@@ -14,7 +14,13 @@
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-left-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case11.jpg" alt="Multi-site implementation" style="opacity: 0.9;" uk-img>
+                        <!-- <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case11.jpg" alt="Multi-site implementation" style="opacity: 0.9;" uk-img> -->
+                            <img class="uk-transition-scale-up responsively-lazy" alt="Multi-site implementation" 
+                            width="353" height="235" style="opacity: 0.9;" src="<?php echo $filePath;?>images/case/case11.jpg"
+                            data-srcset="<?php echo $filePath;?>images/case/case11.jpg 400w, <?php echo $filePath;?>images/case/case11.webp 400w, 
+                            <?php echo $filePath;?>images/case/case11.jpg 600w, <?php echo $filePath;?>images/case/case11.webp 600w,
+                            <?php echo $filePath;?>images/case/case11.jpg 1000w, <?php echo $filePath;?>images/case/case11.webp 1000w" 
+                            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works1" class="uk-button uk-button-text cases_btnlink" >Multi-site implementation</button>
                         </div>  
                 </div>
@@ -22,7 +28,13 @@
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-top-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case2.jpg" alt="Data Center Migration" style="opacity: 0.9;" uk-img>
+                        <!-- <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case2.jpg" alt="Data Center Migration" style="opacity: 0.9;" uk-img> -->
+                            <img class="uk-transition-scale-up responsively-lazy" alt="Data Center Migration" 
+                            width="353" height="235" style="opacity: 0.9;" src="<?php echo $filePath;?>images/case/case2.jpg"
+                            data-srcset="<?php echo $filePath;?>images/case/case2.jpg 400w, <?php echo $filePath;?>images/case/case2.webp 400w, 
+                            <?php echo $filePath;?>images/case/case2.jpg 600w, <?php echo $filePath;?>images/case/case2.webp 600w,
+                            <?php echo $filePath;?>images/case/case2.jpg 1000w, <?php echo $filePath;?>images/case/case2.webp 1000w" 
+                            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works2" class="uk-button uk-button-text cases_btnlink">Data Center Migration</button>
                         </div>   
                 </div>
@@ -30,7 +42,13 @@
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-right-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case3.jpg" alt="Site Redesign" style="opacity: 0.9;" uk-img>
+                        <!-- <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case3.jpg" alt="Site Redesign" style="opacity: 0.9;" uk-img> -->
+                            <img class="uk-transition-scale-up responsively-lazy" alt="Site Redesign" 
+                            width="353" height="235" style="opacity: 0.9;" src="<?php echo $filePath;?>images/case/case3.jpg"
+                            data-srcset="<?php echo $filePath;?>images/case/case3.jpg 400w, <?php echo $filePath;?>images/case/case3.webp 400w, 
+                            <?php echo $filePath;?>images/case/case3.jpg 600w, <?php echo $filePath;?>images/case/case3.webp 600w,
+                            <?php echo $filePath;?>images/case/case3.jpg 1000w, <?php echo $filePath;?>images/case/case3.webp 1000w" 
+                            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works3" class="uk-button uk-button-text cases_btnlink">Site Redesign</button>
                         </div>    
                 </div>
@@ -38,7 +56,13 @@
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-left-small">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case4.jpg" alt="Cross-Reference Tool" style="opacity: 0.9;" uk-img>
+                        <!-- <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case4.jpg" alt="Cross-Reference Tool" style="opacity: 0.9;" uk-img> -->
+                            <img class="uk-transition-scale-up responsively-lazy" alt="Cross-Reference Tool" 
+                            width="353" height="235" style="opacity: 0.9;" src="<?php echo $filePath;?>images/case/case4.jpg"
+                            data-srcset="<?php echo $filePath;?>images/case/case4.jpg 400w, <?php echo $filePath;?>images/case/case4.webp 400w, 
+                            <?php echo $filePath;?>images/case/case4.jpg 600w, <?php echo $filePath;?>images/case/case4.webp 600w,
+                            <?php echo $filePath;?>images/case/case4.jpg 1000w, <?php echo $filePath;?>images/case/case4.webp 1000w" 
+                            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works4" class="uk-button uk-button-text cases_btnlink">Cross-Reference Tool</button>
                         </div>   
                 </div>
@@ -46,7 +70,13 @@
             <div class="uk-inline" >
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case5.jpg" alt="Membership (Loyalty) Program" style="opacity: 0.9;" uk-img>
+                        <!-- <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case5.jpg" alt="Membership (Loyalty) Program" style="opacity: 0.9;" uk-img> -->
+                            <img class="uk-transition-scale-up responsively-lazy" alt="Membership (Loyalty) Program" 
+                            width="353" height="235" style="opacity: 0.9;" src="<?php echo $filePath;?>images/case/case5.jpg"
+                            data-srcset="<?php echo $filePath;?>images/case/case5.jpg 400w, <?php echo $filePath;?>images/case/case5.webp 400w, 
+                            <?php echo $filePath;?>images/case/case5.jpg 600w, <?php echo $filePath;?>images/case/case5.webp 600w,
+                            <?php echo $filePath;?>images/case/case5.jpg 1000w, <?php echo $filePath;?>images/case/case5.webp 1000w" 
+                            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works5" class="uk-button uk-button-text cases_btnlink">Membership (Loyalty) Program</button>
                         </div>    
                 </div>
@@ -54,7 +84,13 @@
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-right-small">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case6.jpg" alt="Multi-site implementation (Canada)" style="opacity: 0.9;" uk-img>
+                        <!-- <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case6.jpg" alt="Multi-site implementation (Canada)" style="opacity: 0.9;" uk-img> -->
+                            <img class="uk-transition-scale-up responsively-lazy" alt="Multi-site implementation (Canada)" 
+                            width="353" height="235" style="opacity: 0.9;" src="<?php echo $filePath;?>images/case/case6.jpg"
+                            data-srcset="<?php echo $filePath;?>images/case/case6.jpg 400w, <?php echo $filePath;?>images/case/case6.webp 400w, 
+                            <?php echo $filePath;?>images/case/case6.jpg 600w, <?php echo $filePath;?>images/case/case6.webp 600w,
+                            <?php echo $filePath;?>images/case/case6.jpg 1000w, <?php echo $filePath;?>images/case/case6.webp 1000w" 
+                            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works6" class="uk-button uk-button-text cases_btnlink" >Multi-site implementation (Canada)</button>
                         </div> 
                 </div>
@@ -62,7 +98,13 @@
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-left-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case7.jpg" alt="SalesForce SSO Integration" style="opacity: 0.9;" uk-img>
+                        <!-- <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case7.jpg" alt="SalesForce SSO Integration" style="opacity: 0.9;" uk-img> -->
+                            <img class="uk-transition-scale-up responsively-lazy" alt="SalesForce SSO Integration" 
+                            width="353" height="235" style="opacity: 0.9;" src="<?php echo $filePath;?>images/case/case7.jpg"
+                            data-srcset="<?php echo $filePath;?>images/case/case7.jpg 400w, <?php echo $filePath;?>images/case/case7.webp 400w, 
+                            <?php echo $filePath;?>images/case/case7.jpg 600w, <?php echo $filePath;?>images/case/case7.webp 600w,
+                            <?php echo $filePath;?>images/case/case7.jpg 1000w, <?php echo $filePath;?>images/case/case7.webp 1000w" 
+                            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works7" class="uk-button uk-button-text cases_btnlink">SalesForce SSO Integration</button>
                         </div>  
                 </div>
@@ -70,7 +112,13 @@
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case8.jpg" alt="Twillo Integration" style="opacity: 0.9;" uk-img>
+                        <!-- <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case8.jpg" alt="Twillo Integration" style="opacity: 0.9;" uk-img> -->
+                            <img class="uk-transition-scale-up responsively-lazy" alt="Twillo Integration" 
+                            width="353" height="235" style="opacity: 0.9;" src="<?php echo $filePath;?>images/case/case8.jpg"
+                            data-srcset="<?php echo $filePath;?>images/case/case8.jpg 400w, <?php echo $filePath;?>images/case/case8.webp 400w, 
+                            <?php echo $filePath;?>images/case/case8.jpg 600w, <?php echo $filePath;?>images/case/case8.webp 600w,
+                            <?php echo $filePath;?>images/case/case8.jpg 1000w, <?php echo $filePath;?>images/case/case8.webp 1000w" 
+                            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />  
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works8" class="uk-button uk-button-text cases_btnlink">Twillo Integration</button>
                         </div> 
                 </div>
@@ -78,7 +126,13 @@
             <div class="uk-inline" uk-scrollspy="cls: uk-animation-slide-right-medium">
                 <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                     
-                        <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case10.jpg" alt="Multi-part search" style="opacity: 0.9;" uk-img>
+                        <!-- <img class="uk-transition-scale-up lazy" data-src="<?php echo $filePath;?>images/case/case10.jpg" alt="Multi-part search" style="opacity: 0.9;" uk-img> -->
+                            <img class="uk-transition-scale-up responsively-lazy" alt="Multi-part search" 
+                            width="353" height="235" style="opacity: 0.9;" src="<?php echo $filePath;?>images/case/case10.jpg"
+                            data-srcset="<?php echo $filePath;?>images/case/case10.jpg 400w, <?php echo $filePath;?>images/case/case10.webp 400w, 
+                            <?php echo $filePath;?>images/case/case10.jpg 600w, <?php echo $filePath;?>images/case/case10.webp 600w,
+                            <?php echo $filePath;?>images/case/case10.jpg 1000w, <?php echo $filePath;?>images/case/case10.webp 1000w" 
+                            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /> 
                         <div class="uk-overlay uk-overlay-primary uk-position-center case_link"><button type="button" uk-toggle="target: #works9" class="uk-button uk-button-text cases_btnlink">Multi-part search</button>
                         </div>  
                 </div>

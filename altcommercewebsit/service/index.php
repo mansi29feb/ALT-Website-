@@ -17,7 +17,7 @@
             <img class="uk-align-center responsively-lazy" alt="Words Cloud" width="1000" height="1000" src="<?php echo $filePath;?>images/cloud.png"
                 data-srcset="<?php echo $filePath;?>images/cloud.png 400w, <?php echo $filePath;?>images/skill.webp 400w, 
                 <?php echo $filePath;?>images/cloud.png 600w, <?php echo $filePath;?>images/cloud.webp 600w,
-                <?php echo $filePath;?>images/cloud.png 1000w <?php echo $filePath;?>images/cloud.webp 1000w" 
+                <?php echo $filePath;?>images/cloud.png 1000w, <?php echo $filePath;?>images/cloud.webp 1000w" 
                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
         </div>
 
@@ -30,7 +30,7 @@
          <img class="uk-align-center responsively-lazy" alt="meeting" width="400" height="400" src="<?php echo $filePath;?>images/employee.png"
                 data-srcset="<?php echo $filePath;?>images/employee.png 400w, <?php echo $filePath;?>images/employee.webp 400w, 
                 <?php echo $filePath;?>images/employee.png 600w, <?php echo $filePath;?>images/employee.webp 600w,
-                <?php echo $filePath;?>images/employee.png 1000w <?php echo $filePath;?>images/employee.webp 1000w" 
+                <?php echo $filePath;?>images/employee.png 1000w, <?php echo $filePath;?>images/employee.webp 1000w" 
                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
         </div>
 
