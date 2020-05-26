@@ -28,13 +28,13 @@ body  {
      } 
  } 
   end preloader*/ 
- .center { 
+ /* .center { 
      position: absolute; 
      top: 0; 
      bottom: 0; 
      left: 0; 
      right: 0; 
-     margin: auto;
+     margin: auto; */
      
      
  } 
@@ -77,6 +77,7 @@ body  {
    }
  .image{
    width:132px;
+   height:78px !important;
  }
    .slider-title{
      color:#000 !important;
