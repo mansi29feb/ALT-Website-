@@ -7,7 +7,7 @@
 .hero-section{min-height:500px}.uk-sticky-fixed{position:fixed!important;top:-4px!important;width:100%!important;left:1px;box-shadow:0 2px 5px rgba(0,0,0,.3)!important}
 .uk-sticky-fixed .brand-logo{width:132px;margin-left:62px} 
 .nav-header{background-color:#fff!important;box-shadow:0 5px 15px rgba(0,0,0,.09);margin:4px 0!important}.uk-sticky-fixed .drop-navbar{left:682px!important}
-#about_submenu{margin-left:11px}
+#about_submenu{margin-left:-132px}
 .uk-sticky-fixed #about_submenu {margin-left: -59px;}
 .mobile-nav{margin-left:auto}.nav-menu{margin-left:auto;margin-right:25px;position:inherit!important}.footer{background-image:url(../images/footer.svg)}.box1{margin-left:120px}.services_mainheading{font-size:70px}.services_mainpara{font-size:22px}.webp .career_homepage{background-image:url(../images/bg2.webp)}.no-webp .career_homepage{background-image:url(../images/bg2.jpg)}.form{width:280px}}
 @media screen and (max-width:800px) and (min-width:768px){.box1{width:50%;background-color:#fff}.box2{width:42%}.bx1{text-align:left}.visible-icon{visibility:visible}.hide-icon{visibility:visible}.works_btn1{width:20%}.testi_box1{padding:70px}
@@ -20,17 +20,37 @@
 @media (min-width: 1230px){
 .uk-sticky-fixed #about_submenu {
     margin-left: -39px;
-}}@media (min-width: 1260px){
+    
+}#about_submenu {
+    margin-left: -113px;
+}}
+@media (min-width: 1250px){
+.uk-sticky-fixed #about_submenu {
+    margin-left: -16px;
+}}
+@media (min-width: 1260px){
 .uk-sticky-fixed #about_submenu {
     margin-left: -9px;
 }}@media (min-width: 1280px){
 .uk-sticky-fixed #about_submenu {
     margin-left: 12px;
-}}@media (min-width: 1311px){
+}
+#about_submenu {
+    margin-left: -72px;
+}}
+@media (min-width:1300px){
+    .uk-sticky-fixed #about_submenu {
+        margin-left: 35px;
+    }
+}
+@media (min-width: 1311px){
 .uk-sticky-fixed #about_submenu {
     margin-left: 42px;
 }}
 @media (min-width: 1333px){
 .uk-sticky-fixed #about_submenu {
     margin-left: 71px;
+}
+#about_submenu {
+    margin-left: -54px;
 }}

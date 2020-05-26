@@ -1030,7 +1030,10 @@ body  {
         margin-left: 250px;
     
       }
-    
+      .uk-sticky-fixed #about_submenu {margin-left: -59px;}
+      #about_submenu{
+       margin-left:  -174px;
+      }
    .mobile-nav{
      margin-left: 222px;
  
