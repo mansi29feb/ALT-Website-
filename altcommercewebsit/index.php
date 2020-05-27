@@ -242,16 +242,19 @@
                             <form id="demo-form" class="uk-card uk-card-body uk-card-default uk-padding-small form" method="POST" enctype="multipart/form-data" uk-scrollspy="cls: uk-animation-scale-up"> 
                                     <h3 class="uk-text-bold uk-text-secondary form_heading uk-margin-small-top">Apply Now</h3>
                                     <div class="">
-                                        <div class="uk-margin-small-bottom form_field">NAME:*</div>
-                                        <input class="uk-input uk-margin-small-bottom uk-padding-small"  type="text" name="name" required>
+                                        <label class="uk-form-label form_field" for="name">NAME:*</label>
+                                        <!-- <div class="uk-margin-small-bottom form_field">NAME:*</div> -->
+                                        <input class="uk-input uk-margin-small-bottom uk-padding-small"  type="text" id="name" name="name" required>
                                     </div>
-                                    <div class="form_uk-margin-small-top">
-                                        <div class="uk-margin-small-bottom form_field">EMAIL ADDRESS:*</div>
-                                        <input class="uk-input uk-padding-small" type="email" name="email" required>
-                                    </div></br>
+                                    <div class="">
+                                        <!-- <div class="uk-margin-small-bottom form_field">EMAIL ADDRESS:*</div> -->
+                                        <label class="uk-form-label form_field" for="email">EMAIL ADDRESS:*</label>
+                                        <input class="uk-input uk-padding-small uk-margin-small-bottom" type="email" id="email" name="email" required>
+                                    </div>
 
                                     <div class="js-upload" uk-form-custom>
-                                        <div class="uk-margin-small-bottom form_field">UPLOAD YOUR RESUME:*</div>
+                                        <!-- <div class="uk-margin-small-bottom form_field">UPLOAD YOUR RESUME:*</div> -->
+                                        <label class="uk-form-label form_field" for="file">UPLOAD YOUR RESUME:*</label>
                                         <input  class="" type="file" name="file" id="file" multiple required>
         
                                         <button class="uk-button uk-button-default upload uk-text-bolder uk-text-capitalize" type="button" tabindex="-1">Upload &nbsp;<span uk-icon="cloud-upload"></span></button>
@@ -299,7 +302,7 @@
 
                     <!-- <img class="lazy" data-src="images/case/case11.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="works_overlay uk-position-center">
-                        <button uk-toggle="target: #works1" class="more uk-border-circle" uk-icon="icon: more; ratio: 0.8"></button>
+                        <button uk-toggle="target: #works1" class="more uk-border-circle" uk-icon="icon: more; ratio: 0.8" aria-label="three_dot_Button"></button>
                     </div>
                 </div>
             </div>
@@ -325,7 +328,7 @@
                  srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
                     <div class="works_overlay uk-position-center">
-                        <button uk-toggle="target: #works2" class=" more uk-border-circle" uk-icon="icon: more; ratio: 0.8"></button>
+                        <button uk-toggle="target: #works2" class=" more uk-border-circle" aria-label="three_dot_Button" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
                 </div>
             </div>
@@ -352,7 +355,7 @@
 
                     <!-- <img class="lazy" data-src="images/case/case7.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="uk-position-center works_overlay">
-                        <button uk-toggle="target: #works3"  class=" more uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
+                        <button uk-toggle="target: #works3"  class=" more uk-border-circle" aria-label="three_dot_Button" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
                 </div>
             </div>
@@ -379,7 +382,7 @@
 
                     <!-- <img class="lazy" data-src="images/case/case4.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="uk-position-center works_overlay">
-                        <button uk-toggle="target: #works4"  class=" more uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
+                        <button uk-toggle="target: #works4"  class=" more uk-border-circle" aria-label="three_dot_Button" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
                 </div>
             </div>
@@ -405,7 +408,7 @@
                  srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                     <!-- <img class="lazy" data-src="images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="uk-position-center works_overlay">
-                        <button uk-toggle="target: #works5" class=" more uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
+                        <button uk-toggle="target: #works5" class=" more uk-border-circle" aria-label="three_dot_Button" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
                 </div>
             </div>
@@ -431,7 +434,7 @@
 
                     <!-- <img class="lazy" data-src="images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                     <div class="uk-position-center works_overlay">
-                        <button uk-toggle="target: #works6" class=" more uk-border-circle" onclick="" uk-icon="icon: more; ratio: 0.8"></button>
+                        <button uk-toggle="target: #works6" class=" more uk-border-circle" aria-label="three_dot_Button" uk-icon="icon: more; ratio: 0.8"></button>
                     </div>
                 </div>
             </div>
