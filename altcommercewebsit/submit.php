@@ -29,7 +29,7 @@ if(isset($_POST['name']) || isset($_POST['email']) || isset($_POST['file']) || i
         $responseData = json_decode($verifyResponse);
         if($responseData->success){
             //captacha validated successfully.
-            $response['message'] = 'captacha validated successfully.'; }
+            $response['message'] = 'Captacha validated successfully.'; }
         else{
             $captchaStatus = 0;
             $response['message'] = 'Robot verification failed, please try again.';}
@@ -37,7 +37,7 @@ if(isset($_POST['name']) || isset($_POST['email']) || isset($_POST['file']) || i
 
     else{
         $captchaStatus = 0;
-         $response['message'] = 'invalid captcha';}
+         $response['message'] = 'Invalid Captcha';}
 
     // Check whether submitted data is not empty 
    
@@ -76,7 +76,7 @@ if(isset($_POST['name']) || isset($_POST['email']) || isset($_POST['file']) || i
                  
                 if($insert){ 
                     $response['status'] = 1; 
-                    $response['message'] = 'Form data submitted successfully! We will get back to you shortly!!'; 
+                    $response['message'] = 'Data submitted successfully! We will get back to you shortly!!'; 
                 } 
     
             }

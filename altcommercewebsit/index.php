@@ -1347,7 +1347,7 @@
         var fileType = file.type;
         var match = ['application/pdf'];
         if(!((fileType == match[0]))){
-            alert('Sorry, only PDF files are allowed to upload.');
+            swal({ text: 'Sorry, only PDF files are allowed to upload.', icon: "warning"});
             $("#file").val('');
             return false;
         }
@@ -1378,10 +1378,10 @@
                     grecaptcha.reset();
                     document.querySelector("#file-name").textContent = '';
                     // $('.statusMsg').html('<p class=" uk-alert-success" uk-alert>'+response.message+'</p>');
-                    alert(response.message);
+                    swal({ text: response.message, icon: "success"});
                 }else{
                     // $('.statusMsg').html('<p class=" uk-alert-danger" uk-alert>'+response.message+'</p>');
-                    alert(response.message);
+                    swal({ text: response.message, icon: "warning"});
                 }
                 $('#demo-form').css("opacity","");
                     $(".form_btn").removeAttr("disabled");

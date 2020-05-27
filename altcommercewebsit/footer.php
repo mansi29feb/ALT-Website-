@@ -70,6 +70,7 @@
     <script src="<?php echo $filePath;?>js/responsivelylazy.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="<?php echo $filePath;?>js/sweetalert.min.js" defer></script>
     <script src="<?php echo $filePath;?>js/count.min.js" defer></script>
     <script src="<?php echo $filePath;?>js/uikit.min.js" defer></script>
     <script src="<?php echo $filePath;?>js/uikit-icons.min.js" defer></script>
