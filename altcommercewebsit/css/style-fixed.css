@@ -62,3 +62,20 @@
 .uk-sticky-fixed #about_submenu {
     margin-left: 333px;
 }}
+
+@media screen and (max-width:1198px) and (min-width:800px){
+    .box1{
+        width:45%;
+    }
+    .box2{
+        width:40%;
+    }
+}
+@media screen and (max-width:1198px) and (min-width:1198px){
+    .box1{
+        width:45%;
+    }
+    .box2{
+        width:40%;
+    }
+}
