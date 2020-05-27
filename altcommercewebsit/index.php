@@ -252,19 +252,20 @@
 
                                     <div class="js-upload" uk-form-custom>
                                         <div class="uk-margin-small-bottom form_field">UPLOAD YOUR RESUME:*</div>
-                                        <input  class="" type="file" name="file" id="file" multiple>
+                                        <input  class="" type="file" name="file" id="file" multiple required>
         
                                         <button class="uk-button uk-button-default upload uk-text-bolder uk-text-capitalize" type="button" tabindex="-1">Upload &nbsp;<span uk-icon="cloud-upload"></span></button>
                                         </br><label id="file-name" style="font-size:13px; color:#1c1c1c;"></label>        
                                     </div>
 
-                                    
-                                </br>
+                                <div class="uk-margin-small-top">
+                                <div class="g-recaptcha" data-sitekey="6Lc_z_wUAAAAADNo5AEbwi-a9amCkk2RqsMLC9Yb" ></div>
+                                </div>
   
-                                    <button id="submit" class="uk-button uk-margin-remove-bottom uk-text-bold uk-align-center 
+                                    <button id="submit" class="uk-button uk-margin-remove-bottom uk-margin-remove-top uk-text-bold uk-align-center 
                                     uk-text-center form_btn uk-text-capitalize" type="submit" name="submit">Apply Now</button>
                                     <div>
-       <!-- <div class="statusMsg"></div> -->
+      
     </div>     
                             </form>
                     </div>
@@ -1370,9 +1371,11 @@
                 },
             success: function(response){ //console.log(response);
                 console.log(response);
-                $('.statusMsg').html('');
+                $('.statusMsg').html(''); 
+
                 if(response.status == 1){
                     $('#demo-form')[0].reset();
+                    grecaptcha.reset();
                     document.querySelector("#file-name").textContent = '';
                     // $('.statusMsg').html('<p class=" uk-alert-success" uk-alert>'+response.message+'</p>');
                     alert(response.message);
@@ -1386,6 +1389,18 @@
             });
         });
     });
+
+
+        $(document).ready(function () {        
+        var width = $('.g-recaptcha').parent().width();
+        if (width < 302) {
+            var scale = width / 302;
+            $('.g-recaptcha').css('transform', 'scale(' + scale + ')');
+            $('.g-recaptcha').css('-webkit-transform', 'scale(' + scale + ')');
+            $('.g-recaptcha').css('transform-origin', '0 0');
+            $('.g-recaptcha').css('-webkit-transform-origin', '0 0');
+        }
+    }); 
 
 </script>
 
