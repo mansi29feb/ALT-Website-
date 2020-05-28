@@ -103,7 +103,7 @@
                             <button class="uk-button sub-menu <?php if($currentPage =='about'){echo 'active_page';}?>">ABOUT US</button>
                                 <div id="about_submenu"  class="drop-navbar" style="display:none;"  uk-dropdown="pos:top-center">
                                 
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav drop-menu">
                                         <li class="sub"><a href="<?php echo $filePath;?>about">WHAT WE DO</a></li>
                                         <li class="sub"><a href="<?php echo $filePath;?>csr">COMMUNITY</a></li>
                                         <li class="sub"><a href="<?php echo $filePath;?>contactus">CONTACT US</a></li>

@@ -80,6 +80,10 @@ body  {
    width:132px;
    
  }
+ .drop-menu{
+  text-align: center;
+  margin-left: -13px;
+ }
    .slider-title{
      color:#000 !important;
      font-size:40px !important;
