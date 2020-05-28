@@ -17,16 +17,11 @@
         </div>
         
         <div class="uk-child-width-1-2@m uk-grid-small uk-child-width-1-1@s uk-padding-small" uk-grid>
-            
-                <div class="uk-width-1-2@m">
-                    <div class="uk-text-center">
-                        
-                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNl0WC5Kx-jqt27eq7ppyLZsLmVDvGlIMvObK_Mmi18Shtyg/viewform?embedded=true" style="width:100%; height:950px;" >Loading…</iframe>
-
-
-
-                    </div> 
-                </div>
+            <div class="uk-width-1-2@m">
+                <div class="uk-text-center">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNl0WC5Kx-jqt27eq7ppyLZsLmVDvGlIMvObK_Mmi18Shtyg/viewform?embedded=true" style="width:100%; height:1150px;"></iframe>
+                </div> 
+            </div>
                 <div class="uk-width-1-2@m">
                     <div class="uk-text-center">
                         <div class="uk-h1  uk-margin-small-top uk-text-bold"><span style="color:#ff7600;"> Our</span>&nbsp;Office</div>
