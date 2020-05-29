@@ -1,5 +1,6 @@
 <?php
-    $meta = 'ALT commerce is an expert in Omni-Channel Commerce and delivering Oracle Commerce, Commerce Cloud and the suite of Oracle CX products.';
+    $pageTitle='Digital Commerce with ALTCommerce';
+    $pageDescription  = 'ALT commerce is an expert in Omni-Channel Commerce and delivering Oracle Commerce, Commerce Cloud and the suite of Oracle CX products.';
     $currentPage = 'home';
      include_once 'header.php';
 ?> 
