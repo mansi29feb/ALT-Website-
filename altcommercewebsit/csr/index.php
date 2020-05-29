@@ -1,5 +1,6 @@
 <?php
-    $meta = "We always have undertaken various initiatives with an aim to improve quality of life & ensure the holistic development of it's surrounding communities.";
+    $pageTitle='Community-Digital Commerce with ALTCommerce';
+    $pageDescription = "We always have undertaken various initiatives with an aim to improve quality of life & ensure the holistic development of it's surrounding communities.";
     $currentPage = 'about';
     include_once "../header.php";
 ?>

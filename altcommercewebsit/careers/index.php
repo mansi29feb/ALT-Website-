@@ -1,5 +1,6 @@
 <?php
-    $meta = "Current Openings,ORACLE ATG COMMERCE DEVELOPER,Responsibilities: Developing web applications, services and integrating different enterprise .";
+   $pageTitle='Career with ALTCommerce';
+   $pageDescription='Current Openings,ORACLE ATG COMMERCE DEVELOPER,Responsibilities: Developing web applications, services and integrating different enterprise .';
     $currentPage = 'career';
 	 include_once '../header.php';
  ?>

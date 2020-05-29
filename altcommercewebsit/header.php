@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title><?php echo $pageTitle;?></title>
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	    <meta name="description" content="<?php echo $meta; ?>">
+	    <meta name="description" content="<?php echo $pageDescription; ?>">
         
 	    
 	    <?php 
@@ -13,7 +14,7 @@
         	if($explodeUrl[2]!=''){$filePath	=	'../';}else{$filePath	=	'';}
         ?>
 
-        <title>Digital Commerce with ALT Commerce</title>
+        
         <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         
