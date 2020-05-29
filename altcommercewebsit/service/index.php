@@ -13,7 +13,7 @@
         </p>
         
         <div class="" uk-scrollspy="cls:uk-animation-slide-bottom-medium"> 
-            <!-- <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/cloud.png" alt="Words Cloud" width="1000" height="1000" uk-img > -->
+             <!-- <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/cloud.png" alt="Words Cloud" width="1000" height="1000" uk-img >  -->
             <img class="uk-align-center responsively-lazy" alt="Words Cloud" width="1000" height="1000" src="<?php echo $filePath;?>images/cloud.png"
                 data-srcset="<?php echo $filePath;?>images/cloud.png 400w, <?php echo $filePath;?>images/skill.webp 400w, 
                 <?php echo $filePath;?>images/cloud.png 600w, <?php echo $filePath;?>images/cloud.webp 600w,

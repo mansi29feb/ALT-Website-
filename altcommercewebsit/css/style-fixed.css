@@ -71,11 +71,35 @@
         width:40%;
     }
 }
+
 @media screen and (max-width:1198px) and (min-width:1198px){
     .box1{
         width:45%;
     }
     .box2{
         width:40%;
+    }
+}
+
+@media screen and (max-width:1170px) and (min-width:300px){
+    .skill{
+        overflow: auto;
+        height:60px;
+    }
+    .skill_outer .uk-subnav{
+        flex-wrap: nowrap;
+    }
+
+    .skills_btn{
+        border:1px solid #999999;
+    }
+    .skills_btn:hover{
+        border: 1px solid #1C1C1C;
+    }
+    .active{
+        border: 1px solid #1C1C1C;
+    }
+    li .uk-button{
+        line-height:35px;
     }
 }
