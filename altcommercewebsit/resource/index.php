@@ -1,5 +1,6 @@
 <?php
-    $meta = 'resource';
+    $pageTitle='Resources-Digital Commerce with ALTCommerce';
+    $pageDescription ='We represent how we think, work and interact with our clients.';
     $currentPage = 'resource';
     include_once "../header.php";
 ?>

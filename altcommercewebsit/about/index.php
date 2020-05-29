@@ -1,5 +1,6 @@
 <?php
-    $meta = "Altcommerce is a professional services firm focused on implementing and optimizing digital commerce & oracle customer experience suite of product.";
+    $pageTitle='About-Digital Commerce with ALTCommerce';
+    $pageDescription= 'Altcommerce is a professional services firm focused on implementing and optimizing digital commerce & oracle customer experience suite of product.';
     $currentPage = 'about';
     include_once "../header.php";
 ?>
