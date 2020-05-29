@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 26, 2020 at 03:35 PM
+-- Generation Time: May 29, 2020 at 07:38 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.5
 
@@ -28,7 +28,6 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `career_form` (
-  `S.no` int(100) NOT NULL,
   `name` varchar(25) NOT NULL,
   `email` varchar(30) NOT NULL,
   `filename` varchar(50) NOT NULL,
@@ -43,17 +42,7 @@ CREATE TABLE `career_form` (
 -- Indexes for table `career_form`
 --
 ALTER TABLE `career_form`
-  ADD PRIMARY KEY (`S.no`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `career_form`
---
-ALTER TABLE `career_form`
-  MODIFY `S.no` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  ADD UNIQUE KEY `UC_User` (`name`,`email`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

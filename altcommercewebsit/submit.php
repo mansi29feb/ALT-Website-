@@ -72,8 +72,8 @@ if(isset($_POST['name']) || isset($_POST['email']) || isset($_POST['file']) || i
              
             if($uploadStatus == 1 && $captchaStatus == 1){ 
                 include_once("db_connect.php"); 
-                $insert = $conn->query("INSERT INTO career_form (name, email, filename, time) VALUES ('".$name."','".$email."','".$uploadedFile."', NOW())"); 
-                 
+                // $insert = $conn->query("INSERT INTO career_form (name, email, filename, time) VALUES ('".$name."','".$email."','".$uploadedFile."', NOW())"); 
+                $insert = $conn->query(" INSERT INTO career_form (name, email, filename, time) VALUES('".$name."','".$email."','".$uploadedFile."', NOW()) ON DUPLICATE KEY UPDATE filename ='".$uploadedFile."' , time = NOW();");
                 if($insert){ 
                     $response['status'] = 1; 
                     $response['message'] = 'Data submitted successfully! We will get back to you shortly!!'; 
