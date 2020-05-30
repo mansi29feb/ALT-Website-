@@ -83,7 +83,7 @@
                 <div class="uk-navbar">
                     <div class="menu-toggle">
                         <button class="uk-margin-small-right mobile-navbutton" uk-toggle="target: #offcanvas-usage">
-                           <img src="https://img.icons8.com/ios-filled/50/000000/menu.png" alt="toggle" style="height: 27px; width: 27px;">
+                           <img src="https://img.icons8.com/ios-filled/50/000000/menu.png" alt="toggle" style="height: 27px; width: 25px;">
                         </button>
                     </div>
                     <div class="uk-flex uk-navbar-left logo-img">
