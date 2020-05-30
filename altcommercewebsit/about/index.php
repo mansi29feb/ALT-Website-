@@ -1,5 +1,5 @@
 <?php
-    $pageTitle='About-Digital Commerce with ALTCommerce';
+    $pageTitle='About-Digital Commerce with ALT Commerce';
     $pageDescription= 'Altcommerce is a professional services firm focused on implementing and optimizing digital commerce & oracle customer experience suite of product.';
     $currentPage = 'about';
     include_once "../header.php";

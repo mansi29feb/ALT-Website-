@@ -1,10 +1,11 @@
 <?php
-    $pageTitle='Skills-Digital Commerce with ALTCommerce';
+    $pageTitle='Skills-Digital Commerce with ALT Commerce';
     $pageDescription = 'The technology has made our lives better and so our best skills and services we are rendering.';
     $currentPage = 'skill';
      include_once '../header.php';
 ?>
-    <div class="uk-container uk-margin">
+
+<div class="uk-container uk-margin">
         <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Our Technical Expertise</div>
         <p class="uk-text-center services_mainpara"> Rendering the best services with the updated Technologies.
         </p>
@@ -600,7 +601,7 @@
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
                                     <!-- <img class="uk-card" data-src="<?php echo $filePath;?>images/skills-page/git.jpg" alt="git logo" height="250" width="250" uk-img> -->
-                                    <img class="responsively-lazy uk-card" alt="git logo" width="200" height="200" src="<?php echo $filePath;?>images/skills-page/git.svg"
+                                    <img class="responsively-lazy uk-card" alt="git logo" width="200" height="200" src="<?php echo $filePath;?>images/skills-page/git.jpg"
                                     data-srcset="<?php echo $filePath;?>images/skills-page/git.jpg 400w, <?php echo $filePath;?>images/skills-page/git.webp 400w, 
                                     <?php echo $filePath;?>images/skills-page/git.jpg 600w, <?php echo $filePath;?>images/skills-page/git.webp 600w,
                                     <?php echo $filePath;?>images/skills-page/git.jpg 1000w, <?php echo $filePath;?>images/skills-page/git.webp 1000w" 
@@ -923,7 +924,7 @@
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
                                     <!-- <img class=" lazy uk-card" data-src="<?php echo $filePath;?>images/skills-page/ibm-db2.png" alt="ibm db2 logo" height="150" width="150" uk-img> -->
-                                    <img class="responsively-lazy uk-card" alt="IBM DB2 logo" width="200" height="200" src="<?php echo $filePath;?>images/skills-page/ibm-db2.png"
+                                    <img class="responsively-lazy uk-card" alt="IBM DB2 logo" width="150" height="150" src="<?php echo $filePath;?>images/skills-page/ibm-db2.png"
                                     data-srcset="<?php echo $filePath;?>images/skills-page/ibm-db2.png 400w, <?php echo $filePath;?>images/skills-page/ibm-db2.webp 400w, 
                                     <?php echo $filePath;?>images/skills-page/ibm-db2.png 600w, <?php echo $filePath;?>images/skills-page/ibm-db2.webp 600w,
                                     <?php echo $filePath;?>images/skills-page/ibm-db2.png 1000w, <?php echo $filePath;?>images/skills-page/ibm-db2.webp 1000w" 
@@ -957,29 +958,30 @@
         </div>
     </div>
         
-    </div>    
-    <?php
-	 include_once '../footer.php';
-    ?>
+</div>   
+
+<?php
+    include_once '../footer.php';
+?>
     
-    <script>
-        
-        document.addEventListener('DOMContentLoaded', () => {
+<script>
+    
+    document.addEventListener('DOMContentLoaded', () => {
 
-        let myBtns=document.querySelectorAll('.skills_btn');
-        myBtns.forEach(function(btn) {
+    let myBtns=document.querySelectorAll('.skills_btn');
+    myBtns.forEach(function(btn) {
 
-         btn.addEventListener('click', () => {
-        myBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-                });
-
+        btn.addEventListener('click', () => {
+    myBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
             });
 
-            });
+        });
+
+        });
 
 
-    </script>
+</script>
 
 </body>
 
