@@ -1,5 +1,5 @@
 <?php
-   $pageTitle='Career with ALTCommerce';
+   $pageTitle='Career with ALT Commerce';
    $pageDescription='Current Openings,ORACLE ATG COMMERCE DEVELOPER,Responsibilities: Developing web applications, services and integrating different enterprise .';
     $currentPage = 'career';
 	 include_once '../header.php';

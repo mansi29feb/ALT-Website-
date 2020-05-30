@@ -29,7 +29,7 @@
     </div>
 <!--footer end-->
 
- <!--mobile nav-->
+<!--mobile nav-->
     <div id="offcanvas-usage" uk-offcanvas>
         <div class="uk-offcanvas-bar menu-list">
 
@@ -65,6 +65,7 @@
         </div>
     </div>
 <!--mobile nav end-->
+
     <script src="<?php echo $filePath;?>js/cssrelpreload.js"></script>
     <script src="<?php echo $filePath;?>js/modernizr-custom.js"></script>
     <script src="<?php echo $filePath;?>js/responsivelylazy.min.js"></script>

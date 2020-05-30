@@ -1,5 +1,5 @@
 <?php
-    $pageTitle='Digital Commerce with ALTCommerce';
+    $pageTitle='Digital Commerce with ALT Commerce';
     $pageDescription  = 'ALT commerce is an expert in Omni-Channel Commerce and delivering Oracle Commerce, Commerce Cloud and the suite of Oracle CX products.';
     $currentPage = 'home';
      include_once 'header.php';
@@ -1306,7 +1306,7 @@
                     
                     <div class="uk-width-expand@s uk-flex uk-flex-center@s uk-flex-right@m uk-margin-small-left uk-padding uk-padding-remove-vertical text" uk-scrollspy="cls: uk-animation-fade;">
                            <div class="contact_box"><span uk-icon="receiver"></span>&nbsp;Call Us:</br>
-                                <div class="uk-text-bold uk-text-secondary contact_text">
+                                <div class="uk-text-bold uk-text-secondary contact_text" style="color:black;">
                                     +91-120-4226757</br></br>
                                  </div>
                             
