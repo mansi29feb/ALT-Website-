@@ -348,10 +348,10 @@
                             <div class="uk-flex uk-margin uk-margin-remove-bottom">
                                 <div class="uk-margin-auto uk-padding-small uk-margin-auto-vertical skills_heading">
                                     <!-- <img class="lazy uk-card  " data-src="<?php echo $filePath;?>images/skills-page/Vantive.png" alt="vantive Logo" height="200" width="200" uk-img > -->
-                                    <img class="responsively-lazy uk-card" alt="vantive logo" width="180" height="180" src="<?php echo $filePath;?>images/skills-page/vantive.png"
-                                    data-srcset="<?php echo $filePath;?>images/skills-page/vantive.png 400w, <?php echo $filePath;?>images/skills-page/vantive.webp 400w, 
-                                    <?php echo $filePath;?>images/skills-page/vantive.png 600w, <?php echo $filePath;?>images/skills-page/vantive.webp 600w,
-                                    <?php echo $filePath;?>images/skills-page/vantive.png 1000w, <?php echo $filePath;?>images/skills-page/vantive.webp 1000w" 
+                                    <img class="responsively-lazy uk-card" alt="Vantive logo" width="180" height="180" src="<?php echo $filePath;?>images/skills-page/Vantive.png"
+                                    data-srcset="<?php echo $filePath;?>images/skills-page/Vantive.png 400w, <?php echo $filePath;?>images/skills-page/Vantive.webp 400w, 
+                                    <?php echo $filePath;?>images/skills-page/Vantive.png 600w, <?php echo $filePath;?>images/skills-page/Vantive.webp 600w,
+                                    <?php echo $filePath;?>images/skills-page/Vantive.png 1000w, <?php echo $filePath;?>images/skills-page/Vantive.webp 1000w" 
                                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                                 </div>
                                     
