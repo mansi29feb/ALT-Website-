@@ -17,89 +17,15 @@
 @media screen and (max-width:1280px) and (min-width:1280px){.imp_box{width:50%}.img_csr1{float:right}.img_csr2{float:left}}
 @media screen and (max-width:375px){.case_box{padding:0;padding-top:20px}}
 @media screen and (max-width:414px){.pad_rem{padding:0}}
-@media (min-width: 1230px){
-.uk-sticky-fixed #about_submenu {
-    margin-left: -39px;
-    
-}#about_submenu {
-    margin-left: -113px;
-}}
-@media (min-width: 1250px){
-.uk-sticky-fixed #about_submenu {
-    margin-left: -16px;
-}}
-@media (min-width: 1260px){
-.uk-sticky-fixed #about_submenu {
-    margin-left: -9px;
-}}@media (min-width: 1280px){
-.uk-sticky-fixed #about_submenu {
-    margin-left: 12px;
-}
-#about_submenu {
-    margin-left: -72px;
-}}
-@media (min-width:1300px){
-    .uk-sticky-fixed #about_submenu {
-        margin-left: 23px;
-    }
-}
-@media (min-width: 1311px){
-.uk-sticky-fixed #about_submenu {
-    margin-left: 42px;
-}}
-@media (min-width: 1333px){
-.uk-sticky-fixed #about_submenu {
-    margin-left: 71px;
-}
-#about_submenu {
-    margin-left: -54px;
-}}
-@media (min-width: 1600px){
-.uk-sticky-fixed #about_submenu {
-    margin-left: 319px;
-}}
-@media (min-width: 1603px){
-.uk-sticky-fixed #about_submenu {
-    margin-left: 333px;
-}}
-
-@media screen and (max-width:1198px) and (min-width:800px){
-    .box1{
-        width:45%;
-    }
-    .box2{
-        width:40%;
-    }
-}
-
-@media screen and (max-width:1198px) and (min-width:1198px){
-    .box1{
-        width:45%;
-    }
-    .box2{
-        width:40%;
-    }
-}
-
-@media screen and (max-width:1170px) and (min-width:300px){
-    .skill{
-        overflow: auto;
-        height:60px;
-    }
-    .skill_outer .uk-subnav{
-        flex-wrap: nowrap;
-    }
-
-    .skills_btn{
-        border:1px solid #999999;
-    }
-    .skills_btn:hover{
-        border: 1px solid #1C1C1C;
-    }
-    .active{
-        border: 1px solid #1C1C1C;
-    }
-    li .uk-button{
-        line-height:35px;
-    }
-}
+@media (min-width: 1230px){.uk-sticky-fixed #about_submenu {margin-left: -39px;}#about_submenu {margin-left: -113px;}}
+@media (min-width: 1250px){.uk-sticky-fixed #about_submenu { margin-left: -16px;}}
+@media (min-width: 1260px){.uk-sticky-fixed #about_submenu {margin-left: -9px;}}@media (min-width: 1280px){.uk-sticky-fixed #about_submenu { margin-left: 12px;}#about_submenu {margin-left: -72px;}}
+@media (min-width:1300px){.uk-sticky-fixed #about_submenu {margin-left: 23px;}}
+@media (min-width: 1311px){.uk-sticky-fixed #about_submenu {margin-left: 42px;}}
+@media (min-width: 1333px){.uk-sticky-fixed #about_submenu {margin-left: 71px;}#about_submenu { margin-left: -54px;}}
+@media (min-width: 1600px){.uk-sticky-fixed #about_submenu {margin-left: 319px;}}
+@media (min-width: 1603px){.uk-sticky-fixed #about_submenu {margin-left: 333px;}}
+@media screen and (max-width:1198px) and (min-width:800px){.box1{ width:45%;}.box2{ width:40%;}}
+@media screen and (max-width:1198px) and (min-width:1198px){.box1{ width:45%;}.box2{width:40%;}}
+@media screen and (max-width:1170px) and (min-width:300px){.skill{overflow: auto;height:60px;}.skill_outer .uk-subnav{flex-wrap: nowrap; }
+.skills_btn{border:1px solid #999999; }.skills_btn:hover{border: 1px solid #1C1C1C;}.active{border: 1px solid #1C1C1C;} li .uk-button{ line-height:35px; }}
