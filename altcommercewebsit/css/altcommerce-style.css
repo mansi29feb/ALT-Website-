@@ -28,9 +28,12 @@ body {
        transform: rotate(360deg); 
    } 
 } 
-end preloader*/
 
-/*  .center { 
+
+
+/*end preloader
+
+  .center { 
    position: absolute; 
    top: 0; 
    bottom: 0; 
@@ -41,7 +44,7 @@ end preloader*/
 
 /* preloder css end*/
 
-/*header*/
+/*header
 
 .nav-header {
   background-color: #fff !important;
@@ -802,7 +805,7 @@ input[type="email"] {
 /* media query */
 
 @media screen and (max-width: 899px) and (min-width:400px) {
-  /* header*/
+  /* header
   .nav-header {
       box-shadow: none !important;
   }
@@ -867,10 +870,10 @@ input[type="email"] {
   body {
       width: 100%;
   }
-  /*header*/
+  /*header
   .menu-toggle {
       height: 10px;
-      /* width: 58px;*/
+      
   }
   .mobile-navbutton {
       display: block;
@@ -893,7 +896,7 @@ input[type="email"] {
   /* .top-bar{
        display:none;
    } */
-  .img {
+  /*.img {
       width: 135px;
       margin-left: 1px;
   }
@@ -920,7 +923,7 @@ input[type="email"] {
 }
 
 @media screen and (max-width:959px)and (min-width:900px) {
-  /*header*/
+  /*header
   .img {
       width: 152px !important;
       margin-left: 133px !important;
@@ -931,7 +934,7 @@ input[type="email"] {
   }
   .menu-toggle {
       height: 10px !important;
-      /* width: 58px; */
+      
       margin-left: -49px !important;
   }
   /* header end*/
@@ -953,7 +956,7 @@ input[type="email"] {
       width: 100%;
       ;
   }
-  /*header*/
+  /*header
   .nav-header {
       box-shadow: none !important;
   }
@@ -971,7 +974,7 @@ input[type="email"] {
   /* .top-bar{
        display:none;
     } */
-  .logo-img {
+  /*.logo-img {
       margin: auto;
       padding-right: 75px;
   }
@@ -1019,7 +1022,7 @@ input[type="email"] {
 }
 
 @media screen and (min-width:1050px) {
-  /*header*/
+  /*header
   .img {
       width: 160px;
       margin-left: -55px;
@@ -1030,7 +1033,7 @@ input[type="email"] {
   /*.logo-img{
    width: 274px;
   }*/
-  .mobile-nav {
+ /* .mobile-nav {
       margin-left: 222px;
   }
   /*header end*/
@@ -1051,18 +1054,18 @@ input[type="email"] {
       margin-left: -59px;
   }
 }
-
+/*header
 @media screen and (min-width:1070px) {
   .mobile-nav {
       margin-left: 251px;
   }
 }
-
+/*--*/
 @media screen and (max-width:1049px)and (min-width:900px) {
   body {
       width: 100%;
   }
-  /*header*/
+  /*header
   .nav-header {
       box-shadow: none !important;
   }
@@ -1076,9 +1079,9 @@ input[type="email"] {
       margin: auto;
   }
   .menu-toggle {
-      /*new change*/
+      
       height: 10px;
-      /* width: 58px;*/
+      
       margin-left: -49px;
   }
   .mobile-navbutton {
@@ -1092,7 +1095,7 @@ input[type="email"] {
   /* .top-bar{
    display:none;
 } */
-  .logo-img {
+  /*.logo-img {
       margin: auto;
       padding-right: 75px;
   }
@@ -1136,7 +1139,7 @@ input[type="email"] {
   .uk-sticky-fixed .mobile-nav {
       margin-left: 289px;
   }
-  /*header*/
+  /*header
   .mobile-nav {
       margin-left: 274px;
   }
@@ -1144,7 +1147,7 @@ input[type="email"] {
 }
 
 @media screen and (min-width: 1130px) {
-  /*header*/
+  /*header
   .mobile-nav {
       margin-left: 309px;
   }
@@ -1155,7 +1158,7 @@ input[type="email"] {
 }
 
 @media screen and (min-width: 1170px) {
-  /*header*/
+  /*header
   .mobile-nav {
       margin-left: 346px;
   }
@@ -1166,7 +1169,7 @@ input[type="email"] {
 }
 
 @media screen and (min-width: 1190px) {
-  /*header*/
+  /*header
   .mobile-nav {
       margin-left: 365px;
   }
@@ -1183,7 +1186,7 @@ input[type="email"] {
   /* .top-bar{
        display:none;
     } */
-  /*header*/
+  /*header
   .mobile-navbutton {
       background: no-repeat;
       border: black;
@@ -1194,11 +1197,11 @@ input[type="email"] {
       padding-right: 23px;
   }
   .img {
-      /*change */
-      /*width: 122px;*/
+      
+     
       margin-left: 21px;
   }
-  .menu-toggle {
+  /*.menu-toggle {
       margin-left: -4px;
   }
   /*header end*/
@@ -1244,13 +1247,13 @@ input[type="email"] {
   /* .top-bar{
      display:none;
  } */
-  /*header*/
+  /*header
   .menu-toggle {
-      /*changes*/
+      
       margin-left: -34px;
   }
   .logo-img {
-      /*changes*/
+      
       margin: auto;
       padding-right: 31px;
   }
