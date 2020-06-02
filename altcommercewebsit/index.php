@@ -219,9 +219,9 @@
 
 <!-----------------------------------------Careers section starts------------------->
 
-        <div class="uk-section uk-card uk-card-default uk-card-body uk-padding-remove">
+        <div class="uk-card uk-card-default uk-card-body uk-padding-remove" style="margin-left:auto; margin-right:auto;">
             <div class="uk-background-contain uk-background-center-right career_homepage">
-                <div class="uk-child-width-1-1@s uk-child-width-1-5@m uk-flex uk-flex-center@s uk-flex-left@m career_box" uk-grid>
+                <div class="uk-child-width-1-1@s uk-child-width-1-5@m career_box" uk-grid>
                    <div class="uk-width-2-5@m uk-width-1-1@s box1">
                         <div class="uk-margin-large-top uk-margin-remove-top@s">
                             <div class="uk-container " uk-scrollspy="cls: uk-animation-scale-up">
@@ -239,8 +239,9 @@
 
 
 
-                        <div class="uk-card uk-card-body uk-width-1-5@m uk-width-1-1@s box2">
-                                <form id="demo-form" class="uk-card uk-card-body uk-card-default uk-padding-small form" method="POST" enctype="multipart/form-data" uk-scrollspy="cls: uk-animation-scale-up"> 
+                        <div class="uk-card uk-card-body uk-width-1-5@m uk-width-1-1@s box2 uk-margin-small-bottom">
+                                <form id="demo-form" class="uk-card uk-card-body uk-card-default uk-padding-small form" method="POST" 
+                                enctype="multipart/form-data" uk-scrollspy="cls: uk-animation-scale-up" style="margin-left:auto; margin-right:auto;"> 
                                         <h3 class="uk-text-bold uk-text-secondary form_heading uk-margin-small-top">Apply Now</h3>
                                         <div class="">
                                             <label class="uk-form-label form_field" for="name">NAME:*</label>
