@@ -87,15 +87,14 @@
                         </button>
                     </div>
                     <div class="uk-flex uk-navbar-left logo-img">
-                        <div class="uk-navbar-item  clear-padd brand-logo img">       
-                <picture>
-                <a href="http://altcommerce.com/">
-                    <source srcset="<?php echo $filePath;?>images/alt.webp" type="image/webp">
-                    <img class="image" src="<?php echo $filePath;?>images/alt.png" alt="ALT Logo">
-                    </a>
-                </picture>
+                        <div class="uk-navbar-item  clear-padd brand-logo img"> 
+                            <a href="http://altcommerce.com/">   
+                                <picture>
+                                    <source srcset="<?php echo $filePath;?>images/alt.webp" type="image/webp">
+                                    <img class="image" src="<?php echo $filePath;?>images/alt.png" alt="ALT Logo">
+                                </picture>
+                            </a>
                         </div>
-
                     </div>
 
                     <div class="mobile-nav uk-navbar-right uk-width-expand@m">
