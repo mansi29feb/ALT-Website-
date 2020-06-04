@@ -67,8 +67,8 @@
 <!--mobile nav end-->
 
     <script src="<?php echo $filePath;?>js/cssrelpreload.js"></script>
-    <script src="<?php echo $filePath;?>js/modernizr-custom.js"></script>
-    <script src="<?php echo $filePath;?>js/responsivelylazy.min.js"></script>
+    <!-- <script src="<?php echo $filePath;?>js/modernizr-custom.js"></script>
+    <script src="<?php echo $filePath;?>js/responsivelylazy.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="<?php echo $filePath;?>js/sweetalert.min.js" defer></script>
