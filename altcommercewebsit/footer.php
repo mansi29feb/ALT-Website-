@@ -41,12 +41,12 @@
             <a href="<?php echo $filePath;?>">Home</a>
             <br>
             
-                <button class="uk-button sub-togle">About Us</button>
+            <button class="uk-button sub-togle">About Us</button>
                     <div class="drop-nav" uk-dropdown="mode: click" >
                       <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="<?php echo $filePath;?>about">WHAT WE DO</a></li>
-                        <li class="uk-active"><a href="<?php echo $filePath;?>csr">COMMUNITY</a></li>
-                        <li class="uk-active"><a href="<?php echo $filePath;?>contactus">CONTACT US</a></li>
+                        <li class="uk-active"><a href="<?php echo $filePath;?>about" style="color:#fff;">WHAT WE DO</a></li>
+                        <li class="uk-active"><a href="<?php echo $filePath;?>csr" style="color:#fff;">COMMUNITY</a></li>
+                        <li class="uk-active"><a href="<?php echo $filePath;?>contactus" style="color:#fff;">CONTACT US</a></li>
                      </ul>
                   
                 </div>

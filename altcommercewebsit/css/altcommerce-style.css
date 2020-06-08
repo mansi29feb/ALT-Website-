@@ -2,6 +2,40 @@ body {
   font-family: poppins;
   overflow-x: hidden;
 }
+/*preloader
+   #loader-wrapper {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background: whitesmoke;
+     z-index: 1000;
+ }
+ #loader { 
+  border: 7px solid #3b8cca; 
+  border-radius: 50%; 
+  border-top: 7px solid #f6922d; 
+  width: 50px; 
+  height: 50px; 
+  animation: spin 1s linear infinite;
+  z-index: 9999;
+  
+} 
+
+@keyframes spin { 
+  100% { 
+      transform: rotate(360deg); 
+  } 
+} 
+/*end preloader
+.center { 
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  margin: auto;
+}  
 /*header*/
 
 .nav-header {
@@ -60,7 +94,9 @@ _:-ms-fullscreen,
   line-height: 80px;
   vertical-align: middle;
 }
-
+.sub-list{
+color:#fff;
+}
 /*header end*/
 
 .menu-list {
@@ -99,9 +135,11 @@ _:-ms-fullscreen,
 /* mobile nav css*/
 
 .drop-nav {
-  left: 39.0156px !important;
-  top: 163px !important;
-  border-top: 2px solid #f6922d !important;
+  left:33.0156px!important;
+  top: 158px !important;
+ /* border-top: 2px solid #f6922d !important;*/
+  background-color: #f6922d;
+  box-shadow: none;
 }
 
 .sub-togle {
