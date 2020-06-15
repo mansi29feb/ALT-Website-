@@ -61,15 +61,19 @@ _:-ms-fullscreen,
   line-height: 80px;
   vertical-align: middle;
 }
-.sub-list{
-color:#fff;
-}
-/*header end*/
 
+/*header end*/
+/*now chenge*/
 .menu-list {
-  line-height: 30px;
-  text-align: center;
-  background-color: #f6922d;
+  background-color:#ffffff;
+    display: block;
+    line-height: 35px;
+    padding: 66px 19px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: Poppins,sans-serif;
 }
 
 .mobile-navbutton {
@@ -99,8 +103,14 @@ color:#fff;
  color:#ff7600 !important;
 } */
 
-/* mobile nav css*/
-
+/* mobile nav css new*/
+.sub-menu-container{
+  position: relative;
+    padding-left: 15px;
+    border-top: 1px solid #eee;
+    list-style: none;
+    margin-bottom: 0;
+}
 .drop-nav {
   left:33.0156px!important;
   top: 158px !important;
@@ -110,10 +120,15 @@ color:#fff;
 }
 
 .sub-togle {
-  background-color: #f6922d;
-  color: #fffada;
+  background-color: #ffffff;
+    color: #000;
+    font-size: 13px;
 }
-
+.menu-container{
+  list-style: none;
+    margin: 0;
+    width: 100%;
+}
 .slider-title {
   color: #000 !important;
   font-size: 40px !important;
@@ -122,7 +137,9 @@ color:#fff;
   margin-bottom: 26px;
   font-family: poppins !important;
 }
-
+.menu-itme{
+  border-top: 1px solid #eee;
+}
 /* .sub-button{
    color: #fff;
    background-color: #ff7600;
