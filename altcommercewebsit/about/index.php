@@ -55,7 +55,7 @@
         </div> 
         <div class="uk-width-1-3@m">
                 <div class="uk-text-left career2_box" uk-scrollspy="cls: uk-animation-slide-top-medium">
-                 <img src="<?php echo $filePath;?>images/ourteam.jpeg" alt="team" style="height: 204px;"> 
+                 <img src="<?php echo $filePath;?>images/ourteam.jpeg" alt="team" style="height: 204px;width: 375px;"> 
                 <!--<img class="responsively-lazy" alt="team"  height="248" src="<?php echo $filePath;?>images/ourteam.jpeg"
                 data-srcset="<?php echo $filePath;?>images/ourteam.jpeg 400w, <?php echo $filePath;?>images/ourteam.webp 400w, 
                 <?php echo $filePath;?>images/ourteam.jpeg 600w, <?php echo $filePath;?>images/ourteam.webp 600w,
