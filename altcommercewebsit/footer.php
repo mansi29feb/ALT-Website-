@@ -33,31 +33,31 @@
     <div id="offcanvas-usage" uk-offcanvas>
         <div class="uk-offcanvas-bar menu-list">
 
-            <button class="uk-offcanvas-close" type="button" uk-close style="color:black;"></button>
-            <ul class="menu-container" style="display:block;">
+            <button class="close-icon uk-offcanvas-close" type="button" uk-close style="color:black;"></button>
+            <ul class="menu-container">
             
 
-               <li class="menu-itme"><a class="<?php if($currentPage =='home'){echo 'active_page';}?>" href="<?php echo $filePath;?>">Home</a></li>
+               <li class="uk-active menu-itme"><a class="<?php if($currentPage =='home'){echo 'active_page';}?>" href="<?php echo $filePath;?>">Home</a></li>
                 
                 
                     <div class="sub-togle  <?php if($currentPage =='about'){echo 'active_page';}?>">About Us</div>
                     <div class="sub-menu-container" uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000" >
                         <ul class="uk-nav uk-navbar-dropdown-nav">
                             <li class="uk-active"><a href="<?php echo $filePath;?>about" style="color:#000;">WHAT WE DO</a></li>
-                            <li class="uk-active menu-itm"><a href="<?php echo $filePath;?>csr" style="color:#000;">COMMUNITY</a></li>
-                            <li class="uk-active menu-itm"><a href="<?php echo $filePath;?>contactus" style="color:#000;">CONTACT US</a></li>
+                            <li class="uk-active menu-itm1"><a href="<?php echo $filePath;?>csr" style="color:#000;">COMMUNITY</a></li>
+                            <li class="uk-active menu-itm1"><a href="<?php echo $filePath;?>contactus" style="color:#000;">CONTACT US</a></li>
                         </ul>
                     
                     </div>
                     
                 
-                <li class="menu-itm"><a class="<?php if($currentPage =='skill'){echo 'active_page';}?>" href="<?php echo $filePath;?>skill">Skills</a></li>
+                <li class="uk-active menu-itm"><a class="<?php if($currentPage =='skill'){echo 'active_page';}?>" href="<?php echo $filePath;?>skill">Skills</a></li>
                         
-                <li class="menu-itm" ><a class="<?php if($currentPage =='service'){echo 'active_page';}?>" href="<?php echo $filePath;?>service">Services</a></li>
+                <li class="uk-active menu-itm" ><a class="<?php if($currentPage =='service'){echo 'active_page';}?>" href="<?php echo $filePath;?>service">Services</a></li>
                 
-               <li class="menu-itm"><a class="<?php if($currentPage =='resource'){echo 'active_page';}?>" href="<?php echo $filePath;?>resource">Resource</a></li>
+               <li class="uk-active menu-itm"><a class="<?php if($currentPage =='resource'){echo 'active_page';}?>" href="<?php echo $filePath;?>resource">Resource</a></li>
                
-                <li class="menu-itm"><a class="<?php if($currentPage =='career'){echo 'active_page';}?>"  href="<?php echo $filePath;?>careers">Careers</a></li>
+                <li class="uk-active menu-itm"><a class="<?php if($currentPage =='career'){echo 'active_page';}?>"  href="<?php echo $filePath;?>careers">Careers</a></li>
                 
             </ul>    
 
