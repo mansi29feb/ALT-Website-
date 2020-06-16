@@ -34,7 +34,7 @@
                                     <?php echo $filePath;?>images/noida.jpg 600w, <?php echo $filePath;?>images/noida.webp 600w,
                                     <?php echo $filePath;?>images/noida.jpg 1000w <?php echo $filePath;?>images/noida.webp 1000w" 
                                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />-->
-                                <div class="uk-overlay uk-position-center"><button type="button" class="uk-button uk-button-text" ><a  class="cases_btnlink" href="https://goo.gl/maps/yn6EXoLCaQzXEMEY9" style="color:white;" target="_blank">CORPORATE OFFICE </a></button>
+                                <div class="uk-overlay uk-position-center"><button type="button" class="uk-button uk-button-text" ><a  class="cases_btnlink" href="https://goo.gl/maps/yn6EXoLCaQzXEMEY9" style="color:white; text-decoration:none;" target="_blank">CORPORATE OFFICE </a></button>
                             </div>
              
                         </div>
@@ -50,7 +50,7 @@
                                     <?php echo $filePath;?>images/Bangalore.jpg 600w, <?php echo $filePath;?>images/Bangalore.webp 600w,
                                     <?php echo $filePath;?>images/Bangalore.jpg 1000w <?php echo $filePath;?>images/Bangalore.webp 1000w" 
                                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />-->
-                            <div class="uk-overlay uk-position-center"><button type="button" class="uk-button uk-button-text" ><a  class="cases_btnlink" href="https://goo.gl/maps/ycdkDSCKBfi7pqc76" style="color:white;" target="_blank">BANGALORE OFFICE </a></button>
+                            <div class="uk-overlay uk-position-center"><button type="button" class="uk-button uk-button-text" ><a  class="cases_btnlink" href="https://goo.gl/maps/ycdkDSCKBfi7pqc76" style="color:white;text-decoration:none;" target="_blank">BANGALORE OFFICE </a></button>
                             </div>
             
                         </div>

@@ -31,7 +31,7 @@
 
 <!--mobile nav-->
     <div id="offcanvas-usage" uk-offcanvas>
-        <div class="uk-offcanvas-bar menu-list">
+        <div class="uk-offcanvas-bar menu-list" style="box-shadow: 0 5px 15px rgba(0, 0, 0, .09);">
 
             <button class="close-icon uk-offcanvas-close" type="button" uk-close style="color:black;"></button>
             <ul class="menu-container">
@@ -40,8 +40,9 @@
                <li class="uk-active menu-itme"><a class="<?php if($currentPage =='home'){echo 'active_page';}?>" href="<?php echo $filePath;?>">Home</a></li>
                 
                 
-                    <div class="sub-togle  <?php if($currentPage =='about'){echo 'active_page';}?>">About Us</div>
-                    <div class="sub-menu-container" uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000" >
+                    <div class="sub-togle <?php if($currentPage =='about'){echo 'active_page';}?>">About Us</div>
+                    <div class="sub-menu-container uk-margin-remove-top uk-padding-remove-bottom" 
+                    uk-dropdown="animation: uk-animation-slide-left-small; duration: 1000" >
                         <ul class="uk-nav uk-navbar-dropdown-nav">
                             <li class="uk-active"><a href="<?php echo $filePath;?>about" style="color:#000;">WHAT WE DO</a></li>
                             <li class="uk-active menu-itm1"><a href="<?php echo $filePath;?>csr" style="color:#000;">COMMUNITY</a></li>
@@ -65,7 +66,7 @@
     </div>
 <!--mobile nav end-->
 
-    <script src="<?php echo $filePath;?>js/cssrelpreload.js"></script>
+<script src="<?php echo $filePath;?>js/cssrelpreload.js"></script>
     <!-- <script src="<?php echo $filePath;?>js/modernizr-custom.js"></script>
     <script src="<?php echo $filePath;?>js/responsivelylazy.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -84,31 +85,7 @@
              //not-supported
               }
          });
-         </script>
-<script>
-  /*  document.onreadystatechange = function() { 
-    if (document.readyState !== "complete") { 
-        document.querySelector( 
-          "body").style.visibility = "hidden"; 
-        document.querySelector( 
-          "#loader-wrapper").style.visibility = "visible"; 
-    } else { 
-        document.querySelector( 
-          "#loader-wrapper").style.display = "none"; 
-        document.querySelector( 
-          "body").style.visibility = "visible"; 
-        
-    } 
-    if ( ! sessionStorage.getItem( 'doNotShow' ) ) {
-    sessionStorage.setItem( 'doNotShow', true );
-    $('#loader-wrapper').delay(250).fadeOut('slow'); 
-    } else {
-    $('#loader-wrapper').hide();
-    }
-    }; */
-
-    
-</script>  
+</script>
 
    
     
