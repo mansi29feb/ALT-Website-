@@ -52,7 +52,7 @@
                     </div>
                     
                 
-                <li class="uk-active menu-itm"><a class="<?php if($currentPage =='skill'){echo 'active_page';}?>" href="<?php echo $filePath;?>skill">Skills</a></li>
+                <li class="uk-active menu-itm"><a class="<?php if($currentPage =='skill'){echo 'active_page';}?>" href="<?php echo $filePath;?>skill" style="color:#000;">Skills</a></li>
                         
                 <li class="uk-active menu-itm" ><a class="<?php if($currentPage =='service'){echo 'active_page';}?>" href="<?php echo $filePath;?>service">Services</a></li>
                 
