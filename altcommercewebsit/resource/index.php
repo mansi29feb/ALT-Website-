@@ -147,15 +147,15 @@
 
         <!-- case1 -->
         <div id="works1" class="uk-padding-large" uk-modal>
-            <div class="uk-card uk-card-body uk-card-default case_box" >
+            <div class="uk-card uk-card-body uk-card-default uk-margin-medium-top uk-align-center case_box" >
             
-                <div class=" uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                    <div class=" uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold multi_box uk-padding-small uk-padding-remove-top uk-padding-remove-bottom case_head">Multi-site</br>implementation
+                <div class=" uk-child-width-1-4@s uk-grid-collapse uk-grid-match" uk-grid>
+                    <div class="uk-width-1-4@m uk-width-1-1@s">
+                        <div class="uk-text-center uk-text-bold multi_box uk-padding-small" style="margin:auto 0">Multi-site implementation
                             <div class="uk-text-meta uk-text-secondary"></div>
                         </div>
                     </div>
-                    <div class="uk-width-3-4@s case_box2">
+                    <div class="uk-width-3-4@m uk-width-1-1@s case_box2">
                         <div class="uk-margin uk-padding-small"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
@@ -217,14 +217,14 @@
 
         <!-- case2  -->
         <div id="works2" class="uk-padding-large" uk-modal>
-            <div  class=" uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
-                <div class="uk-child-width-1-4@s uk-column-divider" uk-grid>
-                    <div class="uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading case_head">Data Center Migration
-                            <div class="uk-text-meta uk-text-secondary"></div>
+            <div  class=" uk-card uk-card-body uk-margin-medium-top uk-align-center uk-card-default case_box">
+                <div class="uk-child-width-1-4@s uk-grid-match" uk-grid >
+                    <div class="uk-width-1-4@m uk-width-1-1@s">
+                        <div class="uk-text-center uk-text-bold case_subheading" style="margin:auto 0" >Data Center Migration
                         </div>
                     </div>
-                    <div class="uk-width-3-4@s">
+                    
+                    <div class="uk-width-3-4@m uk-width-1-1@s">
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
@@ -273,13 +273,13 @@
 
         <!-- case3 -->
         <div id="works3" class="uk-padding-large" uk-modal>
-            <div class="uk-card uk-card-body uk-card-default case_box">
-                <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-                    <div class="uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading case_head">Site Redesign 
+            <div class="uk-card uk-card-body uk-card-default uk-margin-medium-top uk-align-center case_box">
+                <div class="uk-child-width-1-4@s uk-grid-match" uk-grid>
+                    <div class="uk-width-1-4@m uk-width-1-1@s">
+                        <div class="uk-text-center uk-text-bold case_subheading" style=" margin:auto 0;">Site Redesign 
                         </div>  
                     </div>
-                    <div class="uk-width-3-4@s">
+                    <div class="uk-width-3-4@m uk-width-1-1@s">
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
@@ -329,13 +329,13 @@
 
        <!-- case 4 -->
         <div id="works4" class="uk-padding-large" uk-modal>
-            <div  class="uk-card uk-card-body case_box uk-margin-small-top uk-card-default">
-                <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-                    <div class="uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading case_head">Cross-Reference Tool
+            <div  class="uk-card uk-card-body case_box uk-margin-medium-top uk-align-center uk-card-default">
+                <div class="uk-child-width-1-4@s uk-grid-match" uk-grid>
+                    <div class="uk-width-1-4@m uk-width-1-1@s" >
+                        <div class="uk-text-center uk-text-bold case_subheading" style="margin:auto 0;">Cross-Reference Tool
                         </div>
                     </div>
-                    <div class="uk-width-3-4@s">
+                    <div class="uk-width-3-4@m uk-width-1-1@s">
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
@@ -403,13 +403,13 @@
 
         <!-- case 5 -->
         <div id="works5" class="uk-padding-large" uk-modal>
-            <div class="uk-card uk-card-body case_box uk-card-default">
-                <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                    <div class="uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading uk-text-break case_head">Membership (Loyalty) Program   
+            <div class="uk-card uk-card-body case_box uk-card-default uk-margin-medium-top uk-align-center">
+                <div class="uk-child-width-1-4@s uk-grid-collapse uk-grid-match" uk-grid>
+                    <div class="uk-width-1-4@m uk-width-1-1@s">
+                        <div class="uk-text-center uk-text-bold case_subheading" style="margin:auto 0;">Membership (Loyalty) Program   
                         </div>   
                     </div>
-                    <div class="uk-width-3-4@s case_box2">
+                    <div class="uk-width-3-4@m uk-width-1-1@s case_box2">
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
@@ -464,13 +464,13 @@
 
         <!-- case 6 -->
         <div id="works6" class="uk-padding-large" uk-modal>
-            <div id="" class="uk-card uk-card-body  uk-card-default case_box" >
-                <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                    <div class="uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold multi_box case_subheading uk-text-break case_head">Multi-site implementation   
+            <div id="" class="uk-card uk-card-body  uk-card-default case_box uk-margin-medium-top uk-align-center" >
+                <div class="uk-child-width-1-4@s uk-grid-collapse uk-grid-match" uk-grid>
+                    <div class="uk-width-1-4@m uk-width-1-1@s">
+                        <div class="uk-text-center uk-text-bold multi_box case_subheading" style="margin:auto 0">Multi-site implementation   
                         </div>
                     </div>
-                    <div class="uk-width-3-4@s case_box2">
+                    <div class="uk-width-3-4@m uk-width-1-1@s case_box2">
                         <div class="uk-margin uk-padding-small uk-margin-small-left "> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
@@ -533,13 +533,13 @@
         
         <!-- case 7 -->
         <div id="works7" class="uk-padding-large" uk-modal>
-            <div  class="uk-card uk-card-body uk-margin-small-top uk-card-default">
-                <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-                    <div class="uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading case_head">SalesForce SSO Integration  
+            <div  class="uk-card uk-card-body uk-card-default uk-margin-medium-top uk-align-center case_box">
+                <div class="uk-child-width-1-4@s uk-grid-match" uk-grid>
+                    <div class="uk-width-1-4@m uk-width-1-1@s">
+                        <div class="uk-text-center uk-text-bold case_subheading" style="margin:auto 0">SalesForce SSO Integration  
                         </div>  
                     </div>
-                    <div class="uk-width-3-4@s case_box">
+                    <div class="uk-width-3-4@m uk-width-1-1@s case_box">
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
@@ -604,14 +604,14 @@
 
         <!-- case 8 -->
         <div id="works8" class="uk-padding-large" uk-modal>
-            <div class="uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
-                <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-                    <div class="uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading case_head">Twillo Integration
+            <div class="uk-card uk-card-body uk-margin-medium-top uk-align-center case_box case_box uk-card-default">
+                <div class="uk-child-width-1-4@s uk-grid-match" uk-grid>
+                    <div class="uk-width-1-4@m uk-width-1-1@s">
+                        <div class="uk-text-center uk-text-bold case_subheading" style="margin:auto 0;">Twillo Integration
                             <div class="uk-text-meta uk-text-secondary"></div>
                         </div>  
                     </div>
-                    <div class="uk-width-3-4@s">
+                    <div class="uk-width-3-4@m uk-width-1-1@s">
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
@@ -675,14 +675,14 @@
 
         <!-- case 9 -->
         <div id="works9" class="uk-padding-large" uk-modal>
-            <div id="" class="uk-card uk-card-body case_box  uk-card-default ">
-                <div class="uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                    <div class="uk-width-1-4@s">
-                        <div class="uk-text-center uk-padding-small uk-text-bold case_subheading case_head">Multi-part search
+            <div id="" class="uk-card uk-card-body uk-margin-medium-top uk-align-center case_box uk-card-default ">
+                <div class="uk-child-width-1-4@s uk-grid-collapse uk-grid-match" uk-grid>
+                    <div class="uk-width-1-4@m uk-width-1-1@s">
+                        <div class="uk-text-center uk-padding-small uk-text-bold case_subheading" style="margin:auto 0;">Multi-part search
                             <div class="uk-text-meta uk-text-secondary"></div>
                         </div>   
                     </div>
-                    <div class="uk-width-3-4@s">
+                    <div class="uk-width-3-4@m uk-width-1-1@s">
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">

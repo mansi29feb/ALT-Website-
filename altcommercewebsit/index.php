@@ -303,7 +303,7 @@
 
                         <!-- <img class="lazy" data-src="images/case/case11.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                         <div class="works_overlay uk-position-center">
-                            <button uk-toggle="target: #works1" class="more uk-border-circle" uk-icon="icon: more; ratio: 0.8" aria-label="three_dot_Button"></button>
+                            <button uk-toggle="target: #works1" class="more uk-border-circle" uk-icon="icon: more; ratio: 0.8" aria-label="three_dot_Button" style="outline:none;"></button>
                         </div>
                     </div>
                 </div>
@@ -329,7 +329,8 @@
                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
                         <div class="works_overlay uk-position-center">
-                            <button uk-toggle="target: #works2" class=" more uk-border-circle" aria-label="three_dot_Button" uk-icon="icon: more; ratio: 0.8"></button>
+                            <button uk-toggle="target: #works2" class=" more uk-border-circle" aria-label="three_dot_Button"
+                             uk-icon="icon: more; ratio: 0.8" style="outline:none;"></button>
                         </div>
                     </div>
                 </div>
@@ -356,7 +357,8 @@
 
                         <!-- <img class="lazy" data-src="images/case/case7.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                         <div class="uk-position-center works_overlay">
-                            <button uk-toggle="target: #works3"  class=" more uk-border-circle" aria-label="three_dot_Button" uk-icon="icon: more; ratio: 0.8"></button>
+                            <button uk-toggle="target: #works3"  class=" more uk-border-circle" aria-label="three_dot_Button" 
+                            uk-icon="icon: more; ratio: 0.8" style="outline:none;"></button>
                         </div>
                     </div>
                 </div>
@@ -383,7 +385,8 @@
 
                         <!-- <img class="lazy" data-src="images/case/case4.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                         <div class="uk-position-center works_overlay">
-                            <button uk-toggle="target: #works4"  class=" more uk-border-circle" aria-label="three_dot_Button" uk-icon="icon: more; ratio: 0.8"></button>
+                            <button uk-toggle="target: #works4"  class=" more uk-border-circle" aria-label="three_dot_Button" 
+                            uk-icon="icon: more; ratio: 0.8" style="outline:none;"></button>
                         </div>
                     </div>
                 </div>
@@ -409,7 +412,8 @@
                     srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                         <!-- <img class="lazy" data-src="images/case/case5.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                         <div class="uk-position-center works_overlay">
-                            <button uk-toggle="target: #works5" class=" more uk-border-circle" aria-label="three_dot_Button" uk-icon="icon: more; ratio: 0.8"></button>
+                            <button uk-toggle="target: #works5" class=" more uk-border-circle" aria-label="three_dot_Button" 
+                            uk-icon="icon: more; ratio: 0.8" style="outline:none;"></button>
                         </div>
                     </div>
                 </div>
@@ -435,7 +439,8 @@
 
                         <!-- <img class="lazy" data-src="images/case/case6.jpg" alt="" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns"> -->
                         <div class="uk-position-center works_overlay">
-                            <button uk-toggle="target: #works6" class=" more uk-border-circle" aria-label="three_dot_Button" uk-icon="icon: more; ratio: 0.8"></button>
+                            <button uk-toggle="target: #works6" class=" more uk-border-circle" aria-label="three_dot_Button" 
+                            uk-icon="icon: more; ratio: 0.8" style="outline:none;"></button>
                         </div>
                     </div>
                 </div>
@@ -451,16 +456,16 @@
 
         <!-- Work 2 -->
         <div id="works2" class="uk-padding-large" uk-modal>
-            <div id="" class="uk-card uk-card-body case_box uk-card-default " >
+            <div id="" class="uk-card uk-card-body uk-margin-medium-top uk-align-center case_box uk-card-default " >
                 
-                <div class=" uk-child-width-1-4@s uk-grid-collapse" uk-grid>
-                    <div class="uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold multi_box uk-padding-small uk-padding-remove-top uk-padding-remove-bottom case_head">Multi-site implementation
+                <div class=" uk-child-width-1-4@s uk-grid-match" uk-grid>
+                    <div class="uk-width-1-4@m uk-width-1-1@s">
+                        <div class="uk-text-center uk-text-bold multi_box uk-padding-small" style="margin:auto 0;">Multi-site implementation
                             <div class="uk-text-meta uk-text-secondary"></div>
                         </div>
                     
                     </div>
-                    <div class="uk-width-3-4@s case_box2">
+                    <div class="uk-width-3-4@m uk-width-1-1@s case_box2">
                         <div class="uk-margin uk-padding-small"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
@@ -546,14 +551,14 @@
         </div>
         <!-- work 1 -->
         <div id="works1" class="uk-padding-large" uk-modal>
-            <div  class=" uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
-                <div class="uk-child-width-1-4@s uk-column-divider" uk-grid>
-                    <div class="uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading case_head">Data Center Migration
+            <div  class=" uk-card uk-card-body uk-margin-medium-top uk-align-center case_box uk-card-default">
+                <div class="uk-child-width-1-4@s uk-grid-match" uk-grid>
+                    <div class="uk-width-1-4@m uk-width-1-1@s">
+                        <div class="uk-text-center uk-text-bold case_subheading" style="margin:auto 0;">Data Center Migration
                             <div class="uk-text-meta uk-text-secondary"></div>
                         </div>
                     </div>
-                    <div class="uk-width-3-4@s">
+                    <div class="uk-width-3-4@m uk-width-1-1@s">
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
@@ -618,15 +623,15 @@
         </div>
         <!-- work 3 -->
         <div id="works3" class="uk-padding-large" uk-modal>
-            <div  class="uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
-                <div class="uk-child-width-1-4@s uk-column-divider" uk-grid>
-                    <div class="uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading case_head">Cross-Reference Tool
+            <div  class="uk-card uk-card-body uk-margin-medium-top uk-align-center case_box uk-card-default">
+                <div class="uk-child-width-1-4@s uk-grid-match" uk-grid>
+                    <div class="uk-width-1-4@m uk-width-1-1@s">
+                        <div class="uk-text-center uk-text-bold case_subheading" style="margin:auto 0;">Cross-Reference Tool
                             
                         </div>
                         
                     </div>
-                    <div class="uk-width-3-4@s">
+                    <div class="uk-width-3-4@m uk-width-1-1@s">
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
@@ -719,15 +724,15 @@
         </div>
         <!-- work 4 -->
         <div id="works4" class="uk-padding-large" uk-modal>
-                <div class="uk-card uk-card-body case_box uk-margin-small-top uk-card-default">
-                    <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-                        <div class="uk-width-1-4@s">
-                            <div class="uk-text-center uk-text-bold case_subheading case_head">Twillo Integration
+                <div class="uk-card uk-card-body case_box uk-margin-medium-top uk-align-center uk-card-default">
+                    <div class="uk-child-width-1-4@s uk-grid-match" uk-grid>
+                        <div class="uk-width-1-4@m uk-width-1-1@s">
+                            <div class="uk-text-center uk-text-bold case_subheading " style="margin:auto 0;">Twillo Integration
                                 <div class="uk-text-meta uk-text-secondary"></div>
                             </div>
                             
                         </div>
-                        <div class="uk-width-3-4@s">
+                        <div class="uk-width-3-4@m uk-width-1-1@s">
                             <div class="uk-margin uk-padding"> 
                                 <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                     <div class="uk-width-auto@s uk-padding-small">
@@ -814,15 +819,15 @@
         </div>
         <!-- work 5 -->
         <div id="works5" class="uk-padding-large" uk-modal>
-            <div class="uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
-                <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-                    <div class="uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading case_head">Site Redesign
+            <div class="uk-card uk-card-body uk-margin-medium-top uk-align-center case_box uk-card-default">
+                <div class="uk-child-width-1-4@s uk-grid-match" uk-grid>
+                    <div class="uk-width-1-4@m uk-width-1-1@s">
+                        <div class="uk-text-center uk-text-bold case_subheading" style="margin:auto 0;">Site Redesign
                             
                         </div>
                         
                     </div>
-                    <div class="uk-width-3-4@s">
+                    <div class="uk-width-3-4@m uk-width-1-1@s">
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
@@ -891,15 +896,15 @@
         </div>
         <!-- work 6 -->
         <div id="works6" class="uk-padding-large" uk-modal>
-            <div  class="uk-card uk-card-body uk-margin-small-top case_box uk-card-default">
-                <div class="uk-child-width-1-4@s uk-column-divider uk-grid match" uk-grid>
-                    <div class="uk-width-1-4@s">
-                        <div class="uk-text-center uk-text-bold case_subheading case_head">SalesForce SSO Integration
+            <div  class="uk-card uk-card-body uk-margin-medium-top uk-align-center case_box uk-card-default">
+                <div class="uk-child-width-1-4@s uk-grid-match" uk-grid>
+                    <div class="uk-width-1-4@m uk-width-1-1@s">
+                        <div class="uk-text-center uk-text-bold case_subheading" style="margin:auto 0;">SalesForce SSO Integration
                             
                         </div>
                         
                     </div>
-                    <div class="uk-width-3-4@s">
+                    <div class="uk-width-3-4@m uk-width-1-1@s">
                         <div class="uk-margin uk-padding"> 
                             <div class="uk-margin uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <div class="uk-width-auto@s uk-padding-small">
