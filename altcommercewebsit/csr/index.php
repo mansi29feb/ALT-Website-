@@ -169,52 +169,52 @@
             <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
                 <div class="uk-inline-clip uk-transition-toggle impact_box img_csr1" tabindex="0">
                     <!-- <img class="lazy" data-src="<?php echo $filePath;?>images/csr/earth/berry.jpg" height="300" width="300" alt="fruits" uk-img> -->
-                            <img class="responsively-lazy" alt="fruits" width="300" height="300" src="<?php echo $filePath;?>images/csr/earth/berry.jpg"
+                            <img class="responsively-lazy" alt="fruits" width="250" height="250" src="<?php echo $filePath;?>images/csr/earth/berry.jpg"
                             data-srcset="<?php echo $filePath;?>images/csr/earth/berry.jpg 400w, <?php echo $filePath;?>images/csr/earth/berry.webp 400w, 
                             <?php echo $filePath;?>images/csr/earth/berry.jpg 600w, <?php echo $filePath;?>images/csr/earth/berry.webp 600w,
                             <?php echo $filePath;?>images/csr/earth/berry.jpg 1000w <?php echo $filePath;?>images/csr/earth/berry.webp 1000w" 
                             srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                    <div  class="uk-position-bottom uk-overlay uk-overlay-primary ">
-                        <p class="uk-h4 uk-margin-remove impact_text">Planting fruit trees provides habitat for wildlife.</p>
+                    <div  class="uk-position-bottom uk-overlay uk-padding-small uk-overlay-primary ">
+                        <p class="uk-h7 uk-margin-remove impact_text">Planting fruit trees provides habitat for wildlife.</p>
                     </div>
                 </div>
             </div>
             <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-top-medium">
                 <div class="uk-inline-clip uk-transition-toggle impact_box img_csr2" tabindex="0">
                     <!-- <img  class="lazy" data-src="<?php echo $filePath;?>images/csr/earth/kids.jpg" height="300" width="300" alt="livelihood" uk-img> -->
-                            <img class="responsively-lazy" alt="livelihood" width="300" height="300" src="<?php echo $filePath;?>images/csr/earth/kids.jpg"
+                            <img class="responsively-lazy" alt="livelihood" width="250" height="250" src="<?php echo $filePath;?>images/csr/earth/kids.jpg"
                             data-srcset="<?php echo $filePath;?>images/csr/earth/kids.jpg 400w, <?php echo $filePath;?>images/csr/earth/kids.webp 400w, 
                             <?php echo $filePath;?>images/csr/earth/kids.jpg 600w, <?php echo $filePath;?>images/csr/earth/kids.webp 600w,
                             <?php echo $filePath;?>images/csr/earth/kids.jpg 1000w <?php echo $filePath;?>images/csr/earth/kids.webp 1000w" 
                             srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />  
-                    <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
-                        <p class="uk-h4 uk-margin-remove impact_text">Better livelihoods for people living near forests.</p>
+                    <div class=" uk-position-bottom uk-overlay uk-padding-small uk-overlay-primary">
+                        <p class="uk-h7 uk-margin-remove impact_text">Better livelihoods for people living near forests.</p>
                     </div>
                 </div>   
             </div>
             <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
                 <div class="uk-inline-clip uk-transition-toggle impact_box img_csr1" tabindex="0">
                     <!-- <img class="lazy" data-src="<?php echo $filePath;?>images/csr/earth/soil2.jpg" height="300" width="300" alt="soil" uk-img> -->
-                            <img class="responsively-lazy" alt="fruits" width="300" height="300" src="<?php echo $filePath;?>images/csr/earth/berry.jpg"
-                            data-srcset="<?php echo $filePath;?>images/csr/earth/soil2.jpg 400w, <?php echo $filePath;?>images/csr/earth/berry.webp 400w, 
-                            <?php echo $filePath;?>images/csr/earth/berry.jpg 600w, <?php echo $filePath;?>images/csr/earth/berry.webp 600w,
-                            <?php echo $filePath;?>images/csr/earth/berry.jpg 1000w <?php echo $filePath;?>images/csr/earth/berry.webp 1000w" 
+                            <img class="responsively-lazy" alt="fruits" width="250" height="250" src="<?php echo $filePath;?>images/csr/earth/soil2.jpg"
+                            data-srcset="<?php echo $filePath;?>images/csr/earth/soil2.jpg 400w, <?php echo $filePath;?>images/csr/earth/soil2.webp 400w, 
+                            <?php echo $filePath;?>images/csr/earth/soil2.jpg 600w, <?php echo $filePath;?>images/csr/earth/soil2.webp 600w,
+                            <?php echo $filePath;?>images/csr/earth/soil2.jpg 1000w <?php echo $filePath;?>images/csr/earth/soil2.webp 1000w" 
                             srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                    <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
-                        <p class="uk-h4 uk-margin-remove impact_text">Prevent soil erosion & mitigate climate change.</p>
+                    <div class=" uk-position-bottom uk-overlay uk-padding-small uk-overlay-primary">
+                        <p class="uk-h7 uk-margin-remove impact_text">Prevent soil erosion & mitigate climate change.</p>
                     </div>
                 </div> 
             </div>
             <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-top-medium">
                 <div class="uk-inline-clip uk-transition-toggle impact_box img_csr2" tabindex="0">
                     <!-- <img class="lazy" data-src="<?php echo $filePath;?>images/csr/earth/water.jpg" height="300" width="300" alt="water" uk-img> -->
-                            <img class="responsively-lazy" alt="fruits" width="300" height="300" src="<?php echo $filePath;?>images/csr/earth/water.jpg"
+                            <img class="responsively-lazy" alt="fruits" width="250" height="250" src="<?php echo $filePath;?>images/csr/earth/water.jpg"
                             data-srcset="<?php echo $filePath;?>images/csr/earth/water.jpg 400w, <?php echo $filePath;?>images/csr/earth/water.webp 400w, 
                             <?php echo $filePath;?>images/csr/earth/water.jpg 600w, <?php echo $filePath;?>images/csr/earth/water.webp 600w,
                             <?php echo $filePath;?>images/csr/earth/water.jpg 1000w <?php echo $filePath;?>images/csr/earth/water.webp 1000w" 
                             srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                    <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
-                        <p class="uk-h4 uk-margin-remove impact_text">Offer watershed protection.</p>
+                    <div class=" uk-position-bottom uk-overlay uk-padding-small uk-overlay-primary">
+                        <p class="uk-h7 uk-margin-remove impact_text">Offer watershed protection.</p>
                     </div>
                 </div>  
             </div>
@@ -324,52 +324,52 @@
         <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
             <div class="uk-inline-clip uk-transition-toggle impact_box img_csr1" tabindex="0">
                 <!-- <img class="lazy"  data-src="<?php echo $filePath;?>images/csr/earth/lake.jpg" height="300" width="300" alt="lake" uk-img> -->
-                <img class="responsively-lazy" alt="lake" width="300" height="300" src="<?php echo $filePath;?>images/csr/earth/lake.jpg"
+                <img class="responsively-lazy" alt="lake" width="250" height="250" src="<?php echo $filePath;?>images/csr/earth/lake.jpg"
                         data-srcset="<?php echo $filePath;?>images/csr/earth/lake.jpg 400w, <?php echo $filePath;?>images/csr/earth/lake.webp 400w, 
                         <?php echo $filePath;?>images/csr/earth/lake.jpg 600w, <?php echo $filePath;?>images/csr/earth/lake.webp 600w,
                         <?php echo $filePath;?>images/csr/earth/lake.jpg 1000w <?php echo $filePath;?>images/csr/earth/lake.webp 1000w" 
                         srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                    <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
-                        <p class="uk-h4 uk-margin-remove impact_text">Provides Nourishment.</p>
+                    <div class=" uk-position-bottom uk-padding-small uk-overlay uk-overlay-primary">
+                        <p class="uk-h7 uk-margin-remove impact_text">Provides Nourishment.</p>
                     </div>
             </div>
         </div>
         <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-top-medium">
             <div class="uk-inline-clip uk-transition-toggle impact_box img_csr2" tabindex="0">
                 <!-- <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/happy-kids.jpg" height="300" width="300" alt="happy kids" uk-img> -->
-                <img class="responsively-lazy" alt="happy kids" width="300" height="300" src="<?php echo $filePath;?>images/csr/water/happy-kids.jpg"
+                <img class="responsively-lazy" alt="happy kids" width="250" height="250" src="<?php echo $filePath;?>images/csr/water/happy-kids.jpg"
                         data-srcset="<?php echo $filePath;?>images/csr/water/happy-kids.jpg 400w, <?php echo $filePath;?>images/csr/water/happy-kids.webp 400w, 
                         <?php echo $filePath;?>images/csr/water/happy-kids.jpg 600w, <?php echo $filePath;?>images/csr/water/happy-kids.webp 600w,
                         <?php echo $filePath;?>images/csr/water/happy-kids.jpg 1000w <?php echo $filePath;?>images/csr/water/happy-kids.webp 1000w" 
                         srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
-                    <p class="uk-h4 uk-margin-remove impact_text">Clean water keeps doctors away.</p>
+                <div class=" uk-position-bottom uk-padding-small uk-overlay uk-overlay-primary">
+                    <p class="uk-h7 uk-margin-remove impact_text">Clean water keeps doctors away.</p>
                 </div>
             </div>  
         </div>
         <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
             <div class="uk-inline-clip uk-transition-toggle impact_box img_csr1" tabindex="0">
                 <!-- <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/kids-water2.jpg" height="300" width="300" alt="kids in water" uk-img> -->
-                <img class="responsively-lazy" alt="kids in water" width="300" height="300" src="<?php echo $filePath;?>images/csr/water/kids-water2.jpg"
+                <img class="responsively-lazy" alt="kids in water" width="250" height="250" src="<?php echo $filePath;?>images/csr/water/kids-water2.jpg"
                         data-srcset="<?php echo $filePath;?>images/csr/water/kids-water2.jpg 400w, <?php echo $filePath;?>images/csr/water/kids-water2.webp 400w, 
                         <?php echo $filePath;?>images/csr/water/kids-water2.jpg 600w, <?php echo $filePath;?>images/csr/water/kids-water2.webp 600w,
                         <?php echo $filePath;?>images/csr/water/kids-water2.jpg 1000w <?php echo $filePath;?>images/csr/water/kids-water2.webp 1000w" 
                         srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
-                    <p class="uk-h4 uk-margin-remove impact_text">Combating waterborne diseases.</p>
+                <div class=" uk-position-bottom uk-overlay uk-padding-small uk-overlay-primary">
+                    <p class="uk-h7 uk-margin-remove impact_text">Combating waterborne diseases.</p>
                 </div>
             </div>   
         </div>
         <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-top-medium">
             <div class="uk-inline-clip uk-transition-toggle impact_box img_csr2" tabindex="0">
                 <!-- <img class="lazy" data-src="<?php echo $filePath;?>images/csr/water/village-baby.jpg" height="300" width="300" alt="baby" uk-img> -->
-                <img class="responsively-lazy" alt="baby" width="300" height="300" src="<?php echo $filePath;?>images/csr/water/village-baby.jpg"
+                <img class="responsively-lazy" alt="baby" width="250" height="250" src="<?php echo $filePath;?>images/csr/water/village-baby.jpg"
                         data-srcset="<?php echo $filePath;?>images/csr/water/village-baby.jpg 400w, <?php echo $filePath;?>images/csr/water/village-baby.webp 400w, 
                         <?php echo $filePath;?>images/csr/water/village-baby.jpg 600w, <?php echo $filePath;?>images/csr/water/village-baby.webp 600w,
                         <?php echo $filePath;?>images/csr/water/village-baby.jpg 1000w <?php echo $filePath;?>images/csr/water/village-baby.webp 1000w" 
                         srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                <div class=" uk-position-bottom uk-overlay uk-overlay-primary">
-                    <p class="uk-h4 uk-margin-remove impact_text">Stave off the birth defects in new-born babies.</p>
+                <div class=" uk-position-bottom uk-padding-small uk-overlay uk-overlay-primary">
+                    <p class="uk-h7 uk-margin-remove impact_text">Stave off the birth defects in new-born babies.</p>
                 </div>
             </div>
         </div>
