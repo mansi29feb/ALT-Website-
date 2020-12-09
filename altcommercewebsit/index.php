@@ -1164,6 +1164,22 @@
                                     </div>
                                 </div>
                             </li>
+                            <li class="slider_item">
+                                <div class="uk-card uk-card-default">
+                                    <div class="uk-card-media-top uk-padding-remove">
+                                        <img class="uk-align-center uk-margin-small-top" data-src="images/writer.svg" width="50" height="50" alt="quote icon" uk-img>
+                                    </div>
+                                    <div class="uk-card-body uk-padding-remove-top">
+                                        <p class="uk-text-center">You guys are one of the most wonderful people to work with. And most supportive, hardest working. 
+                                        We couldn’t have done what we’ve done in the past 2+ years without this team.
+                                         Don’t ever forget it your value. You’re absolutely brilliant. </p>
+                                        <div class="testi_text uk-text-center">It’s been such an honor to be your PO </div>
+                                        <div class="testi_text uk-text-center uk-text-bold">-Product Owner</div>
+                                            <div class="uk-text-meta uk-text-center">Of an American Manufacturing Company</div>  
+                                    
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                                        
                        
@@ -1178,6 +1194,7 @@
                         <li uk-slider-item="2"><a href="#">...</a></li>
                         <li uk-slider-item="3"><a href="#">...</a></li>
                         <li uk-slider-item="4"><a href="#">...</a></li>
+                        <li uk-slider-item="5"><a href="#">...</a></li>
                     </ul>
                 
                 </div>

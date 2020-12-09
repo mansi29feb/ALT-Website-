@@ -54,7 +54,17 @@
                 
                 <li class="uk-active menu-itm"><a class="<?php if($currentPage =='skill'){echo 'active_page';}?>" href="<?php echo $filePath;?>skill" style="color:#000;">Skills</a></li>
                         
-                <li class="uk-active menu-itm" ><a class="<?php if($currentPage =='service'){echo 'active_page';}?>" href="<?php echo $filePath;?>service">Services</a></li>
+                
+                <div class="sub-togle <?php if($currentPage =='service'){echo 'active_page';}?>"><li class=" menu-itm1"><a  href="<?php echo $filePath;?>service" style="text-decoration: none;">Services</a></li></div>
+                    <div class="sub-menu-container uk-margin-remove-top uk-padding-remove-bottom" 
+                    uk-dropdown="animation: uk-animation-slide-left-small; duration: 1000" >
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href="<?php echo $filePath;?>DCX" style="color:#000;">DCX</a></li>
+                            <li class="uk-active menu-itm1"><a href="<?php echo $filePath;?>product" style="color:#000;">Product Engineering</a></li>
+                            <li class="uk-active menu-itm1"><a href="<?php echo $filePath;?>consulting" style="color:#000;">Consulting</a></li>
+                        </ul>
+                    
+                    </div>
                 
                <li class="uk-active menu-itm"><a class="<?php if($currentPage =='resource'){echo 'active_page';}?>" href="<?php echo $filePath;?>resource">Resource</a></li>
                

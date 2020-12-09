@@ -26,7 +26,7 @@
                                     <li>Social Cloud (SRM)</li>
                                     <li>Service Cloud (RightNow)</li>
                                 </ul>
-                                <div class="services_article_para  uk-text-justify">We have over 10+ years of experience helping companies succeed by delivering the technology that engages customers and drives sales.
+                                <div class="services_article_para uk-text-justify">We have over 10+ years of experience helping companies succeed by delivering the technology that engages customers and drives sales.
                     As an Unified Commerce Platform Specialized Partner, we have developed an industry leading in delivering the seamless online buying experience which bring unmatched functionality for B2C and 
                     B2B companies who want to implement an omnichannel ecommerce solution quickly and cost effectively.
              </div>                

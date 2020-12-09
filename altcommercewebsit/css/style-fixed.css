@@ -165,6 +165,7 @@
     .form {
         width: 280px
     }
+    
 }
 
 @media screen and (max-width:800px) and (min-width:768px) {
@@ -300,7 +301,7 @@
 
 @media (min-width:1300px) {
     .uk-sticky-fixed #about_submenu {
-        margin-left: 23px;
+        margin-left: 0px;
     }
 }
 
