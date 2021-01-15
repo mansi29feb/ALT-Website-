@@ -14,8 +14,8 @@
                         <li>
                             <div class="uk-card font-text">
                                 <div class="uk-card-body uk-text-left">
-                                    <h2 class="uk-card-title slider-title">Driving Innovation, Driving
-                                        <br> Results</h2>
+                                    <h1 class="uk-card-title slider-title">Driving Innovation, Driving
+                                        <br> Results</h1>
                                     <p>Our focus on innovation is based on delivering results for our clients.</p>
                                 </div>
                             </div>
@@ -23,8 +23,8 @@
                         <li>
                             <div class="uk-card font-text">
                                 <div class="uk-card-body uk-text-left">
-                                    <h2 class="uk-card-title slider-title">Agile, Experienced
-                                        <br>&amp; Effective</h2>
+                                    <h1 class="uk-card-title slider-title">Agile, Experienced
+                                        <br>&amp; Effective</h1>
                                     <p>ALT commerce is an expert in Omni-Channel Commerce
                                         <br> and delivering Oracle Commerce, Commerce Cloud and
                                         <br> the suite of Oracle CX products.</p>
@@ -34,7 +34,7 @@
                         <li>
                             <div class="uk-card font-text">
                                 <div class="uk-card-body uk-text-left">
-                                    <h2 class="uk-card-title slider-title">ALT Commerce</h2>
+                                    <h1 class="uk-card-title slider-title">ALT Commerce</h1>
                                     <p>We focus all our work not only on developing and
                                         <br>maintaining the products and services,
                                         <br> but rather on building long term relationships.</p>
@@ -46,185 +46,74 @@
             </div>
     </div>
 <!-- Slider ends-->
-
-<!--what we do start-->
-    <div class="uk-container uk-padding uk-margin">
-        <div class="uk-child-width-1-1@s uk-margin-large-top uk-text-center uk-margin-medium-bottom" uk-grid >
-            <div class="uk-width-1-1@s">
-                <div class="uk-text-centre section2">
-                    <button class="uk-button uk-text-capitalize uk-padding-small uk-margin-medium-top uk-padding-remove-vertical btn" disabled uk-scrollspy="cls: uk-animation-scale-up">Services</button>
-                    <h3 class="uk-h3 uk-text-secondary uk-margin-small-top section2_heading" uk-scrollspy="cls: uk-animation-fade">What We do</h3>
-                    <p class="uk-text-center section2_para " uk-scrollspy="cls: uk-animation-slide-top">We work beyond the norms of an established client relationship by investing more time to understand customer current and future business needs and recommend global best practices.</p>
+<!-- what we do start -->
+<div class="uk-container">
+    <div class="uk-child-width-1-1@s uk-margin-large-top uk-text-center uk-margin-medium-bottom" uk-grid >
+    <div class="uk-width-1-1@s uk-margin-medium-top">
+                    <div class="uk-text-centre section2">
+                        <button class="uk-button uk-text-capitalize uk-padding-small uk-margin-medium-top uk-padding-remove-vertical btn" disabled uk-scrollspy="cls: uk-animation-scale-up">Services</button>
+                        <h2 class="uk-h2 uk-text-secondary uk-margin-small-top section2_heading" uk-scrollspy="cls: uk-animation-fade">What We do</h2>
+                        <p class="uk-text-center section2_para " uk-scrollspy="cls: uk-animation-slide-top">We work beyond the norms of an established client relationship by investing more time to understand customer current and future business needs and recommend global best practices.</p>
+                    </div>
                 </div>
-            </div>
-
-
-            <div class="uk-width-1-1@s">
-                <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-margin-small-left" uk-grid >
-
-                <!--left side-->
-                    <div class="uk-child-width-1-1@s uk-grid-match uk-margin-large-top uk-margin-medium-bottom " uk-grid uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: false">
-                        <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s grid1" uk-grid>
-                            <div class="uk-width-1-5@s  uk-padding-remove hide-icon uk-hidden@m ">
-                                <!-- <img class="lazy" data-src="images/application.svg" width="60" height="60" alt="Application Icon" uk-img> -->
-                                <img class="responsively-lazy" alt="Application Icon" width="60" height="60" src="<?php echo $filePath;?>images/application.svg"
-                                data-srcset="<?php echo $filePath;?>images/application.svg 400w,
-                                <?php echo $filePath;?>images/application.svg 600w"
-                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                            </div>
-                            <div class="uk-width-4-5@s uk-margin-remove uk-padding-remove bx1">
-
-                                <div class="uk-text-bold uk-text-secondary section2_subheading">Application Development</div>
-                                <span class="section2_subpara"> Gathering requirements, designing 
-                                    prototypes, testing, implementation, and integration is what we perform.</span>
-
-                            </div>
-                            <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove visible-icon uk-visible@m">
-                                <!-- <img class="lazy" data-src="images/application.svg" width="60" height="60" alt="Application Icon" uk-img> -->
-                                <img class="responsively-lazy" alt="Application Icon" width="60" height="60" src="<?php echo $filePath;?>images/application.svg"
-                                data-srcset="<?php echo $filePath;?>images/application.svg 400w,
-                                <?php echo $filePath;?>images/application.svg 600w" 
-                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                            </div>
-                        </div>
-
-                        <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s" uk-grid>
-                            <div class="uk-width-1-5@s uk-padding-remove hide-icon uk-hidden@m">
-                                <!-- <img class="lazy" data-src="images/research-and-development.svg" width="60" height="60" alt="R&D Icon" uk-img> -->
-                                <img class="responsively-lazy" alt="R&D Icon" width="60" height="60" src="<?php echo $filePath;?>images/research-and-development.svg"
-                                data-srcset="<?php echo $filePath;?>images/research-and-development.svg 400w,
-                                <?php echo $filePath;?>images/research-and-development.svg 600w" 
-                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                            </div>
-                            <div class="uk-width-4-5@s uk-margin-remove uk-padding-remove bx1">
-
-                                <div class="uk-text-bold uk-text-secondary section2_subheading"> Research & Development</div>
-                                <span class="section2_subpara">Our work directed towards the innovation, introduction, and improvement of our services and processes.</span>
-
-                            </div>
-                            <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove visible-icon uk-visible@m">
-                                <!-- <img class="lazy" data-src="images/research-and-development.svg" width="60" height="60" alt="R&D Icon" uk-img> -->
-                                <img class="responsively-lazy" alt="R&D Icon" width="60" height="60" src="<?php echo $filePath;?>images/research-and-development.svg"
-                                data-srcset="<?php echo $filePath;?>images/research-and-development.svg 400w,
-                                <?php echo $filePath;?>images/research-and-development.svg 600w" 
-                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                            </div>
-                        </div>
-
-                        <div class="uk-child-width-1-5@s uk-margin-remove uk-text-right@m uk-text-center@s" uk-grid>
-                            <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove hide-icon uk-hidden@m">
-                                <!-- <img class="lazy" data-src="images/om.svg" width="60" height="60" alt="Omni-channel icon" uk-img> -->
-                                <img class="responsively-lazy" alt="Omni-channel icon" width="60" height="60" src="<?php echo $filePath;?>images/om.svg"
-                                data-srcset="<?php echo $filePath;?>images/om.svg 400w,
-                                <?php echo $filePath;?>images/om.svg 600w" 
-                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                            </div>
-                            <div class="uk-width-4-5@s uk-margin-remove uk-padding-remove bx1">
-                                <div class="uk-text-bold uk-text-secondary section2_subheading">Omni-Channel Commerce</div>
-                                <span class="section2_subpara">Provide an approach to sales that seeks to provide customers with a seamless shopping 
-                                    experience.</span>
-                            </div>
-                            <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove uk-visible@m">
-                                <!-- <img class="lazy" data-src="images/om.svg" width="60" height="60" alt="Omni-channel icon" uk-img> -->
-                                <img class="responsively-lazy" alt="Omni-channel icon" width="60" height="60" src="<?php echo $filePath;?>images/om.svg"
-                                data-srcset="<?php echo $filePath;?>images/om.svg 400w,
-                                <?php echo $filePath;?>images/om.svg 600w" 
-                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                            </div>
-                        </div>
-
-                    </div>
-
-                <!--left side ends-->
-
-
-                <!--middle part-->
-                    <div class="uk-child-width-1-1@s uk-visible@m uk-padding-remove uk-margin-medium-bottom uk-margin-small-left" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom-small; repeat: false">
-                        <div class="uk-width-1-1@s uk-padding-remove uk-align-center">
-                            <!-- <img class="mobile_img lazy" data-src="images/warranty-period.svg"  alt="middle image" uk-img> -->
-                            <img class="responsively-lazy mobile_img" alt="middle image" src="<?php echo $filePath;?>images/warranty-period.svg"
-                 data-srcset="<?php echo $filePath;?>images/warranty-period.svg 400w,<?php echo $filePath;?>images/warranty-period.svg 600w" 
-                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                        </div>
-
-                    </div>
-
-                <!------middle part ends----->
-
-
-                <!-----right side-------->
-
-                    <div class="uk-child-width-1-1@s uk-grid-match uk-margin-small-left uk-margin-large-top uk-grid-collapse uk-margin-medium-bottom" uk-grid uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: false">
-                        <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s uk-margin-remove-bottom"  uk-grid>
-                            <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove">
-                                <!-- <img class="lazy" data-src="images/quality-assurance.svg" width="60" height="60" alt="Testing icon" uk-img> -->
-                                <img class="responsively-lazy" alt="Testing icon" width="60" height="60" src="<?php echo $filePath;?>images/quality-assurance.svg"
-                                data-srcset="<?php echo $filePath;?>images/quality-assurance.svg 400w,
-                                <?php echo $filePath;?>images/quality-assurance.svg 600w" 
-                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                            </div>
-                            <div class="uk-width-4-5@s uk-margin-remove uk-padding-small uk-padding-remove-top uk-padding-remove-left bx1">
-                                <div class="uk-text-bold uk-text-secondary section2_subheading">QA & Software Testing</div>
-                                <span class="section2_subpara">Quality assurance plays a crucial role in business by ensuring that services meet targeted thresholds of acceptability</span>
-                            </div>
-                        </div>
-
-                        <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s" uk-grid>
-
-                            <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove">
-                                <!-- <img class="lazy"  data-src="images/advertisement.svg" width="60" height="60" alt="" uk-img> -->
-                                <img class="responsively-lazy" alt="Digital Commerce" width="60" height="60" src="<?php echo $filePath;?>images/advertisement.svg"
-                                data-srcset="<?php echo $filePath;?>images/advertisement.svg 400w,
-                                <?php echo $filePath;?>images/advertisement.svg 600w" 
-                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                            </div>
-                            <div class="uk-width-4-5@s uk-margin-remove uk-padding-small uk-padding-remove-top uk-padding-remove-left bx1">
-                                <div class="uk-text-bold uk-text-secondary section2_subheading">Digital Commerce</div>
-                                <span class="section2_subpara">Enabling independent services to customer through an interactive and self-service experience.</span>
-
-                            </div>
-
-                        </div>
-
-                        <div class="uk-child-width-1-5@s uk-padding-remove uk-text-left@m uk-text-center@s" uk-grid>
-                            <div class="uk-width-1-5@s uk-margin-remove uk-padding-remove">
-                                <!-- <img class="lazy" data-src="images/user-experience.svg" width="60" height="60" alt="UX/UI icon" uk-img> -->
-                                <img class="responsively-lazy" alt="UX/UI icon" width="60" height="60" src="<?php echo $filePath;?>images/user-experience.svg"
-                                data-srcset="<?php echo $filePath;?>images/user-experience.svg 400w,
-                                <?php echo $filePath;?>images/user-experience.svg 600w" 
-                                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                            </div>
-                            <div class="uk-width-4-5@s uk-margin-remove uk-padding-small uk-padding-remove-top uk-padding-remove-left bx1">
-                                <div class="uk-text-bold uk-text-secondary section2_subheading">User/Customer Experience </div>
-                                <span class="section2_subpara"> Customer experience is different from customer opinion. Customer experience drives loyalty so we are focusing on the journey.</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-
-
-                <!--right side ends-->
-
+    </div>            
+    <div class="uk-text-center uk-margin-large-bottom" uk-grid>
+        <div class="uk-width-1-2 uk-visible@s" uk-grid uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: false">
+            <div>
+                <div class="uk-padding what-we-do-img">
+                    <!-- <img  alt="middle image" src="<?php echo $filePath;?>images/what-we-do.png" /> -->
+                    <img  class="responsively-lazy" alt="middle image" src="<?php echo $filePath;?>images/what-we-do.png" 
+                    data-srcset="<?php echo $filePath;?>images/what-we-do.png 400w, <?php echo $filePath;?>images/what-we-do.webp 400w,
+                    <?php echo $filePath;?>images/what-we-do.png 600w,<?php echo $filePath;?>images/what-we-do.webp 600w, 
+                    <?php echo $filePath;?>images/what-we-do.png 1000w,<?php echo $filePath;?>images/what-we-do.webp 1000w,"
+                    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/>
 
                 </div>
-            </div>
+            </div>    
         </div>
+        <div class="uk-width-1-2 uk-margin-small-left">    
+            <div class="end-text uk-padding-small">
+                <div class="hexo uk-text-bold">Application Development</div>
+                <div class=" uk-text-center uk-text-center@s comment"><p>Gathering requirements, designing prototypes, testing, implementation, and integration is what we perform.</p></div>
+            </div>
+            <div class="side-text uk-padding-small uk-margin-medium-left">
+                <div class="hexo uk-text-bold">Research & Development</div>
+                <div class="uk-text-center uk-text-center@s comment"><p>Our work directed towards the innovation, introduction, and improvement of our services and processes.</p></div>
+            </div>       
+            <div class="mid-text uk-padding-small uk-margin-xlarge-left">
+                <div class="hexo uk-text-bold">Omni-Channel Commerce</div>
+                <div class="uk-text-center uk-text-center@s comment"><p>Provide an approach to sales that seeks to provide customers with a seamless shopping experience.</p></div>
+            </div>
+            <div class="mid-text uk-padding-small uk-margin-xlarge-left">
+                <div class="hexo uk-text-bold">QA & Software Testing</div>
+                <div class=" uk-text-center uk-text-center@s comment"><p>Quality assurance plays a crucial role in business by ensuring that services meet targeted thresholds of acceptability.</p></div>
+            </div>     
+            <div class="side-text uk-padding-small uk-margin-medium-left">
+                <div class="hexo uk-text-bold">Digital Commerce</div>
+                <div class="uk-text-center uk-text-center@s comment"><p>Enabling independent services to customer through an interactive and self-service experience.</p></div>
+            </div>
+            <div class="end-text uk-padding-small">
+                <div class="hexo uk-text-bold">User/Customer Experience</div>
+                <div class="uk-text-center uk-text-center@s comment"><p>Customer experience is different from customer opinion. Customer experience drives loyalty so we are focusing on the journey.</p></div>
+            </div>     
+                            
+        </div>
+    </div>  
+</div>     
+<!-- what we do end -->        
+    
 
 
-    </div>
-<!--WHAT WE DO ENDS-->
 
 <!-----------------------------------------Careers section starts------------------->
 
-        <div class="uk-card uk-card-default uk-card-body uk-padding-remove" style="margin-left:auto; margin-right:auto;">
+<div class="uk-container uk-padding-large">
+        <div class=" uk-card uk-card-default uk-card-body uk-padding-remove" style="margin-left:auto; margin-right:auto;">
             <div class="uk-background-contain uk-background-center-right career_homepage">
                 <div class="uk-child-width-1-1@s uk-child-width-1-5@m career_box" uk-grid>
                    <div class="uk-width-2-5@m uk-width-1-1@s box1">
                         <div class="uk-margin-large-top uk-margin-remove-top@s">
-                            <div class="uk-container " uk-scrollspy="cls: uk-animation-scale-up">
+                            <div class="uk-container " uk-scrollspy="cls: uk-animation-scale-up stay">
                                 <button class="uk-margin-small-left uk-margin-medium-top uk-button uk-text-capitalize uk-margin-small-bottom uk-padding-small uk-padding-remove-vertical btn" disabled>Careers</button>
                                 <div class="uk-margin-small-left uk-h2 uk-text-bold uk-text-secondary uk-margin-remove-top careersection_heading  uk-margin-medium-bottom ">Stay “Always Ahead” </div>
                                         <p class="uk-margin-small-left uk-width-large uk-padding-large uk-padding-remove-left uk-padding-remove-top 
@@ -278,14 +167,15 @@
             </div>
         
         </div>
+</div>        
 <!-----------------------------------------Careers Section ends---------------------->
 
 
 <!-------------Completed Works section---------->
     <div class="uk-container uk-margin-medium-bottom uk-margin-medium-top">
         <button class="uk-button uk-text-capitalize uk-align-center uk-margin-small-bottom  uk-margin-large-top uk-padding-small uk-padding-remove-vertical btn" disabled uk-scrollspy="cls: uk-animation-scale-up">Completed Projects</button>
-        <div class="uk-h3 section2_heading uk-text-center uk-text-bolder uk-margin-remove-top uk-margin-medium-top uk-margin-large-bottom" uk-scrollspy="cls: uk-animation-slide-top">Our Latest Works</div>
-        <div class="uk-child-width-1-3@m uk-grid-small uk-child-width-1-1@s uk-padding-small" uk-grid>
+        <h2 class="uk-h2 section2_heading uk-text-center uk-text-bolder uk-margin-remove-top uk-margin-medium-top uk-margin-large-bottom" uk-scrollspy="cls: uk-animation-slide-top">Our Latest Works</h2>
+        <div class="uk-child-width-1-3@m uk-grid-small uk-padding-small uk-child-width-1-1@s" uk-grid>
         
             <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-left-medium"> 
                 <div class="uk-text-center" >
@@ -996,7 +886,8 @@
 <!-------------Completed Works Section Ends-------->
 
  <!--Counts Section-->
-        <div class="uk-container-fluid uk-margin-medium-top uk-card-default">
+ <div class="uk-container uk-padding-large">
+        <div class="uk-margin-medium-top uk-card-default">
             <div class="uk-child-width-1-4@m uk-grid-small uk-grid-collapse price-count" uk-grid>
                 <div class="uk-width-1-4@m uk-width-1-1@s price-tag1">
                     <div class="uk-text-center icon-tag">
@@ -1029,6 +920,7 @@
                 </div>
              </div>
         </div>
+</div>        
 <!--Counts Section Ends-->
 
 
@@ -1085,7 +977,7 @@
 
             <div class=" uk-padding uk-margin testi_box1" uk-scrollspy="cls: uk-animation-slide-bottom">
                 <button class="uk-button uk-text-capitalize uk-align-center uk-margin-remove-bottom uk-padding-small uk-padding-remove-vertical btn" disabled>Testimonials</button>
-                <div class="uk-h3 section2_heading uk-text-center uk-text-bolder uk-margin-medium-top">What Clients Says</div>
+                <h2 class="uk-h2 section2_heading uk-text-center uk-text-bolder uk-margin-medium-top">What Clients Says</h2>
                 <div class="uk-slider-container uk-padding uk-padding-remove-left uk-padding-remove-right uk-margin testi_box" uk-slider="sets:false; center: true; autoplay:true; autoplay-interval:5000; easing: cubic-bezier(.4,0,.2,1)">
 
                     <div class=" uk-position-relative uk-visible-toggle" tabindex="0">
@@ -1267,7 +1159,7 @@
 <!----------------------Blog Section Ends---------------------->
 
 <!--Section Above Footer Starts-->
-    <div class="uk-container uk-margin uk-padding">
+    <!-- <div class="uk-container uk-margin uk-padding">
   
 
         <div class="uk-child-width-1-1@s uk-margin-large-bottom  uk-grid-divider uk-grid-row-small" uk-grid>
@@ -1276,7 +1168,7 @@
 
                         <div class="uk-width-auto@m uk-margin-medium-right uk-margin-small-top" uk-scrollspy="cls: uk-animation-slide-left-medium;">
                             <!-- <img class="lazy" data-src="images/alt.png" width="90px" height="60px" alt="ALT logo" uk-img> -->
-                            <img class="responsively-lazy" alt="ALT logo" width="90px" height="60px" src="<?php echo $filePath;?>images/alt.png"
+                            <!-- <img class="responsively-lazy" alt="ALT logo" width="90px" height="60px" src="<?php echo $filePath;?>images/alt.png"
                             data-srcset="<?php echo $filePath;?>images/alt.png 400w, 
                             <?php echo $filePath;?>images/alt.png 600w" 
                             srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
@@ -1297,10 +1189,10 @@
                     </div>
             </div>
 
-            <div class="uk-list uk-column-1-2@s uk-column-1-3@m">
+            <div class="uk-list uk-column-1-2@s uk-column-1-3@m"> -->
                
                 
-            </div>
+            <!-- </div>
 
 
 
@@ -1347,10 +1239,10 @@
                 </div>
             </div>
         </div>
-        </div>
+        </div> -->
         
 
-    </div>
+    <!-- </div> --> 
 <!--footer above footer End -->
         
 </div>

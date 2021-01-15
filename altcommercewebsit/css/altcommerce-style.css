@@ -786,8 +786,6 @@ input[type="email"] {
 .consult-img{width: 237px; margin-top: 127px;} 
 .Strategy-img{width: 226px;margin-top: 138px; }
 .rem-space{margin-top: -295px !important;}
-.product_para{margin-top: 19px !important; font-family: 'Poppins';font-size: 14px;}
-.product_pararight{ margin-top: -38px !important; font-family: 'Poppins';font-size: 14px; } 
 .product-img { width: 900px; margin-left: -227px; margin-top: 227px;}
 .agile-img{width: 266px; margin-top: 65px;}
 .digital-img{ width: 215px; margin-top: 78px;}
@@ -796,7 +794,7 @@ input[type="email"] {
 .dcx_subpara{font-family: 'Poppins'; font-size: 14px; color: #575757;}
 .dcx-img2{height: 890px; width: 780px;}
 .uk-sticky-fixed #service_submenu{margin-left: 201px;}
-.pro-contleft{margin-left: -65px;}
+
 .we-can-help{margin-top: 83px !important;}
 .strategy-para{margin-left: -55px; margin-top: 56px !important;}
 .digital-para{margin-top: 54px !important;}
@@ -882,20 +880,7 @@ input[type="email"] {
     margin-left: -91px;
     margin-top: -36px;
 }
-.pro-contright{
-width: 500px;
-margin-left: -32px !important;
-margin-top: 18px !important;
-}
-.pro-contleft {
-  margin-left: -65px;
-  width: 530px;
-}
-.product_pararight {
-  margin-top: 15px !important;
-  font-family: 'Poppins';
-  font-size: 14px;
-}
+
 .dcx-content{
   margin-left: 10px !important;
   margin-right: -21px !important;
@@ -1090,28 +1075,14 @@ margin-left: -333px !important;
   margin-top: 82px !important;
   margin-left: -34px;
 }
-.pro-contleft {
-  margin-left: -16px;
-  float: left;
-  width: 100%;
-  padding: 10px;
-}
+
 .product-img {
   width: 900px;
   margin-left: -466px;
   margin-top: 421px;
   position: inherit;
 }
-.pro-contright{
-  margin-left: -16px !important;
-  width: 100%;
-}
-.product_pararight {
-  margin-top: 24px !important;
-  font-family: 'Poppins';
-  font-size: 14px;
-  margin-left: 25px;
-}
+
 .dcx-img2 {
   height: 500px;
   width: 600px;
@@ -1156,31 +1127,14 @@ margin-right: -28vw;
 .consulting_article_heading{
   text-align: center !important;
 }
-.pro-contleft {
-  margin-left: -16px;
-  float: left;
-  width: 100%;
-  padding: 10px;
-  
-}
+
 .product-img {
   width: 900px;
 margin-left: 19px;
 margin-top: 23px !important;
 }
-.pro-contright{
-margin-left: -4px !important;
-float: left;
-width: 100%;
-padding: 10px;
 
-}
-.product_pararight {
-  margin-top: 27px !important;
-  font-family: 'Poppins';
-  font-size: 14px;
-  margin-left: 25px;
-}
+
 .dcx-img2 {
   height: 455px;
   width: 567px;
@@ -1515,20 +1469,7 @@ margin-left: 6px;
   margin-left: -58px;
   margin-top: -68px;
 }
-.pro-contleft {
-  margin-left: -65px;
-  width: 575px;
-}
-.product_pararight {
-  margin-top: 12px !important;
-  font-family: 'Poppins';
-  font-size: 14px;
-}
-.pro-contright{
-  width: 500px;
-  margin-left: -32px !important;
-  margin-top: -25px !important;
-}
+
 }
 @media screen and (max-width:515px)and (min-width:451px){
   .consult-img {
@@ -1574,23 +1515,14 @@ margin-left: -313px !important;
 .consulting_article_heading{
   text-align: center !important;
 }
-.pro-contleft {
-  margin-left: -39px;
-  width: 443px;
-}
+
 .product-img {
   width: 527px;
 margin-left: -70px;
 margin-top: -51px;
 }
-.product_pararight {
-  margin-top: 12px !important;
-  font-family: 'Poppins';
-  font-size: 14px;
-}
-.pro-contright{
-margin-left: -17px !important;
-}
+
+
 }
 @media screen and (max-width:549px) and (min-width:516px){
   .consulting_article_heading{
@@ -1637,18 +1569,6 @@ margin-left: -17px !important;
   margin-left: -360px !important;
 }
 
-.pro-contright{
-  margin-left: -19px !important;
-}
-.product_pararight {
-  margin-top: 20px !important;
-  font-family: 'Poppins';
-  font-size: 14px;
-}
-.pro-contleft {
-  margin-left: -45px;
-  width: 515px;
-}
 .product-img {
   width: 585px;
   margin-left: -61px;
@@ -1716,23 +1636,10 @@ padding: 10px;
   margin-left: -72% !important;
   width: 15em;
 }
-
-.pro-contleft {
-  margin-left: -31px;
-}
 .product-img {
   width: 947px;
   margin-left: -227px;
   margin-top: 3px;
-}
-
-.product_pararight {
-  margin-top: 17px !important;
-  font-family: 'Poppins';
-  font-size: 14px;
-}
-.pro-contright {
-  margin-left: -19px !important;
 }
 }
 @media screen and (max-width:700px) and (min-width:640px){
@@ -1762,23 +1669,15 @@ margin-right: -29vw;
 margin-top: 42px !important;
 }
 
-.pro-contleft {
-  display: contents;
- }
+
  .product-img {
   width: 900px;
   margin-left: -154px;
   margin-top: 20px;
   display: flex;
 }
-.pro-contright {
-display: contents;
-}
-.product_pararight {
-  margin-top: 19px !important;
-  font-family: 'Poppins';
-  font-size: 14px;
-}
+
+
 .consulting_article_heading{
   text-align: center !important;
 }
@@ -1855,23 +1754,12 @@ right: 50%;
 margin-left: -23vw;
 margin-right: -29vw;
 }
-
-.pro-contleft {
-  display: contents;
-}
 .product-img {
   width: 900px;
   margin-left: -122px;
   margin-top: 50px;
 }
-.pro-contright {
-  display: contents;
-  }
-  .product_pararight {
-    margin-top: 20px !important;
-    font-family: 'Poppins';
-    font-size: 14px;
-}
+
 .we-can-help {
   margin-top: -30% !important;
   margin-left: -27px;
@@ -1990,18 +1878,5 @@ margin-right: -29vw;
   margin-left: -79px;
   margin-top: -62px;
 }
-.pro-contleft {
-margin-left: -60px;
-width: 575px;
-}
-.pro-contright{
-  width: 375px;
-  margin-left: -38px !important;
-  margin-top: -13px !important;
-}
-.product_pararight {
-  margin-top: 13px !important;
-  font-family: 'Poppins';
-  font-size: 14px;
-}
+
 }

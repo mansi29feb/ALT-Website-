@@ -30,7 +30,7 @@
             <div class=" career_box uk-text-center uk-padding-remove-top">
                 <div class="uk-child-width-1-2@s" uk-grid>
                     <div class="uk-width-1-1@s ">
-                        <div class="uk-h4 services_subheading">Working and Thriving</div>
+                        <h3 class="services_subheading">Working and Thriving</h3>
                         <div class="uk-child-width-1-2@s " uk-grid>
                             <p class="uk-width-1-1@s services_mainpara uk-align-center uk-margin-large-horizintal">Stay “ALWAYS AHEAD” by giving your career a kick-start with ALT Commerce.</p>
                         </div>
@@ -105,15 +105,15 @@
             </div>
 
             <div id="target_career" class="uk-width-1-1@s uk-text-center">
-                <div class="services_subheading uk-margin-medium-top uk-margin-medium-bottom uk-text-bold">Current Openings</div>
+                <h3 class="services_subheading uk-margin-medium-top uk-margin-medium-bottom uk-text-bold">Current Openings</h3>
                 <table class="uk-table  uk-table-divider uk-text-left">
                    
                     <tbody >
-                        <tr class="openings_par" >
+                        <tr class="openings_par" uk-accordion>
                             <td uk-scrollspy="cls: uk-animation-slide-left-medium">
 
-                                <a class="services_article_heading" style="color:black; font-size: 20px; font-weight: 600;" href="#" uk-toggle="target: #toggle-click; mode: click">Oracle ATG Commerce Developer</a>
-                                <div id="toggle-click" hidden>
+                              <div class=" uk-accordion-title">  <a class="services_article_heading" style="color:black; font-size: 20px; font-weight: 600;" href="#" uk-toggle="target: #toggle-click; mode: click">Oracle ATG Commerce Developer<span class="noida">Noida U.P</span></a></div>
+                                <div id="toggle-click" class="uk-accordion-content" hidden>
                                     <ul class="uk-list uk-card uk-card-default uk-card-body uk-margin-medium-top uk-padding-large uk-animation-slide-top-small" >
                                         <div class="services_article_heading uk-h3 uk-text-bold">RESPONSIBILITIES:</div>
                                         <li class="services_article_para"><span class="uk-margin-small-right" uk-icon="icon: check; ratio: 1"></span>Developing web applications, services and integrating different enterprise 
@@ -138,14 +138,14 @@
                                 </div>
                             
                             </td>
-                            <td class="services_article_heading uk-text-right uk-text-nowrap" style="color:black; font-size: 20px; font-weight: 600;" uk-scrollspy="cls: uk-animation-slide-right-medium" >Noida, U.P.</td>
+                           <!-- <td class="services_article_heading uk-text-left uk-text-nowrap " style="color:black; font-size: 20px; font-weight: 600;" uk-scrollspy="cls: uk-animation-slide-right-medium" >Noida, U.P.</td>  -->
                             
                         </tr>
                         
-                        <tr class="openings_para">
+                        <tr class="openings_para"  uk-accordion>
                             <td  uk-scrollspy="cls: uk-animation-slide-left-medium">
-                            <a class="services_article_heading" style="color:black; font-size: 20px; font-weight: 600;" href="#" uk-toggle="target: #toggle-click2; mode: click">Endeca Developer</a>
-                                <div id="toggle-click2" hidden>
+                            <div class=" uk-accordion-title"><a class="services_article_heading" style="color:black; font-size: 20px; font-weight: 600;" href="#" uk-toggle="target: #toggle-click2; mode: click">Endeca Developer<span class="noida">Noida U.P</span></a></div>
+                                <div id="toggle-click2" class="uk-accordion-content" hidden>
                                     <ul class="uk-list uk-card uk-card-default uk-card-body uk-margin-medium-top uk-padding-large uk-animation-slide-top-small">
                                         <div class="services_article_heading uk-h3 uk-text-bold">RESPONSIBILITIES:</div>
                                         <li class="services_article_para"><span class="uk-margin-small-right" uk-icon="check"></span>Developing web applications, services and integrating different enterprise 
@@ -170,14 +170,14 @@
                                 </div>
                             
                             </td>
-                            <td class="services_article_heading uk-text-right uk-text-nowrap" style="color:black; font-size: 20px; font-weight: 600;"  uk-scrollspy="cls: uk-animation-slide-right-medium">Noida, U.P.</td>
+                            <!-- <td class="services_article_heading uk-text-left uk-text-nowrap" style="color:black; font-size: 20px; font-weight: 600;"  uk-scrollspy="cls: uk-animation-slide-right-medium">Noida, U.P.</td> -->
                             
                         </tr>
 
-                        <tr class="openings_para">
+                        <tr class="openings_para"  uk-accordion>
                             <td  uk-scrollspy="cls: uk-animation-slide-left-medium">
-                            <a class="services_article_heading" style="color:black; font-size: 20px; font-weight: 600;" href="#" uk-toggle="target: #toggle-click3; mode: click">Hybris Developer</a>
-                                <div id="toggle-click3" hidden>
+                            <div class=" uk-accordion-title"> <a class="services_article_heading" style="color:black; font-size: 20px; font-weight: 600;" href="#" uk-toggle="target: #toggle-click3; mode: click">Hybris Developer<span class="noida">Noida U.P</span></a></div>
+                                <div id="toggle-click3" class="uk-accordion-content" hidden>
                                     <ul class="uk-list uk-card uk-card-default uk-card-body uk-margin-medium-top uk-padding-large uk-animation-slide-top-small ">
                                         <div class="services_article_heading uk-h3 uk-text-bold">RESPONSIBILITIES:</div>
                                         <li class="services_article_para"><span class="uk-margin-small-right" uk-icon="check"></span>Hybris with work experience on WCMS, Commerce, Checkout and Cart, 
@@ -199,7 +199,7 @@
                                 </div>
                             
                             </td  >
-                            <td class="services_article_heading uk-text-right uk-text-nowrap" style="color:black; font-size: 20px; font-weight: 600;" uk-scrollspy="cls: uk-animation-slide-right-medium">Noida, U.P.</td>
+                            <!-- <td class="services_article_heading uk-text-left uk-text-nowrap" style="color:black; font-size: 20px; font-weight: 600;" uk-scrollspy="cls: uk-animation-slide-right-medium">Noida, U.P.</td> -->
                             
                         </tr>
                     </tbody>
@@ -207,8 +207,8 @@
             </div>
         </div>    
 
-
     </div>
+    
 
 <!-----------------------------------CAREER SECTION ENDS------------------------------->
     <?php

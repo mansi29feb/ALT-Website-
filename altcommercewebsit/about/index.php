@@ -4,20 +4,21 @@
     $currentPage = 'about';
     include_once "../header.php";
 ?>
-
-<div class="uk-child-width-1-1 uk-grid uk-grid-stack" uk-grid>
-    <div class="uk-h2 uk-text-center uk-text-bold uk-margin-medium-top services_mainheading uk-first-column">About the ALT Commerce</div>
+ <div class="uk-container uk-margin-medium-bottom uk-margin-medium-top">
+    <div class="uk-child-width-1-1 uk-grid uk-grid-stack" uk-grid>
+        <h1 class="uk-h1 uk-text-center uk-text-bold uk-margin-medium-top services_mainheading uk-first-column">About the ALT Commerce</h1>
         <p class="uk-text-center services_mainpara">ALT Commerce is a professional services firm focused on implementing and optimizing Oracle Commerce and the Oracle Customer Experience suite of products.</div>
         <div class="uk-background-contain uk-height-large uk-grid" style="background-image: url(<?php echo $filePath;?>images/about3.png);" uk-scrollspy="cls: uk-animation-slide-bottom-small"> </div> 
-        <div class="uk-container uk-margin-medium-bottom uk-margin-medium-top">
+       
             <div class="services_article_para  uk-text-justify">
+                            <p>
                             ALT Commerce combines trusted expertise and objectivity with today’s 
                                 digital commerce capabilities to help software business grow.
                             We’re committed to simplifying the software search.
                             Providing our customers with a consistent and seamless brand experience is a given when competition is only a click away.
-                            We believe in principle that Alt commerce can only grow if we deliver quality IT solutions to customers that will help them to grow their business.
+                            We believe in principle that Alt commerce can only grow if we deliver quality IT solutions to customers that will help them to grow their business.</p>
                             <br>
-                            <h4 class="uk-text-bold" style="color:#f6922d";>ALT Commerce  delivers the Oracle CX (Customer Experience) portfolio of products, including:</h4>
+                            <h3 class="uk-text-bold" style="color:#f6922d";>ALT Commerce  delivers the Oracle CX (Customer Experience) portfolio of products, including:</h3>
                                 <ul>
                                     <li>Oracle Commerce (ATG &amp; Endeca)</li>
                                     <li>Commerce Cloud</li>
@@ -26,9 +27,9 @@
                                     <li>Social Cloud (SRM)</li>
                                     <li>Service Cloud (RightNow)</li>
                                 </ul>
-                                <div class="services_article_para uk-text-justify">We have over 10+ years of experience helping companies succeed by delivering the technology that engages customers and drives sales.
+                                <div class="services_article_para uk-text-justify"><p>We have over 10+ years of experience helping companies succeed by delivering the technology that engages customers and drives sales.
                     As an Unified Commerce Platform Specialized Partner, we have developed an industry leading in delivering the seamless online buying experience which bring unmatched functionality for B2C and 
-                    B2B companies who want to implement an omnichannel ecommerce solution quickly and cost effectively.
+                    B2B companies who want to implement an omnichannel ecommerce solution quickly and cost effectively.</p>
              </div>                
         </div>
     </div>

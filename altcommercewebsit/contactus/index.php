@@ -8,10 +8,10 @@
 <!--contact us start-->
 <div class="uk-container uk-margin uk-margin-large-bottom ">
     <div class="uk-child-width-1-1@s uk-grid-small" uk-grid>    
-        <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Get in Touch</div>
+        <h1 class="uk-h1 uk-text-center uk-text-bold services_mainheading">Get in Touch</h1>
 
         <div class="uk-width-1-2@s uk-align-center">
-            <div class="services_mainpara uk-card uk-card-default uk-padding-small uk-text-center  ">“ We do look forward to keeping in touch with you guys, because we'll always be connected in people's mind ”
+            <div class="services_mainpara uk-card uk-card-default uk-padding-small uk-text-center"><p>“ We do look forward to keeping in touch with you guys, because we'll always be connected in people's mind ”</p>
             <p class="uk-text-meta uk-text-right uk-margin-remove-top uk-margin-remove-bottom" style="color:black;">- Barry Zito</p>
             </div>
         </div>

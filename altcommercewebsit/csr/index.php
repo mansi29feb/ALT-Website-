@@ -7,7 +7,7 @@
     
 <!-- csr starts -->
 <div class="uk-child-width-1-1" uk-grid>
-        <div class="uk-h2 uk-text-center uk-text-bold uk-margin-medium-top services_mainheading">"Enact Positive Changes"</div>
+        <h1 class="uk-h1 uk-text-center uk-text-bold uk-margin-medium-top services_mainheading">"Enact Positive Changes"</h1>
         <p class="uk-text-center services_mainpara">Change Your Ways, Save The Environment </p>
 
         <div class="uk-background-contain uk-height-large uk-flex uk-flex-center uk-flex-middle" uk-scrollspy="cls:uk-animation-slide-bottom-medium" style="background-image: url(<?php echo $filePath;?>images/csr/earth/earth-alt.png);"> 
@@ -15,17 +15,17 @@
     </div>
        
      
-     <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-top">Sustainability at ALT Commerce</div>
+     <h2 class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-top">Sustainability at ALT Commerce</h2>
    
 
      <div class=" uk-text-center uk-padding uk-padding-remove-top services_mainpara">
-        We always have undertaken various initiatives with an aim to improve quality of life & ensure the holistic development of its surrounding communities. 
+        <p>We always have undertaken various initiatives with an aim to improve quality of life & ensure the holistic development of its surrounding communities. </p>
        </div>
 
     <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-child-width-1-2@s uk-grid-collapse uk-margin-remove" uk-grid>
 
         <div class="uk-width-1-4@m uk-width-1-2@s csr_box" style="background-color: #fafafa;">
-            <p class=" uk-padding uk-text-left" style="font-size: 18px; color:black">
+            <p class=" uk-padding uk-text-left" style="font-size: 16px; color:black">
                 The underlying goal of the interventions is to transform the lives of the community through 
                 a result-oriented participatory approach. The efforts are directed towards inclusive growth, 
                 so as to reach out to its nearby communities & help them build a sustainable future. 
@@ -41,7 +41,7 @@
         </div>
 
         <div class="uk-width-1-4@m uk-width-1-2@s csr_box" style="background-color: #fafafa;">
-            <p class=" uk-padding  uk-text-left" style="font-size: 18px; color:black">
+            <p class=" uk-padding  uk-text-left" style="font-size: 16px; color:black">
                 All our environmental or social development projects work with the concept of “better living” which translates to “Sustainable Development Goals”.
                 ALT initiates working with few Sustainable Development Goals like Good health & Wellbeing, Clean water & 3 Ps of Sustainable Development like People, Planet & Prosperity.
                 
@@ -59,7 +59,7 @@
 
     <div class="">
         <div class=""> 
-            <div class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#1C1C1C;">The PM CARES Fund</div>
+            <h2 class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#1C1C1C;">The PM CARES Fund</h2>
             
             <div class=" uk-child-width-1-2@s uk-width-1-1@s uk-margin-large-bottom" uk-grid>
                 <div class="uk-width-1-2@s" uk-scrollspy="cls:uk-animation-slide-left-medium">
@@ -72,7 +72,7 @@
                 </div>
                 <div class="uk-width-1-2@s">
                     <div class="uk-padding ">
-                        <p class="uk-text-left covid services_mainpara uk-padding-small" style="font-size: 18px;" uk-scrollspy="cls:uk-animation-fade"> ALT Commerce has tried to do 
+                        <p class="uk-text-left covid services_mainpara uk-padding-small" style="font-size: 16px;" uk-scrollspy="cls:uk-animation-fade"> ALT Commerce has tried to do 
                     its bit for the <span class="uk-text-bold">COVID-19</span> situation in the country.</br></br> The company encouraged everyone to contribute to provide relief to 
                     those affected by any kind of emergency or distress situation.  And supported the government in its fight against the 
                     impact of <span class="uk-text-bold">COVID-19</span>.  
@@ -86,7 +86,7 @@
 
     <div class="">
         <div class="" style=" background-color: #fafafa;"> 
-            <div class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#1C1C1C">“PLANT A TREE, PLANT A LIFE”</div>
+            <h2 class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#1C1C1C">“PLANT A TREE, PLANT A LIFE”</h2>
             
             <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider=" autoplay:true; autoplay-interval:2000;">
 
@@ -163,7 +163,7 @@
         </div>
     </div>
     <div class="uk-padding" style="background-color: #f2f2f0;">
-        <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-bottom ">Impact</div>
+        <h2 class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-bottom ">Impact</h2>
         
         <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-large-bottom" uk-grid>
             <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
@@ -226,7 +226,7 @@
 <!-- water activity -->
 <div class=" ">
     <div class="" style="background-color: #fafafa;">
-        <div class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#1c1c1c;">“WATER IS LIFE, TREAT IT RIGHT”</div>
+        <h2 class=" uk-text-center uk-text-bold services_subheading uk-padding uk-margin-small-bottom" style="color:#1c1c1c;">“WATER IS LIFE, TREAT IT RIGHT”</h2>
         
         <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider=" autoplay:true; autoplay-interval:2000;">
 
@@ -318,7 +318,7 @@
 </div>
 
 <div class="uk-padding" style="background-color: #f2f2f0;">
-    <div class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-bottom ">Impact</div>
+    <h2 class=" uk-text-center uk-text-bold services_subheading uk-margin-medium-bottom ">Impact</h2>
     
     <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-large-bottom" uk-grid>
         <div class="uk-text-center uk-width-1-4@m uk-width-1-2@s imp_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium">

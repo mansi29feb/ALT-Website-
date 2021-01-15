@@ -6,7 +6,7 @@
 ?>
 
 <div class="uk-container uk-margin">
-        <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Our Technical Expertise</div>
+        <h1 class="uk-h1 uk-text-center uk-text-bold services_mainheading">Our Technical Expertise</h1>
         <p class="uk-text-center services_mainpara"> Rendering the best services with the updated Technologies.
         </p>
         <div class="">
