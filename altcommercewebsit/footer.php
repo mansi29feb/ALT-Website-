@@ -6,27 +6,6 @@
 ?>
 
 <!--footer start -->
-
-    <!-- <div class="uk-child-width-expand@s footer" uk-grid>
-        <div>
-            <div class="footerbox uk-text-center uk-margin-small">
-                <span class="uk-text-capitalize ">Copyrights © <script>document.write(new Date().getFullYear())</script> All Rights Reserved by <span class="uk-text-bold">ALT Commerce Pvt. Ltd.</span></span>
-            </div>
-        </div>
-        <div>
-            <div class=" uk-link-text uk-text-center uk-visible@s footermenu">
-                <a href="<?php echo $filePath;?>">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>/
-                <a href="<?php echo $filePath;?>about">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a>/
-                <a href="<?php echo $filePath;?>service">&nbsp;&nbsp;Services&nbsp;&nbsp;</a>/
-                <a href="<?php echo $filePath;?>skill">&nbsp;&nbsp;Skills&nbsp;&nbsp;</a>/
-                <a href="<?php echo $filePath;?>resource">&nbsp;&nbsp;Resources&nbsp;&nbsp;</a>/
-                <a href="<?php echo $filePath;?>careers">&nbsp;&nbsp;Careers&nbsp;&nbsp;</a>
-            </div>
-
-        </div>
-
-
-    </div> -->
 <div id="foo"> 
     <div class="uk-container">   
         <div class=" uk-grid  uk-grid-collapse uk-child-width-expand@s  uk-text-left uk-margin-medium-top" uk-grid>

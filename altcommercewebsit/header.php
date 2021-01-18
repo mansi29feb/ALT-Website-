@@ -583,14 +583,6 @@ input[type="text"] {
     margin-left: -17px;
     margin-top: -109px;
 }
-.consult-img {
-    width: 237px;
-    margin-top: 127px;
-}
-.Strategy-img {
-    width: 270px;
-    margin-top: 138px;
-}
 .rem-space {
     margin-top: -295px !important;
 }
@@ -600,19 +592,6 @@ input[type="text"] {
     font-size: 15px;
     color: #1c1c1c;
     line-height:33px;
-}
-.product-img {
-    width: 575px;
-    margin-left: -2cm;
-    margin-top: 296px;
-}
-.agile-img {
-    width: 270px;
-    margin-left: 15px;
-}
-.digital-img {
-    width: 215px;
-    margin-top: 78px;
 }
 .consult-bg {
     height: 610px;
@@ -637,19 +616,6 @@ input[type="text"] {
     margin-left: 201px;
 }
 
-.we-can-help {
-    margin-top: 83px !important;
-}
-.strategy-para {
-    margin-left: -44px;
-    margin-top: 56px !important;
-}
-.digital-para {
-    margin-top: 54px !important;
-}
-.agile-para {
-    margin-left: -44px;
-}
 .consulting_article_heading {
     font-size: 25px;
     color: #fe9603;
@@ -719,11 +685,6 @@ input[type="text"] {
     }
 }
 @media screen and (max-width: 450px) and (min-width: 400px) {
-    .product-img {
-        width: 530px;
-        margin-left: -91px;
-        margin-top: -36px;
-    }
     .dcx-content {
         margin-left: 10px !important;
         margin-right: -21px !important;
@@ -733,51 +694,10 @@ input[type="text"] {
     }
     .dcx-img2 {
         height: 427px;
-        width: 501px;
-        margin-left: -25px;
+        width: 383px;
+         margin-left: -21px;
     }
-    .consult-img {
-        width: 228px;
-        margin-left: 49px !important;
-        margin-top: 10px;
-    }
-    .we-can-help {
-        margin-top: -177px !important;
-        width: 454px;
-        margin-left: 14px;
-        margin-right: 22px;
-    }
-    .Strategy-img {
-        width: 252px;
-        margin-top: 163px;
-        margin-left: -293px !important;
-    }
-    .strategy-para {
-        margin-left: -45px;
-        margin-top: 337px !important;
-        width: 531px;
-    }
-    .digital-para {
-        margin-top: -177px !important;
-        width: 454px;
-        margin-left: -3px;
-        margin-right: 31px;
-    }
-    .digital-img {
-        width: 215px;
-        margin-top: 194px;
-        margin-left: 44px !important;
-    }
-    .agile-img {
-        width: 260px;
-        margin-top: 149px;
-        margin-left: -303px !important;
-    }
-    .agile-para {
-        margin-left: -45px;
-        margin-top: 337px !important;
-        width: 458px;
-    }
+   
     .consulting_article_heading {
         text-align: center !important;
     }
@@ -803,10 +723,41 @@ input[type="text"] {
         margin-left: 25%;
     }
     span.noida{
-      
-    float: right;
-     margin-left: 0cm !important; 
-
+      float: right;
+        margin-left: 0cm !important; 
+    }
+    .utmost-img{
+        display:none;
+    }
+    .utmost-img2{
+        display:block !important;
+        margin-left: 6px;
+    }
+    .eng-tech-img{
+    display:none ;
+    }
+    .strategy-img{
+        display:none;
+    }
+    .strategy-img2{
+        display:block !important;
+        width: 70% !important;
+        margin-left: 25px;
+    }
+    .agil-img{
+        display:none;
+    }
+    .agil-img2{
+        display:block !important;
+        width: 70% !important;
+        margin-left: 25px;
+    }
+    .softdev-img {
+    margin-top: 100px;
+    width: 70% !important;
+    }
+    .digital-img {
+    width: 70% !important;
     }
 }
 @media screen and (max-width: 900px) {
@@ -861,29 +812,11 @@ input[type="text"] {
     float: right;
     margin-left: 0cm !important;
     }
+    
 }
 @media screen and (max-width: 899px) and (min-width: 800px) {
-    .consult-img {
-        width: 199px;
-        margin-top: 149px;
-    }
-    .Strategy-img {
-        width: 226px;
-        margin-top: 176px;
-        margin-left: -22px !important;
-    }
-    .digital-para {
-        margin-top: 124px !important;
-    }
-    .digital-img {
-        width: 179px;
-        margin-top: 147px;
-    }
-    .agile-img {
-        width: 226px;
-        margin-top: 82px !important;
-        margin-left: -34px;
-    }
+    
+
     .dcx-img {
         height: 456px;
         margin-left: 51px;
@@ -919,47 +852,7 @@ input[type="text"] {
     .uk-sticky-fixed .menu-toggle {
         margin-left: -9px !important;
     }
-    .we-can-help {
-        margin-top: 83px !important;
-        margin-left: 27px;
-    }
-    .consult-img {
-        width: 199px;
-        margin-top: 149px;
-        margin-left: 10px !important;
-    }
-    .Strategy-img {
-        width: 232px;
-        margin-top: 142px;
-        margin-left: -13px !important;
-    }
-    .digital-para {
-        margin-top: 209px !important;
-        margin-left: 18px;
-    }
-    .digital-img {
-        width: 180px;
-        margin-top: 231px;
-        margin-left: -30px !important;
-    }
-    .agile-img {
-        width: 226px;
-        margin-top: 82px !important;
-        margin-left: -34px;
-    }
-    .agile-para {
-        margin-left: -55px;
-    }
     
-    .product-img {
-        width: 900px;
-        margin-left: -59px;
-        margin-top: 4px;
-        position: inherit;
-    }
-    
-    
-     
     .dcx-img2 {
         height: 500px;
         width: 600px;
@@ -972,63 +865,151 @@ input[type="text"] {
         margin-left: -23vw;
         margin-right: -28vw;
     }
-    .strategy-para {
-        margin-left: -57px;
-        margin-top: 56px !important;
-    }
     .what-we-do-img {
         margin-top: 49px;
         width: 100%;
         margin-left: -26px;
     }
+    .full-width{
+            width:100%;
+            margin-right: 15px;
+        }
+        .exp-img{
+            margin-left: 140px;
+        }
+        .utmost-img{
+        display:none;
+        }
+        .utmost-img2{
+        display:block !important;
+        margin-left: 145px;
+            }
+        .dig-img{
+        margin-left: 131px;
+        }
+        .eng-tech-img{
+            display:none;
+        }
+        .busines-img{
+            margin-left: 147px;
+        }
+        .softdev-img {
+            margin-top: 100px;
+            width: 50% ;
+            margin-left: 141px;
+        }
+        .strategy-img{
+            display:none;
+        }
+        .strategy-img2{
+        display:block !important;
+        width: 50%;
+        margin-left:177px;
+    }
+    .agil-img{
+        display:none;
+    }
+    .agil-img2{
+        display:block !important;
+        width: 50%;
+        margin-left: 175px;
+    }
+    .digital-img {
+    width: 50%;
+    margin-left: 133px;
+}
+}
+@media screen and (max-width: 1000px) and (min-width: 960px) {
+        .full-width{
+            width:100%;
+            margin-right: 15px;
+        }
+        .exp-img{
+            margin-left: 140px;
+        }
+        .utmost-img{
+        display:none;
+        }
+        .utmost-img2{
+        display:block !important;
+        margin-left: 145px;
+            }
+        .dig-img{
+        margin-left: 131px;
+        }
+        .eng-tech-img{
+            display:none;
+        }
+        .busines-img{
+            margin-left: 147px;
+        }
+        .softdev-img {
+            margin-top: 100px;
+            width: 35% !important;
+            margin-left: 240px;
+        }
+        .strategy-img{
+            display:none;
+        }
+        .strategy-img2{
+        display:block !important;
+        width: 35% !important;
+        margin-left: 273px;
+    }
+    .agil-img{
+        display:none;
+    }
+    .agil-img2{
+        display:block !important;
+        width: 35% !important;
+        margin-left: 273px;
+    }
+    .digital-img {
+        width: 35% !important;
+        margin-left: 273px;
+}
+}
+@media screen and (max-width: 1049px) and (min-width: 1001px){
+.softdev-img {
+    margin-top: 118px !important;
+    width: 70%;
+    margin-left: 10px;
+}
+.strategy-img {
+    width: 50%;
+    margin-top:163px;
+    margin-left: 100px;
+}
+.digital-img {
+    width: 50%;
+    margin-top: 71px;
+}
+.agil-img {
+    width: 50%;
+    margin-left: 85px;
+    margin-top: 100px;
+}
+span.noida {
+    float: right;
+    margin-left: 2cm;
+}
+.utmost-img{
+    margin-top: 13px !important;
+}
+.dig-img{
+    margin-top: 18px !important;
+}
+.eng-tech-img{
+    margin-top: 0px !important;
+}
+.busines-img{
+    margin-top: 17px !important;
+}
 }
 @media screen and (max-width: 1100px) and (min-width: 960px) {
     .rem-space {
         margin-top: -273px !important;
     }
-    .consult-img {
-        width: 199px;
-        margin-top: 119px;
-        margin-left: 5px !important;
-    }
-    .Strategy-img {
-        width: 239px;
-        margin-top: 176px;
-        margin-left: -13px !important;
-    }
-    .digital-para {
-        margin-top: 184px !important;
-        margin-left: 20px;
-    }
-    .digital-img {
-        width: 179px;
-        margin-top: 147px;
-        margin-left: 0 !important;
-    }
-    .agile-para {
-        margin-left: -57px;
-        margin-top: 66px;
-    }
-    .strategy-para {
-        margin-left: -56px;
-        margin-top: 56px !important;
-    }
-    .we-can-help {
-        margin-top: 83px !important;
-        margin-left: 20px;
-    }
-    .agile-img {
-        width: 245px;
-        margin-top: 138px !important;
-        margin-left: -3px;
-    }
-    
-    .product-img {
-        width: 900px;
-        margin-left: 21px;
-        margin-top: 23px !important;
-    }
-    
     
     .dcx-img2 {
         height: 455px;
@@ -1042,11 +1023,7 @@ input[type="text"] {
         margin-left: -23vw;
         margin-right: -28vw;
     }
-    .what-we-do-img {
-        margin-top: 35px;
-        width: 100%;
-        margin-left: -26px;
-    }
+    
     .mid-text {
         margin-left: 85px !important;
     }
@@ -1229,27 +1206,7 @@ input[type="text"] {
     .mobile-nav {
         margin-left: 261px;
     }
-    .consult-img {
-        width: 225px;
-        margin-top: 132px;
-    }
-    .Strategy-img {
-        width: 255px;
-        margin-top: 148px;
-    }
-    .digital-para {
-        margin-top: 124px !important;
-    }
-    .digital-img {
-        width: 207px;
-        margin-top: 147px;
-        margin-left: 17px !important;
-    }
-    .agile-img {
-        width: 264px;
-        margin-top: 62px !important;
-        margin-left: 6px;
-    }
+    
 }
 @media screen and (min-width: 1130px) {
     .mobile-nav {
@@ -1334,12 +1291,6 @@ input[type="text"] {
         width: 250px;
         margin-top: -29px;
     }
-    .product-img {
-        width: 418px;
-        margin-left: -58px;
-        margin-top: -68px;
-    }
-    
     
     .dcx-optimiz {
         margin-right: 51px;
@@ -1350,63 +1301,18 @@ input[type="text"] {
         margin-right: -13px;
     }
     
-    .consult-img {
-        width: 200px;
-        margin-left: 28px !important;
-        margin-top: 1px;
-    }
-    .we-can-help {
-        margin-top: -177px !important;
-        width: 100%;
-        margin-left: 5px;
-        margin-right: 33px;
-    }
-    .Strategy-img {
-        width: 225px;
-        margin-top: 155px !important;
-        margin-left: -260px !important;
-    }
-    .strategy-para {
-        margin-left: -45px;
-        margin-top: 337px !important;
-        width: 531px;
-    }
-    .digital-img {
-        width: 205px;
-        margin-top: 216px;
-        margin-left: 16px !important;
-    }
-    .digital-para {
-        margin-top: -177px !important;
-        width: 454px;
-        margin-left: 5px;
-        margin-right: 33px;
-    }
-    .agile-img {
-        width: 260px;
-        margin-top: 146px;
-        margin-left: -281px !important;
-    }
-    .agile-para {
-        margin-left: -45px;
-        margin-top: 337px !important;
-        width: 458px;
-    }
-    .what-we-do-img {
-        display: none;
-    }
     .end-text {
-        margin-left: -20px !important;
+        margin-left: -24px !important;
     }
     .side-text {
-        margin-left: -20px !important;
+        margin-left: -24px !important;
     }
     .mid-text {
-        margin-left: -20px !important;
+        margin-left: -24px !important;
     }
     .hexo {
         height: 70px;
-        width: 235px !important;
+        width: 222px !important;
         margin-left: 53px;
         border-top: 4px solid #000;
         border-bottom: 4px solid #000;
@@ -1417,71 +1323,49 @@ input[type="text"] {
         font-size: 18px;
         font-family: sans-serif;
     }
-    /* .utmost{
-        margin-top: 6cm !important;
-    }
     .utmost-img{
-        margin-top: -27cm;
-     } */
-    /* .contact{
-        margin-right: 77px;
-    } */
+        display:none;
+    }
+    .utmost-img2{
+        display:block !important;
+        margin-left: -35px;
+    }
+    .eng-tech-img{
+    display:none ;
+    }
+    .services_mainheading {
+    font-size: 45px;
+    }
     span.noida {
     float: right;
     margin-left: 0cm !important;
+    }
+    .strategy-img{
+        display:none;
+    }
+    .strategy-img2{
+        display:block !important;
+        width: 70% !important;
+    }
+    .agil-img{
+        display:none;
+    }
+    .agil-img2{
+        display:block !important;
+        width: 70% !important;
+    }
+    .softdev-img {
+        width: 70% !important;
+        margin-left: -18px;
+    }
+    .digital-img {
+    width: 70% !important;
+    margin-left: -20px;
 }
 }
 @media screen and (max-width: 515px) and (min-width: 451px) {
-    .consult-img {
-        width: 188px;
-        margin-left: 90px !important;
-        margin-top: 10px;
-    }
-    .we-can-help {
-        margin-top: -177px !important;
-        width: 531px;
-        margin-right: 32px;
-        margin-left: 2px;
-    }
-    .strategy-para {
-        margin-left: -45px;
-        margin-top: 337px !important;
-        width: 531px;
-    }
-    .Strategy-img {
-        width: 225px;
-        margin-top: 147px;
-        margin-left: -304px !important;
-    }
-    .digital-img {
-        width: 188px;
-        margin-top: 192px;
-        margin-left: 80px !important;
-    }
-    .digital-para {
-        margin-top: -177px !important;
-        width: 531px;
-        margin-left: -7px;
-        margin-right: 26px;
-    }
-    .agile-para {
-        margin-left: -45px;
-        margin-top: 337px !important;
-        width: 531px;
-    }
-    .agile-img {
-        width: 240px;
-        margin-top: 144px;
-        margin-left: -326px !important;
-    }
     .consulting_article_heading {
         text-align: center !important;
-    }
-    
-    .product-img {
-        width: 530px;
-        margin-left: -58px;
-        margin-top: -51px;
     }
     
     .pro-contright {
@@ -1519,61 +1403,49 @@ input[type="text"] {
     span.noida {
     float: right;
     margin-left: 0cm !important;
-}
+    }
+    .utmost-img{
+        display:none;
+    }
+    .utmost-img2{
+        display:block !important;
+        margin-left: 6px;
+    }
+    .eng-tech-img{
+    display:none ;
+    }
+    .strategy-img{
+        display:none;
+    }
+    .agil-img{
+        display:none;
+    }
+    .strategy-img2{
+        display:block !important;
+        width:70% !important;
+        margin-left: 29px;
+    }
+    
+    .agil-img2{
+        display:block !important;
+        width:70%!important;
+        margin-left: 25px;
+    }
+    .softdev-img {
+    margin-top: 100px;
+    width: 70% !important;
+    margin-left: 1px;
+    }
+    .digital-img {
+    width: 70% !important;
+    
+    }
 }
 @media screen and (max-width: 549px) and (min-width: 516px) {
     .consulting_article_heading {
         text-align: center !important;
     }
-    .consult-img {
-        width: 225px;
-        margin-left: 107px !important;
-        margin-top: 16px;
-    }
-    .we-can-help {
-        margin-top: -177px !important;
-        width: 100%;
-        margin-left: 8px;
-        margin-right: 33px;
-    }
-    .strategy-para {
-        margin-left: -45px;
-        margin-top: 337px !important;
-        width: 531px;
-    }
-    .Strategy-img {
-        width: 250px;
-        margin-top: 150px !important;
-        margin-left: -351px !important;
-    }
-    .digital-para {
-        margin-top: -177px !important;
-        margin-left: 0;
-        margin-right: 33px;
-    }
-    .digital-img {
-        width: 199px;
-        margin-top: 210px;
-        margin-left: 103px !important;
-    }
-    .agile-para {
-        margin-left: -45px;
-        margin-top: 337px !important;
-        width: 531px;
-    }
-    .agile-img {
-        width: 250px;
-        margin-top: 144px !important;
-        margin-left: -364px !important;
-    }
     
-    
-    
-    .product-img {
-        width: 585px;
-        margin-left: -61px;
-        margin-top: -36px;
-    }
     .dcx-optimiz {
         margin-left: -22px !important;
         margin-right: 50px !important;
@@ -1586,9 +1458,6 @@ input[type="text"] {
         height: 465px;
         max-width: 581px;
         margin-left: -5px;
-    }
-    .what-we-do-img {
-        display: none;
     }
     .end-text {
         margin-left: -195px !important;
@@ -1611,7 +1480,55 @@ input[type="text"] {
     span.noida {
     float: right;
     margin-left: 0cm !important;
-}
+    }
+    .exp-img{
+        margin-left: 45px;
+    }
+    .dig-img{
+        margin-left: 45px;
+    }
+    .busines-img{
+        margin-left: 45px;
+    }
+    .utmost-img{
+        display:none;
+    }
+    .utmost-img2{
+        display:block !important;
+        margin-left: 6px;
+    }
+    .eng-tech-img{
+    display:none ;
+    }
+    .strategy-img{
+        display:none;
+    }
+   
+    .agil-img{
+        display:none;
+    }
+    
+    .strategy-img2{
+        display:block !important;
+        width:70%;
+        margin-left: 29px;
+    }
+    
+    .agil-img2{
+        display:block !important;
+        width:70%;
+        margin-left: 25px;
+    }
+    .softdev-img {
+    margin-top: 100px;
+    width: 70% !important;
+    margin-left: 1px;
+    }
+    .digital-img {
+    width: 70% !important;
+    
+    }
+
 }
 @media screen and (max-width: 639px) and (min-width: 550px) {
     .dcx-optimiz {
@@ -1627,63 +1544,7 @@ input[type="text"] {
     .consulting_article_heading {
         text-align: center !important;
     }
-    .consult-img {
-        margin-top: 25px !important;
-        margin-left: 119px !important;
-        width: 15em;
-    }
-    .we-can-help {
-        margin-top: -177px !important;
-        margin-left: 22px;
-        margin-right: 12px;
-        width: 100%;
-        padding: 10px;
-    }
-    .strategy-para {
-        margin-top: 327px !important;
-        margin-left: -27px;
-        width: 100%;
-        padding: 10px;
-    }
-    .Strategy-img {
-        margin-top: 145px !important;
-        margin-left: -66% !important;
-        width: 15em;
-        padding: 10px;
-    }
-    .digital-para {
-        margin-top: -33% !important;
-        margin-left: 15px;
-        margin-right: 22px;
-        width: 100%;
-        padding: 10px;
-    }
-    .digital-img {
-        margin-top: 202px !important;
-        margin-left: 114px !important;
-        width: 14em;
-    }
-    .agile-para {
-        margin-top: 310px !important;
-        margin-left: -27px;
-        width: 100%;
-        padding: 10px;
-    }
-    .agile-img {
-        margin-top: 132px !important;
-        margin-left: -77% !important;
-        width: 17em;
-    }
     
-    .product-img {
-        width: 947px;
-        margin-left: -235px;
-        margin-top: 3px;
-    }
-    
-    .what-we-do-img {
-        display: none;
-    }
     .end-text {
         margin-left: 65px !important;
     }
@@ -1705,7 +1566,45 @@ input[type="text"] {
     span.noida {
     float: right;
     margin-left: 0cm !important;
-}
+    }
+    .utmost-img{
+        display:none;
+    }
+    .utmost-img2{
+        display:block !important;
+        margin-left: 6px;
+    }
+    .eng-tech-img{
+    display:none ;
+    }
+    .strategy-img{
+        display:none;
+    }
+
+    .agil-img{
+        display:none;
+    }
+    .strategy-img2{
+        display:block !important;
+        width:70% !important;
+        margin-left: 29px;
+    }
+    
+    .agil-img2{
+        display:block !important;
+        width:70% !important;
+        margin-left: 25px;
+    }
+    .softdev-img {
+    margin-top: 100px;
+    width: 70% !important;
+    margin-left: 1px;
+    }
+    .digital-img {
+    width: 70% !important;
+    
+    }
+    
 }
     @media screen and (max-width: 700px) and (min-width: 640px) {
         .dcx-cant {
@@ -1734,68 +1633,10 @@ input[type="text"] {
             margin-top: 42px !important;
         }
         
-        .product-img {
-            width: 900px;
-            margin-left: -154px;
-            margin-top: 20px;
-            display: flex;
-        }
-        
-        
         .consulting_article_heading {
             text-align: center !important;
         }
-        .we-can-help {
-            margin-top: -30% !important;
-            margin-left: 20px;
-            width: 100%;
-            padding: 10px;
-            margin-right: 16px;
-        }
-        .strategy-para {
-            margin-top: 341px !important;
-            margin-left: -27px;
-            width: 100%;
-            padding: 10px;
-        }
-        .digital-para {
-            margin-top: -30% !important;
-            margin-left: 14px;
-            width: 100%;
-            padding: 10px;
-            margin-right: 14px;
-        }
-        .agile-para {
-            margin-top: 310px !important;
-            margin-left: -27px;
-            width: 100%;
-            padding: 10px;
-        }
-        .consult-img {
-            margin-top: 8px !important;
-            margin-left: 174px !important;
-            width: 13em;
-        }
-        .Strategy-img {
-            margin-top: 140px !important;
-            margin-left: -66% !important;
-            width: 40%;
-            padding: 10px;
-        }
-        .digital-img {
-            margin-top: 190px !important;
-            margin-left: 162px !important;
-            width: 13em;
-        }
-        .agile-img {
-            margin-top: 137px !important;
-            margin-left: -69% !important;
-            width: 41%;
-            display: block;
-        }
-        .what-we-do-img {
-            display: none;
-        }
+    
         .end-text {
             margin-left: -195px !important;
         }
@@ -1815,6 +1656,56 @@ input[type="text"] {
         .sm-screen-srv {
             margin-left: -11%;
         }
+        .full-width{
+            width:100%;
+            margin-right: 15px;
+        }
+        /* product page */
+        .exp-img{
+            margin-left: 70px;
+        }
+        .utmost-img{
+        display:none;
+        }
+        .utmost-img2{
+        display:block !important;
+        margin-left: 56px;
+            }
+        .dig-img{
+        margin-left: 70px;
+        }
+        .eng-tech-img{
+            display:none;
+        }
+        .busines-img{
+            margin-left: 70px;
+        }
+        /* consulting */
+        .softdev-img {
+            margin-top: 100px;
+            width: 50% !important;
+            margin-left: 71px;
+        }
+        .strategy-img{
+            display:none;
+        }
+        .strategy-img2{
+        display:block !important;
+        width: 50% !important;
+        margin-left:107px;
+    }
+    .agil-img{
+        display:none;
+    }
+    .agil-img2{
+        display:block !important;
+        width: 50% !important;
+        margin-left: 107px;
+    }
+    .digital-img {
+    width: 50% !important;
+    margin-left: 100px;
+}
     }
     @media screen and (max-width: 899px) and (min-width: 701px) {
         .dcx-img2 {
@@ -1843,63 +1734,11 @@ input[type="text"] {
             margin-right: -29vw;
         }
         
-        .product-img {
-            width: 900px;
-            margin-left: -122px;
-            margin-top: 50px;
-        }
+        
         .pro-contright {
             display: contents;
         }
         
-        .we-can-help {
-            margin-top: -30% !important;
-            margin-left: 29px;
-            width: 100%;
-            padding: 10px;
-            margin-right: 14px;
-        }
-        .strategy-para {
-            margin-top: 50% !important;
-            margin-left: -27px;
-            width: 100%;
-            padding: 10px;
-        }
-        .digital-para {
-            margin-top: -194px !important;
-            margin-left: 22px;
-            width: 100%;
-            padding: 10px;
-            margin-right: 14px;
-        }
-        .agile-para {
-            margin-top: 281px !important;
-            margin-left: -27px;
-            width: 100%;
-            padding: 10px;
-        }
-        .consult-img {
-            margin-top: 8px !important;
-            margin-left: 197px !important;
-            width: 13em;
-        }
-        .Strategy-img {
-            margin-top: 158px !important;
-            margin-left: -64% !important;
-            width: 38%;
-            padding: 10px;
-        }
-        .digital-img {
-            margin-top: 187px !important;
-            margin-left: 203px !important;
-            width: 13em;
-        }
-        .agile-img {
-            margin-top: 107px !important;
-            margin-left: -68% !important;
-            width: 37%;
-            display: block;
-        }
         .consulting_article_heading {
             text-align: center !important;
         }
@@ -1921,6 +1760,54 @@ input[type="text"] {
         }
         .sm-screen-cont {
             margin-left: 5% !important;
+        }
+        .full-width{
+            width:100%;
+            margin-right: 15px;
+        }
+        .exp-img{
+            margin-left: 140px;
+        }
+        .utmost-img{
+        display:none;
+        }
+        .utmost-img2{
+        display:block !important;
+        margin-left: 116px;
+            }
+        .dig-img{
+        margin-left: 131px;
+        }
+        .eng-tech-img{
+            display:none;
+        }
+        .busines-img{
+            margin-left: 147px;
+        }
+        .softdev-img {
+            margin-top: 100px;
+            width: 40% !important;
+            margin-left: 167px;
+        }
+        .strategy-img{
+            display:none;
+        }
+        .strategy-img2{
+        display:block !important;
+        width: 40% !important;
+        margin-left: 186px;
+        }
+        .agil-img{
+         display:none;
+        }
+        .agil-img2{
+        display:block !important;
+        width: 40% !important;
+        margin-left: 179px;
+        }
+        .digital-img {
+            width: 40% !important;
+            margin-left: 165px;
         }
     }
     @media screen and (max-width: 399px) and (min-width: 360px) {
@@ -1976,12 +1863,7 @@ input[type="text"] {
         }
         .dcx-img2 {
             height: 321px;
-            width: 393px;
-        }
-        .product-img {
-            width: 461px;
-            margin-left: -79px;
-            margin-top: -62px;
+            width: 317px;
         }
         
         .dcx-optimiz {
@@ -1992,43 +1874,8 @@ input[type="text"] {
             margin-left: 13px !important;
             margin-right: -13px;
         }
-        .consult-img {
-            width: 228px;
-            margin-left: 30px !important;
-            margin-top: 10px;
-        }
-        .we-can-help {
-            margin-top: -177px !important;
-            width: 400px;
-            margin-left: 5px;
-            margin-right: 33px;
-        }
-        .Strategy-img {
-            width: 225px;
-            margin-top: 155px !important;
-            margin-left: -260px !important;
-        }
-        .digital-img {
-            width: 205px;
-            margin-top: 216px;
-            margin-left: 16px !important;
-        }
-        .digital-para {
-            margin-top: -177px !important;
-            width: 454px;
-            margin-left: 0;
-            margin-right: 27px;
-        }
-        .agile-img {
-            width: 260px;
-            margin-top: 146px !important;
-            margin-left: -281px !important;
-        }
-        .agile-para {
-            margin-left: -45px;
-            margin-top: 337px !important;
-            width: 458px;
-        }
+        
+
         .what-we-do-img {
             display: none;
         }
@@ -2041,11 +1888,7 @@ input[type="text"] {
         .mid-text {
             margin-left: -35px !important;
         }
-        .strategy-para {
-            margin-left: -45px;
-            margin-top: 337px !important;
-            width: 536px;
-        }
+        
         .sm-screen {
             margin-left: 24%;
         }
@@ -2059,7 +1902,45 @@ input[type="text"] {
         float: right;
         margin-left: 0cm !important;
         }
+        .utmost-img{
+        display:none;
     }
+    .utmost-img2{
+        display:block !important;
+        margin-left: 6px;
+    }
+    .eng-tech-img{
+    display:none ;
+    }
+    .services_mainheading {
+    font-size: 45px;
+    }
+    .strategy-img{
+        display:none;
+    }
+    .strategy-img2{
+        display:block !important;
+        width: 70% !important;
+        margin-left: 16px;
+    }
+    .agil-img{
+        display:none;
+    }
+    .agil-img2{
+        display:block !important;
+        width: 70% !important;
+        margin-left: 16px;
+    }
+    .softdev-img {
+    margin-top: 100px;
+    width: 70% !important;
+    margin-left: -10px;
+    }
+    .digital-img{
+        width: 70% !important;
+    margin-left: -10px;
+    }
+}
 
 .bx1 {
     width: 100%;
@@ -2086,8 +1967,45 @@ hr {
     color: #fe9603;
     font-weight:600;
 }
-.cons-img{ margin-top: 3cm;}
-.cons-img2{ margin-top:1cm;}
+/* .cons-img{ margin-top: 3cm;}
+.cons-img2{ margin-top:1cm;} */
+.utmost-img2{
+    display:none;
+}
+.strategy-img2{
+    display:none;
+}
+.agil-img2{
+    display:none;
+}
+.softdev-img{
+    margin-top: 100px;
+    width: 50%;
+}
+.strategy-img {
+    width: 50%;
+}
+.digital-img{
+    width:50%;
+}
+.agil-img{
+    width: 50%;
+}
+.utmost-img{
+    margin-top: -22px;
+}
+.dig-img{
+    margin-top: -29px;
+}
+.eng-tech-img{
+    margin-top: -56px;
+}
+.busines-img{
+    margin-top: -17px;
+}
+.exp-img{
+    margin-top: -31px;
+}
 }
 
                 

@@ -170,6 +170,9 @@
         margin-left: 30%;
     }
     .sm-screen-srv{margin-left: 1cm;}
+    .dcx-img2 {
+        width: 560px;
+    }
 }
 
 @media screen and (max-width:800px) and (min-width:768px) {
@@ -208,13 +211,13 @@
         margin-left: 5%;
     }
     .exp-img{
-        margin-top: 5cm;
+        margin-top: 1cm;
     }
     .utmost-img {
         margin-top: 3cm;
     }
     .dig-img {
-        margin-top: 3cm;
+        margin-top: 0cm;
     }
     .eng-tech-img {
         margin-top: 3cm;
