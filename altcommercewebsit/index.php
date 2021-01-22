@@ -6,47 +6,8 @@
 ?> 
 
 <!--Slider start-->
-    <!-- <div class="uk-container hero-section">
-            <div class="uk-margin-large-bottom" uk-slider="autoplay: true">
-
-                <div class="uk-position-relative uk-light nav-slider" tabindex="-1">
-                    <ul class="uk-slider-items uk-child-width-1-1@s uk-grid">
-                        <li>
-                            <div class="uk-card font-text">
-                            <img class="" src="<?php echo $filePath;?>images/banner.jpg" alt="" uk-cover>
-                                <div class="uk-card-body uk-text-left">
-                                    <h1 class="uk-card-title slider-title">Driving Innovation, Driving
-                                        <br> Results</h1>
-                                    <p>Our focus on innovation is based on delivering results for our clients.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="uk-card font-text">
-                                <div class="uk-card-body uk-text-left">
-                                    <h1 class="uk-card-title slider-title">Agile, Experienced
-                                        <br>&amp; Effective</h1>
-                                    <p>ALT commerce is an expert in Omni-Channel Commerce
-                                        <br> and delivering Oracle Commerce, Commerce Cloud and
-                                        <br> the suite of Oracle CX products.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="uk-card font-text">
-                                <div class="uk-card-body uk-text-left">
-                                    <h1 class="uk-card-title slider-title">ALT Commerce</h1>
-                                    <p>We focus all our work not only on developing and
-                                        <br>maintaining the products and services,
-                                        <br> but rather on building long term relationships.</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-    </div> -->
-    <div class="uk-position-relative uk-visible-toggle uk-light " tabindex="-1" uk-slideshow="autoplay: true">
+   
+    <div class="uk-position-relative uk-visible-toggle uk-light banner" tabindex="-1" uk-slideshow="autoplay: true">
 
     <ul class="uk-slideshow-items ">
         <li>
