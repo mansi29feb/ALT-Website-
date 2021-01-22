@@ -5,23 +5,35 @@
     $currentPage = 'service';    
     include_once '../header.php';
 ?>
+ <div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items" style="height:315px !important;">
+        <li>
+            <img src="<?php echo $filePath;?>images/service.jpg" alt="" uk-cover>
+            <div class="caption-text  uk-position-center uk-text-center uk-light">
+                <h1 class="uk-card-title slider-title" style="color:white !important;">Our Services</h1>
+                <p class=""style="font-size:20px;" >Customer satisfaction is our motto and we strive to provide the best solution to our clients. 
+            Very few Indian companies could reach the zenith that we have reached 
+            today with a strong trust of our clients on us.</p>
+            </div>
+        </li>
+    </ul>
+</div>
     <div class="uk-container uk-margin ">
-        <h1 class="uk-text-center uk-text-bold services_mainheading">Our Services</h1>
+        <!-- <h1 class="uk-text-center uk-text-bold services_mainheading">Our Services</h1>
         <p class="uk-text-center services_mainpara"> 
             Customer satisfaction is our motto and we strive to provide the best solution to our clients. 
             Very few Indian companies could reach the zenith that we have reached 
             today with a strong trust of our clients on us.
-        </p>
+        </p>-->
         
-        <div class="" uk-scrollspy="cls:uk-animation-slide-bottom-medium"> 
+        <!-- <div class="" uk-scrollspy="cls:uk-animation-slide-bottom-medium">  -->
              <!-- <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/cloud.png" alt="Words Cloud" width="1000" height="1000" uk-img >  -->
-            <img class="uk-align-center responsively-lazy" alt="Words Cloud" width="1000" height="1000" src="<?php echo $filePath;?>images/cloud.png"
+            <!-- <img class="uk-align-center responsively-lazy" alt="Words Cloud" width="1000" height="1000" src="<?php echo $filePath;?>images/cloud.png"
                 data-srcset="<?php echo $filePath;?>images/cloud.png 400w, <?php echo $filePath;?>images/skill.webp 400w, 
                 <?php echo $filePath;?>images/cloud.png 600w, <?php echo $filePath;?>images/cloud.webp 600w,
                 <?php echo $filePath;?>images/cloud.png 1000w, <?php echo $filePath;?>images/cloud.webp 1000w" 
-                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-        </div>
-
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /> -->
+        <!-- </div>  -->
         <h2 class=" uk-text-center services_subheading uk-margin-medium-bottom">
          Customer trusts us to deliver customized, end-to-end implementations.
         </h2>

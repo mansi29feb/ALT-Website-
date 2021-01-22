@@ -6,13 +6,14 @@
 ?> 
 
 <!--Slider start-->
-    <div class="uk-container hero-section">
+    <!-- <div class="uk-container hero-section">
             <div class="uk-margin-large-bottom" uk-slider="autoplay: true">
 
                 <div class="uk-position-relative uk-light nav-slider" tabindex="-1">
                     <ul class="uk-slider-items uk-child-width-1-1@s uk-grid">
                         <li>
                             <div class="uk-card font-text">
+                            <img class="" src="<?php echo $filePath;?>images/banner.jpg" alt="" uk-cover>
                                 <div class="uk-card-body uk-text-left">
                                     <h1 class="uk-card-title slider-title">Driving Innovation, Driving
                                         <br> Results</h1>
@@ -44,7 +45,52 @@
                     </ul>
                 </div>
             </div>
+    </div> -->
+    <div class="uk-position-relative uk-visible-toggle uk-light " tabindex="-1" uk-slideshow="autoplay: true">
+
+    <ul class="uk-slideshow-items ">
+        <li>
+            <img class="responsively-lazy" src="<?php echo $filePath;?>images/banner/banner.webp" alt="" 
+            data-srcset="<?php echo $filePath;?>images/banner/banner.jpg, <?php echo $filePath;?>images/banner/banner.webp" uk-cover> 
+            <div class=" caption-text uk-position-center-left uk-text-left uk-margin-xlarge-left uk-light">
+                <h1 class="uk-card-title  slider-title" style="color:white !important;">Driving Innovation, Driving
+                <br> Results</h1>
+                <p style="font-size:20px;">Our focus on innovation is based on delivering results for our clients.</p>
+            </div>
+        </li>
+        <li>
+            <img class="responsively-lazy" src="<?php echo $filePath;?>images/banner/banner-2.jpg" alt="" 
+            data-srcset="<?php echo $filePath;?>images/banner/banner-2.jpg 400w, <?php echo $filePath;?>images/banner/banner-2.webp 400w,
+            <?php echo $filePath;?>images/banner/banner-2.jpg 600w,<?php echo $filePath;?>images/banner/banner-2.webp 600w, 
+            <?php echo $filePath;?>images/banner/banner-2.jpg 1000w,<?php echo $filePath;?>images/banner/banner-2.webp 1000w,"uk-cover/>
+            <div class="caption-text uk-position-center-left uk-text-left uk-margin-xlarge-left uk-light">
+                <h1 class="uk-card-title  slider-title" style="color:white !important;">Agile, Experienced<br>&amp; Effective</h1>
+                <p style="font-size:20px;">ALT commerce is an expert in Omni-Channel Commerce
+                                        <br> and delivering Oracle Commerce, Commerce Cloud and
+                                        <br> the suite of Oracle CX products.</p>
+            </div>
+        </li>
+        <li>
+            <img class="responsively-lazy" src="<?php echo $filePath;?>images/banner/banner-3.jpg" alt="" 
+            data-srcset="<?php echo $filePath;?>images/banner/banner-3.jpg 400w, <?php echo $filePath;?>images/banner/banner-3.webp 400w,
+            <?php echo $filePath;?>images/banner/banner-3.jpg 600w,<?php echo $filePath;?>images/banner/banner-3.webp 600w, 
+            <?php echo $filePath;?>images/banner/banner-3.jpg 1000w,<?php echo $filePath;?>images/banner/banner-3.webp 1000w,"uk-cover/>
+            <div class="caption-text uk-position-center-left uk-text-left uk-margin-xlarge-left uk-light">
+                <h1 class="uk-card-title  slider-title" style="color:white !important;">ALT Commerce</h1>
+                <p style="font-size:20px;">We focus all our work not only on developing and
+                                        <br>maintaining the products and services,
+                                        <br> but rather on building long term relationships.</p>
+            </div>
+        </li>
+        
+    </ul>
+
+    <div class="uk-light">
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
     </div>
+
+</div>
 <!-- Slider ends-->
 <!-- what we do start -->
 <div class="uk-container">

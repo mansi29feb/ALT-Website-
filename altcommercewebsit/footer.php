@@ -63,7 +63,7 @@
     <div class="uk-container">
        
         <div class=" uk-grid-collapse uk-child-width-expand@s" uk-grid>
-            <div class=" uk-text-center uk-margin-small uk-padding-remove-right"><span class="uk-text-capitalize ">Copyrights © <script>document.write(new Date().getFullYear())</script> All Rights Reserved by <span class="uk-text-bold">ALT Commerce Pvt. Ltd.</span></div>
+            <div class=" uk-text-center uk-margin-small uk-padding-remove-right"><span class="uk-text-capitalize ">Copyrights © <script>document.write(new Date().getFullYear())</script> All Rights Reserved by <span class="uk-text-bold" style="color:#fe9603;">ALT Commerce Pvt. Ltd.</span></div>
             <div class="  uk-text-right uk-link-text uk-visible@s" style="margin-top: -6px !important;">
                 <a class="uk-icon-button uk-margin-small-right uk-text-secondary" href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" aria-label="Facebook" target="_blank" rel="noopener"></a>
                 <a class="uk-icon-button uk-margin-small-right uk-text-secondary" href="https://twitter.com/altcommerce" uk-icon="twitter" aria-label="Twitter" target="_blank" rel="noopener"></a>

@@ -4,17 +4,28 @@
     $currentPage = 'about';
     include_once "../header.php";
 ?>
-
+<div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items" style="height:315px !important;">
+        <li>
+            <img src="<?php echo $filePath;?>images/banner/contact.jpg" alt="" uk-cover>
+            <div class="caption-text uk-position-center uk-text-center uk-light">
+                <h1 class="uk-card-title slider-title" style="color:white !important;">Get in Touch</h1>
+                <p class="" style="font-size:20px;">“ We do look forward to keeping in touch with you guys, because we'll always be connected in people's mind”</p>
+                <p class="uk-text-right uk-margin-remove-top uk-margin-remove-bottom" style="color:white;">- Barry Zito</p>
+            </div>
+        </li>
+    </ul>
+</div>  
 <!--contact us start-->
 <div class="uk-container uk-margin uk-margin-large-bottom ">
     <div class="uk-child-width-1-1@s uk-grid-small" uk-grid>    
-        <h1 class="uk-h1 uk-text-center uk-text-bold services_mainheading">Get in Touch</h1>
+        <!-- <h1 class="uk-h1 uk-text-center uk-text-bold services_mainheading">Get in Touch</h1>
 
         <div class="uk-width-1-2@s uk-align-center">
             <div class="services_mainpara uk-card uk-card-default uk-padding-small uk-text-center"><p>“ We do look forward to keeping in touch with you guys, because we'll always be connected in people's mind ”</p>
             <p class="uk-text-meta uk-text-right uk-margin-remove-top uk-margin-remove-bottom" style="color:black;">- Barry Zito</p>
             </div>
-        </div>
+        </div> -->
         <div class="uk-child-width-1-2@m uk-grid-small uk-child-width-1-1@s uk-padding-small" uk-grid>
             <div class="uk-width-1-2@m">
                 <div class="uk-text-center">

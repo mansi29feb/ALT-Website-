@@ -4,14 +4,25 @@
     $currentPage = 'service';    
     include_once '../header.php';
 ?>
+ <div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items" style="height:315px !important;">
+        <li>
+            <img src="<?php echo $filePath;?>images/happy.png" alt="" uk-cover>
+            <div class="caption-text uk-position-center uk-text-center uk-light">
+                <h1 class="uk-card-title slider-title" style="color:white !important;">Digital Customer Experience</h1>
+                <p class=""style="font-size:20px;" >A seamless experience no matter how or where you are when we’re always-on.</p>
+            </div>
+        </li>
+    </ul>
+</div>
 <!--DCX start -->
 <div class="uk-container">
-            <div class="uk-child-width-1-1" uk-grid>
+            <!-- <div class="uk-child-width-1-1" uk-grid>
                 <h1 class="uk-text-center uk-text-bold uk-margin-medium-top services_mainheading">Digital Customer Experience</h1>
                 <p class="uk-text-center services_mainpara">A seamless experience no matter how or where you are when we’re always-on.</p>
                 <div class="uk-background-contain uk-height-large uk-flex uk-flex-center dcx-img" uk-scrollspy="cls:uk-animation-slide-bottom-medium" style="background-image: url(<?php echo $filePath;?>images/DCX.png);">
                 
-            </div>
+            </div> -->
             <div class="dcx-optimiz uk-child-width-1-1@s uk-margin-large-top uk-margin-medium-bottom uk-margin-large-remove-bottom" uk-grid uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: false">
                         <h3 class="services_article_heading uk-text-bold  uk-margin-medium-left">Optimizing DCX</h3>
                         <div class="dcx_subpara uk-text-left uk-text-justify uk-margin-medium-left">

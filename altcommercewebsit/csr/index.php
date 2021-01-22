@@ -4,14 +4,24 @@
     $currentPage = 'about';
     include_once "../header.php";
 ?>
-    
+  <div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items" style="height:315px !important;">
+        <li>
+            <img src="<?php echo $filePath;?>images/banner/cs.jpg" alt="" uk-cover>
+            <div class="caption-text uk-position-center uk-text-center uk-light">
+                <h1 class="uk-card-title slider-title" style="color:white !important;">"Enact Positive Changes"</h1>
+                <p class=""style="font-size:20px;" >Change Your Ways, Save The Environment</p>
+            </div>
+        </li>
+    </ul>
+</div>  
 <!-- csr starts -->
 <div class="uk-child-width-1-1" uk-grid>
-        <h1 class="uk-h1 uk-text-center uk-text-bold uk-margin-medium-top services_mainheading">"Enact Positive Changes"</h1>
+        <!-- <h1 class="uk-h1 uk-text-center uk-text-bold uk-margin-medium-top services_mainheading">"Enact Positive Changes"</h1>
         <p class="uk-text-center services_mainpara">Change Your Ways, Save The Environment </p>
 
         <div class="uk-background-contain uk-height-large uk-flex uk-flex-center uk-flex-middle" uk-scrollspy="cls:uk-animation-slide-bottom-medium" style="background-image: url(<?php echo $filePath;?>images/csr/earth/earth-alt.png);"> 
-        </div> 
+        </div>  -->
     </div>
        
      

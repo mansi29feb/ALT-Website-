@@ -4,23 +4,33 @@
     $currentPage = 'skill';
      include_once '../header.php';
 ?>
-
+<div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items" >
+        <li>
+            <img style="height:315px !important;" src="<?php echo $filePath;?>images/banner/skill.png" alt="" uk-cover>
+            <div class="caption-text uk-position-center uk-text-center  uk-light">
+                <h1 class="uk-card-title slider-title" style="color:white !important;">Our Technical Expertise</h1>
+                <p class="" style="font-size:20px;">Rendering the best services with the updated Technologies.</p>
+            </div>
+        </li>
+    </ul>
+</div>
 <div class="uk-container uk-margin">
-        <h1 class="uk-h1 uk-text-center uk-text-bold services_mainheading">Our Technical Expertise</h1>
+        <!-- <h1 class="uk-h1 uk-text-center uk-text-bold services_mainheading">Our Technical Expertise</h1>
         <p class="uk-text-center services_mainpara"> Rendering the best services with the updated Technologies.
         </p>
-        <div class="">
+        <div class=""> -->
          <!-- <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/skill.webp" alt="Skills tree" width="800" height="800" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small"> -->
-                <img class="uk-align-center responsively-lazy" alt="Skills tree" uk-scrollspy="cls: uk-animation-slide-bottom-small" 
+                <!-- <img class="uk-align-center responsively-lazy" alt="Skills tree" uk-scrollspy="cls: uk-animation-slide-bottom-small" 
                 width="800" height="800" src="<?php echo $filePath;?>images/skill.jpg"
                 data-srcset="<?php echo $filePath;?>images/skill.jpg 400w, <?php echo $filePath;?>images/skill.webp 400w, 
                 <?php echo $filePath;?>images/skill.jpg 600w, <?php echo $filePath;?>images/skill.webp 600w,
                 <?php echo $filePath;?>images/skill.jpg 1000w, <?php echo $filePath;?>images/skill.webp 1000w" 
                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
             
-        </div>
+        </div> -->
        
-    <div class="uk-text-center@s uk-text-bold services_subheading ">Our Skills</div>
+    <h2 class=" uk-text-center services_subheading uk-margin-medium-bottom">Our Skills</h2>
     
     <div>
         <div class="skill_outer" uk-filter="target:.js-filter">

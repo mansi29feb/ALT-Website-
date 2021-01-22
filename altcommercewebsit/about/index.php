@@ -4,14 +4,23 @@
     $currentPage = 'about';
     include_once "../header.php";
 ?>
- <div class="uk-container uk-margin-medium-bottom uk-margin-medium-top">
+
+
+<div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items" >
+        <li>
+            <img style="height:315px !important;" src="<?php echo $filePath;?>images/banner/aboutus.jpg" alt="" uk-cover>
+            <div class=" caption-text uk-position-center uk-text-center uk-light">
+                <h1 class="uk-card-title slider-title" style="color:white !important;">About the ALT Commerce</h1>
+                <p class="" style="font-size:20px;">ALT Commerce is a professional services firm focused on implementing and optimizing Oracle Commerce and the Oracle Customer Experience suite of products.</p>
+            </div>
+        </li>
+    </ul>
+</div>
+ <div class="uk-container uk-margin-medium-bottom uk-margin-large-top">
     <div class="uk-child-width-1-1 uk-grid uk-grid-stack" uk-grid>
-        <h1 class="uk-h1 uk-text-center uk-text-bold uk-margin-medium-top services_mainheading uk-first-column">About the ALT Commerce</h1>
-        <p class="uk-text-center services_mainpara">ALT Commerce is a professional services firm focused on implementing and optimizing Oracle Commerce and the Oracle Customer Experience suite of products.</div>
-        <div class="uk-background-contain uk-height-large uk-grid" style="background-image: url(<?php echo $filePath;?>images/about3.png);" uk-scrollspy="cls: uk-animation-slide-bottom-small"> </div> 
-       
-            <div class="services_article_para  uk-text-justify">
-                            <p>
+        <div class="services_article_para  uk-text-justify">
+                            <p class="uk-margin-remove-bottom">
                             ALT Commerce combines trusted expertise and objectivity with today’s 
                                 digital commerce capabilities to help software business grow.
                             We’re committed to simplifying the software search.

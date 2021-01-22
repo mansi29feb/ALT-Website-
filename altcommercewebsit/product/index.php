@@ -4,11 +4,22 @@
     $currentPage = 'service';    
     include_once '../header.php';
 ?>
+<div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items" style="height:315px !important;">
+        <li>
+            <img src="<?php echo $filePath;?>images/PE.jpg" alt="" uk-cover>
+            <div class="caption-text uk-position-center uk-text-center uk-light">
+                <h1 class="uk-card-title slider-title" style="color:white !important;">Product Engineering</h1>
+                <p class=""style="font-size:20px;" >With the progression & expansion in technology.</p>
+            </div>
+        </li>
+    </ul>
+</div>
 <div class="uk-container uk-margin-large-bottom uk-padding-small">
-    <div class="uk-child-width-1-1 uk-text-center" uk-grid>
+    <!-- <div class="uk-child-width-1-1 uk-text-center" uk-grid>
         <h1 class="uk-text-bold uk-margin-medium-top services_mainheading">Product Engineering</h1>
         <p class="uk-text-center services_mainpara">With the progression & expansion in technology </p>
-    </div>
+    </div> -->
     <div class="uk-child-width-1-3@m uk-child-width-1-1@s uk-padding-small uk-margin-medium-top" uk-grid>
         <div class="uk-width-1-2@s full-width">
             <div class="uk-card ">

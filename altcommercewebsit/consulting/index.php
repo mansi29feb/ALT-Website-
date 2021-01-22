@@ -4,11 +4,22 @@
     $currentPage = 'service';    
     include_once '../header.php';
 ?>
+<div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items" style="height:315px !important;">
+        <li>
+            <img src="<?php echo $filePath;?>images/cons.png" alt="" uk-cover>
+            <div class="caption-text uk-position-center uk-text-center uk-light">
+                <h1 class="uk-card-title slider-title" style="color:white !important;">Consulting</h1>
+                <p class=""style="font-size:20px;" >Solve problems,different people, different decisions, different preferences & approaches.</p>
+            </div>
+        </li>
+    </ul>
+</div>
 <!-- start Consulting -->
 <div class="uk-container uk-margin-large-bottom uk-padding-small">
     <div class="uk-child-width-1-1 uk-text-center" uk-grid>
-        <h1 class="uk-text-bold uk-margin-medium-top services_mainheading">Consulting</h1>
-        <p class="uk-text-center services_mainpara">Solve problems,different people, different decisions, different preferences & approaches. </p>
+        <!-- <h1 class="uk-text-bold uk-margin-medium-top services_mainheading">Consulting</h1>
+        <p class="uk-text-center services_mainpara">Solve problems,different people, different decisions, different preferences & approaches. </p> -->
         <!-- <div class="uk-background-contain uk-height-large uk-flex uk-flex-center consult-bg" uk-scrollspy="cls:uk-animation-slide-bottom-medium" style="background-image: url(<?php echo $filePath;?>images/consulting1.png);"></div> -->
     </div>
     <div class="uk-child-width-1-2@s uk-width-1-1@s uk-margin-large-top" uk-grid>

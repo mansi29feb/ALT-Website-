@@ -4,9 +4,20 @@
     $currentPage = 'resource';
     include_once "../header.php";
 ?>
+<div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items" >
+        <li>
+            <img style="height:315px !important;" src="<?php echo $filePath;?>images/case1.png" alt="" uk-cover>
+            <div class="caption-text uk-position-center uk-text-center uk-light">
+                <h1 class="uk-card-title slider-title" style="color:white !important;">Our Case Studies</h1>
+                <!-- <p class="" style="font-size:20px;">ALT Commerce is a professional services firm focused on implementing and optimizing Oracle Commerce and the Oracle Customer Experience suite of products.</p> -->
+            </div>
+        </li>
+    </ul>
+</div>
 <!---Resource page starts-->
         <div class="uk-container uk-margin uk-margin-large-bottom">
-            <div id="case_heading" class="uk-h1 uk-text-center services_mainheading">Our Case Studies</div>
+            <!-- <h1 id="case_heading" class="uk-text-center services_mainheading">Our Case Studies</h1> -->
             <div  class="uk-card uk-card-body case_page uk-margin-large-bottom" >
                 
                 

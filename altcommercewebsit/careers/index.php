@@ -4,6 +4,18 @@
     $currentPage = 'career';
 	 include_once '../header.php';
  ?>
+<div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items" style="height:315px !important;">
+        <li>
+            <img src="<?php echo $filePath;?>images/hire.jpg" alt="" uk-cover>
+            <div class=" caption-text uk-position-center uk-text-center uk-light">
+                <h1 class="uk-card-title slider-title" style="color:white !important;">Work With Us</h1>
+                <p class="" style="font-size:20px;">“ Coming together is the beginning. </br>Keeping together is progress. Working together is success. ”</p>
+                <p class="uk-text-meta uk-text-right uk-margin-remove-top uk-margin-remove-bottom" style="color:white;">- Henry Ford</p>
+            </div>
+        </li>
+    </ul>
+</div> 
 <!-------------------------------------CAREERS SECTION--------------------------------->
 
     <div class="uk-container uk-margin uk-margin-large-bottom ">
@@ -11,14 +23,14 @@
             <div class="">
                 <div class="uk-align-center">
 
-                    <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Work With Us</div>
+                    <!-- <div class="uk-h2 uk-text-center uk-text-bold services_mainheading">Work With Us</div>
 
                     <div class="uk-width-1-2@s uk-align-center"  uk-scrollspy="cls: uk-animation-fade">
                         <div class="services_mainpara uk-card uk-card-default uk-padding-small uk-text-center  ">“ Coming together is the beginning. </br>Keeping together is progress. Working together is success. ”
                         <p class="uk-text-meta uk-text-right uk-margin-remove-top uk-margin-remove-bottom" style="color:black;">- Henry Ford</p>
                     </div>
                        
-                    </div>
+                    </div> -->
                     <div>
                         <a class="uk-button uk-text-bold uk-align-center uk-text-center works_btn1 uk-text-capitalize" href="#target_career" uk-scroll>VIEW CAREERS</a>
                     </div>
