@@ -4,14 +4,16 @@
     $currentPage = 'career';
 	 include_once '../header.php';
  ?>
-<div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
-    <ul class="uk-slideshow-items" style="height:315px !important;">
+<div class="banner uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items uk-height-medium">
         <li>
-            <img src="<?php echo $filePath;?>images/hire.jpg" alt="" uk-cover>
-            <div class=" caption-text uk-position-center uk-text-center uk-light">
-                <h1 class="uk-card-title slider-title" style="color:white !important;">Work With Us</h1>
-                <p class="" style="font-size:20px;">“ Coming together is the beginning. </br>Keeping together is progress. Working together is success. ”</p>
-                <p class="uk-text-meta uk-text-right uk-margin-remove-top uk-margin-remove-bottom" style="color:white;">- Henry Ford</p>
+            <img class="about-ban" src="<?php echo $filePath;?>images/hire.jpg" alt="" uk-cover>
+            <div class=" caption-text uk-position-cover uk-text-center uk-light">
+                <div class="text-middle">
+                    <h1 class="uk-card-title slider-title" style="color:white !important;">Work With Us</h1>
+                    <p class="" style="font-size:18px;">“ Coming together is the beginning. </br>Keeping together is progress. Working together is success. ”</p>
+                    <p class="uk-text-meta uk-text-center uk-margin-remove-top uk-margin-remove-bottom" style="color:white;">- Henry Ford</p>
+                </div>
             </div>
         </li>
     </ul>

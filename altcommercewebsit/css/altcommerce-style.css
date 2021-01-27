@@ -790,16 +790,14 @@ input[type="email"] {
 .agile-img{width: 266px; margin-top: 65px;}
 .digital-img{ width: 215px; margin-top: 78px;}
 .consult-bg{height:610px; margin-bottom: -125px; margin-top:-46px !important; margin-left: 18px;}
-.dcx-img{height: 600px;margin-left: 70px;}
-.dcx_subpara{font-family: 'Poppins'; font-size: 14px; color: #575757;}
-.dcx-img2{height: 890px; width: 780px;}
+
 .uk-sticky-fixed #service_submenu{margin-left: 201px;}
 
 .we-can-help{margin-top: 83px !important;}
 .strategy-para{margin-left: -55px; margin-top: 56px !important;}
 .digital-para{margin-top: 54px !important;}
 .agile-para{margin-left: -44px; }
-.consulting_article_heading{font-size: 22px; color: #FE9603;}
+
 
 /*******  *******/
 /* media query */
@@ -864,35 +862,9 @@ input[type="email"] {
       margin-top: 54px;
       margin-bottom: 4px !important;
   }
-  .dcx-img {
-    height: 297px;
-    margin-left: 43px;
-}
-.dcx-img2 {
-  height: 464px;
-  width: 100%;
-  margin-left: 40px;
-}
+
 }
 @media screen and (max-width: 450px) and (min-width:400px) {
-.product-img {
-    width: 530px;
-    margin-left: -91px;
-    margin-top: -36px;
-}
-
-.dcx-content{
-  margin-left: 10px !important;
-  margin-right: -21px !important;
-}
-.dcx-optimiz{
-margin-right: 47px;
-}
-.dcx-img2 {
-  height: 427px;
-  width: 501px;
-  margin-left: -25px;
-}
 .consult-img {
   width: 228px;
   margin-left: 73px !important;
@@ -933,9 +905,6 @@ margin-left: -333px !important;
   margin-left: -45px;
   margin-top: 337px !important;
   width: 458px;
-}
-.consulting_article_heading{
-  text-align: center !important;
 }
 }
 @media screen and (max-width: 900px) {
@@ -1015,16 +984,6 @@ margin-left: -333px !important;
   margin-top: 82px !important;
   margin-left: -34px;
 }
-.dcx-img {
-  height: 456px;
-  margin-left: 51px;
-}
-.dcx-img2 {
-  height: 427px;
-  width: 534px;
-  margin-left: -66px;
-  margin-top: -37px;
-}
 
 }
 @media screen and (max-width:959px)and (min-width:900px) {
@@ -1075,29 +1034,6 @@ margin-left: -333px !important;
   margin-top: 82px !important;
   margin-left: -34px;
 }
-
-.product-img {
-  width: 900px;
-  margin-left: -466px;
-  margin-top: 421px;
-  position: inherit;
-}
-
-.dcx-img2 {
-  height: 500px;
-  width: 600px;
-  margin-left: -55px;
-}
-.dcx-cant{
-  position: relative;
-left: 50%;
-right: 50%;
-margin-left: -23vw;
-margin-right: -28vw;
-}
-.consulting_article_heading{
-  text-align: center !important;
-}
 }
 @media screen and (max-width:1100px)and (min-width:960px) {
   .rem-space {
@@ -1124,29 +1060,7 @@ margin-right: -28vw;
   margin-top: 82px !important;
   margin-left: -34px;
 }
-.consulting_article_heading{
-  text-align: center !important;
-}
 
-.product-img {
-  width: 900px;
-margin-left: 19px;
-margin-top: 23px !important;
-}
-
-
-.dcx-img2 {
-  height: 455px;
-  width: 567px;
-  margin-left: -33px;
-}
-.dcx-cant{
-  position: relative;
-left: 50%;
-right: 50%;
-margin-left: -23vw;
-margin-right: -28vw;
-}
 }
 @media screen and (max-width:990px) {
   body {
@@ -1447,15 +1361,7 @@ margin-top: 148px;
       font-family: 'Poppins' !important;
       margin-bottom: 64px;
   }
-  .dcx-img {
-    height: 179px;
-    margin-left: 42px;
-}
-.dcx-img2{
-  height: 259px;
-  width: 338px;
-  margin-top: -29px;
-}
+  
 .product-img {
   width: 418px;
   margin-left: -58px;
@@ -1504,22 +1410,11 @@ margin-left: 77px !important;
 margin-top: 134px;
 margin-left: -313px !important;
 }
-.consulting_article_heading{
-  text-align: center !important;
-}
-
-.product-img {
-  width: 527px;
-margin-left: -70px;
-margin-top: -51px;
-}
 
 
 }
 @media screen and (max-width:549px) and (min-width:516px){
-  .consulting_article_heading{
-    text-align: center !important;
-  }
+  
   .consult-img {
     width: 188px;
     margin-left: 134px !important;
@@ -1568,20 +1463,8 @@ margin-top: -51px;
 }
 }
 @media screen and (max-width:639px) and (min-width:550px){
-  .dcx-optimiz{
-    margin-right: 53px;
-  }
-  .dcx-content{
-    margin-left: 13px;
-  }
-  .dcx-img2 {
-    height: 480px;
-    width: 588px;
-    margin-left: 10px;
-}
-.consulting_article_heading{
-  text-align: center !important;
-}
+  
+
 .consult-img {
   margin-top: 8px !important;
   margin-left: 174px !important;
@@ -1634,124 +1517,9 @@ padding: 10px;
   margin-top: 3px;
 }
 }
-@media screen and (max-width:700px) and (min-width:640px){
-  .dcx-cant{
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -23vw;
-    margin-right: -29vw;
-    margin-top: 42px !important;
-  }
-  .dcx-img2 {
-    height: 427px;
-    width: 495px;
-    margin-left: -82px;
-}
-.dcx-img {
-  height: 346px;
-  margin-left: 43px;
-}
-.dcx-cant-omni{
-  position: relative;
-left: 50%;
-right: 50%;
-margin-left: -23vw;
-margin-right: -29vw;
-margin-top: 42px !important;
-}
 
-
- .product-img {
-  width: 900px;
-  margin-left: -154px;
-  margin-top: 20px;
-  display: flex;
-}
-
-
-.consulting_article_heading{
-  text-align: center !important;
-}
-.we-can-help {
-  margin-top: -30% !important;
-  margin-left: -27px;
-  width: 100%;
-  padding: 10px;
-}
-.strategy-para {
-  margin-top: 310px !important;
-  margin-left: -27px;
-  width: 100%;
-  padding: 10px;
-}
-.digital-para {
-  margin-top: -30% !important;
-  margin-left: -27px;
-  width: 100%;
-  padding: 10px;
-}
-.agile-para {
-  margin-top: 310px !important;
-  margin-left: -27px;
-  width: 100%;
-  padding: 10px;
-}
-.consult-img {
-  margin-top: 8px !important;
-  margin-left: 174px !important;
-  width: 13em;
-}
-.Strategy-img {
-  margin-top: 97px !important;
-  margin-left: -64% !important;
-  width: 38%;
-  padding: 10px;
-}
-.digital-img {
-  margin-top: 104px !important;
-  margin-left: 180px !important;
-  width: 13em;
-}
-.agile-img {
-  margin-top: 119px !important;
-  margin-left: -72% !important;
-  width: 40%;
-  display: block;
-}
-}
 @media screen and (max-width:899px) and (min-width:701px){
-  .dcx-img2 {
-    height: 427px;
-    width: 495px;
-    margin-left: -66px;
-    margin-top: -37px;
-}
-.dcx-img {
-  height: 385px;
-  margin-left: 43px;
-}
-.dcx-cant-omni{
-  position: relative;
-left: 50%;
-right: 50%;
-margin-left: -23vw;
-margin-right: -29vw;
-margin-top: 42px !important;
-}
-.dcx-cant{
-  position: relative;
-left: 50%;
-right: 50%;
-margin-left: -23vw;
-margin-right: -29vw;
-}
-.product-img {
-  width: 900px;
-  margin-left: -122px;
-  margin-top: 50px;
-}
-
+ 
 .we-can-help {
   margin-top: -30% !important;
   margin-left: -27px;
@@ -1776,31 +1544,7 @@ margin-right: -29vw;
   width: 100%;
   padding: 10px;
 }
-.consult-img {
-  margin-top: 8px !important;
-  margin-left: 197px !important;
-  width: 13em;
-}
-.Strategy-img {
-  margin-top: 97px !important;
-  margin-left: -64% !important;
-  width: 38%;
-  padding: 10px;
-}
-.digital-img {
-  margin-top: 121px !important;
-  margin-left: 180px !important;
-  width: 13em;
-}
-.agile-img {
-  margin-top: 107px !important;
-  margin-left: -68% !important;
-  width: 37%;
-  display: block;
-}
-.consulting_article_heading{
-  text-align: center !important;
-}
+
 }
 
 @media screen and (max-width:399px) and (min-width:360px) {
@@ -1857,18 +1601,6 @@ margin-right: -29vw;
       margin-top: 35px;
       margin-bottom: 1px !important;
   }
-  .dcx-img {
-    height: 251px;
-    margin-left: 41px;
-}
-.dcx-img2 {
-  height: 321px;
-  width: 393px;
-}
-.product-img {
-  width: 461px;
-  margin-left: -79px;
-  margin-top: -62px;
-}
+ 
 
 }

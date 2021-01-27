@@ -5,35 +5,24 @@
     $currentPage = 'service';    
     include_once '../header.php';
 ?>
- <div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
-    <ul class="uk-slideshow-items" style="height:315px !important;">
+
+<div class="banner uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items uk-height-medium">
         <li>
-            <img src="<?php echo $filePath;?>images/service.jpg" alt="" uk-cover>
-            <div class="caption-text  uk-position-center uk-text-center uk-light">
-                <h1 class="uk-card-title slider-title" style="color:white !important;">Our Services</h1>
-                <p class=""style="font-size:20px;" >Customer satisfaction is our motto and we strive to provide the best solution to our clients. 
-            Very few Indian companies could reach the zenith that we have reached 
-            today with a strong trust of our clients on us.</p>
+            <img class="about-ban" src="<?php echo $filePath;?>images/service.jpg" alt="" uk-cover>
+            <div class="caption-text  uk-position-cover uk-text-center uk-light">
+                <div class="text-middle">
+                    <h1 class="uk-card-title slider-title" style="color:white !important;">Our Services</h1>
+                    <p class=""style="font-size:18px;" >Customer satisfaction is our motto and we strive to provide the best solution to our clients. 
+                    Very few Indian companies could reach the zenith that we have reached 
+                    today with a strong trust of our clients on us.</p>
+                </div>
             </div>
         </li>
     </ul>
 </div>
     <div class="uk-container uk-margin ">
-        <!-- <h1 class="uk-text-center uk-text-bold services_mainheading">Our Services</h1>
-        <p class="uk-text-center services_mainpara"> 
-            Customer satisfaction is our motto and we strive to provide the best solution to our clients. 
-            Very few Indian companies could reach the zenith that we have reached 
-            today with a strong trust of our clients on us.
-        </p>-->
         
-        <!-- <div class="" uk-scrollspy="cls:uk-animation-slide-bottom-medium">  -->
-             <!-- <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/cloud.png" alt="Words Cloud" width="1000" height="1000" uk-img >  -->
-            <!-- <img class="uk-align-center responsively-lazy" alt="Words Cloud" width="1000" height="1000" src="<?php echo $filePath;?>images/cloud.png"
-                data-srcset="<?php echo $filePath;?>images/cloud.png 400w, <?php echo $filePath;?>images/skill.webp 400w, 
-                <?php echo $filePath;?>images/cloud.png 600w, <?php echo $filePath;?>images/cloud.webp 600w,
-                <?php echo $filePath;?>images/cloud.png 1000w, <?php echo $filePath;?>images/cloud.webp 1000w" 
-                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /> -->
-        <!-- </div>  -->
         <h2 class=" uk-text-center services_subheading uk-margin-medium-bottom">
          Customer trusts us to deliver customized, end-to-end implementations.
         </h2>
@@ -249,39 +238,32 @@
                 <p class="uk-text-center services_article_para"> Providing our customers with a consistent and seamless brand experience 
                     is a given when the competition is only a click away. At ALT commerce customers becoming advocates for the company, creating referral, retention and profitable growth.
                     
-                    <div class="uk-child-width-1-1@s uk-child-width-1-3@m uk-grid-medium uk-margin uk-grid-match" uk-grid  uk-scrollspy="cls: uk-animation-fade; target: .services; delay: 200">
+                    <div class="uk-child-width-1-1@s uk-child-width-1-3@m uk-grid-medium uk-margin uk-grid-match" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .services; delay: 200">
                         <div class="uk-width-1-1@s uk-width-1-3@m services">
-                            <h3 class="uk-text-center@s uk-text-left@m uk-text-bold uk-margin-medium-top services_article_heading"> DRIVES LOYALTY </h3>
-                            <p class="uk-text-center@s uk-text-left@m services_article_para uk-text-break uk-margin-remove-top">Our goal is to create an enjoyable, ongoing 
-                                relationship (experience) to produce a positive feeling (opinion). It is vital to our business growth.
+                            <h3 class="uk-text-center@s uk-text-left@m uk-text-bold uk-margin-medium-top services_article_heading">DRIVES LOYALTY</h3>
+                            <p class="uk-text-center@s uk-text-left@m services_article_para uk-text-break uk-margin-remove-top"> Our goal is to create an enjoyable, ongoing 
+                                relationship (experience) to produce a positive feeling (opinion). It is vital to our business growth.</p>
                             <div>
                                 <!-- <a class="uk-button uk-button-text" href="#">Read more</a> -->
                             </div>
                         </div>
                         <div class="uk-width-1-1@s uk-width-1-3@m services">
-                            <h3 class="uk-text-center@s uk-text-left@m uk-text-bold uk-margin-medium-top services_article_heading uk-text-nowrap">FOCUS ON THE JOURNEY</h3>
-                            <p class="uk-text-center@s uk-text-left@m services_article_para uk-margin-remove-top"> 
-                                There are dozens of points where customers interact with your business. 
-                                From finding our website and reading latest projects and testimonials.
-                                
+                            <h3 class="uk-text-center@s uk-text-left@m uk-text-bold uk-margin-medium-top services_article_heading">FOCUS ON THE JOURNEY</h3>
+                            <p class="uk-text-center@s uk-text-left@m services_article_para uk-margin-remove-top"> There are dozens of points where customers interact with your business. 
+                                From finding our website and reading latest projects and testimonials.</p>
                             <div>
                                 <!-- <a class="uk-button uk-button-text" href="#">Read more</a> -->
                             </div>
                         </div>
-
                         <div class="uk-width-1-1@s uk-width-1-3@m services">
-                            <h3 class="uk-text-center@s uk-text-left@m uk-text-bold uk-margin-medium-top services_article_heading uk-text-nowrap">DELIGHTFUL EXPERIENCE</h3>
-                            <p class="uk-text-center@s uk-text-left@m services_article_para uk-margin-remove-top"> 
-                                It's important to remember that the goal of any well-planned CX program is to build customer loyalty by 
-                                providing delightful experiences.There are no quick fixes here, so our growth goals must be long-term.
-                                
+                            <h3 class="uk-text-center@s uk-text-left@m uk-text-bold uk-margin-medium-top services_article_heading">DELIGHTFUL EXPERIENCE</h3>
+                            <p class="uk-text-center@s uk-text-left@m services_article_para uk-margin-remove-top"> It's important to remember that the goal of any well-planned CX program is to build customer loyalty by 
+                                providing delightful experiences.There are no quick fixes here, so our growth goals must be long-term.</p>
                             <div>
                                 <!-- <a class="uk-button uk-button-text" href="#">Read more</a> -->
                             </div>
                         </div>
-                        
-                    </div>
-                    
+                    </div> 
                     
             </div>
         <!--User Journey & Experience Ends-->

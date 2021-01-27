@@ -4,13 +4,15 @@
     $currentPage = 'service';    
     include_once '../header.php';
 ?>
-<div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
-    <ul class="uk-slideshow-items" style="height:315px !important;">
+<div class="banner uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items uk-height-medium" style="height:315px !important;">
         <li>
-            <img src="<?php echo $filePath;?>images/PE.jpg" alt="" uk-cover>
-            <div class="caption-text uk-position-center uk-text-center uk-light">
+            <img class="about-ban" src="<?php echo $filePath;?>images/PE.jpg" alt="" uk-cover>
+            <div class="caption-text uk-position-cover uk-text-center uk-light">
+            <div class="text-middle-2">
                 <h1 class="uk-card-title slider-title" style="color:white !important;">Product Engineering</h1>
-                <p class=""style="font-size:20px;" >With the progression & expansion in technology.</p>
+                <p class=""style="font-size:18px;" >With the progression & expansion in technology.</p>
+            </div>
             </div>
         </li>
     </ul>
@@ -37,7 +39,8 @@
             <div class="uk-card ">
                 <div class="uk-margin-remove"  uk-grid>
                      <h3 class="product_article_heading uk-margin-remove-bottom">Experienced & Skilled Product Development Team </h3>
-                    <span class="product_pararight uk-margin-small-top ">With evolving customer expectation and rapidly changing technology, a detailed product development process has become vital for the success of a business. ALT Commerce, is supported by a team of experienced professionals who are skilled in modern technologies to provide end-to-end product development services. With a focus on design thinking and rapid turnaround time,         we help you bring a cutting-edge product which caters to the demands of the market and customers.
+                    <span class="product_pararight uk-margin-small-top ">With evolving customer expectation and rapidly changing technology, a detailed product development process has become vital for the success of a business. ALT Commerce, is supported by a team of experienced professionals who are skilled in modern technologies to provide end-to-end product development services. With a focus on design thinking and rapid turnaround time, 
+                                we help you bring a cutting-edge product which caters to the demands of the market and customers.
                     Driving growth by providing valuable insights to your product development initiatives.</span>
                     </div>
                 </div>

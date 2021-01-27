@@ -4,13 +4,15 @@
     $currentPage = 'service';    
     include_once '../header.php';
 ?>
-<div class="uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
-    <ul class="uk-slideshow-items" style="height:315px !important;">
+<div class="banner uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+    <ul class="uk-slideshow-items uk-height-medium">
         <li>
-            <img src="<?php echo $filePath;?>images/cons.png" alt="" uk-cover>
-            <div class="caption-text uk-position-center uk-text-center uk-light">
+            <img class="about-ban" src="<?php echo $filePath;?>images/cons.png" alt="" uk-cover>
+            <div class="caption-text uk-position-cover uk-text-center uk-light">
+            <div class="text-middle">
                 <h1 class="uk-card-title slider-title" style="color:white !important;">Consulting</h1>
-                <p class=""style="font-size:20px;" >Solve problems,different people, different decisions, different preferences & approaches.</p>
+                <p class=""style="font-size:18px;" >Solve problems,different people, different decisions, different preferences & approaches.</p>
+            </div>
             </div>
         </li>
     </ul>

@@ -7,40 +7,55 @@
 
 <!--Slider start-->
    
-    <div class="uk-position-relative uk-visible-toggle uk-light banner" tabindex="-1" uk-slideshow="autoplay: true">
+    <div class="banner uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="">
 
-    <ul class="uk-slideshow-items ">
+    <ul class="uk-slideshow-items  uk-height-medium">
         <li>
-            <img class="responsively-lazy" src="<?php echo $filePath;?>images/banner/banner.webp" alt="" 
-            data-srcset="<?php echo $filePath;?>images/banner/banner.jpg, <?php echo $filePath;?>images/banner/banner.webp" uk-cover> 
-            <div class=" caption-text uk-position-center-left uk-text-left uk-margin-xlarge-left uk-light">
-                <h1 class="uk-card-title  slider-title" style="color:white !important;">Driving Innovation, Driving
-                <br> Results</h1>
-                <p style="font-size:20px;">Our focus on innovation is based on delivering results for our clients.</p>
+            <img class=" responsively-lazy about-ban" src="<?php echo $filePath;?>images/banner/banner.jpg" alt="" 
+            data-srcset="<?php echo $filePath;?>images/banner/banner.jpg, <?php echo $filePath;?>images/banner/banner.webp" 
+            data-srcset="<?php echo $filePath;?>images/banner/banner.jpg 400w, <?php echo $filePath;?>images/banner/banner.webp 400w,
+            <?php echo $filePath;?>images/banner/banner.jpg 600w,<?php echo $filePath;?>images/banner/banner.webp 600w, 
+            <?php echo $filePath;?>images/banner/banner.jpg 1000w,<?php echo $filePath;?>images/banner/banner.webp 1000w," 
+            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" uk-cover> 
+            <div class=" caption-text   uk-position-cover uk-light">
+                <div class="uk-position-center-left uk-text-left uk-margin-xlarge-left">
+                <div class="text-align">
+                    <h1 class="uk-card-title  slider-title" style="color:white !important;">Driving Innovation, Driving
+                    <br> Results</h1>
+                    <p style="font-size:17px;">Our focus on innovation is based on delivering results for our clients.</p>
+                </div>
+                </div>
             </div>
         </li>
         <li>
-            <img class="responsively-lazy" src="<?php echo $filePath;?>images/banner/banner-2.jpg" alt="" 
+            <img class="responsively-lazy about-ban" src="<?php echo $filePath;?>images/banner/banner-2.jpg" alt="" 
             data-srcset="<?php echo $filePath;?>images/banner/banner-2.jpg 400w, <?php echo $filePath;?>images/banner/banner-2.webp 400w,
             <?php echo $filePath;?>images/banner/banner-2.jpg 600w,<?php echo $filePath;?>images/banner/banner-2.webp 600w, 
-            <?php echo $filePath;?>images/banner/banner-2.jpg 1000w,<?php echo $filePath;?>images/banner/banner-2.webp 1000w,"uk-cover/>
-            <div class="caption-text uk-position-center-left uk-text-left uk-margin-xlarge-left uk-light">
+            <?php echo $filePath;?>images/banner/banner-2.jpg 1000w,<?php echo $filePath;?>images/banner/banner-2.webp 1000w,"
+            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" uk-cover/>
+            <div class="caption-text uk-position-cover uk-light">
+            <div class="uk-position-center-left uk-text-left  uk-margin-xlarge-left">
+            
                 <h1 class="uk-card-title  slider-title" style="color:white !important;">Agile, Experienced<br>&amp; Effective</h1>
-                <p style="font-size:20px;">ALT commerce is an expert in Omni-Channel Commerce
+                <p style="font-size:17px;">ALT commerce is an expert in Omni-Channel Commerce
                                         <br> and delivering Oracle Commerce, Commerce Cloud and
                                         <br> the suite of Oracle CX products.</p>
             </div>
+            </div>
         </li>
         <li>
-            <img class="responsively-lazy" src="<?php echo $filePath;?>images/banner/banner-3.jpg" alt="" 
+            <img class="responsively-lazy about-ban" src="<?php echo $filePath;?>images/banner/banner-3.jpg" alt="" 
             data-srcset="<?php echo $filePath;?>images/banner/banner-3.jpg 400w, <?php echo $filePath;?>images/banner/banner-3.webp 400w,
             <?php echo $filePath;?>images/banner/banner-3.jpg 600w,<?php echo $filePath;?>images/banner/banner-3.webp 600w, 
-            <?php echo $filePath;?>images/banner/banner-3.jpg 1000w,<?php echo $filePath;?>images/banner/banner-3.webp 1000w,"uk-cover/>
-            <div class="caption-text uk-position-center-left uk-text-left uk-margin-xlarge-left uk-light">
+            <?php echo $filePath;?>images/banner/banner-3.jpg 1000w,<?php echo $filePath;?>images/banner/banner-3.webp 1000w,"
+            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" uk-cover/>
+            <div class="caption-text uk-position-cover uk-light">
+            <div class="uk-position-center-left uk-text-left uk-margin-xlarge-left">
                 <h1 class="uk-card-title  slider-title" style="color:white !important;">ALT Commerce</h1>
-                <p style="font-size:20px;">We focus all our work not only on developing and
+                <p style="font-size:17px;">We focus all our work not only on developing and
                                         <br>maintaining the products and services,
                                         <br> but rather on building long term relationships.</p>
+            </div>
             </div>
         </li>
         
