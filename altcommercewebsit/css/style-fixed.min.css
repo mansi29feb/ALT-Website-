@@ -115,14 +115,17 @@
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
         margin: -1px 0 !important;
     }
-    .uk-sticky-fixed .drop-navbar {
+    /* .uk-sticky-fixed .drop-navbar {
         left: 682px !important;
-    }
+    } */
     #about_submenu {
         margin-left: -132px;
     }
     .uk-sticky-fixed #about_submenu {
-        margin-left: -59px;
+        margin-left: -102px;
+    }
+    .uk-sticky-fixed #service_submenu {
+        margin-left: 84px !important;
     }
     .mobile-nav {
         margin-left: auto;
@@ -171,7 +174,7 @@
         font-size: 15px;
         font-family: Poppins;
         color: #555;
-        width: 70% !important;
+        width:  75%  !important;
     }
 }
 @media screen and (max-width: 800px) and (min-width: 768px) {

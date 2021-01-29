@@ -604,7 +604,7 @@ input[type="text"] {
     margin-left: 18px;
 }
 .uk-sticky-fixed #service_submenu {
-    margin-left: 153px;
+    margin-left: 153px !important;
 }
 
 @media screen and (max-width: 899px) and (min-width: 400px) {
