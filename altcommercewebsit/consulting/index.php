@@ -7,11 +7,16 @@
 <div class="banner uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
     <ul class="uk-slideshow-items uk-height-medium">
         <li>
-            <img class="about-ban" src="<?php echo $filePath;?>images/cons.png" alt="" uk-cover>
+            <!-- <img class="about-ban" src="<?php echo $filePath;?>images/banner/cons.jpg" alt="" uk-cover> -->
+            <img class="responsively-lazy about-ban" alt="consulting"  src="<?php echo $filePath;?>images/banner/cons.jpg"
+            data-srcset="<?php echo $filePath;?>images/banner/cons.jpg 400w, <?php echo $filePath;?>images/banner/cons.webp 400w, 
+            <?php echo $filePath;?>images/banner/cons.jpg 600w, <?php echo $filePath;?>images/banner/cons.webp 600w,
+            <?php echo $filePath;?>images/banner/cons.jpg 1000w <?php echo $filePath;?>images/banner/cons.webp 1000w" 
+            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" uk-cover />
             <div class="caption-text uk-position-cover uk-text-center uk-light">
             <div class="text-middle">
-                <h1 class="uk-card-title slider-title" style="color:white !important;">Consulting</h1>
-                <p class=""style="font-size:18px;" >Solve problems,different people, different decisions, different preferences & approaches.</p>
+                <h1 class="main_heading uk-card-title slider-title" style="color:white !important; font-size:53 !important;">Consulting</h1>
+                <p class="sub_para" >Solve problems,different people, different decisions, different preferences & approaches.</p>
             </div>
             </div>
         </li>

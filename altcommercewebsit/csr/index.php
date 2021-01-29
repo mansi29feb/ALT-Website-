@@ -8,10 +8,15 @@
     <ul class="uk-slideshow-items" style="height:315px !important;">
         <li>
             <img src="<?php echo $filePath;?>images/banner/cs.jpg" alt="" uk-cover>
+            <img class="responsively-lazy about-ban" alt="community"  src="<?php echo $filePath;?>images/banner/cs.jpg"
+                data-srcset="<?php echo $filePath;?>images/banner/cs.jpg 400w, <?php echo $filePath;?>images/banner/cs.webp 400w, 
+                <?php echo $filePath;?>images/banner/cs.jpg 600w, <?php echo $filePath;?>images/banner/cs.webp 600w,
+                <?php echo $filePath;?>images/banner/cs.jpg 1000w <?php echo $filePath;?>images/banner/cs.webp 1000w" 
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" uk-cover />
             <div class="caption-text uk-position-cover uk-text-center uk-light">
             <div class="text-middle-2">
-                <h1 class="uk-card-title slider-title" style="color:white !important;">"Enact Positive Changes"</h1>
-                <p class=""style="font-size:18px;" >Change Your Ways, Save The Environment</p>
+                <h1 class="main_heading uk-card-title slider-title" style="color:white !important; font-size:53 !important;">"Enact Positive Changes"</h1>
+                <p class="sub_para" >Change Your Ways, Save The Environment</p>
             </div>
             </div>
         </li>

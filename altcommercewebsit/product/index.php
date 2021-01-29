@@ -7,11 +7,16 @@
 <div class="banner uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
     <ul class="uk-slideshow-items uk-height-medium" style="height:315px !important;">
         <li>
-            <img class="about-ban" src="<?php echo $filePath;?>images/PE.jpg" alt="" uk-cover>
+            <!-- <img class="about-ban" src="<?php echo $filePath;?>images/banner/PE.jpg" alt="" uk-cover> -->
+            <img class="responsively-lazy about-ban" alt="product"  src="<?php echo $filePath;?>images/banner/PE.jpg"
+            data-srcset="<?php echo $filePath;?>images/banner/PE.jpg 400w, <?php echo $filePath;?>images/banner/PE.webp 400w, 
+            <?php echo $filePath;?>images/banner/PE.jpg 600w, <?php echo $filePath;?>images/banner/PE.webp 600w,
+            <?php echo $filePath;?>images/banner/PE.jpg 1000w <?php echo $filePath;?>images/banner/PE.webp 1000w" 
+            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" uk-cover />
             <div class="caption-text uk-position-cover uk-text-center uk-light">
             <div class="text-middle-2">
-                <h1 class="uk-card-title slider-title" style="color:white !important;">Product Engineering</h1>
-                <p class=""style="font-size:18px;" >With the progression & expansion in technology.</p>
+                <h1 class="main_heading uk-card-title slider-title" style="color:white !important; font-size:53 !important;">Product Engineering</h1>
+                <p class="sub_para" >With the progression & expansion in technology.</p>
             </div>
             </div>
         </li>

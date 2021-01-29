@@ -7,11 +7,16 @@
 <div class="banner uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
     <ul class="uk-slideshow-items uk-height-medium" >
         <li>
-            <img class="about-ban" src="<?php echo $filePath;?>images/banner/skill.png" alt="" uk-cover>
+            <!-- <img class="about-ban" src="<?php echo $filePath;?>images/banner/skill.png" alt="" uk-cover> -->
+            <img class="responsively-lazy about-ban" alt="skill"  src="<?php echo $filePath;?>images/banner/skill.png"
+                data-srcset="<?php echo $filePath;?>images/banner/skill.png 400w, <?php echo $filePath;?>images/banner/skill.webp 400w, 
+                <?php echo $filePath;?>images/banner/skill.png 600w, <?php echo $filePath;?>images/banner/skill.webp 600w,
+                <?php echo $filePath;?>images/banner/skill.png 1000w <?php echo $filePath;?>images/banner/skill.webp 1000w" 
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" uk-cover />
             <div class="caption-text uk-position-cover uk-text-center  uk-light">
             <div class="text-middle">
-                <h1 class="uk-card-title slider-title" style="color:white !important;">Our Technical Expertise</h1>
-                <p class="" style="font-size:18px;">Rendering the best services with the updated Technologies.</p>
+                <h1 class="main_heading uk-card-title slider-title" style="color:white !important;">Our Technical Expertise</h1>
+                <p class="sub_para" >Rendering the best services with the updated Technologies.</p>
             </div>
             </div>
         </li>

@@ -9,12 +9,17 @@
 <div class="banner uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
     <ul class="uk-slideshow-items uk-height-medium">
         <li>
-            <img class="about-ban" src="<?php echo $filePath;?>images/service.jpg" alt="" uk-cover>
+            <!-- <img class="about-ban" src="<?php echo $filePath;?>images/banner/service.jpg" alt="" uk-cover> -->
+            <img class="responsively-lazy about-ban" alt="service"  src="<?php echo $filePath;?>images/banner/service.jpg"
+                data-srcset="<?php echo $filePath;?>images/banner/service.jpg 400w, <?php echo $filePath;?>images/banner/service.webp 400w, 
+                <?php echo $filePath;?>images/banner/service.jpg 600w, <?php echo $filePath;?>images/banner/service.webp 600w,
+                <?php echo $filePath;?>images/banner/service.jpg 1000w <?php echo $filePath;?>images/banner/service.webp 1000w" 
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" uk-cover />
             <div class="caption-text  uk-position-cover uk-text-center uk-light">
                 <div class="text-middle">
-                    <h1 class="uk-card-title slider-title" style="color:white !important;">Our Services</h1>
-                    <p class=""style="font-size:18px;" >Customer satisfaction is our motto and we strive to provide the best solution to our clients. 
-                    Very few Indian companies could reach the zenith that we have reached 
+                    <h1 class="main_heading uk-card-title slider-title" style="color:white !important; font-size:53 !important;">Our Services</h1>
+                    <p class="sub_para" >Customer satisfaction is our motto and we strive to provide the best solution to our clients. <br/>
+                    Very few Indian companies could reach the zenith that we have reached <br/>
                     today with a strong trust of our clients on us.</p>
                 </div>
             </div>
@@ -72,10 +77,20 @@
                             srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                         </div>
                         <div class="uk-padding-small uk-margin-medium-top uk-card uk-card-default uk-card-hover">
-                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/aem.png" alt="AEM Logo" width="200" height="200" uk-img>
+                            <!-- <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/aem.png" alt="AEM Logo" width="200" height="200" uk-img> -->
+                            <img class="uk-align-center responsively-lazy" uk-scrollspy="cls: uk-animation-fade" alt="AEM Logo" width="200" height="200" src="<?php echo $filePath;?>images/aem.png"
+                            data-srcset="<?php echo $filePath;?>images/aem.png 400w, <?php echo $filePath;?>images/aem.webp 400w, 
+                            <?php echo $filePath;?>images/aem.png 600w, <?php echo $filePath;?>images/aem.webp 600w,
+                            <?php echo $filePath;?>images/aem.png 1000w <?php echo $filePath;?>images/aem.webp 1000w" 
+                            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                         </div>
                         <div class="uk-margin">
-                            <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/skills-page/java.png" alt="Java Logo" width="100" height="100" uk-img uk-scrollspy="cls: uk-animation-fade">
+                            <!-- <img class=" uk-align-center lazy" data-src="<?php echo $filePath;?>images/skills-page/java.png" alt="Java Logo" width="100" height="100" uk-img uk-scrollspy="cls: uk-animation-fade"> -->
+                            <img class="uk-align-center responsively-lazy" uk-scrollspy="cls: uk-animation-fade" alt="Java Logo" width="100" height="100" src="<?php echo $filePath;?>images/skills-page/java.png"
+                            data-srcset="<?php echo $filePath;?>images/skills-page/java.png 400w, <?php echo $filePath;?>images/skills-page/java.webp 400w, 
+                            <?php echo $filePath;?>images/skills-page/java.png 600w, <?php echo $filePath;?>images/skills-page/java.webp 600w,
+                            <?php echo $filePath;?>images/skills-page/java.png 1000w <?php echo $filePath;?>images/skills-page/java.webp 1000w" 
+                            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                         </div>
                     </div>
 

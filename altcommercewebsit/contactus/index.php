@@ -7,12 +7,17 @@
 <div class="banner uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
     <ul class="uk-slideshow-items uk-height-medium">
         <li>
-            <img class="about-ban" src="<?php echo $filePath;?>images/banner/contact.jpg" alt="" uk-cover>
+            <!-- <img class="about-ban" src="<?php echo $filePath;?>images/banner/contact.jpg" alt="" uk-cover> -->
+            <img class="responsively-lazy about-ban" alt="contact"  src="<?php echo $filePath;?>images/banner/contact.jpg"
+                data-srcset="<?php echo $filePath;?>images/banner/contact.jpg 400w, <?php echo $filePath;?>images/banner/contact.webp 400w, 
+                <?php echo $filePath;?>images/banner/contact.jpg 600w, <?php echo $filePath;?>images/banner/contact.webp 600w,
+                <?php echo $filePath;?>images/banner/contact.jpg 1000w <?php echo $filePath;?>images/banner/contact.webp 1000w" 
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" uk-cover />
             <div class="caption-text uk-position-cover uk-text-center uk-light">
             <div class="text-middle">
-                <h1 class="uk-card-title slider-title" style="color:white !important;">Get in Touch</h1>
-                <p class="" style="font-size:18px;">“ We do look forward to keeping in touch with you guys, because we'll always be connected in people's mind”</p>
-                <p class="uk-text-center uk-margin-remove-top uk-margin-remove-bottom" style="color:white;">- Barry Zito</p>
+                <h1 class="main_heading uk-card-title slider-title" style="color:white !important; font-size:53 !important;">Get in Touch</h1>
+                <p class="sub_para" >“ We do look forward to keeping in touch with you guys, because we'll always be connected in people's mind”</p>
+                <p class="uk-text-center uk-margin-remove-top uk-margin-remove-bottom" style="color:white; font-size: 21px;">- Barry Zito</p>
            </div>
             </div>
         </li>
@@ -40,13 +45,13 @@
                         <div class="uk-inline">
                             <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                             
-                                <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/noida.jpg" alt="Noida Office" style="opacity: 0.9; width: 300px; height: 222px;"> 
-                               <!-- <img class="uk-transition-scale-up responsively-lazy" alt="Noida Office" width="300" height="222" style="opacity:0.9"
+                                <!-- <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/noida.jpg" alt="Noida Office" style="opacity: 0.9; width: 300px; height: 222px;">  -->
+                                <img class="uk-transition-scale-up responsively-lazy" alt="Noida Office" width="300"  style="opacity:0.9; height:222px;"
                                      src="<?php echo $filePath;?>images/noida.jpg"
                                     data-srcset="<?php echo $filePath;?>images/noida.jpg 400w, <?php echo $filePath;?>images/noida.webp 400w, 
                                     <?php echo $filePath;?>images/noida.jpg 600w, <?php echo $filePath;?>images/noida.webp 600w,
                                     <?php echo $filePath;?>images/noida.jpg 1000w <?php echo $filePath;?>images/noida.webp 1000w" 
-                                    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />-->
+                                    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                                 <div class="uk-overlay uk-position-center"><button type="button" class="uk-button uk-button-text" ><a  class="cases_btnlink" href="https://goo.gl/maps/yn6EXoLCaQzXEMEY9" style="color:white; text-decoration:none;" target="_blank">CORPORATE OFFICE </a></button>
                             </div>
              
@@ -56,13 +61,13 @@
 
                         <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                         
-                             <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/Bangalore.jpg" alt="Banglore office" style="opacity: 0.9; width: 300px; height: 222px;"> 
-                           <!-- <img class="uk-transition-scale-up responsively-lazy" alt="Banglore office" width="300" height="222" style="opacity:0.9"
+                             <!-- <img class="uk-transition-scale-up" src="<?php echo $filePath;?>images/Bangalore.jpg" alt="Banglore office" style="opacity: 0.9; width: 300px; height: 222px;">  -->
+                            <img class="uk-transition-scale-up responsively-lazy" alt="Banglore office" width="300" height="222" style="opacity:0.9"
                                      src="<?php echo $filePath;?>images/Bangalore.jpg"
                                     data-srcset="<?php echo $filePath;?>images/Bangalore.jpg 400w, <?php echo $filePath;?>images/Bangalore.webp 400w, 
                                     <?php echo $filePath;?>images/Bangalore.jpg 600w, <?php echo $filePath;?>images/Bangalore.webp 600w,
                                     <?php echo $filePath;?>images/Bangalore.jpg 1000w <?php echo $filePath;?>images/Bangalore.webp 1000w" 
-                                    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />-->
+                                    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
                             <div class="uk-overlay uk-position-center"><button type="button" class="uk-button uk-button-text" ><a  class="cases_btnlink" href="https://goo.gl/maps/ycdkDSCKBfi7pqc76" style="color:white;text-decoration:none;" target="_blank">BANGALORE OFFICE </a></button>
                             </div>
             

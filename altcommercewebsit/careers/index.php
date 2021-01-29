@@ -7,12 +7,17 @@
 <div class="banner uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
     <ul class="uk-slideshow-items uk-height-medium">
         <li>
-            <img class="about-ban" src="<?php echo $filePath;?>images/hire.jpg" alt="" uk-cover>
+            <!-- <img class="about-ban" src="<?php echo $filePath;?>images/banner/hire.jpg" alt="" uk-cover> -->
+            <img class="responsively-lazy about-ban" alt="dcx"  src="<?php echo $filePath;?>images/banner/hire.jpg"
+                data-srcset="<?php echo $filePath;?>images/banner/hire.jpg 400w, <?php echo $filePath;?>images/banner/hire.webp 400w, 
+                <?php echo $filePath;?>images/banner/hire.jpg 600w, <?php echo $filePath;?>images/banner/hire.webp 600w,
+                <?php echo $filePath;?>images/banner/hire.jpg 1000w <?php echo $filePath;?>images/banner/hire.webp 1000w" 
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" uk-cover />
             <div class=" caption-text uk-position-cover uk-text-center uk-light">
                 <div class="text-middle">
-                    <h1 class="uk-card-title slider-title" style="color:white !important;">Work With Us</h1>
-                    <p class="" style="font-size:18px;">“ Coming together is the beginning. </br>Keeping together is progress. Working together is success. ”</p>
-                    <p class="uk-text-meta uk-text-center uk-margin-remove-top uk-margin-remove-bottom" style="color:white;">- Henry Ford</p>
+                    <h1 class="uk-card-title slider-title main_heading" style="color:white !important; font-size:53 !important;">Work With Us</h1>
+                    <p class="sub_para">“ Coming together is the beginning. </br>Keeping together is progress. Working together is success. ”</p>
+                    <p class="uk-text-meta uk-text-center uk-margin-remove-top uk-margin-remove-bottom" style="color:white; font-size: 21px;">- Henry Ford</p>
                 </div>
             </div>
         </li>
@@ -60,9 +65,9 @@
                         <?php echo $filePath;?>images/career/future.jpg 600w, <?php echo $filePath;?>images/career/future.webp 600w,
                         <?php echo $filePath;?>images/career/future.jpg 1000w, <?php echo $filePath;?>images/career/future.webp 1000w" 
                         srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                      <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Embracing The Future</div>
-                      <div class="uk-margin-small-left services_article_para uk-text-left">We generate possibilities and use the power of creativity to innovate in ways that matter to people. 
-                          Careers are made from experiences. At ALT Commerce, those experiences can be diverse, unlimited and far-reaching.</div></br>
+                      <h3 class="uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Embracing The Future</h3>
+                      <p class="uk-margin-small-left services_article_para uk-text-left">We generate possibilities and use the power of creativity to innovate in ways that matter to people. 
+                          Careers are made from experiences. At ALT Commerce, those experiences can be diverse, unlimited and far-reaching.</p></br>
         
                         </div>
                   </div >
@@ -75,26 +80,26 @@
                         <?php echo $filePath;?>images/career/professional.jpg 600w, <?php echo $filePath;?>images/career/professional.webp 600w,
                         <?php echo $filePath;?>images/career/professional.jpg 1000w, <?php echo $filePath;?>images/career/professional.webp 1000w" 
                         srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                    <div class="uk-h3 uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Experienced Professional</div>
-                    <div class="uk-margin-small-left services_article_para uk-text-left">We are always looking for passionate, creative team 
+                    <h3 class="uk-margin-small-left uk-text-left services_article_heading uk-margin-small-top uk-text-bold">Experienced Professional</h3>
+                    <p class="uk-margin-small-left services_article_para uk-text-left">We are always looking for passionate, creative team 
                         members who thrive on overcoming technical or business challenges to accomplish 
-                        amazing, important work. </div>
+                        amazing, important work. </p>
                     </div> 
                   </div>
 
                   <div class=" uk-width-1-2@m uk-width-1-1@s uk-padding uk-padding-remove-vertical uk-margin pad_rem " uk-scrollspy="cls: uk-animation-slide-top-medium"> 
-                    <div class="career1_box">  
-                    <!-- <img class='lazy' data-src="<?php echo $filePath;?>images/career/team2.jpg" alt="Team" uk-img> -->
-                    <img class="responsively-lazy" alt="Team" width="" height="" src="<?php echo $filePath;?>images/career/team2.jpg"
-                        data-srcset="<?php echo $filePath;?>images/career/team2.jpg 400w, <?php echo $filePath;?>images/career/team2.webp 400w, 
-                        <?php echo $filePath;?>images/career/team2.jpg 600w, <?php echo $filePath;?>images/career/team2.webp 600w,
-                        <?php echo $filePath;?>images/career/team2.jpg 1000w, <?php echo $filePath;?>images/career/team2.webp 1000w" 
-                        srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                    <div class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">We're a Team & not a bunch of Individuals</div>
-                    <div class="uk-margin-small-left services_article_para uk-text-left">If you watch sports, you see how teams function. They work together, encourage each other, 
-                        and communicate regularly. Teams work together on all work related projects and help where necessary. 
-                        It doesn’t matter who gets&nbsp; credit for what because you accomplish everything together. You’re knit together, not separated.</div>
-                     </div>   
+                        <div class="career1_box">  
+                        <!-- <img class='lazy' data-src="<?php echo $filePath;?>images/career/team2.jpg" alt="Team" uk-img> -->
+                            <img class="responsively-lazy" alt="Team" width="" height="" src="<?php echo $filePath;?>images/career/team2.jpg"
+                            data-srcset="<?php echo $filePath;?>images/career/team2.jpg 400w, <?php echo $filePath;?>images/career/team2.webp 400w, 
+                            <?php echo $filePath;?>images/career/team2.jpg 600w, <?php echo $filePath;?>images/career/team2.webp 600w,
+                            <?php echo $filePath;?>images/career/team2.jpg 1000w, <?php echo $filePath;?>images/career/team2.webp 1000w" 
+                            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+                            <h3 class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">We're a Team & not a bunch of Individuals</h3>
+                            <p class="uk-margin-small-left services_article_para uk-text-left">If you watch sports, you see how teams function. They work together, encourage each other, 
+                            and communicate regularly. Teams work together on all work related projects and help where necessary. 
+                            It doesn’t matter who gets&nbsp; credit for what because you accomplish everything together. You’re knit together, not separated.</p>
+                        </div>   
                   </div>
 
                   <div class="uk-width-1-2@m uk-width-1-1@s uk-padding-remove-vertical uk-padding uk-margin pad_rem" uk-scrollspy="cls: uk-animation-slide-top-medium">
@@ -105,13 +110,13 @@
                         <?php echo $filePath;?>images/career/big-brands.jpg 600w, <?php echo $filePath;?>images/career/big-brands.webp 600w,
                         <?php echo $filePath;?>images/career/big-brands.jpg 1000w, <?php echo $filePath;?>images/career/big-brands.webp 1000w" 
                         srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-                    <div class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">A Chance to work with BIG BRANDS</div>
-                    <div class="uk-margin-small-left services_article_para uk-text-left">Don’t be afraid of starting over. It’s a brand new opportunity to rebuild what 
+                    <h3 class="uk-margin-small-left uk-h3 uk-text-left services_article_heading uk-margin-small-top uk-text-bold">A Chance to work with BIG BRANDS</h3>
+                    <p class="uk-margin-small-left services_article_para uk-text-left">Don’t be afraid of starting over. It’s a brand new opportunity to rebuild what 
                         you truly want. Joining ALT Commerce is about joining a culture of openness, collaboration, trust & expectation 
                         to have a voice. We build trust and engagement with our employees.
                         We’re a team of self-starters with a passion for people-centric innovation. 
                         At ALT Commerce, work is more than a job.
-                            </div></br>
+</p></br>
                     </div>   
                   </div>
                 </div>
