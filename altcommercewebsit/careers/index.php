@@ -49,7 +49,7 @@
             <div class=" career_box uk-text-center uk-padding-remove-top">
                 <div class="uk-child-width-1-2@s" uk-grid>
                     <div class="uk-width-1-1@s ">
-                        <h3 class="services_subheading">Working and Thriving</h3>
+                        <h2 class="services_subheading">Working and Thriving</h2>
                         <div class="uk-child-width-1-2@s " uk-grid>
                             <p class="uk-width-1-1@s services_mainpara uk-align-center uk-margin-large-horizintal">Stay “ALWAYS AHEAD” by giving your career a kick-start with ALT Commerce.</p>
                         </div>
