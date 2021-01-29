@@ -584,7 +584,7 @@ input[type="text"] {
     color: #1c1c1c;
 }
 .box2 {
-    margin-left: -129px !important;
+    margin-left: -120px !important;
 }
 .rem-mar {
     margin-left: -17px;
@@ -754,6 +754,10 @@ input[type="text"] {
         margin-right: auto;
     }
     .main_heading { font-size: 38px !important; }
+    .text-center{
+        margin-left: 40px !important;
+        width: 275px !important;
+    }
 }
 @media screen and (max-width: 900px) {
     body {
@@ -1363,6 +1367,10 @@ input[type="text"] {
     .sub_para {
     font-size: 16px !important;
     }
+    .text-center{
+        margin-left: 19px !important;
+        width: 275px !important;
+    }
 }
 @media screen and (max-width: 515px) and (min-width: 451px) {
     .pro-contright {
@@ -1448,6 +1456,10 @@ input[type="text"] {
         margin-left: auto !important;
         margin-right: auto;
     }
+    .text-center{
+        margin-left: 42px !important;
+        width: 275px !important;
+    }
 }
 @media screen and (max-width: 549px) and (min-width: 516px) {
     .end-text {
@@ -1460,13 +1472,13 @@ input[type="text"] {
         margin-left: 22px !important;
     }
     .sm-screen-cont {
-        margin-left: 25% !important;
+        margin-left: 30% !important;
     }
     .sm-screen {
-        margin-left: 26%;
+        margin-left: 30%;
     }
     .sm-screen-srv {
-        margin-left: 26%;
+        margin-left: 30%;
     }
     span.noida {
         float: right;
@@ -1549,6 +1561,10 @@ input[type="text"] {
     .sub_para {
     font-size: 20px !important;
     } 
+    .text-center{
+        margin-left: 17px !important;
+    width: 396px !important;
+    }
 }
 @media screen and (max-width: 639px) and (min-width: 550px) {
     
@@ -1624,6 +1640,10 @@ input[type="text"] {
         width: 80%;
         margin-left: auto !important;
         margin-right: auto;
+    }
+    .text-center{
+        margin-left: -18px !important;
+    width: 382px !important;
     }
     
 }
@@ -1711,6 +1731,10 @@ input[type="text"] {
         width: 80%;
         margin-left: auto !important;
         margin-right: auto;
+    }
+    .text-center{
+        /* margin-left: 17px !important; */
+    width: 396px !important;
     }
 }
 @media screen and (max-width: 899px) and (min-width: 701px) {
@@ -1802,6 +1826,10 @@ input[type="text"] {
         width: 80%;
         margin-left: auto !important;
         margin-right: auto;
+    }
+    .text-center{
+        /* margin-left: 17px !important; */
+    width: 354px !important;
     }
 }
 @media screen and (max-width: 399px) and (min-width: 360px) {
@@ -1928,6 +1956,10 @@ input[type="text"] {
     }
     .main_heading { font-size: 37px !important; }
     .text-middle {margin-top: 5% !important;}
+    .text-center{
+        margin-left: 38px !important;
+        width: 275px !important;
+    }
 }
 .bx1 {
     width: 100%;

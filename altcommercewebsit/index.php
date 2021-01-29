@@ -99,27 +99,27 @@
         <div class="uk-width-1-2 uk-margin-small-left">    
             <div class="end-text uk-padding-small">
                 <div class="hexo uk-text-bold">Application Development</div>
-                <div class=" uk-text-center uk-text-center@s comment"><p>Gathering requirements, designing prototypes, testing, implementation, and integration is what we perform.</p></div>
+                <div class=" uk-text-center uk-text-center@s comment"><p class="text-center">Gathering requirements, designing prototypes, testing, implementation, and integration is what we perform.</p></div>
             </div>
             <div class="side-text uk-padding-small uk-margin-medium-left">
                 <div class="hexo uk-text-bold">Research & Development</div>
-                <div class="uk-text-center uk-text-center@s comment"><p>Our work directed towards the innovation, introduction, and improvement of our services and processes.</p></div>
+                <div class="uk-text-center uk-text-center@s comment"><p class="text-center">Our work directed towards the innovation, introduction, and improvement of our services and processes.</p></div>
             </div>       
             <div class="mid-text uk-padding-small uk-margin-xlarge-left">
                 <div class="hexo uk-text-bold">Omni-Channel Commerce</div>
-                <div class="uk-text-center uk-text-center@s comment"><p>Provide an approach to sales that seeks to provide customers with a seamless shopping experience.</p></div>
+                <div class="uk-text-center uk-text-center@s comment"><p class="text-center">Provide an approach to sales that seeks to provide customers with a seamless shopping experience.</p></div>
             </div>
             <div class="mid-text uk-padding-small uk-margin-xlarge-left">
                 <div class="hexo uk-text-bold">QA & Software Testing</div>
-                <div class=" uk-text-center uk-text-center@s comment"><p>Quality assurance plays a crucial role in business by ensuring that services meet targeted thresholds of acceptability.</p></div>
+                <div class=" uk-text-center uk-text-center@s comment"><p class="text-center">Quality assurance plays a crucial role in business by ensuring that services meet targeted thresholds of acceptability.</p></div>
             </div>     
             <div class="side-text uk-padding-small uk-margin-medium-left">
                 <div class="hexo uk-text-bold">Digital Commerce</div>
-                <div class="uk-text-center uk-text-center@s comment"><p>Enabling independent services to customer through an interactive and self-service experience.</p></div>
+                <div class="uk-text-center uk-text-center@s comment"><p class="text-center">Enabling independent services to customer through an interactive and self-service experience.</p></div>
             </div>
             <div class="end-text uk-padding-small">
                 <div class="hexo uk-text-bold">User/Customer Experience</div>
-                <div class="uk-text-center uk-text-center@s comment"><p>Customer experience is different from customer opinion. Customer experience drives loyalty so we are focusing on the journey.</p></div>
+                <div class="uk-text-center uk-text-center@s comment"><p class="text-center">Customer experience is different from customer opinion. Customer experience drives loyalty so we are focusing on the journey.</p></div>
             </div>     
                             
         </div>
