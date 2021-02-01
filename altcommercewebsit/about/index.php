@@ -18,7 +18,7 @@
             <div class="caption-text uk-position-cover uk-text-center uk-light">
             <div class="text-middle">
                 <h1 class="main_heading uk-card-title slider-title" style="color:white !important; font-size:55 !important;">About the ALT Commerce</h1>
-                <p class="sub_para">ALT Commerce is a professional services firm focused on implementing and optimizing Oracle Commerce and <br/> the Oracle Customer Experience suite of products.</p>
+                <p class="sub_para">ALT Commerce is a professional services firm focused on implementing and <br/> optimizing Oracle Commerce and the Oracle Customer Experience suite of products.</p>
             </div>
             </div>
         </li>

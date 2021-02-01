@@ -176,6 +176,9 @@
         color: #555;
         width:  75%  !important;
     }
+    .text-middle {
+        margin-top: 14%;
+    }
 }
 @media screen and (max-width: 800px) and (min-width: 768px) {
     .box1 {
