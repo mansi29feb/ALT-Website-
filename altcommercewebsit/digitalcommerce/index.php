@@ -1,5 +1,5 @@
 <?php
-    $pageTitle='Services-Digital Commerce with ALT Commerce';
+    $pageTitle='Services-Digital Commerce with ALT Digital Technologies';
     $pageDescription ="Customer satisfaction is our motto and we strive to provide the best solution to our clients.";
     $currentPage = 'service';    
     include_once '../header.php';
@@ -67,7 +67,7 @@
 
 
 <div class="uk-container-fluid uk-background-muted uk-grid-collapse uk-child-width-expand@s" uk-grid>
-    <div class=" uk-text-center uk-padding uk-margin-small"><span class="uk-text-capitalize ">Copyrights © <script>document.write(new Date().getFullYear())</script> All Rights Reserved by <span class="uk-text-bold">ALT Commerce Pvt. Ltd.</span></div>
+    <div class=" uk-text-center uk-padding uk-margin-small"><span class="uk-text-capitalize ">Copyrights © <script>document.write(new Date().getFullYear())</script> All Rights Reserved by <span class="uk-text-bold">ALT Digital Technologies Pvt. Ltd.</span></div>
         <div class=" uk-padding uk-text-center uk-link-text">
                 <a class="uk-icon-button uk-margin-small-right uk-text-secondary" href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" aria-label="Facebook" target="_blank" rel="noopener"></a>
                 <a class="uk-icon-button uk-margin-small-right uk-text-secondary" href="https://twitter.com/altcommerce" uk-icon="twitter" aria-label="Twitter" target="_blank" rel="noopener"></a>

@@ -1,5 +1,5 @@
 <?php
-    $pageTitle='Skills-Digital Commerce with ALT Commerce';
+    $pageTitle='Skills-Digital Commerce with ALT Digital Technologies';
     $pageDescription = 'The technology has made our lives better and so our best skills and services we are rendering.';
     $currentPage = 'skill';
      include_once '../header.php';
@@ -23,19 +23,6 @@
     </ul>
 </div>
 <div class="uk-container uk-margin">
-        <!-- <h1 class="uk-h1 uk-text-center uk-text-bold services_mainheading">Our Technical Expertise</h1>
-        <p class="uk-text-center services_mainpara"> Rendering the best services with the updated Technologies.
-        </p>
-        <div class=""> -->
-         <!-- <img class=" uk-align-center" data-src="<?php echo $filePath;?>images/skill.webp" alt="Skills tree" width="800" height="800" uk-img uk-scrollspy="cls: uk-animation-slide-bottom-small"> -->
-                <!-- <img class="uk-align-center responsively-lazy" alt="Skills tree" uk-scrollspy="cls: uk-animation-slide-bottom-small" 
-                width="800" height="800" src="<?php echo $filePath;?>images/skill.jpg"
-                data-srcset="<?php echo $filePath;?>images/skill.jpg 400w, <?php echo $filePath;?>images/skill.webp 400w, 
-                <?php echo $filePath;?>images/skill.jpg 600w, <?php echo $filePath;?>images/skill.webp 600w,
-                <?php echo $filePath;?>images/skill.jpg 1000w, <?php echo $filePath;?>images/skill.webp 1000w" 
-                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-            
-        </div> -->
        
     <h2 class=" uk-text-center services_subheading uk-margin-medium-bottom">Our Skills</h2>
     
@@ -981,24 +968,7 @@
     include_once '../footer.php';
 ?>
     
-<script>
-    
-    document.addEventListener('DOMContentLoaded', () => {
 
-    let myBtns=document.querySelectorAll('.skills_btn');
-    myBtns.forEach(function(btn) {
-
-        btn.addEventListener('click', () => {
-    myBtns.forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-            });
-
-        });
-
-        });
-
-
-</script>
 
 </body>
 

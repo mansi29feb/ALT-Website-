@@ -1,13 +1,16 @@
 <?php
-    $pageTitle= 'Contact-Digital Commerce with ALT Commerce';
-    $pageDescription = 'At ALTCommerce, Our goal is to deliver solutions that exactly meet the business objectives of our clients. We look forward to learning how we can help you.';
+    $pageTitle= 'Contact-Digital Commerce with ALT Digital Technologies';
+    $pageDescription = 'At ALT Digital Technologies, Our goal is to deliver solutions that exactly meet the business objectives of our clients. We look forward to learning how we can help you.';
     $currentPage = 'about';
     include_once "../header.php";
+    // include_once "../form.php"; 
+    
 ?>
+
 <div class="banner uk-position-relative  uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
     <ul class="uk-slideshow-items uk-height-medium">
         <li>
-            <!-- <img class="about-ban" src="<?php echo $filePath;?>images/banner/contact.jpg" alt="" uk-cover> -->
+        
             <img class="responsively-lazy about-ban" alt="contact"  src="<?php echo $filePath;?>images/banner/contact.jpg"
                 data-srcset="<?php echo $filePath;?>images/banner/contact.jpg 400w, <?php echo $filePath;?>images/banner/contact.webp 400w, 
                 <?php echo $filePath;?>images/banner/contact.jpg 600w, <?php echo $filePath;?>images/banner/contact.webp 600w,
@@ -24,24 +27,54 @@
     </ul>
 </div>  
 <!--contact us start-->
-<div class="uk-container uk-margin uk-margin-large-bottom ">
+<div class="uk-container uk-margin uk-margin-large-bottom uk-margin-large-top">
     <div class="uk-child-width-1-1@s uk-grid-small" uk-grid>    
-        <!-- <h1 class="uk-h1 uk-text-center uk-text-bold services_mainheading">Get in Touch</h1>
-
-        <div class="uk-width-1-2@s uk-align-center">
-            <div class="services_mainpara uk-card uk-card-default uk-padding-small uk-text-center"><p>“ We do look forward to keeping in touch with you guys, because we'll always be connected in people's mind ”</p>
-            <p class="uk-text-meta uk-text-right uk-margin-remove-top uk-margin-remove-bottom" style="color:black;">- Barry Zito</p>
-            </div>
-        </div> -->
         <div class="uk-child-width-1-2@m uk-grid-small uk-child-width-1-1@s uk-padding-small" uk-grid>
             <div class="uk-width-1-2@m">
-                <div class="uk-text-center">
-                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNl0WC5Kx-jqt27eq7ppyLZsLmVDvGlIMvObK_Mmi18Shtyg/viewform?embedded=true" style="width:100%; height:1150px;" ></iframe>
-                </div> 
+                <div class="uk-margin-large-left">
+                    <div class="uk-h2 uk-margin-small-top uk-text-bold">SEND US A MESSAGE</div>
+                    <p class="">“At Alt Digital Technologies, our goal is to deliver solutions that exactly meet the business objectives of our clients. We look forward to learning how we can help you.”</p>
+                
+                    <div class="">
+                        
+                        <form class="uk-form-stacked" method="post" action="sendemail.php">
+                            <div class="success"></div>
+                            <div class="uk-margin-medium-top">
+                                <label class="uk-form-label" for="name">NAME:<span  class="uk-text-danger">*</span></label>
+                                <input style="border: 1px solid #ddd;border-radius: 4px;" class="uk-input uk-margin-small-bottom uk-padding-small"  placeholder="Your name" type="text"  name="name" >
+                               
+                            </div>
+                            <div class="uk-margin-medium-top">
+                                <label class="uk-form-label" for="email">EMAIL ADDRESS:<span class="uk-text-danger">*</span></label>
+                                <input style="border: 1px solid #ddd;border-radius: 4px;" class="uk-input uk-padding-small uk-margin-small-bottom" placeholder="your e-mail"  type="email"   name="email" >
+                                
+                            </div>
+                            <div class="uk-margin-medium-top">
+                                <label class="uk-form-label" for="subject">SUBJECT:<span class="uk-text-danger">*</span></label>
+                                <input style="border: 1px solid #ddd;border-radius: 4px;" class="uk-input uk-margin-small-bottom uk-padding-small" placeholder="subject"  type="text"   name="subject">
+                                
+                            </div>
+                            <div class="uk-margin-medium-top">
+                                <label class="uk-form-label" for="message">MESSAGE:<span class="uk-text-danger">*</span></label>
+                                <textarea style="border: 1px solid #ddd;border-radius: 4px;" class="uk-textarea" name="message" rows="5"  type="text" placeholder="Message"></textarea>
+                            </div>
+                            
+                             <div class="uk-margin-medium-top">
+                                 <div class="g-recaptcha" data-sitekey="6Lc_z_wUAAAAADNo5AEbwi-a9amCkk2RqsMLC9Yb" ></div>
+                            </div>
+                           
+                                <div class="uk-margin-medium-top"> 
+                                <button class="uk-button uk-button-default form_submit"  type= "submit" value="send a mail" name="submit" >Submit</button>
+                                
+                            </div>    
+                            
+                        </form>
+                    </div>  
+                </div>  
             </div>
                 <div class="uk-width-1-2@m">
                     <div class="uk-text-center">
-                        <div class="uk-h1  uk-margin-small-top uk-text-bold"><span style="color:#ff7600;"> Our</span>&nbsp;Office</div>
+                        <div class="uk-h2  uk-margin-small-top uk-text-bold"><span style="color:#ff7600;"> Our</span>&nbsp;Office</div>
                         <div class="uk-inline">
                             <div class="case_card uk-card uk-card-default uk-margin uk-card-hover uk-transition-toggle" tabindex="0" >
                             
@@ -93,6 +126,76 @@
 </div>
 
 <!--contact us end -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    
+$( document ).ready(function() {
+    $(".uk-form-stacked").validate({
+			rules: {
+				name: {
+					required: true,
+					minlength: 2
+				},
+				
+				email: {
+					required: true,
+					email: true
+				},
+				
+				subject: {
+					required: true
+				},
+				
+				message: {
+				    required: true
+				},
+				agree: "required"
+			},
+			messages: {
+			
+				name: {
+					required: "Please enter a name",
+					minlength: "Your name must consist of at least 2 characters"
+				},
+				subject: {
+					required: "Please enter a subject"
+				},
+			    message: {
+					required: "Please enter a message"
+				},
+				email: "Please enter a valid email address"
+			},
+			submitHandler: function(form) {
+                $.ajax({
+                    type: 'POST',
+                    url: 'sendemail.php',
+                    data: $('.uk-form-stacked').serialize(),
+                    dataType: 'json',
+                    contentType: false,
+                    cache: false,
+                    processData:false,
+                    success: function(response){ //console.log(response);
+                        $("input,textarea").val("");
+                        var successMsg='<div class="uk-margin-medium-top remove-success"><label class="uk-form-label" for="name" style="color: #008000;">'+response.message+'<span class="uk-text-danger">*</span></label></div>';
+                        if(response.message){
+                            $(".success").html(successMsg);
+                            $('html, body').animate({ scrollTop: $(".uk-text-bold").offset().top }, 1500);
+                            setTimeout(function(){$(".success").html("");}, 5000);
+                            
+                        }
+                        
+                        
+                    }
+                });
+            }
+		});
+		
+		
+});
+
+
+</script>
+
 <?php
 include_once "../footer.php"
 ?>

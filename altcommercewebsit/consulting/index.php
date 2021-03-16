@@ -1,5 +1,5 @@
 <?php
-    $pageTitle='Services-Digital Commerce with ALT Commerce';
+    $pageTitle='Services-Digital Commerce with ALT Digital Technologies';
     $pageDescription ="Customer satisfaction is our motto and we strive to provide the best solution to our clients.";
     $currentPage = 'service';    
     include_once '../header.php';
@@ -24,11 +24,7 @@
 </div>
 <!-- start Consulting -->
 <div class="uk-container uk-margin-large-bottom uk-padding-small">
-    <div class="uk-child-width-1-1 uk-text-center" uk-grid>
-        <!-- <h1 class="uk-text-bold uk-margin-medium-top services_mainheading">Consulting</h1>
-        <p class="uk-text-center services_mainpara">Solve problems,different people, different decisions, different preferences & approaches. </p> -->
-        <!-- <div class="uk-background-contain uk-height-large uk-flex uk-flex-center consult-bg" uk-scrollspy="cls:uk-animation-slide-bottom-medium" style="background-image: url(<?php echo $filePath;?>images/consulting1.png);"></div> -->
-    </div>
+    
     <div class="uk-child-width-1-2@s uk-width-1-1@s uk-margin-large-top" uk-grid>
         <div class="uk-width-1-2@s full-width">
             <div class="uk-card ">
@@ -101,7 +97,7 @@
                     <h3 class="uk-text-bold product_article_heading uk-margin-remove-bottom">Digital Transformation</h3>
                     <span class="product_pararight uk-margin-small-top ">Digital transformation is the change of business and organisational activities and processes. It’s a process of using digital technologies to recreate, 
                     redesign or reinvent the existing business processes and actions to meet the changing business and market requirements.
-                     ALT Commerce works closely into all the areas of your business,resulting in a strategic roadmap that focuses on quality solutions that enable your organisation to move forward with your digital transformation journey.</span>
+                     ALT Digital Technology works closely into all the areas of your business,resulting in a strategic roadmap that focuses on quality solutions that enable your organisation to move forward with your digital transformation journey.</span>
                 </div>
             </div>
         </div>

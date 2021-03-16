@@ -1,5 +1,5 @@
 <?php
-    $pageTitle='Services-Digital Commerce with ALT Commerce';
+    $pageTitle='Services-Digital Commerce with ALT Digital Technologies';
     $pageDescription ="Customer satisfaction is our motto and we strive to provide the best solution to our clients.";
     $currentPage = 'service';    
     include_once '../header.php';

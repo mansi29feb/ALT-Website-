@@ -1,6 +1,6 @@
 <?php
-    $pageTitle='About-Digital Commerce with ALT Commerce';
-    $pageDescription= 'Altcommerce is a professional services firm focused on implementing and optimizing digital commerce & oracle customer experience suite of product.';
+    $pageTitle='About-Digital Commerce with ALT Digital Technologies';
+    $pageDescription= 'ALT Digital Technologies is a professional services firm focused on implementing and optimizing digital commerce & oracle customer experience suite of product.';
     $currentPage = 'about';
     include_once "../header.php";
 ?>
@@ -17,8 +17,8 @@
                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" uk-cover />
             <div class="caption-text uk-position-cover uk-text-center uk-light">
             <div class="text-middle">
-                <h1 class="main_heading uk-card-title slider-title" style="color:white !important; font-size:55 !important;">About the ALT Commerce</h1>
-                <p class="sub_para">ALT Commerce is a professional services firm focused on implementing and <br/> optimizing Oracle Commerce and the Oracle Customer Experience suite of products.</p>
+                <h1 class="main_heading uk-card-title slider-title" style="color:white !important; font-size:55 !important;">About the ALT Digital Technologies</h1>
+                <p class="sub_para">ALT Digital Technologies is a professional services firm focused on implementing and <br/> optimizing Oracle Commerce and the Oracle Customer Experience suite of products.</p>
             </div>
             </div>
         </li>
@@ -28,13 +28,13 @@
     <div class="uk-child-width-1-1 uk-grid uk-grid-stack" uk-grid>
         <div class="services_article_para  uk-text-justify">
                             <p class="uk-margin-remove-bottom">
-                            ALT Commerce combines trusted expertise and objectivity with today’s 
+                            ALT Digital Technology combines trusted expertise and objectivity with today’s 
                                 digital commerce capabilities to help software business grow.
                             We’re committed to simplifying the software search.
                             Providing our customers with a consistent and seamless brand experience is a given when competition is only a click away.
-                            We believe in principle that Alt commerce can only grow if we deliver quality IT solutions to customers that will help them to grow their business.</p>
+                            We believe in principle that Alt Digital Technologies can only grow if we deliver quality IT solutions to customers that will help them to grow their business.</p>
                             <br>
-                            <h3 class="uk-text-bold" style="color:#f6922d";>ALT Commerce  delivers the Oracle CX (Customer Experience) portfolio of products, including:</h3>
+                            <h3 class="uk-text-bold" style="color:#f6922d";>ALT Digital Technologies delivers the Oracle CX (Customer Experience) portfolio of products, including:</h3>
                                 <ul>
                                     <li>Oracle Commerce (ATG &amp; Endeca)</li>
                                     <li>Commerce Cloud</li>
@@ -55,7 +55,7 @@
     
     <div class="uk-child-width-1-3@m uk-grid-small uk-child-width-1-1@s uk-padding-small" uk-grid>
                 
-        <div class="uk-width-1-3@m">
+        <div class="uk-width-1-3@m uk-width-1-1@s">
             <div class="uk-text-left career2_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium"> 
                  <!-- <img src="<?php echo $filePath;?>images/culture.jpeg" alt="culture" style="height: 206px; width: 375px;">  -->
                <img class="responsively-lazy" alt="culture" width="375" height="206" src="<?php echo $filePath;?>images/our-culture.jpg"
@@ -64,13 +64,14 @@
                 <?php echo $filePath;?>images/our-culture.jpg 1000w <?php echo $filePath;?>images/our-culture.webp 1000w" 
                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
-                <h3 class="uk-h3 uk-text-bold uk-text-left uk-text-center@s services_article_heading  uk-margin-small-top">OUR CULTURE</h3>
+                <h3 class="uk-text-bold uk-text-left uk-text-center@s services_article_heading  uk-margin-small-top">OUR CULTURE</h3>
                 <div class="uk-text-left services_article_para"><p>Client focused and demonstrates the integrity, professional skills, attitude, and behavior required to make our clients successful and drives our organization
                      to being recognized as THE leading Oracle Commerce and CX Specialist.<p>
                  </div>   
            </div>        
         </div> 
-        <div class="uk-width-1-3@m">
+        
+        <div class="uk-width-1-3@m uk-width-1-1@s ">
                 <div class="uk-text-left career2_box" uk-scrollspy="cls: uk-animation-slide-top-medium">
                  <!-- <img src="<?php echo $filePath;?>images/our-team.jpeg" alt="team" style="height: 204px; width: 375px;">  -->
                 <img class="responsively-lazy" alt="team"  width="375" style="height: 248px;" src="<?php echo $filePath;?>images/our-team.jpg"
@@ -86,7 +87,7 @@
                     </div>    
                 </div>
         </div>
-        <div class="uk-width-1-3@m">
+        <div class="uk-width-1-3@m uk-width-1-1@s">
                 <div class="uk-text-left career2_box" uk-scrollspy="cls: uk-animation-slide-bottom-medium">
             <!-- <img src="<?php echo $filePath;?>images/ourcompany.jpeg" alt="Company" style="height: 206px; width: 360px;">  -->
               <img class="responsively-lazy" alt="Company" width="360" style="height:248px !important;" src="<?php echo $filePath;?>images/our-company.jpg"

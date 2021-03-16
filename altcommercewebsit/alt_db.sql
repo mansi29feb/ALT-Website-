@@ -34,7 +34,8 @@ CREATE TABLE `career_form` (
   `time` datetime(6) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
+
+
 -- Indexes for dumped tables
 --
 

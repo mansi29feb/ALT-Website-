@@ -16,7 +16,7 @@
 
         
         <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
         
         <!-- <link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.css" media="print" onload="this.media='all'; this.onload=null;"> -->
         <link rel="shortcut icon" href="<?php echo $filePath;?>images/alt.png">
@@ -187,29 +187,7 @@ iframe.cont-form {
 .active_page {
     color: #fe9603 !important;
 }
-.footer {
-    margin: 0;
-    background-image: url(../images/footer.svg) repeat center top;
-    background-size: cover;
-    height: 155px;
-    width: 100%;
-}
-.footerbox {
-    margin-top: 70px;
-    font-size: 15px;
-    color: #5f615f;
-    padding-right: 30px;
-}
-.footermenu {
-    margin-top: 70px;
-    font-size: 15px;
-    color: #323333;
-    text-decoration: none;
-}
-.footermenu a:hover {
-    color: #5f615f;
-    text-decoration: none;
-}
+
 .menu_list a {
     text-decoration: none;
     color: #444;
@@ -294,6 +272,23 @@ iframe.cont-form {
     text-decoration: none;
     transform: translate(0, -3px);
 }
+.form_submit{
+    width:30%;
+    background-color: #fe9603;
+    color:#fff;
+    
+    font-weight:600;
+}
+.form_submit:link,
+.form_submit:hover{
+    color:#fff;
+}
+.form_submit:active,
+.form_submit:hover{
+    background-color:#444;
+    text-decoration:none;
+}
+
 .career1_box {
     -webkit-transition: transform 0.2s linear;
     -moz-transition: transform 0.2s linear;
@@ -411,7 +406,7 @@ input[type="text"] {
     font-size: 15px;
     font-family: Poppins;
     color: #555;
-    width: 91% !important;
+    
 }
 .test_heading {
     font-size: 18px;
@@ -454,7 +449,7 @@ input[type="text"] {
     cursor: pointer;
 }
 .works_btn1 {
-    width: 12%;
+    width: 20%;
     font-size: 17px;
     font-weight: 600;
     padding: 5px 0 5px 0;
@@ -463,6 +458,7 @@ input[type="text"] {
     color: #fff;
     border-radius: 3px;
     transition: 0.3s;
+    margin-top:10px;
 }
 .works_btn1:link,
 .works_btn1:visited {
@@ -1075,9 +1071,7 @@ input[type="text"] {
         width: 160px;
         margin-left: -55px;
     }
-    #about_submenu {
-        margin-left: -174px;
-    }
+    
     .mobile-nav {
         margin-left: 205px;
     }
@@ -1763,7 +1757,7 @@ input[type="text"] {
         margin-left: 16% !important;
     }
     .sm-screen-srv{
-        margin-left: 12% !important;
+        margin-left: 9% !important;
     }
     .full-width {
         width: 100%;
@@ -2022,9 +2016,7 @@ hr {
 .exp-img {
     margin-top: -31px;
 }
-/* .main-heading {
-    height: auto !important;
-} */
+
 .caption-text {
     background: rgba(0,0,0,0.3);
     color: #fff;
@@ -2092,6 +2084,77 @@ hr {
       transition: 0.9s;
       transform: rotateY(180deg);
     }
+    
+
+    ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px;
+	border-bottom: 1px solid #333;
+	width: 100%;
+}
+.tabs li {
+	float: left;
+	margin: 0;
+	cursor: pointer;
+	padding: 0px 21px;
+	height: 31px;
+	line-height: 31px;
+	overflow: hidden;
+	position: relative;
+}
+.tab_container {
+	border: 1px solid #333;
+	border-top: none;
+	clear: both;
+	float: left;
+	width: 100%;
+	background: #fff;
+	overflow: auto;
+}
+.tab_content {
+	padding: 20px;
+	display: none;
+}
+.tab_last { border-right: 1px solid #333; }
+
+ul.tabs li:hover {
+	background-color: #ccc;
+	color: #333;
+}
+
+ul.tabs li.active {
+	background-color: #fff;
+	color: #333;
+	border-bottom: 1px solid #fff;
+	display: block;
+}
+@media screen and (max-width: 480px) {
+	.tabs {
+		display: none;
+	}
+	.tab_drawer_heading {
+		background-color: #ccc;
+		color: #fff;
+		border-top: 1px solid #333;
+		margin: 0;
+		padding: 5px 20px;
+		display: block;
+		cursor: pointer;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	.d_active {
+		background-color: #666;
+		color: #fff;
+	}
+}
     /* .main_heading { font-size: 55px !important; } */
 }
                 
@@ -2105,38 +2168,14 @@ hr {
         <!-- <link rel="preload"  href="<?php echo $filePath;?>css/altcommerce-style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="<?php echo $filePath;?>css/altcommerce-style.css"></noscript>  -->
         <link rel="preload" href="<?php echo $filePath;?>css/style-fixed.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	    <noscript><link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.min.css"></noscript>
+	    <!-- <noscript><link rel="stylesheet" href="<?php echo $filePath;?>css/style-fixed.min.css"></noscript> -->
         <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" rel="stylesheet"></noscript>
-   
+        <!-- <noscript><link href="https://fonts.googleapis.com/css?family=Poppins:500,600,700,800,900&display=swap" rel="stylesheet"></noscript>
+    -->
 	</head>
 
 <body class=" uk-background-norepeat" >
    
-<!--topbar-->
-    <!-- <div class="uk-container">
-        <div class="uk-grid" uk-grid>
-            <div class="uk-navbar-left nav-social uk-margin-small-top">
-                <ul class=" uk-navbar-nav" >
-                    <li>
-                        <a class="uk-text-secondary" href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" aria-label="Facebook" target="_blank" rel="noopener"></a>
-                    </li>
-                    <li>
-                        <a class="uk-text-secondary" href="https://twitter.com/altcommerce" uk-icon="twitter" aria-label="Twitter" target="_blank" rel="noopener"></a>
-                    </li>
-                    <li>
-                        <a  class="uk-text-secondary" href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin" aria-label="LinkedIn" target="_blank" rel="noopener"></a>
-                    </li>
-                    <li>
-                        <a  class="uk-text-secondary"href="mailto:info@altcommerce.com" uk-icon="mail" aria-label="Mail" target="_blank" rel="noopener"></a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </div> -->
-<!--topbar ends-->
-
 <!-- navigation -->
 <div class="full-width-container">      
         <div class=" uk-child-width-expand nav-header"  uk-sticky>

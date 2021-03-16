@@ -17,9 +17,9 @@
     .services_mainpara {
         font-size: 18px;
     }
-    .career_homepage {
+    /* .career_homepage {
         background-image: none;
-    }
+    } */
     .hide-icon {
         visibility: visible;
     }
@@ -107,20 +107,15 @@
         width: 132px;
         margin-left: 62px;
     }
-    .stay {
-        margin-left: -49px;
-    }
+    /* .stay {
+        margin-left: -20px;
+    } */
     .nav-header {
         background-color: #fff !important;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
         margin: -1px 0 !important;
     }
-    /* .uk-sticky-fixed .drop-navbar {
-        left: 682px !important;
-    } */
-    #about_submenu {
-        margin-left: -132px;
-    }
+    
     .uk-sticky-fixed #about_submenu {
         margin-left: -102px;
     }
@@ -137,7 +132,7 @@
     }
     
     .box1 {
-        margin-left: 50px;
+        margin-left: 119px;
     }
     .services_mainheading {
         font-size: 50px;
@@ -145,15 +140,15 @@
     .services_mainpara {
         font-size: 18px !important;
     }
-    .webp .career_homepage {
+    /* .webp .career_homepage {
         background-image: url(../images/bg2.webp);
         max-width: 100%;
     }
     .no-webp .career_homepage {
         background-image: url(../images/bg2.jpg);
-    }
+    } */
     .form {
-        width: 280px;
+        width: 330px;
     }
     .sm-screen-cont {
         margin-left: 30%;
@@ -168,13 +163,13 @@
 
     }
     .box2 {
-        margin-left: -180px !important;
+        margin-left: 90px !important;
     }
     .careersection_para {
         font-size: 15px;
         font-family: Poppins;
         color: #555;
-        width:  75%  !important;
+       
     }
     .text-middle {
         margin-top: 14%;
@@ -295,9 +290,7 @@
     .uk-sticky-fixed #about_submenu {
         margin-left: -39px;
     }
-    #about_submenu {
-        margin-left: -113px;
-    }
+    
 }
 @media (min-width: 1250px) {
     .uk-sticky-fixed #about_submenu {
@@ -312,9 +305,6 @@
 @media (min-width: 1280px) {
     .uk-sticky-fixed #about_submenu {
         margin-left: -23px;
-    }
-    #about_submenu {
-        margin-left: -72px;
     }
     
 }
@@ -332,9 +322,7 @@
     .uk-sticky-fixed #about_submenu {
         margin-left: 71px;
     }
-    #about_submenu {
-        margin-left: -54px;
-    }
+   
 }
 @media (min-width: 1400px) {
     .uk-sticky-fixed #service_submenu {
@@ -382,10 +370,10 @@
     .uk-sticky-fixed #service_submenu {
         margin-left: 12%;
     }
-    .webp .career_homepage {
+    /* .webp .career_homepage {
         background-image: url(../images/bg2.webp);
         width: 1620px;
-    }
+    } */
     .box2 {
         margin-left: -100px;
     }
@@ -398,8 +386,9 @@
         margin-left: 13%;
     }
     .box2{
-     width: 91% !important;
-    }
+    
+     margin-left: 59px !important;
+    } 
     .careersection_para {
         font-size: 15px;
         font-family: Poppins;
@@ -408,6 +397,9 @@
     }
     h1.main_heading{
         font-size: 70px !important;
+    }
+    .form {
+        width: 356px;
     }
     
 }
@@ -522,3 +514,4 @@ div:hover > .comment {
     font-size: 15px;
     text-align: center;
 }
+

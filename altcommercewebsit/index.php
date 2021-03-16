@@ -1,6 +1,6 @@
 <?php
-    $pageTitle='Digital Commerce with ALT Commerce';
-    $pageDescription  = 'ALT commerce is an expert in Omni-Channel Commerce and delivering Oracle Commerce, Commerce Cloud and the suite of Oracle CX products.';
+    $pageTitle='Digital Commerce with ALT Digital Technologies';
+    $pageDescription  = 'ALT Digital Technologies is an expert in Omni-Channel Commerce and delivering Oracle Commerce, Commerce Cloud and the suite of Oracle CX products.';
     $currentPage = 'home';
      include_once 'header.php';
 ?> 
@@ -11,12 +11,14 @@
 
     <ul class="uk-slideshow-items  uk-height-medium">
         <li>
-            <img class="responsively-lazy home-ban" src="<?php echo $filePath;?>images/banner/banner.jpg" alt="" 
+            <div class="home-ban">
+            <img class="responsively-lazy " src="<?php echo $filePath;?>images/banner/banner.jpg" alt="Driving Innovation" 
             data-srcset="<?php echo $filePath;?>images/banner/banner.jpg, <?php echo $filePath;?>images/banner/banner.webp" 
             data-srcset="<?php echo $filePath;?>images/banner/banner.jpg 400w, <?php echo $filePath;?>images/banner/banner.webp 400w,
             <?php echo $filePath;?>images/banner/banner.jpg 600w,<?php echo $filePath;?>images/banner/banner.webp 600w, 
             <?php echo $filePath;?>images/banner/banner.jpg 1000w,<?php echo $filePath;?>images/banner/banner.webp 1000w," 
-            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" uk-cover> 
+            srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" uk-cover/> 
+            </div>
             <div class="caption-text uk-position-cover  uk-light">
                 <div class="uk-position-center-left  uk-text-left uk-margin-xlarge-left">
                 <div class="home-text-middle">
@@ -28,7 +30,7 @@
             </div>
         </li>
         <li>
-            <img class="responsively-lazy home-ban" src="<?php echo $filePath;?>images/banner/banner-2.jpg" alt="" 
+            <img class="responsively-lazy home-ban" src="<?php echo $filePath;?>images/banner/banner-2.jpg" alt="Agile" 
             data-srcset="<?php echo $filePath;?>images/banner/banner-2.jpg 400w, <?php echo $filePath;?>images/banner/banner-2.webp 400w,
             <?php echo $filePath;?>images/banner/banner-2.jpg 600w,<?php echo $filePath;?>images/banner/banner-2.webp 600w, 
             <?php echo $filePath;?>images/banner/banner-2.jpg 1000w,<?php echo $filePath;?>images/banner/banner-2.webp 1000w,"
@@ -37,7 +39,7 @@
                 <div class="uk-position-center-left uk-text-left  uk-margin-xlarge-left">
                     <div class="home-text-middle">
                         <h1 class="main_heading uk-card-title  slider-title" style="color:white !important; font-size:55 !important;">Agile, Experienced<br>&amp; Effective</h1>
-                        <p class="sub_para">ALT commerce is an expert in Omni-Channel Commerce
+                        <p class="sub_para">ALT Digital Technology is an expert in Omni-Channel Commerce
                         <br> and delivering Oracle Commerce, Commerce Cloud and
                         <br> the suite of Oracle CX products.</p>
                     </div>
@@ -45,7 +47,7 @@
             </div>
         </li>
         <li>
-            <img class="responsively-lazy home-ban" src="<?php echo $filePath;?>images/banner/banner-3.jpg" alt="" 
+            <img class="responsively-lazy home-ban" src="<?php echo $filePath;?>images/banner/banner-3.jpg" alt="ALT Digital Technologies" 
             data-srcset="<?php echo $filePath;?>images/banner/banner-3.jpg 400w, <?php echo $filePath;?>images/banner/banner-3.webp 400w,
             <?php echo $filePath;?>images/banner/banner-3.jpg 600w,<?php echo $filePath;?>images/banner/banner-3.webp 600w, 
             <?php echo $filePath;?>images/banner/banner-3.jpg 1000w,<?php echo $filePath;?>images/banner/banner-3.webp 1000w,"
@@ -53,7 +55,7 @@
             <div class="caption-text uk-position-cover uk-light">
                 <div class="uk-position-center-left uk-text-left uk-margin-xlarge-left">
                     <div class="home-text-middle">
-                        <h1 class="main_heading uk-card-title  slider-title" style="color:white !important; font-size:55 !important;">ALT Commerce</h1>
+                        <h1 class="main_heading uk-card-title  slider-title" style="color:white !important; font-size:55 !important;">ALT Digital Technologies</h1>
                         <p class="sub_para">We focus all our work not only on developing and
                          <br>maintaining the products and services,
                         <br> but rather on building long term relationships.</p>
@@ -134,7 +136,8 @@
 
 <div class="uk-container uk-padding-large">
         <div class=" uk-card uk-card-default uk-card-body uk-padding-remove" style="margin-left:auto; margin-right:auto;">
-            <div class="uk-background-contain uk-background-center-right career_homepage">
+           
+            
                 <div class="uk-child-width-1-1@s uk-child-width-1-5@m career_box" uk-grid>
                    <div class="uk-width-2-5@m uk-width-1-1@s box1">
                         <div class="uk-margin-large-top uk-margin-remove-top@s">
@@ -143,8 +146,8 @@
                                 <div class="uk-margin-small-left uk-h2 uk-text-bold uk-text-secondary uk-margin-remove-top careersection_heading  uk-margin-medium-bottom ">Stay “Always Ahead” </div>
                                         <p class="uk-margin-small-left uk-width-large uk-padding-large uk-padding-remove-left uk-padding-remove-top 
                                         careersection_para">Careers are made from experiences.</br>
-                                        At ALT Commerce, those experiences can be diverse, unlimited and far-reaching.
-                                        Joining ALT Commerce is about joining a culture of openness, collaboration, trust, and expectation to have a voice.
+                                        At ALT Digital Technologies, those experiences can be diverse, unlimited and far-reaching.
+                                        Joining ALT Digital Technology is about joining a culture of openness, collaboration, trust, and expectation to have a voice.
                                         </p>
                                 </div>
                             </div>
@@ -163,13 +166,13 @@
                                             <input class="uk-input uk-margin-small-bottom uk-padding-small"  type="text" id="name" name="name" required>
                                         </div>
                                         <div class="">
-                                            <!-- <div class="uk-margin-small-bottom form_field">EMAIL ADDRESS:*</div> -->
+                                           
                                             <label class="uk-form-label form_field" for="email">EMAIL ADDRESS:*</label>
                                             <input class="uk-input uk-padding-small uk-margin-small-bottom" type="email" id="email" name="email" required>
                                         </div>
 
                                         <div class="js-upload" uk-form-custom>
-                                            <!-- <div class="uk-margin-small-bottom form_field">UPLOAD YOUR RESUME:*</div> -->
+                                           
                                             <label class="uk-form-label form_field" for="file">UPLOAD YOUR RESUME:*</label>
                                             <input  class="" type="file" name="file" id="file" multiple required>
                                             <br>
@@ -192,7 +195,10 @@
             </div>
         
         </div>
-</div>        
+</div>   
+
+                  
+
 <!-----------------------------------------Careers Section ends---------------------->
 
 
@@ -205,11 +211,7 @@
             <div class="uk-width-1-3@m uk-width-1-1@s works_image" uk-scrollspy="cls: uk-animation-slide-left-medium"> 
                 <div class="uk-text-center" >
                     <div class="uk-inline-clip  uk-transition-toggle uk-light" tabindex="0">
-                    <!-- <picture>
-                        <source class="lazy" srcset="<?php echo $filePath;?>images/case/case11.webp" type="image/webp">
-                        <source class="lazy" srcset="<?php echo $filePath;?>images/case/case11.jpg" type="image/jpeg"> 
-                        <img class="lazy" data-src="<?php echo $filePath;?>images/case/case11.jpg" alt="Data Center Migration" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
-                    </picture> -->
+
                     <img class="responsively-lazy" alt="Data Center Migration" width="370" height="246" src="<?php echo $filePath;?>images/case/case11.jpg"
                     data-srcset="<?php echo $filePath;?>images/case/case11.jpg 400w, <?php echo $filePath;?>images/case/case11.webp 400w, 
                     <?php echo $filePath;?>images/case/case11.jpg 600w, <?php echo $filePath;?>images/case/case11.webp 600w,
@@ -232,11 +234,6 @@
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 
-                    <!-- <picture>
-                        <source class="lazy" srcset="<?php echo $filePath;?>images/case/case2.webp" type="image/webp">
-                        <source class="lazy" srcset="<?php echo $filePath;?>images/case/case2.jpg" type="image/jpeg"> 
-                        <img class="lazy" data-src="<?php echo $filePath;?>images/case/case2.jpg" alt="Multi-site implementation" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
-                    </picture> -->
                     <img class="responsively-lazy" alt="Multi-site implementation" width="370" height="246" src="<?php echo $filePath;?>images/case/case2.jpg"
                     data-srcset="<?php echo $filePath;?>images/case/case2.jpg 400w, <?php echo $filePath;?>images/case/case2.webp 400w, 
                     <?php echo $filePath;?>images/case/case2.jpg 600w, <?php echo $filePath;?>images/case/case2.webp 600w,
@@ -258,11 +255,6 @@
                 <div class="uk-text-center">
                     <div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 
-                    <!-- <picture>
-                        <source class="lazy" srcset="<?php echo $filePath;?>images/case/case7.webp" type="image/webp">
-                        <source class="lazy" srcset="<?php echo $filePath;?>images/case/case7.jpg" type="image/jpeg"> 
-                        <img class="lazy" data-src="<?php echo $filePath;?>images/case/case7.jpg" alt="Cross-Reference Tool" width="370" height="246" uk-img uk-scrollspy="cls: uk-animation-kenburns">
-                    </picture> -->
 
                     <img class="responsively-lazy" alt="Cross-Reference Tool" width="370" height="246" src="<?php echo $filePath;?>images/case/case7.jpg"
                     data-srcset="<?php echo $filePath;?>images/case/case7.jpg 400w, <?php echo $filePath;?>images/case/case7.webp 400w, 
@@ -1016,7 +1008,7 @@
                                         <img class="uk-align-center uk-margin-small-top" data-src="images/writer.svg" width="50" height="50" alt="quote icon" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
-                                        <p class="uk-text-center">I never considered ALT Commerce as a consulting company, I always count them as an extension of my own team. </p>
+                                        <p class="uk-text-center">I never considered ALT Digital Technologies as a consulting company, I always count them as an extension of my own team. </p>
                                     <div class="testi_text uk-text-center uk-text-bold">-Director, IT </div>
                                 <div class="uk-text-meta uk-text-center">An Aerospace Company</div>
                                     </div>
@@ -1059,7 +1051,7 @@
                                         <img class="uk-align-center uk-margin-small-top" data-src="images/writer.svg" width="50" height="50" alt="quote icon" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
-                                        <p class="uk-text-center">ALT Commerce team's innovative ideas and solutions are always best and we always look forward to them. </p>
+                                        <p class="uk-text-center">ALT Digital Technology team's innovative ideas and solutions are always best and we always look forward to them. </p>
                                         <div class="testi_text uk-text-center uk-text-bold">-Product Owner </div>
                                             <div class="uk-text-meta uk-text-center">Of Agile team of a B2B Portal</div>  
                                     
@@ -1075,7 +1067,7 @@
                                         <img class="uk-align-center uk-margin-small-top"  data-src="images/writer.svg" width="50" height="50" alt="quote icon" uk-img>
                                     </div>
                                     <div class="uk-card-body uk-padding-remove-top">
-                                        <p class="uk-text-center">I preferred Alt Commerce over big companies because of the quality and the stability of their people. </p>
+                                        <p class="uk-text-center">I preferred Alt Digital Technologies over big companies because of the quality and the stability of their people. </p>
                                     <div class="testi_text uk-text-center uk-text-bold">-Senior Manager, IT </div>
                                     <div class="uk-text-meta uk-text-center">An Aerospace Company</div>
                                     </div>
@@ -1123,64 +1115,7 @@
 
 
 <!--Blog Section Starts-->
-<!-- <div class="uk-container uk-margin-medium-bottom uk-margin-medium-top">
-    <button class="uk-button uk-text-capitalize uk-align-center uk-margin-small-bottom uk-padding-small uk-padding-remove-vertical btn" disabled>Latest Articles</button>
-    <div class="uk-h3 section2_heading uk-text-center uk-text-bolder uk-margin-remove-top uk-margin-medium-top uk-margin-large-bottom">Recently From the Blog</div>
-    <div class="uk-child-width-1-3@m uk-grid-small uk-child-width-1-1@s " uk-grid>
-       
-        <div class="uk-width-1-3@m uk-width-1-1@s ">
-            <div class="uk-text-center">
-                <div class="uk-inline-clip uk-transition-toggle uk-light works_image" tabindex="0">
-                    <img class="" data-src="images/blog1.jpg" alt=""  uk-img>
-                    <div class="uk-position-center">
-                        <button class="uk-transition-fade more uk-padding-small uk-border-circle"  uk-icon="icon: more; ratio: 1"></button>
-                    </div>
-                </div>
-            </div>
-            <div class="uk-text-left uk-padding-small ">
-                <div class="uk-text-bold uk-text-secondary test_heading uk-flex  uk-flex-left@m">Top Most SEO Optizied Websites</div>
-             <h5 class="uk-text-meta uk-margin-remove-top nav-icon"><a href="#" uk-icon="user"> John Doe</a><a href="#" uk-icon="calendar"> 11 Mar 2018</a></h5>
-    <p>Interactively predominate progressive technology through distinctive materials. Progressively benchmark extensible intellectual.
-    Exercitationem progressived technology through distinctive</p>
-            </div>
-        </div>
-        <div class="uk-width-1-3@m uk-width-1-1@s">
 
-            <div class="uk-text-center">
-                <div class="uk-inline-clip uk-transition-toggle uk-light works_image" tabindex="0">
-                    <img data-src="images/blog2.jpg" alt=""  uk-img>
-                    <div class="uk-position-center">
-                        <span class="uk-transition-fade more uk-padding-small uk-border-circle" uk-icon="icon: more; ratio: 1"></span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="uk-text-left uk-padding-small">
-                <div class="uk-text-bold uk-text-secondary test_heading uk-flex  uk-flex-left@m">10 Recent SEO Tips for Startups</div>
-                <h5 class="uk-text-meta uk-margin-remove-top nav-icon"><a href="#" uk-icon="user"> John Doe</a><a href="#" uk-icon="calendar"> 11 Mar 2018</a></h5>
-    <p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem progressive technology through 
-    pariatur quibusdam veritatis quisquam. Efficiently communicate alternative..</p>
-            </div>
-        </div>
-        <div class="uk-width-1-3@m uk-width-1-1@s">
-            <div class="uk-text-center">
-                <div class="uk-inline-clip uk-transition-toggle uk-light works_image" tabindex="0">
-                    <img data-src="images/blog3.jpg" alt=""  uk-img>
-                    <div class="uk-position-center">
-                        <span class="uk-transition-fade more uk-padding-small uk-border-circle" uk-icon="icon: more; ratio: 1"></span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="uk-text-left uk-padding-small">
-                <div class="uk-text-bold uk-text-secondary test_heading uk-flex  uk-flex-left@m">3 Ways to Transform Your Site</div>
-                <h5 class="uk-text-meta uk-margin-remove-top nav-icon"><a href="#" uk-icon="user"> John Doe</a><a href="#" uk-icon="calendar"> 11 Mar 2018</a></h5>
-                <p>Globally synergize premium metrics with holistic e-markets. Professionally morph 
-                interoperable networks vis-a-vis value-added methods.</p>
-            </div>
-        </div>
-        
-</div> -->
 <!----------------------Blog Section Ends---------------------->
         
 </div>

@@ -1,5 +1,5 @@
 <?php
-    $pageTitle='Resources-Digital Commerce with ALT Commerce';
+    $pageTitle='Resources-Digital Commerce with ALT Digital Technologies';
     $pageDescription ='We represent how we think, work and interact with our clients.';
     $currentPage = 'resource';
     include_once "../header.php";
@@ -16,7 +16,7 @@
             <div class="caption-text uk-position-cover uk-text-center uk-light">
             <div class="text-middle-2">
                 <h1 class="main_heading uk-card-title slider-title" style="color:white !important; font-size:53 !important;">Our Case Studies</h1>
-                <!-- <p class="" style="font-size:20px;">ALT Commerce is a professional services firm focused on implementing and optimizing Oracle Commerce and the Oracle Customer Experience suite of products.</p> -->
+                
            </div>
             </div>
         </li>
@@ -24,7 +24,7 @@
 </div>
 <!---Resource page starts-->
         <div class="uk-container uk-margin uk-margin-large-bottom">
-            <!-- <h1 id="case_heading" class="uk-text-center services_mainheading">Our Case Studies</h1> -->
+           
             <div  class="uk-card uk-card-body case_page uk-margin-large-bottom" >
                 
                 

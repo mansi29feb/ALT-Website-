@@ -235,55 +235,11 @@ iframe.cont-form {
   color: #fff;
 }
 
-/* .stroke-transparent {
- -webkit-text-stroke: 1px #000;
- -webkit-text-fill-color: transparent;
-} */
-
-/* .fa-gamepad {
- color: white;
- font-size: 1.5em;
-}
-.fa-cog{
- color: white;
- font-size: 1.5em; 
-}
-.fa-paper-plane-o{
- color: white;
- font-size: 1.5em; 
-} */
 
 /******************/
 
 .active_page {
   color: #FE9603 !important;
-}
-
-.footer {
-  margin: 0px;
-  background-image: url(../images/footer.svg) repeat center top;
-  background-size: cover;
-  height: 155px;
-  width: 100%;
-}
-
-.footerbox {
-  margin-top: 70px;
-  font-size: 15px;
-  color: #5f615f;
-  padding-right: 30px;
-}
-
-.footermenu {
-  margin-top: 70px;
-  font-size: 15px;
-  color: #323333;
-  text-decoration: none;
-}
-
-.footermenu a:hover {
-  color: #5f615f;
-  text-decoration: none;
 }
 
 .menu_list a {
@@ -782,7 +738,7 @@ input[type="email"] {
   margin-left: -120px;
 }
 /********** new page css *************/
-.rem-mar{margin-left: -17px; margin-top: -109px;} 
+/* .rem-mar{margin-left: -17px; margin-top: -109px;} 
 .consult-img{width: 237px; margin-top: 127px;} 
 .Strategy-img{width: 226px;margin-top: 138px; }
 .rem-space{margin-top: -295px !important;}
@@ -796,7 +752,7 @@ input[type="email"] {
 .we-can-help{margin-top: 83px !important;}
 .strategy-para{margin-left: -55px; margin-top: 56px !important;}
 .digital-para{margin-top: 54px !important;}
-.agile-para{margin-left: -44px; }
+.agile-para{margin-left: -44px; } */
 
 
 /*******  *******/
