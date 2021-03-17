@@ -948,9 +948,9 @@
                 <div class="uk-width-1-3@m uk-width-1-1@s" uk-scrollspy="cls: uk-animation-slide-left-medium;">
                     <div >
                         <!-- <img class="uk-align-center" data-src="images/designer.svg" alt="Designing icon" width="80" height="80" alt="" uk-img> -->
-                        <img class="responsively-lazy uk-align-center" alt="Design" width="80" height="80" src="<?php echo $filePath;?>images/designer.svg"
-                                data-srcset="<?php echo $filePath;?>images/designer.svg 400w,
-                                <?php echo $filePath;?>images/designer.svg 600w" 
+                        <img class="responsively-lazy uk-align-center" alt="Design" width="80" height="80" src="<?php echo $filePath;?>images/design.svg"
+                                data-srcset="<?php echo $filePath;?>images/design.svg 400w,
+                                <?php echo $filePath;?>images/design.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
                     </div>
@@ -963,9 +963,9 @@
                     <div >
                         <!-- <img class="uk-align-center" data-src="images/edit-code.svg" alt="Development icon" width="80" height="80" alt="" uk-img> -->
                         <img class="responsively-lazy uk-align-center" alt="Development" width="80" height="80" 
-                        src="<?php echo $filePath;?>images/edit-code.svg"
-                                data-srcset="<?php echo $filePath;?>images/edit-code.svg 400w,
-                                <?php echo $filePath;?>images/edit-code.svg 600w" 
+                        src="<?php echo $filePath;?>images/development.svg"
+                                data-srcset="<?php echo $filePath;?>images/development.svg 400w,
+                                <?php echo $filePath;?>images/development.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
                         <div class="uk-text-center">
@@ -978,9 +978,9 @@
                     <div >
                         <!-- <img class="uk-align-center" data-src="images/deployment.svg" alt="Deployment icon" width="80" height="80" alt="" uk-img> -->
                         <img class="responsively-lazy uk-align-center" alt="Deployment" width="80" height="80" 
-                        src="<?php echo $filePath;?>images/deployment.svg"
-                                data-srcset="<?php echo $filePath;?>images/deployment.svg 400w,
-                                <?php echo $filePath;?>images/deployment.svg 600w" 
+                        src="<?php echo $filePath;?>images/Deployment.svg"
+                                data-srcset="<?php echo $filePath;?>images/Deployment.svg 400w,
+                                <?php echo $filePath;?>images/Deployment.svg 600w" 
                                 srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
 
                         <div class="uk-text-center">
