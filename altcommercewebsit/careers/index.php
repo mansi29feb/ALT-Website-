@@ -133,7 +133,7 @@
                                         <li class="services_article_para"><span class="uk-margin-small-right" uk-icon="icon: check; ratio: 1"></span>Design and develop reusable libraries and APIs.</li>
                                         <li class="services_article_para"><span class="uk-margin-small-right" uk-icon="icon: check; ratio: 1"></span>Oracle database experience including transaction management, SQL programming, schema design.</li>
                                         </br>
-                                        <li><p class=" services_article_para uk-text-bold ">Please send your resume to <button class="uk-button uk-button-text uk-text-lowercase services_article_para"><a href="mailto:info@altcommerce.com" style="color:#FE9603 ;text-decoration: none;">info@altcommerce.com</a></button></p></li>
+                                        <li><p class=" services_article_para uk-text-bold ">Please send your resume to <button class="uk-button uk-button-text uk-text-lowercase services_article_para"><a href="mailto:info@altdigital.tech" style="color:#FE9603 ;text-decoration: none;">info@altdigital.tech</a></button></p></li>
                                         <!-- <li><button class="uk-margin-small-bottom uk-button uk-text-capitalize uk-align-center uk-padding-small uk-padding-remove-vertical form_btn">Apply Now<span class="" style="color:white;" uk-icon="arrow-right"></span></button></li> -->
                                     </ul>
                                     
@@ -164,7 +164,7 @@
                                             on business requirements</li>
                                         <li class="services_article_para"><span class="uk-margin-small-right" uk-icon="check"></span>Design and develop reusable libraries and APIs.</li></br>
 
-                                        <li><p class=" services_article_para uk-text-bold ">Please send your resume to <button class="uk-button uk-button-text uk-text-lowercase services_article_para"><a href="mailto:info@altcommerce.com" style="color:#FE9603 ;text-decoration: none;">info@altcommerce.com</a></button></p></li>
+                                        <li><p class=" services_article_para uk-text-bold ">Please send your resume to <button class="uk-button uk-button-text uk-text-lowercase services_article_para"><a href="mailto:info@altdigital.tech" style="color:#FE9603 ;text-decoration: none;">info@altdigital.tech</a></button></p></li>
 
                                         <!-- <li><button class="uk-margin-small-bottom uk-button uk-text-capitalize uk-align-center uk-padding-small uk-padding-remove-vertical form_btn">Apply Now<span class="" style="color:white;" uk-icon="arrow-right"></span></li> -->
                                     </ul>
@@ -260,7 +260,7 @@
                                          </li>
                                         </br>
                                          
-                                            <li><p class=" services_article_para uk-text-bold ">Please send your resume to <button class="uk-button uk-button-text uk-text-lowercase services_article_para"><a href="mailto:info@altcommerce.com" style="color:#FE9603 ;text-decoration: none;">info@altcommerce.com</a></button></p></li>
+                                            <li><p class=" services_article_para uk-text-bold ">Please send your resume to <button class="uk-button uk-button-text uk-text-lowercase services_article_para"><a href="mailto:info@altdigital.tech" style="color:#FE9603 ;text-decoration: none;">info@altdigital.tech</a></button></p></li>
 
                                     </ul>
                                     
@@ -367,7 +367,7 @@
                                         
                                         
                                         </br>
-                                        <li><p class=" services_article_para uk-text-bold ">Please send your resume to <button class="uk-button uk-button-text uk-text-lowercase services_article_para"><a href="mailto:info@altcommerce.com" style="color:#FE9603 ;text-decoration: none;">info@altcommerce.com</a></button></p></li>
+                                        <li><p class=" services_article_para uk-text-bold ">Please send your resume to <button class="uk-button uk-button-text uk-text-lowercase services_article_para"><a href="mailto:info@altdigital.tech" style="color:#FE9603 ;text-decoration: none;">info@altdigital.tech</a></button></p></li>
                                         <!-- <li><button class="uk-margin-small-bottom uk-button uk-text-capitalize uk-align-center uk-padding-small uk-padding-remove-vertical form_btn">Apply Now<span class="" style="color:white;" uk-icon="arrow-right"></span></button></li> -->
                                     </ul>
                                     

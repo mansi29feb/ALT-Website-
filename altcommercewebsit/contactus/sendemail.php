@@ -12,12 +12,12 @@ if(isset($_POST['submit']))
   $mail->CharSet = 'UTF-8';
   $mail->isSMTP();   // by SMTP
   $mail->SMTPAuth   = false;   // user and password
-  $mail->Host       = "www.altcommerce.com";
+  $mail->Host       = "www.altdigital.tech";
   //$mail->Port       = 25;
   $mail->Username   = 'ramcharangoel46@gmail.com';  
   $mail->Password   = "@ltbig@123";
   $mail->SMTPSecure = "";    // options: 'ssl', 'tls' , ''  
-  $mail->setFrom('info@altcommerce.com','altcommerce');   // From (origin)
+  $mail->setFrom('info@altdigital.tech','altdigital');   // From (origin)
  // $mail->addCC($from,$namefrom);      // There is also addBCC
   //$mail->Subject  = $subject;
   //$mail->AltBody  = $altmess;
@@ -28,8 +28,8 @@ if(isset($_POST['submit']))
   $mail->Body = $htmlContent ;
   //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 //$mail->addAttachment("attachment");  
-  $mail->addAddress('laxmiputra@altcommerce.com', 'Laxmiputra');
-  //$mail->addAddress('vikas@altcommerce.com', 'Vikas');
+  $mail->addAddress('laxmiputra@altdigital.tech', 'Laxmiputra');
+  //$mail->addAddress('vikas@altdigital.tech', 'Vikas');
   //$mail->addAddress('goutam@altcommerce.com', 'Goutam');
  // $mail->addAddress('vikash@altcommerce.com', 'vikash');
   //$mail->addAddress('cheg@boeingdistribution.com', 'Chinna');

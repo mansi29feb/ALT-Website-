@@ -49,7 +49,7 @@
                                         
                     <span uk-icon="mail"></span>&nbsp;Email Us:</br> 
                     <div class="uk-text-bold uk-text-secondary contact_text ">
-                    info@altcommerce.com
+                    info@altdigital.tech
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@
                 <a class="uk-icon-button uk-margin-small-right uk-text-secondary" href="https://www.facebook.com/altcommerce?_rdr=p" uk-icon="facebook" aria-label="Facebook" target="_blank" rel="noopener"></a>
                 <a class="uk-icon-button uk-margin-small-right uk-text-secondary" href="https://twitter.com/altcommerce" uk-icon="twitter" aria-label="Twitter" target="_blank" rel="noopener"></a>
                 <a  class="uk-icon-button uk-margin-small-right uk-text-secondary" href="https://www.linkedin.com/company/alt-commerce" uk-icon="linkedin" aria-label="LinkedIn" target="_blank" rel="noopener"></a>
-                <a  class="uk-text-secondary uk-icon-button uk-margin-small-right" href="mailto:info@altcommerce.com" uk-icon="mail" aria-label="Mail" target="_blank" rel="noopener"></a>
+                <a  class="uk-text-secondary uk-icon-button uk-margin-small-right" href="mailto:info@altdigital.tech" uk-icon="mail" aria-label="Mail" target="_blank" rel="noopener"></a>
             </div>    
         </div>
     </div>
